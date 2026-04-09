@@ -1,8 +1,0 @@
-import{_ as d}from"./preload-helper.BlTxHScW.js";import{A as s,y as m}from"./hooks.module.JM0_Ku3s.js";import{u as o}from"./jsxRuntime.module.BbxW1e5M.js";import"./preact.module.DaYdYXBZ.js";function x({locations:l}){const r=s(null),a=s(!1);return m(()=>{typeof window>"u"||!r.current||a.current||(a.current=!0,d(()=>import("./leaflet-src.CzM8vlq-.js").then(e=>e.l),[]).then(e=>{const p=e.Icon.Default.prototype;delete p._getIconUrl,e.Icon.Default.mergeOptions({iconRetinaUrl:"https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",iconUrl:"https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",shadowUrl:"https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png"});const i=e.map(r.current).setView([51.5,-.5],5);e.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap contributors"}).addTo(i),l.forEach(t=>{const n=t.obras_relacionadas.slice(0,2).join(", "),c=`
-          <div style="font-family: Georgia, serif; max-width: 200px;">
-            <strong style="color: #3D2C2E;">${t.nombre}</strong><br/>
-            <small style="color: #6B5658;">${t.ciudad}, ${t.pais}</small><br/>
-            <p style="margin: 4px 0; font-size: 12px; color: #3D2C2E;">${t.descripcion}</p>
-            ${n?`<p style="font-size: 11px; color: #B8A0C8; margin-top: 4px;"><em>${n}</em></p>`:""}
-          </div>
-        `;e.marker([t.lat,t.lon]).bindPopup(c).addTo(i)})}))},[]),o("div",{children:[o("link",{rel:"stylesheet",href:"https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"}),o("div",{ref:r,style:{height:"500px",width:"100%",borderRadius:"12px"}})]})}export{x as default};
