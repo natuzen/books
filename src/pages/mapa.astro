@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LiteraryMap from '../components/LiteraryMap';
+import locaciones from '../../data/mapa-literario.json';
+---
+
+<BaseLayout
+  title="Mapa Literario"
+  description="Explora los escenarios reales e inspirados en las grandes novelas románticas históricas."
+>
+  <div class="max-w-6xl mx-auto px-4 py-8">
+    <div class="mb-6">
+      <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-2">Mapa Literario</h1>
+      <p class="text-epoca-marron-medio">Viaja a los lugares que inspiraron las grandes novelas románticas</p>
+    </div>
+    <LiteraryMap locations={locaciones} client:only="preact" />
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {locaciones.slice(0, 6).map(loc => (
+        <div class="card-epoca">
+          <h3 class="font-playfair font-semibold text-epoca-marron">{loc.nombre}</h3>
+          <p class="text-sm text-epoca-marron-medio">{loc.ciudad}, {loc.pais}</p>
+          <p class="text-xs text-epoca-marron-medio mt-1">{loc.descripcion}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

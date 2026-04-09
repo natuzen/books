@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-crema: #FDF8F4;
+  --color-rosa: #E8A0BF;
+  --color-rosa-claro: #F2C6C2;
+  --color-verde: #A8C5A8;
+  --color-verde-claro: #C5D5CB;
+  --color-violeta: #B8A0C8;
+  --color-violeta-claro: #D4B5D6;
+  --color-marron: #3D2C2E;
+  --color-marron-medio: #6B5658;
+}
+
+body {
+  font-family: 'Lora', Georgia, serif;
+  background-color: var(--color-crema);
+  color: var(--color-marron);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.btn-primary {
+  @apply bg-epoca-rosa text-epoca-marron px-6 py-2 rounded-full font-medium hover:bg-epoca-rosa-claro transition-colors;
+  font-family: 'Inter', sans-serif;
+}
+
+.card-epoca {
+  @apply bg-white border border-epoca-violeta-claro rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow;
+}
+
+.ornament {
+  color: var(--color-violeta-claro);
+  font-size: 1.5rem;
+}

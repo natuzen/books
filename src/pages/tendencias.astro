@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import estrenos from '../../data/estrenos-peliculas.json';
+import novedades from '../../data/novedades-libros.json';
+---
+
+<BaseLayout
+  title="Tendencias"
+  description="Próximos estrenos de adaptaciones románticas y novedades editoriales."
+>
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-8">Tendencias</h1>
+
+    <section class="mb-12">
+      <h2 class="font-playfair text-2xl text-epoca-marron mb-6">Próximos Estrenos 🎬</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {estrenos.map(e => (
+          <div class="card-epoca">
+            <div class="flex items-start justify-between gap-2">
+              <div>
+                <h3 class="font-playfair font-semibold text-epoca-marron">{e.titulo}</h3>
+                <p class="text-xs text-epoca-marron-medio mt-0.5">{e.tipo} · {e.plataforma} · {e.fecha_estreno}</p>
+                <p class="text-sm text-epoca-marron-medio mt-2">{e.sinopsis}</p>
+              </div>
+              <span class="shrink-0 text-xs bg-epoca-rosa text-white px-2 py-1 rounded-full">{e.genero}</span>
+            </div>
+            {e.adaptacion_de && (
+              <p class="text-xs text-epoca-violeta mt-2">Adaptación de: <em>{e.adaptacion_de}</em></p>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <h2 class="font-playfair text-2xl text-epoca-marron mb-6">Novedades Editoriales 📚</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {novedades.map(n => (
+          <div class="card-epoca">
+            <h3 class="font-playfair font-semibold text-epoca-marron">{n.titulo}</h3>
+            <p class="text-xs text-epoca-marron-medio mt-0.5">{n.autor} · {n.editorial} · {n.fecha_publicacion}</p>
+            <p class="text-sm text-epoca-marron-medio mt-2">{n.sinopsis}</p>
+            <span class="text-xs bg-epoca-verde-claro text-epoca-marron px-2 py-0.5 rounded-full mt-2 inline-block">{n.genero}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

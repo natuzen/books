@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "texto": "No es el amor lo que debería inspirarnos, sino la virtud de quien amamos.",
+    "autor": "Jane Austen",
+    "obra": "Orgullo y Prejuicio",
+    "anio": 1813,
+    "era": "georgiana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 2,
+    "texto": "Eres demasiado generosa para bromear con ello. Si tus sentimientos son los mismos que eran en abril, dímelo de una vez. Mis afectos y deseos no han cambiado, pero una palabra tuya los silenciará para siempre.",
+    "autor": "Jane Austen",
+    "obra": "Persuasión",
+    "anio": 1817,
+    "era": "georgiana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 3,
+    "texto": "No soy un ángel, y no lo seré hasta el día de mi muerte. Seré yo misma.",
+    "autor": "Charlotte Brontë",
+    "obra": "Jane Eyre",
+    "anio": 1847,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 4,
+    "texto": "Él es más yo misma que yo. Nuestras almas están hechas de la misma sustancia.",
+    "autor": "Emily Brontë",
+    "obra": "Cumbres Borrascosas",
+    "anio": 1847,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 5,
+    "texto": "Si me quieres, dímelo ahora. El tiempo pasa, la vida pasa, y el amor que no se dice puede perderse para siempre.",
+    "autor": "Emily Brontë",
+    "obra": "Cumbres Borrascosas",
+    "anio": 1847,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 6,
+    "texto": "Un corazón generoso aprecia la valentía en otros, aunque esta valentía le cueste lágrimas.",
+    "autor": "Elizabeth Gaskell",
+    "obra": "Norte y Sur",
+    "anio": 1855,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 7,
+    "texto": "¿No podemos tomar nuestra felicidad donde la encontramos?",
+    "autor": "Elizabeth Gaskell",
+    "obra": "Norte y Sur",
+    "anio": 1855,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 8,
+    "texto": "Toda la sabiduría de Occidente no puede comprar un momento de amor verdadero.",
+    "autor": "Alexandre Dumas",
+    "obra": "El conde de Montecristo",
+    "anio": 1844,
+    "era": "romantica",
+    "idioma_original": "francés"
+  },
+  {
+    "id": 9,
+    "texto": "El amor es la poesía de los sentidos. No hay nada más puro, más elevado en este mundo.",
+    "autor": "Alexandre Dumas hijo",
+    "obra": "La dama de las camelias",
+    "anio": 1848,
+    "era": "romantica",
+    "idioma_original": "francés"
+  },
+  {
+    "id": 10,
+    "texto": "Hay un placer en el bosque sin sendero, hay un éxtasis en la orilla solitaria, hay una sociedad donde nadie irrumpe, junto al mar profundo, junto a la música que ruge en sus aguas.",
+    "autor": "Alexandre Dumas hijo",
+    "obra": "La dama de las camelias",
+    "anio": 1848,
+    "era": "romantica",
+    "idioma_original": "francés"
+  },
+  {
+    "id": 11,
+    "texto": "No era amor lo que sentía, sino la necesidad de amor. Y a veces eso es suficiente para comenzar.",
+    "autor": "Jane Austen",
+    "obra": "Emma",
+    "anio": 1815,
+    "era": "georgiana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 12,
+    "texto": "El tiempo que pasamos sin ti no es tiempo vivido, es tiempo esperado.",
+    "autor": "Charlotte Brontë",
+    "obra": "Jane Eyre",
+    "anio": 1847,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 13,
+    "texto": "No soy un pájaro, y ninguna red me atrapa. Soy un ser humano libre con una voluntad independiente.",
+    "autor": "Charlotte Brontë",
+    "obra": "Jane Eyre",
+    "anio": 1847,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 14,
+    "texto": "¿Qué tengo yo que ver con el matrimonio? Yo me casaré cuando encuentre al hombre al que no pueda renunciar.",
+    "autor": "Jane Austen",
+    "obra": "Sentido y Sensibilidad",
+    "anio": 1811,
+    "era": "georgiana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 15,
+    "texto": "La vida es demasiado corta para ser pequeños.",
+    "autor": "Elizabeth Gaskell",
+    "obra": "Norte y Sur",
+    "anio": 1855,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 16,
+    "texto": "El amor que se guarda en secreto es el amor que más duele pero también el más puro.",
+    "autor": "Alexandre Dumas",
+    "obra": "El conde de Montecristo",
+    "anio": 1844,
+    "era": "romantica",
+    "idioma_original": "francés"
+  },
+  {
+    "id": 17,
+    "texto": "El amor verdadero no tiene precio. Cuando llegue, reconócelo y cuídalo como el tesoro que es.",
+    "autor": "Emily Brontë",
+    "obra": "Cumbres Borrascosas",
+    "anio": 1847,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 18,
+    "texto": "He luchado contra mi propio corazón hasta vencerlo. He hecho todo lo posible por ser digna de ser amada, pero tú eres dueño de mí.",
+    "autor": "Charlotte Brontë",
+    "obra": "Jane Eyre",
+    "anio": 1847,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 19,
+    "texto": "Créeme cuando te digo que nadie puede vivir sin amor. Es el alimento del alma.",
+    "autor": "Jane Austen",
+    "obra": "Persuasión",
+    "anio": 1817,
+    "era": "georgiana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 20,
+    "texto": "El amor no conoce fronteras ni clases sociales. Cuando dos almas se encuentran, nada en este mundo puede separarlas para siempre.",
+    "autor": "Alexandre Dumas hijo",
+    "obra": "La dama de las camelias",
+    "anio": 1848,
+    "era": "romantica",
+    "idioma_original": "francés"
+  }
+]

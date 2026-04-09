@@ -1,0 +1,39 @@
+---
+interface Props {
+  titulo: string;
+  autor: string;
+  anio: number;
+  slug: string;
+  tropos?: string[];
+  intensidad?: number;
+  portada?: string;
+  categoria?: string;
+}
+
+const { titulo, autor, anio, slug, tropos = [], intensidad = 3, portada, categoria } = Astro.props;
+const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
+---
+
+<article class="card-epoca group">
+  <a href={`/libro/${slug}`} class="block">
+    <div class="aspect-[2/3] bg-epoca-violeta-claro rounded-lg mb-3 overflow-hidden">
+      {portada ? (
+        <img src={portada} alt={`Portada de ${titulo}`} class="w-full h-full object-cover" loading="lazy" />
+      ) : (
+        <div class="w-full h-full flex items-center justify-center">
+          <span class="text-4xl">📚</span>
+        </div>
+      )}
+    </div>
+    <h3 class="font-playfair text-base font-semibold text-epoca-marron group-hover:text-epoca-rosa transition-colors line-clamp-2">{titulo}</h3>
+    <p class="text-sm text-epoca-marron-medio mt-1">{autor} · {anio}</p>
+    <p class="text-xs text-epoca-rosa mt-1 tracking-wider">{hearts}</p>
+    {tropos.length > 0 && (
+      <div class="flex flex-wrap gap-1 mt-2">
+        {tropos.slice(0, 2).map(tropo => (
+          <span class="text-xs bg-epoca-violeta-claro text-epoca-marron px-2 py-0.5 rounded-full">{tropo}</span>
+        ))}
+      </div>
+    )}
+  </a>
+</article>

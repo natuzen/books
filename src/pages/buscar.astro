@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchEngine from '../components/SearchEngine';
+import libros from '../../data/libros-curados.json';
+---
+
+<BaseLayout
+  title="Buscar Libros"
+  description="Busca y filtra novelas románticas históricas por autor, tropo, época e intensidad."
+>
+  <div class="max-w-7xl mx-auto px-4 py-8">
+    <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-2">Buscar Libros</h1>
+    <p class="text-epoca-marron-medio mb-8">Encuentra tu próxima lectura romántica con nuestros filtros.</p>
+    <SearchEngine libros={libros} client:load />
+  </div>
+</BaseLayout>

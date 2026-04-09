@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MoodRecommender from '../components/MoodRecommender';
+import libros from '../../data/libros-curados.json';
+---
+
+<BaseLayout
+  title="Recomiéndame"
+  description="Obtén recomendaciones de libros románticos basadas en tu estado de ánimo actual."
+>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <div class="text-center mb-8">
+      <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-2">¿Cómo te sientes hoy?</h1>
+      <p class="text-epoca-marron-medio">Cuéntanos tu estado de ánimo y te recomendamos el libro perfecto</p>
+    </div>
+    <MoodRecommender libros={libros} client:load />
+  </div>
+</BaseLayout>
