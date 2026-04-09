@@ -25,9 +25,7 @@ export default function LiteraryMap({ locations }: Props) {
     mapInitialized.current = true;
 
     import('leaflet').then((L) => {
-      // Fix default icon paths
-      const iconDefault = L.Icon.Default.prototype as unknown as Record<string, unknown>;
-      delete iconDefault['_getIconUrl'];
+      // Workaround for Leaflet default marker icon paths in bundled environments
       L.Icon.Default.mergeOptions({
         iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png',
         iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png',

@@ -13,7 +13,7 @@ Hay algo irresistible en ver a dos personajes que se odian, discuten constanteme
 
 La tensión entre dos personajes que se oponen crea una electricidad narrativa que pocas otras dinámicas pueden igualar. Cada escena juntos está cargada de significado, cada insulto esconde una emoción reprimida, y la resolución del conflicto se convierte en el momento más esperado de toda la novela.
 
-## Los ingredientes del perfect enemies-to-lovers
+## Los ingredientes del perfecto enemies-to-lovers
 
 Para que este tropo funcione necesita:
 - **Conflicto genuino**: No es suficiente con que no se caigan bien. Deben tener razones reales para estar en bandos opuestos.
