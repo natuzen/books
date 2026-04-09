@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CalendarView from '../../components/CalendarView.astro';
+import calendario from '../../../data/calendario-literario.json';
+---
+
+<BaseLayout
+  title="Calendario Literario"
+  description="Descubre qué sucedió en la historia de la literatura romántica cada día del año."
+>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-2">Calendario Literario</h1>
+    <p class="text-epoca-marron-medio mb-8">Un año de curiosidades literarias románticas</p>
+    <CalendarView entries={calendario.slice(0, 20)} />
+  </div>
+</BaseLayout>

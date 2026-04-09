@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BookCard from '../components/BookCard.astro';
+import libros from '../../data/libros-curados.json';
+import calendario from '../../data/calendario-literario.json';
+
+const librosDestacados = libros.slice(0, 8);
+const today = new Date();
+const todayStr = String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0');
+const entradaHoy = calendario.find((e: { fecha: string }) => e.fecha === todayStr) || calendario[0];
+---
+
+<BaseLayout
+  title="Inicio"
+  description="Época & Rosa: Tu guía de romance literario histórico y clásico. Descubre novelas románticas, citas literarias y recomendaciones personalizadas."
+>
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-white to-epoca-crema py-16 px-4 text-center border-b border-epoca-violeta-claro">
+    <p class="ornament text-3xl mb-2">❦</p>
+    <h1 class="font-playfair text-4xl md:text-5xl font-bold text-epoca-marron mb-4">
+      Época <span class="text-epoca-rosa">&amp;</span> Rosa
+    </h1>
+    <p class="text-lg text-epoca-marron-medio max-w-xl mx-auto mb-8 leading-relaxed">
+      Tu sanctuario literario de romances históricos y clásicos. Donde cada página es una invitación al amor eterno.
+    </p>
+    <div class="flex flex-wrap justify-center gap-3">
+      <a href="/buscar" class="btn-primary">Explorar libros</a>
+      <a href="/recomiendame" class="px-6 py-2 rounded-full border border-epoca-rosa text-epoca-rosa hover:bg-epoca-rosa hover:text-white transition-colors font-inter font-medium">
+        Recomiéndame
+      </a>
+    </div>
+  </section>
+
+  <!-- Hoy en la historia literaria -->
+  {entradaHoy && (
+    <section class="max-w-4xl mx-auto px-4 py-8">
+      <div class="bg-gradient-to-r from-epoca-violeta-claro to-epoca-rosa-claro rounded-2xl p-6">
+        <p class="text-xs font-medium text-epoca-marron-medio mb-1 uppercase tracking-widest">Hoy en la historia literaria</p>
+        <h2 class="font-playfair text-xl font-bold text-epoca-marron mb-2">{entradaHoy.titulo}</h2>
+        <p class="text-sm text-epoca-marron-medio">{entradaHoy.descripcion}</p>
+        <a href="/calendario/hoy" class="inline-block mt-3 text-sm text-epoca-marron font-medium hover:underline">
+          Ver más →
+        </a>
+      </div>
+    </section>
+  )}
+
+  <!-- Libros destacados -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="font-playfair text-2xl font-bold text-epoca-marron">Joyas Literarias</h2>
+      <a href="/buscar" class="text-sm text-epoca-rosa hover:underline">Ver todos →</a>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-4">
+      {librosDestacados.map(libro => (
+        <BookCard
+          titulo={libro.titulo}
+          autor={libro.autor}
+          anio={libro.anio}
+          slug={libro.slug}
+          tropos={libro.tropos}
+          intensidad={libro.intensidad}
+          portada={libro.portada}
+          categoria={libro.categoria}
+        />
+      ))}
+    </div>
+  </section>
+
+  <!-- Quick links -->
+  <section class="max-w-5xl mx-auto px-4 py-8 mb-8">
+    <h2 class="font-playfair text-2xl font-bold text-epoca-marron mb-6 text-center">Explorar</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      {[
+        { href: '/quiz', icon: '🎯', label: 'Quiz Literario', desc: '¿Qué tipo de lectora eres?' },
+        { href: '/generador-citas', icon: '💌', label: 'Generador de Citas', desc: 'Citas de autoras clásicas' },
+        { href: '/mapa', icon: '🗺️', label: 'Mapa Literario', desc: 'Escenarios de novelas' },
+        { href: '/rankings', icon: '🏆', label: 'Rankings', desc: 'Los más votados' },
+      ].map(item => (
+        <a href={item.href} class="card-epoca text-center hover:border-epoca-rosa transition-colors group">
+          <span class="text-3xl block mb-2">{item.icon}</span>
+          <h3 class="font-playfair font-semibold text-epoca-marron group-hover:text-epoca-rosa transition-colors text-sm">{item.label}</h3>
+          <p class="text-xs text-epoca-marron-medio mt-1">{item.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "titulo": "El jardín de las promesas rotas",
+    "autor": "Clara Sánchez",
+    "fecha_publicacion": "2025-02-14",
+    "sinopsis": "En la Sevilla de principios del siglo XX, Mercedes descubre cartas de amor ocultas en las paredes de una vieja casona. Su búsqueda de la verdad la lleva a un romance inesperado con el historiador que investiga el mismo misterio.",
+    "genero": "Romance histórico",
+    "editorial": "Planeta",
+    "isbn": "9788408291234"
+  },
+  {
+    "id": 2,
+    "titulo": "La última carta de la condesa",
+    "autor": "Almudena Grandes",
+    "fecha_publicacion": "2025-03-01",
+    "sinopsis": "Una novela epistolar ambientada en la España de la Restauración. La condesa de Villaverde mantiene una correspondencia secreta con un liberal exiliado que cambiará el rumbo de su vida.",
+    "genero": "Novela histórica",
+    "editorial": "Tusquets",
+    "isbn": "9788490663456"
+  },
+  {
+    "id": 3,
+    "titulo": "Bailes en la niebla",
+    "autor": "Marta Ángeles Villar",
+    "fecha_publicacion": "2025-01-20",
+    "sinopsis": "La temporada de bailes de 1815 en Bath esconde más secretos de lo que aparenta. Lady Eleanor deberá elegir entre la seguridad de un matrimonio de conveniencia y la pasión de un amor prohibido.",
+    "genero": "Romance de Regencia",
+    "editorial": "Ediciones B",
+    "isbn": "9788466659870"
+  },
+  {
+    "id": 4,
+    "titulo": "El corazón de los páramos",
+    "autor": "Sarah Lark",
+    "fecha_publicacion": "2025-04-15",
+    "sinopsis": "Inspirada en el paisaje de Yorkshire y las hermanas Brontë, esta novela sigue a una joven maestra que llega a un pequeño pueblo y descubre amores y misterios que nadie ha osado desvelar.",
+    "genero": "Romance victoriano",
+    "editorial": "Maeva",
+    "isbn": "9788419835123"
+  },
+  {
+    "id": 5,
+    "titulo": "Los amores perdidos de Venecia",
+    "autor": "Donna Leon",
+    "fecha_publicacion": "2025-03-20",
+    "sinopsis": "En la Venecia del siglo XVIII, una joven noble española descubre que el hombre con quien debe casarse es el mismo al que amó y creyó muerto años atrás. Una historia de amor, máscaras y segundas oportunidades.",
+    "genero": "Romance histórico",
+    "editorial": "Salamandra",
+    "isbn": "9788498388765"
+  },
+  {
+    "id": 6,
+    "titulo": "Detrás de las ventanas de Pemberley",
+    "autor": "Abigail Reynolds",
+    "fecha_publicacion": "2025-05-01",
+    "sinopsis": "Una novela de continuación de Orgullo y Prejuicio que explora la vida de Elizabeth y Darcy después de su matrimonio, con nuevos desafíos y el redescubrimiento del amor cotidiano.",
+    "genero": "Austen-fan fiction",
+    "editorial": "HarperCollins",
+    "isbn": "9780062567890"
+  },
+  {
+    "id": 7,
+    "titulo": "La institutriz de Blackwood Hall",
+    "autor": "V.S. Alexander",
+    "fecha_publicacion": "2025-06-10",
+    "sinopsis": "Una joven institutriz llega a la mansión Blackwood Hall para cuidar a dos niños huérfanos. La presencia del enigmático señor de la casa y los secretos de la mansión la atrapan en un peligroso juego de amor y misterio.",
+    "genero": "Gótico romántico",
+    "editorial": "Grijalbo",
+    "isbn": "9788425363456"
+  },
+  {
+    "id": 8,
+    "titulo": "Amores en tiempo de valses",
+    "autor": "Madeleine Feeny",
+    "fecha_publicacion": "2025-02-28",
+    "sinopsis": "Viena, 1890. La joven Sofía llega de Budapest a la capital austríaca para estudiar música. En los elegantes salones de baile vieneses, encuentra el amor más inesperado entre sones de vals y intrigas de la corte.",
+    "genero": "Romance histórico",
+    "editorial": "Espasa",
+    "isbn": "9788467066543"
+  },
+  {
+    "id": 9,
+    "titulo": "La correspondencia de Miss Thornton",
+    "autor": "Georgette Heyer",
+    "fecha_publicacion": "2025-07-01",
+    "sinopsis": "Un tesoro literario inédito de la gran maestra del romance de Regencia. Miss Thornton intercambia cartas anónimas con un misterioso caballero que resulta ser el hombre al que más odia en sociedad.",
+    "genero": "Romance de Regencia",
+    "editorial": "Molino",
+    "isbn": "9788427217890"
+  },
+  {
+    "id": 10,
+    "titulo": "El último baile en Almería",
+    "autor": "Najat El Hachmi",
+    "fecha_publicacion": "2025-08-15",
+    "sinopsis": "En la Almería de principios del siglo XX, Amira, hija de una familia acomodada, se enamora de un músico de origen humilde. Su historia desafía las convenciones sociales de una España en transformación.",
+    "genero": "Romance español",
+    "editorial": "Planeta",
+    "isbn": "9788408301234"
+  },
+  {
+    "id": 11,
+    "titulo": "Bajo el cielo de Dublín",
+    "autor": "Cecelia Ahern",
+    "fecha_publicacion": "2025-09-01",
+    "sinopsis": "Una novela epistolar que sigue a Fionn y Siobhan, dos almas gemelas que se conocen a través de la correspondencia en los años 1890 y se reencuentran en circunstancias imposibles de explicar por la razón.",
+    "genero": "Romance sobrenatural",
+    "editorial": "Suma de Letras",
+    "isbn": "9788491295678"
+  },
+  {
+    "id": 12,
+    "titulo": "La dama sin nombre",
+    "autor": "Paloma Sánchez-Garnica",
+    "fecha_publicacion": "2025-10-20",
+    "sinopsis": "Madrid, 1930. Una joven periodista investiga la desaparición de una famosa cantante de ópera y se adentra en un mundo de amor secreto, intrigas políticas y pasiones que el tiempo no ha logrado borrar.",
+    "genero": "Thriller romántico",
+    "editorial": "Espasa",
+    "isbn": "9788467089012"
+  },
+  {
+    "id": 13,
+    "titulo": "La bibliotecaria de Florencia",
+    "autor": "Lucía Graves",
+    "fecha_publicacion": "2025-11-14",
+    "sinopsis": "Isabella trabaja en la Biblioteca Nacional de Florencia y guarda celosamente los secretos de los manuscritos que custodia. Cuando un investigador americano llega buscando un poema perdido, su mundo ordenado se transforma.",
+    "genero": "Romance contemporáneo",
+    "editorial": "Tusquets",
+    "isbn": "9788490669876"
+  },
+  {
+    "id": 14,
+    "titulo": "Invierno en Pembrokeshire",
+    "autor": "Amanda Prowse",
+    "fecha_publicacion": "2025-12-05",
+    "sinopsis": "Una escritora en crisis creativa se refugia en un pequeño pueblo galés durante el invierno. Allí descubrirá no solo la inspiración que buscaba sino también el amor que no esperaba encontrar.",
+    "genero": "Romance contemporáneo",
+    "editorial": "HarperCollins España",
+    "isbn": "9788491397654"
+  },
+  {
+    "id": 15,
+    "titulo": "Las tres vidas de Rosalinda",
+    "autor": "Carmen Posadas",
+    "fecha_publicacion": "2026-01-07",
+    "sinopsis": "Rosalinda Fox, una enigmática mujer que fue espía, amante y diplomática en la España del siglo XX, revela finalmente su historia de amor más secreta en sus memorias dictadas desde su lecho de muerte.",
+    "genero": "Novela histórica",
+    "editorial": "Espasa",
+    "isbn": "9788467098765"
+  }
+]

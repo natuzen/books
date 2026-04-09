@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const listas = await getCollection('listas');
+---
+
+<BaseLayout
+  title="Listas Literarias"
+  description="Listas temáticas de novelas románticas históricas curadas con amor."
+>
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-2">Listas Literarias</h1>
+    <p class="text-epoca-marron-medio mb-8">Colecciones temáticas curadas con amor para guiar tu próxima lectura.</p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {listas.map(lista => (
+        <a href={`/listas/${lista.slug}`} class="card-epoca group block hover:border-epoca-rosa transition-colors">
+          <h2 class="font-playfair text-xl font-semibold text-epoca-marron group-hover:text-epoca-rosa transition-colors mb-2">
+            {lista.data.titulo}
+          </h2>
+          <p class="text-sm text-epoca-marron-medio">{lista.data.descripcion}</p>
+          <p class="text-xs text-epoca-violeta mt-3">{new Date(lista.data.fecha).toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

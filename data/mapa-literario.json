@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "nombre": "Casa de Jane Austen",
+    "ciudad": "Chawton, Hampshire",
+    "pais": "Reino Unido",
+    "descripcion": "La casa donde Jane Austen vivió sus últimos ocho años y escribió o revisó todas sus novelas publicadas. Hoy es un museo dedicado a su vida y obra.",
+    "lat": 51.0837,
+    "lon": -1.0882,
+    "obras_relacionadas": ["Orgullo y Prejuicio", "Emma", "Persuasión", "Sentido y Sensibilidad"],
+    "tipo": "residencia"
+  },
+  {
+    "id": 2,
+    "nombre": "Haworth Parsonage",
+    "ciudad": "Haworth, Yorkshire",
+    "pais": "Reino Unido",
+    "descripcion": "Casa parroquial donde vivieron las hermanas Brontë y donde escribieron sus obras maestras. El museo Brontë conserva manuscritos, pinturas y objetos personales de la familia.",
+    "lat": 53.8357,
+    "lon": -1.9649,
+    "obras_relacionadas": ["Cumbres Borrascosas", "Jane Eyre"],
+    "tipo": "residencia"
+  },
+  {
+    "id": 3,
+    "nombre": "Chatsworth House",
+    "ciudad": "Bakewell, Derbyshire",
+    "pais": "Reino Unido",
+    "descripcion": "La magnífica mansión que se cree inspiró Pemberley, la propiedad del señor Darcy en Orgullo y Prejuicio. Sus jardines y colecciones de arte son extraordinarios.",
+    "lat": 53.2290,
+    "lon": -1.6080,
+    "obras_relacionadas": ["Orgullo y Prejuicio"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 4,
+    "nombre": "Lyme Park",
+    "ciudad": "Disley, Cheshire",
+    "pais": "Reino Unido",
+    "descripcion": "Esta mansión isabelina sirvió como Pemberley en la célebre adaptación televisiva de 1995 de la BBC. Escenario del famoso chapuzón de Colin Firth como Mr. Darcy.",
+    "lat": 53.3476,
+    "lon": -2.0714,
+    "obras_relacionadas": ["Orgullo y Prejuicio"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 5,
+    "nombre": "Lacock Abbey",
+    "ciudad": "Lacock, Wiltshire",
+    "pais": "Reino Unido",
+    "descripcion": "Abadía medieval que sirvió de escenario en múltiples adaptaciones de novelas de Jane Austen y otras obras históricas. Sus claustros y salones son de gran belleza.",
+    "lat": 51.4149,
+    "lon": -2.1168,
+    "obras_relacionadas": ["Orgullo y Prejuicio", "Emma"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 6,
+    "nombre": "Cathédrale Notre-Dame de Paris",
+    "ciudad": "París",
+    "pais": "Francia",
+    "descripcion": "La imponente catedral es escenario fundamental en Los Miserables de Victor Hugo. Sus gárgolas y torres fueron inmortalizadas en el Jorobado de Notre Dame.",
+    "lat": 48.8530,
+    "lon": 2.3499,
+    "obras_relacionadas": ["Los Miserables"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 7,
+    "nombre": "Château d'If",
+    "ciudad": "Marseille",
+    "pais": "Francia",
+    "descripcion": "La prisión-castillo donde fue encarcelado Edmond Dantès en El conde de Montecristo. Situada en una isla en la bahía de Marsella, es hoy un museo.",
+    "lat": 43.2803,
+    "lon": 5.3253,
+    "obras_relacionadas": ["El conde de Montecristo"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 8,
+    "nombre": "Villa de Marguerite Gautier",
+    "ciudad": "Auteuil, París",
+    "pais": "Francia",
+    "descripcion": "Basada en la casa real de Marie Duplessis, la cortesana que inspiró La dama de las camelias. El boulevard de la Madeleine donde vivía es hoy un lugar de peregrinación literaria.",
+    "lat": 48.8731,
+    "lon": 2.3019,
+    "obras_relacionadas": ["La dama de las camelias"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 9,
+    "nombre": "Museo Pushkin",
+    "ciudad": "Moscú",
+    "pais": "Rusia",
+    "descripcion": "El museo dedicado al gran poeta ruso cuya influencia en Tolstói fue fundamental. Cerca del mundo que retrató Anna Karenina en sus escenas moscovitas.",
+    "lat": 55.7451,
+    "lon": 37.6060,
+    "obras_relacionadas": ["Anna Karenina"],
+    "tipo": "museo"
+  },
+  {
+    "id": 10,
+    "nombre": "Estación de Tren de Moscú",
+    "ciudad": "Moscú",
+    "pais": "Rusia",
+    "descripcion": "La estación de Kursk donde se inspiró la famosa escena final de Anna Karenina. Un lugar de encuentros y despedidas que Tolstói inmortalizó en su novela.",
+    "lat": 55.7579,
+    "lon": 37.6591,
+    "obras_relacionadas": ["Anna Karenina"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 11,
+    "nombre": "Museo de los Hermanos Brontë",
+    "ciudad": "Haworth, Yorkshire",
+    "pais": "Reino Unido",
+    "descripcion": "El museo Brontë alberga la mayor colección del mundo de objetos personales de las hermanas Brontë, incluyendo manuscritos originales de Cumbres Borrascosas y Jane Eyre.",
+    "lat": 53.8359,
+    "lon": -1.9654,
+    "obras_relacionadas": ["Cumbres Borrascosas", "Jane Eyre"],
+    "tipo": "museo"
+  },
+  {
+    "id": 12,
+    "nombre": "Manderley (Menabilly Estate)",
+    "ciudad": "Fowey, Cornwall",
+    "pais": "Reino Unido",
+    "descripcion": "La mansión Menabilly en Cornwall inspiró Manderley, la sombría propiedad de Rebecca. Daphne du Maurier vivió aquí durante años y escribió su obra más famosa.",
+    "lat": 50.3282,
+    "lon": -4.6897,
+    "obras_relacionadas": ["Rebecca"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 13,
+    "nombre": "Bath Jane Austen Centre",
+    "ciudad": "Bath, Somerset",
+    "pais": "Reino Unido",
+    "descripcion": "Centro dedicado a Jane Austen en la ciudad donde ella vivió durante cinco años. Bath es escenario de Persuasión y La Abadía de Northanger.",
+    "lat": 51.3813,
+    "lon": -2.3624,
+    "obras_relacionadas": ["Persuasión", "La Abadía de Northanger"],
+    "tipo": "museo"
+  },
+  {
+    "id": 14,
+    "nombre": "Père Lachaise",
+    "ciudad": "París",
+    "pais": "Francia",
+    "descripcion": "El famoso cementerio parisino donde están enterrados Honoré de Balzac, Marcel Proust y la tumba de Héloïse y Abelardo, símbolo del amor trágico romántico.",
+    "lat": 48.8608,
+    "lon": 2.3952,
+    "obras_relacionadas": ["La dama de las camelias", "Los Miserables"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 15,
+    "nombre": "Palacio Real de Aranjuez",
+    "ciudad": "Aranjuez, Madrid",
+    "pais": "España",
+    "descripcion": "Los jardines reales de Aranjuez son los escenarios donde transcurren algunas de las escenas más románticas de La Regenta. Un símbolo de la España del romanticismo.",
+    "lat": 40.0355,
+    "lon": -3.6009,
+    "obras_relacionadas": ["La Regenta"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 16,
+    "nombre": "Castillo de Warwick",
+    "ciudad": "Warwick, Warwickshire",
+    "pais": "Reino Unido",
+    "descripcion": "El imponente castillo medieval que inspiró numerosas escenas en novelas románticas históricas. Sus salones, armaduras y jardines transportan al pasado caballeresco.",
+    "lat": 52.2799,
+    "lon": -1.5861,
+    "obras_relacionadas": ["El conde de Montecristo"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 17,
+    "nombre": "Villa Borghese",
+    "ciudad": "Roma",
+    "pais": "Italia",
+    "descripcion": "Los jardines de la Villa Borghese sirven de escenario en A Room with a View de E.M. Forster. Aquí Lucy Honeychurch tiene su primer encuentro romántico con George Emerson.",
+    "lat": 41.9146,
+    "lon": 12.4925,
+    "obras_relacionadas": ["A Room with a View"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 18,
+    "nombre": "Oviedo Cathedral",
+    "ciudad": "Oviedo, Asturias",
+    "pais": "España",
+    "descripcion": "La catedral de Oviedo y la ciudad toda son el escenario de La Regenta, la gran novela española del realismo. La Vetusta de Clarín es un retrato fiel del Oviedo de finales del siglo XIX.",
+    "lat": 43.3617,
+    "lon": -5.8456,
+    "obras_relacionadas": ["La Regenta"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 19,
+    "nombre": "Radcliffe Camera, Oxford",
+    "ciudad": "Oxford, Oxfordshire",
+    "pais": "Reino Unido",
+    "descripcion": "La emblemática biblioteca de Oxford y sus colleges son el ambiente de fondo que inspiró a escritoras victorianas y eduardianas. George Eliot, entre otras, frecuentó estos círculos intelectuales.",
+    "lat": 51.7539,
+    "lon": -1.2545,
+    "obras_relacionadas": ["Middlemarch", "A Room with a View"],
+    "tipo": "escenario"
+  },
+  {
+    "id": 20,
+    "nombre": "Stonehenge",
+    "ciudad": "Amesbury, Wiltshire",
+    "pais": "Reino Unido",
+    "descripcion": "El misterioso monumento prehistórico aparece en Tess of the d'Urbervilles de Thomas Hardy como escenario del desenlace trágico. Hardy quiso simbolizar con él la eternidad frente a la fugacidad del amor.",
+    "lat": 51.1789,
+    "lon": -1.8262,
+    "obras_relacionadas": ["Tess of the d'Urbervilles"],
+    "tipo": "escenario"
+  }
+]

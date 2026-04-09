@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import VotingSystem from '../components/VotingSystem';
+import libros from '../../data/libros-curados.json';
+---
+
+<BaseLayout
+  title="Rankings"
+  description="Vota por tus novelas románticas históricas favoritas y descubre las más amadas."
+>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <div class="text-center mb-8">
+      <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-2">Rankings</h1>
+      <p class="text-epoca-marron-medio">Vota por tus novelas favoritas</p>
+    </div>
+    <VotingSystem libros={libros} categoria="general" client:load />
+  </div>
+</BaseLayout>

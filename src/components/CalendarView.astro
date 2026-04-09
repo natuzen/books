@@ -1,0 +1,50 @@
+---
+interface CalendarEntry {
+  fecha: string;
+  titulo: string;
+  descripcion: string;
+  tipo: string;
+}
+
+interface Props {
+  entries: CalendarEntry[];
+  titulo?: string;
+}
+
+const { entries, titulo = "Calendario Literario" } = Astro.props;
+
+const tipoColors: Record<string, string> = {
+  nacimiento: 'bg-epoca-rosa text-white',
+  publicacion: 'bg-epoca-verde text-white',
+  evento: 'bg-epoca-violeta text-white',
+};
+
+const meses: Record<string, string> = {
+  '01': 'ENE', '02': 'FEB', '03': 'MAR', '04': 'ABR',
+  '05': 'MAY', '06': 'JUN', '07': 'JUL', '08': 'AGO',
+  '09': 'SEP', '10': 'OCT', '11': 'NOV', '12': 'DIC',
+};
+---
+
+<div class="space-y-4">
+  {entries.map(entry => {
+    const [mes, dia] = entry.fecha.split('-');
+    const mesAbrev = meses[mes] || mes;
+    const colorClass = tipoColors[entry.tipo] || 'bg-gray-200';
+    return (
+      <div class="card-epoca flex gap-4">
+        <div class="w-16 text-center shrink-0">
+          <span class="block text-2xl font-playfair font-bold text-epoca-rosa">{dia}</span>
+          <span class="block text-xs text-epoca-marron-medio">{mesAbrev}</span>
+        </div>
+        <div class="flex-1">
+          <div class="flex items-start gap-2 flex-wrap">
+            <h3 class="font-playfair font-semibold text-epoca-marron">{entry.titulo}</h3>
+            <span class={`text-xs px-2 py-0.5 rounded-full ${colorClass}`}>{entry.tipo}</span>
+          </div>
+          <p class="text-sm text-epoca-marron-medio mt-1">{entry.descripcion}</p>
+        </div>
+      </div>
+    );
+  })}
+</div>

@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import calendario from '../../../data/calendario-literario.json';
+
+const hoy = calendario[0];
+---
+
+<BaseLayout
+  title="Hoy en la Historia Literaria"
+  description="Descubre qué pasó hoy en la historia de la literatura romántica."
+>
+  <div class="max-w-3xl mx-auto px-4 py-12 text-center">
+    <p class="ornament text-4xl mb-4">📅</p>
+    <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-4">Hoy en la Historia Literaria</h1>
+    {hoy && (
+      <div class="card-epoca text-left p-6">
+        <span class="text-xs font-medium text-white bg-epoca-rosa px-3 py-1 rounded-full">{hoy.fecha}</span>
+        <h2 class="font-playfair text-xl font-bold text-epoca-marron mt-4 mb-2">{hoy.titulo}</h2>
+        <p class="text-epoca-marron-medio">{hoy.descripcion}</p>
+      </div>
+    )}
+    <div class="mt-6">
+      <a href="/calendario" class="text-sm text-epoca-rosa hover:underline">Ver calendario completo →</a>
+    </div>
+  </div>
+</BaseLayout>

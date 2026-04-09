@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "titulo": "Orgullo y Prejuicio",
+    "tipo": "pelicula",
+    "fecha_estreno": "2025-11-07",
+    "sinopsis": "Una nueva adaptación moderna de la obra maestra de Jane Austen, ambientada en la actualidad pero conservando el espíritu de la Regencia inglesa.",
+    "adaptacion_de": "Orgullo y Prejuicio - Jane Austen",
+    "plataforma": "Netflix",
+    "genero": "Romance"
+  },
+  {
+    "id": 2,
+    "titulo": "Cumbres Borrascosas: La Serie",
+    "tipo": "serie",
+    "fecha_estreno": "2025-09-15",
+    "sinopsis": "Adaptación en seis episodios de la novela de Emily Brontë. Una producción británica que explora en profundidad la relación obsesiva entre Heathcliff y Catherine.",
+    "adaptacion_de": "Cumbres Borrascosas - Emily Brontë",
+    "plataforma": "BBC / BritBox",
+    "genero": "Drama romántico"
+  },
+  {
+    "id": 3,
+    "titulo": "Norte y Sur",
+    "tipo": "pelicula",
+    "fecha_estreno": "2025-10-20",
+    "sinopsis": "Adaptación cinematográfica de la novela de Elizabeth Gaskell. La historia de amor entre Margaret Hale y John Thornton en el norte industrial inglés del siglo XIX.",
+    "adaptacion_de": "Norte y Sur - Elizabeth Gaskell",
+    "plataforma": "Amazon Prime",
+    "genero": "Drama de época"
+  },
+  {
+    "id": 4,
+    "titulo": "Persuasión: Segunda Oportunidad",
+    "tipo": "serie",
+    "fecha_estreno": "2025-08-01",
+    "sinopsis": "Serie de cuatro episodios que reimagina la historia de Anne Elliot y el capitán Wentworth. Un retrato íntimo del amor que resiste al paso del tiempo.",
+    "adaptacion_de": "Persuasión - Jane Austen",
+    "plataforma": "HBO Max",
+    "genero": "Romance histórico"
+  },
+  {
+    "id": 5,
+    "titulo": "Rebecca",
+    "tipo": "pelicula",
+    "fecha_estreno": "2025-12-25",
+    "sinopsis": "Nueva versión del clásico gótico de Daphne du Maurier. Una joven se instala en Manderley y debe vivir bajo la sombra de la primera esposa de su marido.",
+    "adaptacion_de": "Rebecca - Daphne du Maurier",
+    "plataforma": "Apple TV+",
+    "genero": "Thriller romántico"
+  },
+  {
+    "id": 6,
+    "titulo": "Emma, la perfecta",
+    "tipo": "serie",
+    "fecha_estreno": "2026-01-10",
+    "sinopsis": "Una modernización de Emma de Jane Austen ambientada en una ciudad universitaria española. Emma, estudiante de Relaciones Públicas, intenta emparejar a todos menos a sí misma.",
+    "adaptacion_de": "Emma - Jane Austen",
+    "plataforma": "Netflix España",
+    "genero": "Comedia romántica"
+  },
+  {
+    "id": 7,
+    "titulo": "Anna Karenina",
+    "tipo": "pelicula",
+    "fecha_estreno": "2025-11-28",
+    "sinopsis": "Poderosa adaptación de la novela de Tolstói protagonizada por una nueva generación de talentos europeos. La tragedia del amor imposible en la sociedad imperial rusa.",
+    "adaptacion_de": "Anna Karenina - León Tolstói",
+    "plataforma": "Mubi",
+    "genero": "Drama"
+  },
+  {
+    "id": 8,
+    "titulo": "La dama de las camelias",
+    "tipo": "serie",
+    "fecha_estreno": "2025-10-01",
+    "sinopsis": "Miniserie franco-española que reimagina la historia de Marguerite Gautier y Armand Duval en el París actual, donde la desigualdad social sigue siendo un obstáculo para el amor.",
+    "adaptacion_de": "La dama de las camelias - Alexandre Dumas hijo",
+    "plataforma": "Canal+ / Movistar+",
+    "genero": "Romance dramático"
+  },
+  {
+    "id": 9,
+    "titulo": "Middlemarch",
+    "tipo": "serie",
+    "fecha_estreno": "2026-02-14",
+    "sinopsis": "Nueva adaptación de la novela de George Eliot en ocho episodios. Un retrato íntimo de las aspiraciones y los amores frustrados de Dorothea Brooke en la Inglaterra victoriana.",
+    "adaptacion_de": "Middlemarch - George Eliot",
+    "plataforma": "BBC",
+    "genero": "Drama histórico"
+  },
+  {
+    "id": 10,
+    "titulo": "La Regenta",
+    "tipo": "serie",
+    "fecha_estreno": "2025-09-01",
+    "sinopsis": "Adaptación española de la novela de Clarín. Ana Ozores lucha por encontrar su lugar en una sociedad hipócrita y sofocante mientras dos hombres compiten por su corazón.",
+    "adaptacion_de": "La Regenta - Leopoldo Alas Clarín",
+    "plataforma": "RTVE Play / Prime Video",
+    "genero": "Drama español"
+  },
+  {
+    "id": 11,
+    "titulo": "El conde de Montecristo",
+    "tipo": "pelicula",
+    "fecha_estreno": "2025-07-04",
+    "sinopsis": "Épica producción francesa de la novela de Dumas. Pierre Niney interpreta a Edmond Dantès en esta aventura de venganza y amor que ha cautivado audiencias en todo el mundo.",
+    "adaptacion_de": "El conde de Montecristo - Alexandre Dumas",
+    "plataforma": "Cines",
+    "genero": "Aventura romántica"
+  },
+  {
+    "id": 12,
+    "titulo": "A Room with a View",
+    "tipo": "pelicula",
+    "fecha_estreno": "2026-03-08",
+    "sinopsis": "Encantadora adaptación de la novela de E.M. Forster. Lucy Honeychurch viaja a la Italia de principios del siglo XX y descubre que el amor verdadero no entiende de convenciones.",
+    "adaptacion_de": "A Room with a View - E.M. Forster",
+    "plataforma": "Amazon Prime",
+    "genero": "Drama romántico"
+  },
+  {
+    "id": 13,
+    "titulo": "Madame Bovary: Siglo XXI",
+    "tipo": "serie",
+    "fecha_estreno": "2025-12-01",
+    "sinopsis": "Actualización de la novela de Flaubert. Emma es una influencer de moda que busca el amor romántico que prometían las redes sociales y los libros que devora.",
+    "adaptacion_de": "Madame Bovary - Gustave Flaubert",
+    "plataforma": "Disney+",
+    "genero": "Comedia dramática"
+  },
+  {
+    "id": 14,
+    "titulo": "Jane Austen: La Novela Inacabada",
+    "tipo": "pelicula",
+    "fecha_estreno": "2025-12-16",
+    "sinopsis": "Un biopic sobre los últimos años de Jane Austen y su historia de amor real con Tom Lefroy, la relación que inspiró sus grandes novelas románticas.",
+    "adaptacion_de": null,
+    "plataforma": "Cines / Filmin",
+    "genero": "Biopic"
+  },
+  {
+    "id": 15,
+    "titulo": "Tess",
+    "tipo": "pelicula",
+    "fecha_estreno": "2026-01-30",
+    "sinopsis": "Nueva adaptación de Tess of the d'Urbervilles de Thomas Hardy. Una producción que recupera la fuerza del original para hablar de desigualdad, amor y tragedia con ojos contemporáneos.",
+    "adaptacion_de": "Tess of the d'Urbervilles - Thomas Hardy",
+    "plataforma": "ITV / BritBox",
+    "genero": "Drama"
+  }
+]

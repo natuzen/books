@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import QuoteGenerator from '../components/QuoteGenerator';
+import citas from '../../data/citas-romanticas.json';
+---
+
+<BaseLayout
+  title="Generador de Citas Románticas"
+  description="Descubre citas románticas de Jane Austen, Emily Brontë, Charlotte Brontë y más autoras clásicas."
+>
+  <div class="max-w-3xl mx-auto px-4 py-8">
+    <div class="text-center mb-8">
+      <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-2">Citas Románticas</h1>
+      <p class="text-epoca-marron-medio">Palabras inmortales de las grandes autoras del romance</p>
+    </div>
+    <QuoteGenerator citas={citas} client:load />
+  </div>
+</BaseLayout>
