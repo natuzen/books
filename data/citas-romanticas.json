@@ -178,5 +178,455 @@
     "anio": 1848,
     "era": "romantica",
     "idioma_original": "francés"
+  },
+  {
+    "id": 21,
+    "texto": "Puedes amar a alguien con todo tu corazón y aun así saber que no es la persona adecuada para ti.",
+    "autor": "Colleen Hoover",
+    "obra": "It Ends with Us",
+    "anio": 2016,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 22,
+    "texto": "A veces es más fácil odiar a alguien por sus defectos que amarlo a pesar de ellos.",
+    "autor": "Colleen Hoover",
+    "obra": "Ugly Love",
+    "anio": 2014,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 23,
+    "texto": "No regles tu corazón de acuerdo a las normas de los demás. El amor que sientes es tuyo.",
+    "autor": "Colleen Hoover",
+    "obra": "November 9",
+    "anio": 2015,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 24,
+    "texto": "Cuando miro al pasado, no veo errores. Veo los pasos que me llevaron hasta ti.",
+    "autor": "Colleen Hoover",
+    "obra": "Verity",
+    "anio": 2018,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 25,
+    "texto": "Las alas no son para huir, son para elevarte junto a quien amas hacia un cielo que nunca imaginaste.",
+    "autor": "Rebeca Yarros",
+    "obra": "Alas de Sangre",
+    "anio": 2023,
+    "era": "fantasia",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 26,
+    "texto": "Hay batallas que se ganan no con espadas sino con la valentía de amar a quien el mundo prohíbe.",
+    "autor": "Rebeca Yarros",
+    "obra": "Alas de Sangre",
+    "anio": 2023,
+    "era": "fantasia",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 27,
+    "texto": "El hierro puede forjarse en el fuego, pero el corazón se forja en el amor que sobrevive a la tormenta.",
+    "autor": "Rebeca Yarros",
+    "obra": "Alas de Hierro",
+    "anio": 2023,
+    "era": "fantasia",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 28,
+    "texto": "Hay lugares en el mundo donde el tiempo se detiene. Tú eres uno de esos lugares para mí.",
+    "autor": "Alice Kellen",
+    "obra": "El día que dejó de nevar en Alaska",
+    "anio": 2017,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 29,
+    "texto": "Nosotros somos el espacio entre las estrellas: pequeños e insignificantes para el universo, pero infinitos el uno para el otro.",
+    "autor": "Alice Kellen",
+    "obra": "Nosotros en la luna",
+    "anio": 2019,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 30,
+    "texto": "Todo lo que nunca fuimos sigue siendo nuestro. Vive entre las palabras que no dijimos y las manos que no soltamos.",
+    "autor": "Alice Kellen",
+    "obra": "Todo lo que nunca fuimos",
+    "anio": 2018,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 31,
+    "texto": "Hay pactos que no se firman en papel sino en el pecho, donde laten con fuerza cada vez que te veo.",
+    "autor": "Elena Armas",
+    "obra": "El pacto sentimental",
+    "anio": 2021,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 32,
+    "texto": "Vivir bajo el mismo techo que alguien puede ser el comienzo del mayor experimento de tu vida: el amor.",
+    "autor": "Elena Armas",
+    "obra": "The American Roommate Experiment",
+    "anio": 2022,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 33,
+    "texto": "Una corte de rosas y espinas: así es el amor, hermoso y peligroso, suave y capaz de hacerte sangrar.",
+    "autor": "Sarah J. Maas",
+    "obra": "Una corte de rosas y espinas",
+    "anio": 2015,
+    "era": "fantasia",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 34,
+    "texto": "Eres la estrella fija de mi cielo. Las constelaciones cambian pero tú permaneces. Siempre tú.",
+    "autor": "Sarah J. Maas",
+    "obra": "Una corte de rosas y espinas",
+    "anio": 2015,
+    "era": "fantasia",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 35,
+    "texto": "Los tronos se conquistan con acero, pero los corazones solo se ganan con verdad y tiempo.",
+    "autor": "Sarah J. Maas",
+    "obra": "Trono de cristal",
+    "anio": 2012,
+    "era": "fantasia",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 36,
+    "texto": "El odio y el amor viven en el mismo corazón. A veces solo hace falta un momento para saber cuál gana.",
+    "autor": "Ana Huang",
+    "obra": "Twisted Hate",
+    "anio": 2022,
+    "era": "new-adult",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 37,
+    "texto": "Hay amores que comienzan con una mentira y terminan siendo la única verdad que importa.",
+    "autor": "Ana Huang",
+    "obra": "Twisted Love",
+    "anio": 2021,
+    "era": "new-adult",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 38,
+    "texto": "Las vacaciones acaban, los veranos terminan, pero algunas personas se quedan para siempre en ti.",
+    "autor": "Emily Henry",
+    "obra": "People We Meet on Vacation",
+    "anio": 2021,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 39,
+    "texto": "Los amantes de los libros tienen un secreto: buscan en cada página el amor que no han encontrado fuera de ellas.",
+    "autor": "Emily Henry",
+    "obra": "Book Lovers",
+    "anio": 2022,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 40,
+    "texto": "Antes de diciembre ya te amaba. Solo que aún no lo sabía.",
+    "autor": "Joana Marcús",
+    "obra": "Antes de diciembre",
+    "anio": 2022,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 41,
+    "texto": "Después de diciembre aprendí que el amor no es una estación del año; es el clima que eliges para vivir.",
+    "autor": "Joana Marcús",
+    "obra": "Después de diciembre",
+    "anio": 2023,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 42,
+    "texto": "Valeria escribe en blanco y negro, pero cuando te ama, lo hace a todo color.",
+    "autor": "Elísabet Benavent",
+    "obra": "Valeria en blanco y negro",
+    "anio": 2013,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 43,
+    "texto": "Fuimos canciones que se cantaron en voz baja, amores que vivieron entre líneas, entre silencios llenos de ti.",
+    "autor": "Elísabet Benavent",
+    "obra": "Fuimos canciones",
+    "anio": 2019,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 44,
+    "texto": "La hipótesis del amor no necesita demostración científica cuando el corazón ya conoce la respuesta.",
+    "autor": "Ali Hazelwood",
+    "obra": "The Love Hypothesis",
+    "anio": 2021,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 45,
+    "texto": "Incluso los científicos más racionales se rinden ante una variable que no pueden controlar: el amor.",
+    "autor": "Ali Hazelwood",
+    "obra": "The Love Hypothesis",
+    "anio": 2021,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 46,
+    "texto": "En la pista de hielo aprendí que el equilibrio no se trata de no caer, sino de que alguien te ayude a levantarte.",
+    "autor": "Hannah Grace",
+    "obra": "Icebreaker",
+    "anio": 2022,
+    "era": "new-adult",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 47,
+    "texto": "El hielo puede parecer frío e impenetrable, pero hasta el corazón más helado puede derretirse con el amor adecuado.",
+    "autor": "Hannah Grace",
+    "obra": "Icebreaker",
+    "anio": 2022,
+    "era": "new-adult",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 48,
+    "texto": "La corrupción no está en el deseo, sino en fingir que no existe cuando consume cada uno de tus pensamientos.",
+    "autor": "Penelope Douglas",
+    "obra": "Corrupt",
+    "anio": 2014,
+    "era": "new-adult",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 49,
+    "texto": "Hay personas que entran en tu vida para romperte, y otras que llegan para reconstruirte. Las más raras hacen ambas cosas.",
+    "autor": "Penelope Douglas",
+    "obra": "Corrupt",
+    "anio": 2014,
+    "era": "new-adult",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 50,
+    "texto": "Amar a alguien que no puede amarte de vuelta es la forma más silenciosa de valentía.",
+    "autor": "Colleen Hoover",
+    "obra": "It Ends with Us",
+    "anio": 2016,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 51,
+    "texto": "Si la historia de tu vida la escribiera otra persona, ¿reconocerías al personaje principal?",
+    "autor": "Colleen Hoover",
+    "obra": "November 9",
+    "anio": 2015,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 52,
+    "texto": "El amor no debería costarte la paz. Si lo hace, no es amor sino necesidad disfrazada.",
+    "autor": "Elísabet Benavent",
+    "obra": "Fuimos canciones",
+    "anio": 2019,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 53,
+    "texto": "Somos las páginas que nos leemos mutuamente, los capítulos que nos cambian para siempre.",
+    "autor": "Alice Kellen",
+    "obra": "Todo lo que nunca fuimos",
+    "anio": 2018,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 54,
+    "texto": "El dragón y la jinete: dos fuerzas opuestas que el destino unió porque solo juntas podían salvar el mundo.",
+    "autor": "Rebeca Yarros",
+    "obra": "Alas de Sangre",
+    "anio": 2023,
+    "era": "fantasia",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 55,
+    "texto": "El amor que nace entre enemigos es el más honesto: no tiene disfraz, no tiene pretensión, solo verdad.",
+    "autor": "Sarah J. Maas",
+    "obra": "Una corte de niebla y furia",
+    "anio": 2016,
+    "era": "fantasia",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 56,
+    "texto": "Prefiero una vida llena de cicatrices a una sin historia que contar.",
+    "autor": "Sarah J. Maas",
+    "obra": "Trono de cristal",
+    "anio": 2012,
+    "era": "fantasia",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 57,
+    "texto": "Cada libro leído es una vida vivida. Cada amor narrado es un amor que también es tuyo.",
+    "autor": "Emily Henry",
+    "obra": "Book Lovers",
+    "anio": 2022,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 58,
+    "texto": "Hay veranos que duran toda la vida. El nuestro era uno de esos.",
+    "autor": "Emily Henry",
+    "obra": "People We Meet on Vacation",
+    "anio": 2021,
+    "era": "contemporanea",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 59,
+    "texto": "Toda gran historia de amor comienza con alguien que se atreve a dar el primer paso aunque tiemble.",
+    "autor": "Joana Marcús",
+    "obra": "Antes de diciembre",
+    "anio": 2022,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 60,
+    "texto": "La luna no necesita que le digan lo que es. Y yo tampoco cuando estoy contigo.",
+    "autor": "Alice Kellen",
+    "obra": "Nosotros en la luna",
+    "anio": 2019,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 61,
+    "texto": "Cuando dos personas deciden quererse, el mundo entero se convierte en cómplice.",
+    "autor": "Elena Armas",
+    "obra": "El pacto sentimental",
+    "anio": 2021,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 62,
+    "texto": "Pensé que había conocido el amor antes de conocerte. Ahora sé que solo estaba practicando.",
+    "autor": "Ana Huang",
+    "obra": "Twisted Love",
+    "anio": 2021,
+    "era": "new-adult",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 63,
+    "texto": "El amor no es una debilidad. Es la única fuerza capaz de doblegar incluso al corazón más cerrado.",
+    "autor": "Ana Huang",
+    "obra": "Twisted Hate",
+    "anio": 2022,
+    "era": "new-adult",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 64,
+    "texto": "Te quiero con toda mi alma, y eso es algo que ningún mundo —ni siquiera el de las sombras— puede arrebatarme.",
+    "autor": "Sarah J. Maas",
+    "obra": "Una corte de niebla y furia",
+    "anio": 2016,
+    "era": "fantasia",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 65,
+    "texto": "Hay personas que son una patria. Volver a ellas es siempre volver a casa.",
+    "autor": "Elísabet Benavent",
+    "obra": "Valeria en blanco y negro",
+    "anio": 2013,
+    "era": "contemporanea",
+    "idioma_original": "español"
+  },
+  {
+    "id": 66,
+    "texto": "Cuando el amor es real, no necesita condiciones. Simplemente existe, inquebrantable y sin fecha de caducidad.",
+    "autor": "Hannah Grace",
+    "obra": "Icebreaker",
+    "anio": 2022,
+    "era": "new-adult",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 67,
+    "texto": "Hay palabras que no necesitan pronunciarse porque ya viven en los ojos de quien te ama.",
+    "autor": "Jane Austen",
+    "obra": "Emma",
+    "anio": 1815,
+    "era": "georgiana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 68,
+    "texto": "El amor no es solo un sentimiento, es una decisión que se renueva cada mañana al despertar junto a alguien.",
+    "autor": "Charlotte Brontë",
+    "obra": "Shirley",
+    "anio": 1849,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 69,
+    "texto": "Cathy, no puedes separar el mar del cielo ni a Heathcliff de mí. Somos la misma tormenta.",
+    "autor": "Emily Brontë",
+    "obra": "Cumbres Borrascosas",
+    "anio": 1847,
+    "era": "victoriana",
+    "idioma_original": "inglés"
+  },
+  {
+    "id": 70,
+    "texto": "Las reglas de la sociedad pueden dictar con quién bailas en un salón, pero no con quién late tu corazón.",
+    "autor": "Jane Austen",
+    "obra": "Orgullo y Prejuicio",
+    "anio": 1813,
+    "era": "georgiana",
+    "idioma_original": "inglés"
   }
 ]

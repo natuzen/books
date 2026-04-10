@@ -3,9 +3,9 @@ import preact from '@astrojs/preact';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
-export default defineConfig({
-  site: 'https://epocayrosa.com',
-
+export default defineConfig({  
+  site: 'https://queridoslectores.com',
+  
   integrations: [
     preact(),
     tailwind(),

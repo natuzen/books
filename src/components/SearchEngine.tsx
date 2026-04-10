@@ -31,7 +31,18 @@ export default function SearchEngine({ libros }: Props) {
     return Array.from(set).sort();
   }, [libros]);
 
-  const categorias = ['historica', 'contemporanea', 'juvenil', 'fantasia'];
+  const categorias = useMemo(() => {
+    const set = new Set<string>();
+    libros.forEach(l => set.add(l.categoria));
+    return Array.from(set).sort();
+  }, [libros]);
+
+  const categoriaLabels: Record<string, string> = {
+    'historica': 'Romance histórico',
+    'romance-contemporaneo': 'Romance contemporáneo',
+    'romance-juvenil': 'Romance juvenil',
+    'fantasia': 'Fantasía romántica',
+  };
 
   const filtered = useMemo(() => {
     return libros.filter(l => {
@@ -55,7 +66,7 @@ export default function SearchEngine({ libros }: Props) {
         <select value={categoria} onChange={(e) => setCategoria((e.target as HTMLSelectElement).value)}
           class="px-4 py-2 border border-epoca-violeta-claro rounded-lg focus:outline-none focus:border-epoca-rosa bg-white">
           <option value="">Todas las categorías</option>
-          {categorias.map(c => <option value={c}>{c.charAt(0).toUpperCase() + c.slice(1)}</option>)}
+          {categorias.map(c => <option value={c}>{categoriaLabels[c] || c.charAt(0).toUpperCase() + c.slice(1)}</option>)}
         </select>
         <select value={tropo} onChange={(e) => setTropo((e.target as HTMLSelectElement).value)}
           class="px-4 py-2 border border-epoca-violeta-claro rounded-lg focus:outline-none focus:border-epoca-rosa bg-white">
@@ -72,7 +83,7 @@ export default function SearchEngine({ libros }: Props) {
             <a href={`/libro/${libro.slug}`} class="block">
               <div class="aspect-[2/3] bg-epoca-crema rounded-lg mb-2 overflow-hidden">
                 {libro.portada ? (
-                  <img src={libro.portada} alt={libro.titulo} class="w-full h-full object-cover" loading="lazy" />
+                  <img src={libro.portada} alt={libro.titulo} class="w-full h-full object-cover" loading="lazy" decoding="async" width="150" height="225" />
                 ) : (
                   <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>
                 )}

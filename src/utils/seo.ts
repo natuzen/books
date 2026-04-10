@@ -37,7 +37,7 @@ export function generateBreadcrumbSchema(items: Array<{ name: string; url: strin
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://epocayrosa.com${item.url}`,
+      item: `https://queridoslectores.com${item.url}`,
     })),
   };
 }

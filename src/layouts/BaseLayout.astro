@@ -19,10 +19,10 @@ const canonical = canonicalUrl || Astro.url.href;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title} | Época & Rosa</title>
+    <title>{title} | Queridos Lectores</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <meta property="og:title" content={`${title} | Época & Rosa`} />
+    <meta property="og:title" content={`${title} | Queridos Lectores`} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImage} />
     <meta property="og:type" content="website" />
@@ -33,9 +33,9 @@ const canonical = canonicalUrl || Astro.url.href;
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Época & Rosa",
-      "url": "https://epocayrosa.com",
-      "description": "Tu guía de romance literario histórico y clásico",
+      "name": "Queridos Lectores",
+      "url": "https://queridoslectores.com",
+      "description": "Tu guía de romance literario y novelas románticas",
       "inLanguage": "es"
     })} />
   </head>

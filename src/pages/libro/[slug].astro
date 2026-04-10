@@ -23,10 +23,19 @@ interface LibroType {
   paginas: number;
   editorial: string;
   portada?: string;
+  citas_celebres?: string[];
+  libros_similares?: string[];
+  datos_curiosos_autor?: string;
+  contexto_historico?: string;
 }
 
 const { libro } = Astro.props as { libro: LibroType };
 const hearts = '♥'.repeat(libro.intensidad) + '♡'.repeat(5 - libro.intensidad);
+
+const librosMap = Object.fromEntries(libros.map(l => [l.slug, l]));
+const similares = (libro.libros_similares || [])
+  .map(slug => librosMap[slug])
+  .filter(Boolean);
 ---
 
 <BaseLayout
@@ -35,24 +44,44 @@ const hearts = '♥'.repeat(libro.intensidad) + '♡'.repeat(5 - libro.intensida
   ogImage={libro.portada}
 >
   <div class="max-w-4xl mx-auto px-4 py-8">
-    <div class="flex flex-col md:flex-row gap-8">
-      <div class="md:w-64 shrink-0">
+    <!-- Breadcrumbs -->
+    <nav class="text-sm text-epoca-marron-medio mb-6">
+      <a href="/" class="hover:text-epoca-rosa">Inicio</a>
+      <span class="mx-2">›</span>
+      <a href="/buscar" class="hover:text-epoca-rosa">Catálogo</a>
+      <span class="mx-2">›</span>
+      <span class="text-epoca-marron">{libro.titulo}</span>
+    </nav>
+
+    <div class="flex flex-col md:flex-row gap-8 mb-10">
+      <!-- Cover -->
+      <div class="md:w-56 shrink-0">
         <div class="aspect-[2/3] bg-epoca-violeta-claro rounded-xl overflow-hidden shadow-lg">
           {libro.portada ? (
-            <img src={libro.portada} alt={`Portada de ${libro.titulo}`} class="w-full h-full object-cover" />
+            <img
+              src={libro.portada}
+              alt={`Portada de ${libro.titulo}`}
+              class="w-full h-full object-cover"
+              loading="eager"
+              decoding="async"
+              width="224"
+              height="336"
+            />
           ) : (
             <div class="w-full h-full flex items-center justify-center text-6xl">📚</div>
           )}
         </div>
       </div>
+
+      <!-- Info -->
       <div class="flex-1">
         <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-2">{libro.titulo}</h1>
         <p class="text-epoca-marron-medio text-lg mb-1">{libro.autor}</p>
-        <p class="text-epoca-marron-medio text-sm mb-3">{libro.editorial}, {libro.anio} · {libro.paginas} páginas</p>
+        <p class="text-epoca-marron-medio text-sm mb-3">{libro.editorial}, {libro.anio}{libro.paginas ? ` · ${libro.paginas} páginas` : ''}</p>
         <p class="text-epoca-rosa text-xl mb-4" title={`Intensidad romántica: ${libro.intensidad}/5`}>{hearts}</p>
-        
+
         <div class="flex flex-wrap gap-2 mb-4">
-          <span class="text-xs bg-epoca-verde-claro text-epoca-marron px-2 py-1 rounded-full">{libro.categoria}</span>
+          <span class="text-xs bg-epoca-verde-claro text-epoca-marron px-2 py-1 rounded-full capitalize">{libro.categoria.replace('-', ' ')}</span>
           {libro.tropos.map(t => (
             <span class="text-xs bg-epoca-violeta-claro text-epoca-marron px-2 py-1 rounded-full">{t}</span>
           ))}
@@ -60,15 +89,85 @@ const hearts = '♥'.repeat(libro.intensidad) + '♡'.repeat(5 - libro.intensida
 
         <p class="text-epoca-marron-medio leading-relaxed mb-6">{libro.sinopsis}</p>
 
-        <a
-          href={`https://openlibrary.org/isbn/${libro.isbn}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-primary inline-block"
-        >
-          Ver en Open Library
-        </a>
+        <div class="flex flex-wrap gap-3">
+          <a
+            href={`https://openlibrary.org/isbn/${libro.isbn}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary inline-block"
+          >
+            Ver en Open Library
+          </a>
+          <a href="/mapa" class="px-6 py-2 rounded-full border border-epoca-rosa text-epoca-rosa hover:bg-epoca-rosa hover:text-white transition-colors font-inter font-medium text-sm">
+            🗺️ Ver en el mapa
+          </a>
+        </div>
       </div>
     </div>
+
+    <!-- Citas célebres -->
+    {libro.citas_celebres && libro.citas_celebres.length > 0 && (
+      <section class="mb-10">
+        <h2 class="font-playfair text-2xl font-bold text-epoca-marron mb-4">❝ Citas célebres</h2>
+        <div class="space-y-4">
+          {libro.citas_celebres.map(cita => (
+            <blockquote class="card-epoca bg-gradient-to-br from-epoca-crema to-white p-6 border-l-4 border-epoca-rosa">
+              <p class="font-playfair italic text-epoca-marron leading-relaxed">"{cita}"</p>
+              <footer class="mt-2 text-sm text-epoca-marron-medio">— {libro.autor}, <em>{libro.titulo}</em></footer>
+            </blockquote>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Datos curiosos del autor -->
+    {libro.datos_curiosos_autor && (
+      <section class="mb-10">
+        <h2 class="font-playfair text-2xl font-bold text-epoca-marron mb-4">✍️ Datos curiosos del autor</h2>
+        <div class="card-epoca bg-gradient-to-r from-white to-epoca-crema p-6">
+          <p class="text-epoca-marron-medio leading-relaxed">{libro.datos_curiosos_autor}</p>
+        </div>
+      </section>
+    )}
+
+    <!-- Contexto histórico -->
+    {libro.contexto_historico && (
+      <section class="mb-10">
+        <h2 class="font-playfair text-2xl font-bold text-epoca-marron mb-4">🏛️ Contexto histórico</h2>
+        <div class="card-epoca bg-gradient-to-r from-white to-epoca-crema p-6">
+          <p class="text-epoca-marron-medio leading-relaxed">{libro.contexto_historico}</p>
+        </div>
+      </section>
+    )}
+
+    <!-- Libros similares -->
+    {similares.length > 0 && (
+      <section class="mb-10">
+        <h2 class="font-playfair text-2xl font-bold text-epoca-marron mb-4">📖 Si te gustó este libro, te gustará...</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          {similares.map(sim => (
+            <a href={`/libro/${sim.slug}`} class="card-epoca hover:border-epoca-rosa transition-all group block">
+              <div class="aspect-[2/3] bg-epoca-crema rounded-lg overflow-hidden mb-3">
+                {sim.portada ? (
+                  <img
+                    src={sim.portada}
+                    alt={`Portada de ${sim.titulo}`}
+                    class="w-full h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    width="150"
+                    height="225"
+                  />
+                ) : (
+                  <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>
+                )}
+              </div>
+              <h3 class="font-semibold text-sm text-epoca-marron group-hover:text-epoca-rosa transition-colors line-clamp-2">{sim.titulo}</h3>
+              <p class="text-xs text-epoca-marron-medio">{sim.autor}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
   </div>
 </BaseLayout>

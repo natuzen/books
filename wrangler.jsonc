@@ -1,11 +1,7 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "books",
-  "compatibility_date": "2026-04-10",
-  "observability": {
-    "enabled": true
-  },
+  "name": "queridos-lectores",
+  "compatibility_date": "2025-04-01",
   "assets": {
-    "directory": "dist"
+    "directory": "./dist"
   }
 }
