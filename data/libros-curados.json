@@ -6,13 +6,29 @@
     "anio": 1813,
     "slug": "orgullo-y-prejuicio",
     "sinopsis": "La señorita Elizabeth Bennet conoce al orgulloso y rico señor Darcy en un baile de la alta sociedad inglesa. Un romance lleno de malentendidos, prejuicios sociales y descubrimientos del corazón que ha cautivado a lectoras durante más de dos siglos.",
-    "tropos": ["enemies-to-lovers", "slow-burn", "sociedad-regencia"],
+    "tropos": [
+      "enemies-to-lovers",
+      "slow-burn",
+      "sociedad-regencia"
+    ],
     "intensidad": 4,
     "categoria": "historica",
     "isbn": "9780141439518",
     "paginas": 432,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg",
+    "citas_celebres": [
+      "Es una verdad universalmente reconocida que un hombre soltero con buena fortuna necesita una esposa.",
+      "Solo la peor perversidad de mi parte podría haberle insultado a usted tan vergonzosamente.",
+      "Usted me ha enseñado una lección muy dura sobre lo difícil que es para el orgullo ser reconocido como tal."
+    ],
+    "libros_similares": [
+      "persuasion",
+      "emma",
+      "sentido-y-sensibilidad"
+    ],
+    "datos_curiosos_autor": "Jane Austen escribió Orgullo y Prejuicio a los 21 años bajo el título 'First Impressions', fue rechazado por el editor Thomas Cadell y no se publicó hasta 1813 tras una profunda revisión.",
+    "contexto_historico": "Ambientada en la Inglaterra de la Regencia (circa 1811-1812), una época de rígidas normas sociales donde el matrimonio era la única vía de estabilidad económica para las mujeres de clase media."
   },
   {
     "id": 2,
@@ -21,13 +37,29 @@
     "anio": 1847,
     "slug": "jane-eyre",
     "sinopsis": "Jane Eyre, una joven huérfana de carácter fuerte, se convierte en institutriz en Thornfield Hall y se enamora del misterioso señor Rochester. Un romance apasionado marcado por secretos oscuros y una lucha por la identidad y la libertad.",
-    "tropos": ["forbidden-love", "gothic-romance", "class-difference"],
+    "tropos": [
+      "forbidden-love",
+      "gothic-romance",
+      "class-difference"
+    ],
     "intensidad": 5,
     "categoria": "historica",
     "isbn": "9780141441146",
     "paginas": 507,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg",
+    "citas_celebres": [
+      "No soy ninguna ave; y ninguna red me atrapa: soy un ser humano libre con una voluntad independiente.",
+      "Pensé que mi corazón había visto el suyo en aquella mirada.",
+      "¿Crees que puedo quedarme para ser una nada para ti?"
+    ],
+    "libros_similares": [
+      "cumbres-borrascosas",
+      "rebecca",
+      "norte-y-sur"
+    ],
+    "datos_curiosos_autor": "Charlotte Brontë publicó Jane Eyre bajo el seudónimo masculino Currer Bell para ser tomada en serio en el mundo literario dominado por hombres.",
+    "contexto_historico": "Ambientada en la Inglaterra victoriana de mediados del siglo XIX, la novela explora las limitaciones impuestas a las mujeres de clase trabajadora y la lucha por la independencia en una sociedad clasista."
   },
   {
     "id": 3,
@@ -36,13 +68,29 @@
     "anio": 1847,
     "slug": "cumbres-borrascosas",
     "sinopsis": "La obsesiva y destructiva pasión entre Heathcliff y Catherine Earnshaw trasciende la vida y la muerte en los páramos ingleses. Una novela oscura y apasionada que redefine el significado del amor eterno.",
-    "tropos": ["forbidden-love", "tragedy", "obsessive-love"],
+    "tropos": [
+      "forbidden-love",
+      "tragedy",
+      "obsessive-love"
+    ],
     "intensidad": 5,
     "categoria": "historica",
     "isbn": "9780141439556",
     "paginas": 348,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg",
+    "citas_celebres": [
+      "Él está más yo que yo misma. Cualquier cosa de la que estén hechas nuestras almas, la suya y la mía son iguales.",
+      "Si el resto del mundo desapareciera y solo quedara Heathcliff, el mundo seguiría siendo una entidad completa para mí.",
+      "Soy Heathcliff. Está siempre en mi mente, no como un placer, sino como mi propio ser."
+    ],
+    "libros_similares": [
+      "jane-eyre",
+      "rebecca",
+      "anna-karenina"
+    ],
+    "datos_curiosos_autor": "Emily Brontë publicó Cumbres Borrascosas bajo el seudónimo Ellis Bell; fue su única novela y murió al año siguiente de su publicación, con tan solo 30 años.",
+    "contexto_historico": "Ambientada en los páramos de Yorkshire, Inglaterra, a finales del siglo XVIII y principios del XIX, en una época marcada por la Revolución Industrial y las rígidas jerarquías sociales."
   },
   {
     "id": 4,
@@ -51,13 +99,29 @@
     "anio": 1855,
     "slug": "norte-y-sur",
     "sinopsis": "Margaret Hale, criada en el sur de Inglaterra, se muda al industrial norte y choca con el señor Thornton. Una historia de amor marcada por diferencias de clase, ideales opuestos y una transformación mutua.",
-    "tropos": ["enemies-to-lovers", "class-difference", "slow-burn"],
+    "tropos": [
+      "enemies-to-lovers",
+      "class-difference",
+      "slow-burn"
+    ],
     "intensidad": 4,
     "categoria": "historica",
     "isbn": "9780141439259",
     "paginas": 480,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439259-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141439259-L.jpg",
+    "citas_celebres": [
+      "Vine a buscarte. A preguntar si todavía eras libre.",
+      "Soy demasiado orgulloso para pedirte que me ames si tú no quieres.",
+      "Mira hacia el norte, hacia donde yo estoy."
+    ],
+    "libros_similares": [
+      "orgullo-y-prejuicio",
+      "jane-eyre",
+      "middlemarch"
+    ],
+    "datos_curiosos_autor": "Elizabeth Gaskell fue la primera mujer en publicar en la revista Household Words de Charles Dickens, quien también fue su editor y mentor literario.",
+    "contexto_historico": "Ambientada en la Inglaterra victoriana de los 1850s, refleja el conflicto entre el sur agrícola y aristocrático y el norte industrial emergente durante la Revolución Industrial."
   },
   {
     "id": 5,
@@ -66,13 +130,29 @@
     "anio": 1920,
     "slug": "la-edad-de-la-inocencia",
     "sinopsis": "Newland Archer, comprometido con la convencional May Welland, se enamora de la condesa Olenska, prima de su prometida. Un retrato magistral del amor reprimido en la alta sociedad neoyorquina de finales del siglo XIX.",
-    "tropos": ["forbidden-love", "unrequited-love", "sociedad-gilded-age"],
+    "tropos": [
+      "forbidden-love",
+      "unrequited-love",
+      "sociedad-gilded-age"
+    ],
     "intensidad": 4,
     "categoria": "historica",
     "isbn": "9780141180977",
     "paginas": 360,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141180977-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141180977-L.jpg",
+    "citas_celebres": [
+      "Han pasado veintisiete años. Tengo cincuenta y siete. No tiene sentido subir.",
+      "Ella era todo lo que él había amado en secreto durante toda su vida.",
+      "La inocencia más pura es la que no sabe que existe."
+    ],
+    "libros_similares": [
+      "anna-karenina",
+      "madame-bovary",
+      "el-gran-gatsby"
+    ],
+    "datos_curiosos_autor": "Edith Wharton fue la primera mujer en ganar el Premio Pulitzer de Ficción en 1921, precisamente por La edad de la inocencia.",
+    "contexto_historico": "Ambientada en la alta sociedad neoyorquina de la Gilded Age (1870s), una época de gran prosperidad económica para las élites pero también de estricto conformismo social."
   },
   {
     "id": 6,
@@ -81,13 +161,29 @@
     "anio": 1938,
     "slug": "rebecca",
     "sinopsis": "Una joven sin nombre se casa con el apuesto y enigmático Maxim de Winter y llega a Manderley, su imponente mansión. La sombra de Rebecca, la primera esposa, parece dominar cada rincón de su nueva vida.",
-    "tropos": ["gothic-romance", "second-chance", "mystery"],
+    "tropos": [
+      "gothic-romance",
+      "second-chance",
+      "mystery"
+    ],
     "intensidad": 4,
     "categoria": "historica",
     "isbn": "9780380730407",
     "paginas": 380,
     "editorial": "Avon Books",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780380730407-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780380730407-L.jpg",
+    "citas_celebres": [
+      "Anoche soñé que volvía a Manderley.",
+      "La sombra de Rebecca siempre estuvo entre nosotros, nunca la dejamos ir.",
+      "No soy la clase de mujer que hombres como Maxim de Winter suelen tomar como esposa."
+    ],
+    "libros_similares": [
+      "jane-eyre",
+      "cumbres-borrascosas",
+      "la-dama-de-las-camelias"
+    ],
+    "datos_curiosos_autor": "Daphne du Maurier escribió Rebecca en Egipto mientras acompañaba a su marido en un destino militar; la novela fue adaptada por Alfred Hitchcock en una famosa película de 1940.",
+    "contexto_historico": "Ambientada en la campiña inglesa de los años 1930s, en el período de entreguerras, cuando la aristocracia inglesa comenzaba a declinar y las grandes mansiones eran símbolos de un pasado que se desmoronaba."
   },
   {
     "id": 7,
@@ -96,13 +192,29 @@
     "anio": 1936,
     "slug": "lo-que-el-viento-se-llevo",
     "sinopsis": "Scarlett O'Hara, una joven sureña de fuerte carácter, lucha por sobrevivir a la Guerra Civil americana mientras persiste en su amor no correspondido por Ashley Wilkes y niega sus sentimientos por Rhett Butler.",
-    "tropos": ["unrequited-love", "enemies-to-lovers", "war-romance"],
+    "tropos": [
+      "unrequited-love",
+      "enemies-to-lovers",
+      "war-romance"
+    ],
     "intensidad": 5,
     "categoria": "historica",
     "isbn": "9781416548898",
     "paginas": 1037,
     "editorial": "Scribner",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781416548898-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9781416548898-L.jpg",
+    "citas_celebres": [
+      "Después de todo, mañana es otro día.",
+      "Dios me es testigo de que jamás volveré a pasar hambre.",
+      "No pienso en eso ahora. Pensaré en eso mañana."
+    ],
+    "libros_similares": [
+      "anna-karenina",
+      "los-miserables",
+      "jane-eyre"
+    ],
+    "datos_curiosos_autor": "Margaret Mitchell tardó 10 años en escribir Lo que el viento se llevó, fue su única novela publicada y ganó el Premio Pulitzer en 1937.",
+    "contexto_historico": "Ambientada en Georgia, sur de los Estados Unidos, durante la Guerra Civil Americana (1861-1865) y la Reconstrucción posterior, una época traumática que redefinió la sociedad sureña."
   },
   {
     "id": 8,
@@ -111,13 +223,29 @@
     "anio": 1844,
     "slug": "el-conde-de-montecristo",
     "sinopsis": "Edmond Dantès, injustamente encarcelado, escapa y se convierte en el misterioso conde de Montecristo para ejecutar su elaborada venganza contra quienes lo traicionaron. Una épica aventura de amor, traición y redención.",
-    "tropos": ["second-chance", "forbidden-love", "revenge"],
+    "tropos": [
+      "second-chance",
+      "forbidden-love",
+      "revenge"
+    ],
     "intensidad": 3,
     "categoria": "historica",
     "isbn": "9780140449266",
     "paginas": 1276,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780140449266-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780140449266-L.jpg",
+    "citas_celebres": [
+      "Toda la sabiduría humana está contenida en estas dos palabras: esperar y esperar.",
+      "El hombre que ha sentido la miseria intensa sabe cuán grande puede ser el placer.",
+      "Hasta que el día en que Dios se digne revelar el futuro al hombre, toda la sabiduría humana estará contenida en estas dos palabras: esperar y esperar."
+    ],
+    "libros_similares": [
+      "los-miserables",
+      "anna-karenina",
+      "lo-que-el-viento-se-llevo"
+    ],
+    "datos_curiosos_autor": "Alexandre Dumas escribió El Conde de Montecristo con la colaboración del escritor Auguste Maquet, quien desarrolló el esquema básico del argumento original.",
+    "contexto_historico": "Ambientada en Francia, Italia y el Mediterráneo durante el período napoleónico y la Restauración Borbónica (1815-1838), una época de profunda agitación política y social."
   },
   {
     "id": 9,
@@ -126,13 +254,29 @@
     "anio": 1877,
     "slug": "anna-karenina",
     "sinopsis": "Anna Karenina, esposa de un alto funcionario ruso, abandona su vida respetable por el apasionado conde Vronsky. Una exploración magistral del amor, la pasión y las consecuencias de desafiar las normas sociales.",
-    "tropos": ["forbidden-love", "tragedy", "sociedad-victoriana"],
+    "tropos": [
+      "forbidden-love",
+      "tragedy",
+      "sociedad-victoriana"
+    ],
     "intensidad": 5,
     "categoria": "historica",
     "isbn": "9780140449174",
     "paginas": 964,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780140449174-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780140449174-L.jpg",
+    "citas_celebres": [
+      "Todas las familias felices se parecen entre sí; cada familia infeliz lo es a su manera.",
+      "No ames para ser feliz; ama para no poder ser de otra manera.",
+      "Si amas a alguien de verdad, no puedes desearle lo que tú quieres para ti."
+    ],
+    "libros_similares": [
+      "madame-bovary",
+      "la-edad-de-la-inocencia",
+      "la-regenta"
+    ],
+    "datos_curiosos_autor": "Tolstói publicó Anna Karenina por entregas entre 1875 y 1877 y llegó a declarar que la novela le desagradaba profundamente una vez terminada.",
+    "contexto_historico": "Ambientada en la Rusia imperial de los años 1870s, una época de grandes cambios sociales tras la emancipación de los siervos en 1861 y el crecimiento de la burguesía urbana."
   },
   {
     "id": 10,
@@ -141,13 +285,29 @@
     "anio": 1817,
     "slug": "persuasion",
     "sinopsis": "Anne Elliot reencontró al capitán Frederick Wentworth, a quien años atrás fue persuadida de rechazar. Ahora ambos deben navegar entre el orgullo herido y la esperanza de un amor que nunca desapareció del todo.",
-    "tropos": ["second-chance", "slow-burn", "sociedad-regencia"],
+    "tropos": [
+      "second-chance",
+      "slow-burn",
+      "sociedad-regencia"
+    ],
     "intensidad": 4,
     "categoria": "historica",
     "isbn": "9780141439686",
     "paginas": 256,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439686-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141439686-L.jpg",
+    "citas_celebres": [
+      "Soy un hombre que no puede actuar contrariamente a sus sentimientos una vez fijados.",
+      "Has aplastado mi alma con tu rechazo y aun así regreso a ti.",
+      "La firmeza de carácter puede resultar obstinación o resolución según quien la juzgue."
+    ],
+    "libros_similares": [
+      "orgullo-y-prejuicio",
+      "emma",
+      "sentido-y-sensibilidad"
+    ],
+    "datos_curiosos_autor": "Persuasión fue la última novela completada por Jane Austen, publicada póstumamente en 1817, seis meses después de su muerte a los 41 años.",
+    "contexto_historico": "Ambientada en la Inglaterra de la Regencia (1814), justo al final de las Guerras Napoleónicas, cuando los oficiales navales regresaban a casa y la sociedad se reorganizaba."
   },
   {
     "id": 11,
@@ -156,13 +316,29 @@
     "anio": 1811,
     "slug": "sentido-y-sensibilidad",
     "sinopsis": "Las hermanas Dashwood, Elinor y Marianne, encarnan el contraste entre la razón y el corazón al navegar por el amor y las desilusiones de la sociedad inglesa de principios del siglo XIX.",
-    "tropos": ["slow-burn", "sociedad-regencia", "class-difference"],
+    "tropos": [
+      "slow-burn",
+      "sociedad-regencia",
+      "class-difference"
+    ],
     "intensidad": 3,
     "categoria": "historica",
     "isbn": "9780141439662",
     "paginas": 374,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439662-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141439662-L.jpg",
+    "citas_celebres": [
+      "Una mujer de veintisiete años nunca puede esperar sentirse o inspirar afección de nuevo.",
+      "El romanticismo sin prudencia es tan peligroso como la prudencia sin sentimiento.",
+      "El corazón y la cabeza deben encontrar el camino del medio para ser felices."
+    ],
+    "libros_similares": [
+      "orgullo-y-prejuicio",
+      "persuasion",
+      "emma"
+    ],
+    "datos_curiosos_autor": "Sentido y Sensibilidad fue la primera novela publicada de Jane Austen, que apareció de forma anónima en 1811 bajo el título 'By a Lady'.",
+    "contexto_historico": "Ambientada en la Inglaterra de la Regencia a principios del siglo XIX, cuando las mujeres dependían económicamente del matrimonio, pues las leyes de herencia favorecían a los hombres."
   },
   {
     "id": 12,
@@ -171,13 +347,29 @@
     "anio": 1925,
     "slug": "el-gran-gatsby",
     "sinopsis": "Jay Gatsby, un misterioso millonario, organiza fastuosas fiestas en su mansión con la esperanza de reconquistar a Daisy Buchanan, el amor de su vida. Una elegía al sueño americano y al amor imposible.",
-    "tropos": ["unrequited-love", "second-chance", "tragedy"],
+    "tropos": [
+      "unrequited-love",
+      "second-chance",
+      "tragedy"
+    ],
     "intensidad": 4,
     "categoria": "historica",
     "isbn": "9780743273565",
     "paginas": 180,
     "editorial": "Scribner",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
+    "citas_celebres": [
+      "Así que seguimos adelante, botes contra la corriente, empujados sin cesar hacia el pasado.",
+      "En mis años más vulnerables mi padre me dio un consejo que no he dejado de repasar desde entonces.",
+      "La única ventaja que tiene el tiempo es que ya no puede volver a hacerte daño."
+    ],
+    "libros_similares": [
+      "la-edad-de-la-inocencia",
+      "madame-bovary",
+      "anna-karenina"
+    ],
+    "datos_curiosos_autor": "F. Scott Fitzgerald se inspiró en su propia vida para El gran Gatsby; al igual que su protagonista, provenía de medios modestos y ansiaba alcanzar el estatus social de la élite.",
+    "contexto_historico": "Ambientada en Long Island y Nueva York en el verano de 1922, durante la Era del Jazz, una época de prosperidad, exceso y la prohibición del alcohol en Estados Unidos."
   },
   {
     "id": 13,
@@ -186,13 +378,29 @@
     "anio": 1871,
     "slug": "middlemarch",
     "sinopsis": "Una novela panorámica sobre la vida provincial inglesa centrada en Dorothea Brooke, una joven idealista que busca dar sentido a su vida a través de matrimonios que no satisfacen sus aspiraciones intelectuales y emocionales.",
-    "tropos": ["slow-burn", "class-difference", "sociedad-victoriana"],
+    "tropos": [
+      "slow-burn",
+      "class-difference",
+      "sociedad-victoriana"
+    ],
     "intensidad": 3,
     "categoria": "historica",
     "isbn": "9780141439549",
     "paginas": 904,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439549-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141439549-L.jpg",
+    "citas_celebres": [
+      "Sus efectos benéficos sobre el mundo se debían en parte a los que no hicieron historia.",
+      "No existe una criatura viva que no tenga algún sentido del mérito.",
+      "La vida que elegimos define quiénes somos más que cualquier circunstancia de nacimiento."
+    ],
+    "libros_similares": [
+      "norte-y-sur",
+      "orgullo-y-prejuicio",
+      "emma"
+    ],
+    "datos_curiosos_autor": "George Eliot es el seudónimo de Mary Ann Evans, quien adoptó un nombre masculino para ser tomada en serio como escritora en la época victoriana.",
+    "contexto_historico": "Ambientada en la ficticia ciudad de Middlemarch en las Midlands inglesas, circa 1829-1832, durante el período previo a la Reform Act de 1832 que transformó el sistema político británico."
   },
   {
     "id": 14,
@@ -201,13 +409,29 @@
     "anio": 1862,
     "slug": "los-miserables",
     "sinopsis": "Jean Valjean, ex presidiario en busca de redención, cuida de Cosette mientras el implacable inspector Javert lo persigue. La historia de amor entre Cosette y Marius es el corazón romántico de esta épica novela social.",
-    "tropos": ["forbidden-love", "class-difference", "war-romance"],
+    "tropos": [
+      "forbidden-love",
+      "class-difference",
+      "war-romance"
+    ],
     "intensidad": 4,
     "categoria": "historica",
     "isbn": "9780140444308",
     "paginas": 1463,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780140444308-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780140444308-L.jpg",
+    "citas_celebres": [
+      "Amar a otro ser humano es ver el rostro de Dios.",
+      "La mayor felicidad de la vida es la convicción de que somos amados.",
+      "Incluso el más oscuro de los inviernos terminará; bajo las nieves de hoy hay flores de primavera."
+    ],
+    "libros_similares": [
+      "el-conde-de-montecristo",
+      "anna-karenina",
+      "lo-que-el-viento-se-llevo"
+    ],
+    "datos_curiosos_autor": "Victor Hugo tardó 17 años en escribir Los Miserables; cuando pidió información sobre ventas con solo un '?' su editor respondió '!', indicando su enorme éxito.",
+    "contexto_historico": "Ambientada en Francia entre 1815 y 1832, abarcando el fin de las Guerras Napoleónicas y culminando con la fallida insurrección republicana de junio de 1832."
   },
   {
     "id": 15,
@@ -216,13 +440,29 @@
     "anio": 1815,
     "slug": "emma",
     "sinopsis": "Emma Woodhouse, una joven rica y segura de sí misma, se dedica a hacer de casamentera para sus amigas sin darse cuenta de sus propios sentimientos. Una deliciosa comedia de errores y autodescubrimiento romántico.",
-    "tropos": ["friends-to-lovers", "slow-burn", "sociedad-regencia"],
+    "tropos": [
+      "friends-to-lovers",
+      "slow-burn",
+      "sociedad-regencia"
+    ],
     "intensidad": 3,
     "categoria": "historica",
     "isbn": "9780141439587",
     "paginas": 512,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439587-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141439587-L.jpg",
+    "citas_celebres": [
+      "Era perfectamente consciente de que nada le haría tanto bien en el mundo como un poco de humildad.",
+      "Si te amara menos podría hablar de ello con más facilidad.",
+      "Los hombres de buen sentido no desean mujeres que sean sumisas."
+    ],
+    "libros_similares": [
+      "orgullo-y-prejuicio",
+      "persuasion",
+      "sentido-y-sensibilidad"
+    ],
+    "datos_curiosos_autor": "Jane Austen dedicó Emma al Príncipe Regente, futuro rey Jorge IV, aunque no le tenía ninguna simpatía personal; fue una dedicatoria casi obligada tras la admiración del príncipe por su obra.",
+    "contexto_historico": "Ambientada en el pueblo ficticio de Highbury, Surrey, circa 1814-1815, durante los últimos años de la era de la Regencia, cuando la sociedad rural inglesa vivía relativamente aislada de los cambios industriales."
   },
   {
     "id": 16,
@@ -231,13 +471,29 @@
     "anio": 1884,
     "slug": "la-regenta",
     "sinopsis": "Ana Ozores, La Regenta, vive atrapada en el tedio de Vetusta entre la devoción religiosa y la seducción del donjuán Álvaro Mesía. Una novela cumbre del realismo español que explora el deseo, la hipocresía social y el adulterio.",
-    "tropos": ["forbidden-love", "triangle-amoroso", "sociedad-victoriana"],
+    "tropos": [
+      "forbidden-love",
+      "triangle-amoroso",
+      "sociedad-victoriana"
+    ],
     "intensidad": 5,
     "categoria": "historica",
     "isbn": "9788437600321",
     "paginas": 720,
     "editorial": "Cátedra",
-    "portada": "https://covers.openlibrary.org/b/isbn/9788437600321-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9788437600321-L.jpg",
+    "citas_celebres": [
+      "Vetusta, la muy noble y leal ciudad, corte en lejano siglo, hacía la digestión del cocido.",
+      "Ana amaba el amor como una idea, como una posibilidad, pero no sabía lo que era amar de verdad.",
+      "La virtud no puede habitar en un corazón vacío de amor propio."
+    ],
+    "libros_similares": [
+      "madame-bovary",
+      "anna-karenina",
+      "la-dama-de-las-camelias"
+    ],
+    "datos_curiosos_autor": "Leopoldo Alas 'Clarín' era principalmente crítico literario y periodista; La Regenta fue su primera novela y tardó tres años en escribirla.",
+    "contexto_historico": "Ambientada en Vetusta, ciudad ficticia basada en Oviedo (Asturias), en la Restauración borbónica de finales del XIX, cuando la iglesia y la burguesía controlaban la vida social provincial española."
   },
   {
     "id": 17,
@@ -246,13 +502,29 @@
     "anio": 1891,
     "slug": "tess-of-the-durbervilles",
     "sinopsis": "Tess Durbeyfield, una joven campesina de familia empobrecida, sufre las injusticias de la sociedad victoriana después de ser seducida por Alec d'Urberville. Una trágica historia de amor con Angel Clare que desafía los convencionalismos morales de la época.",
-    "tropos": ["tragedy", "forbidden-love", "class-difference"],
+    "tropos": [
+      "tragedy",
+      "forbidden-love",
+      "class-difference"
+    ],
     "intensidad": 4,
     "categoria": "historica",
     "isbn": "9780141439594",
     "paginas": 448,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439594-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141439594-L.jpg",
+    "citas_celebres": [
+      "¿Por qué el que nace en el lado equivocado ha de sufrir tanto más que el que nace en el correcto?",
+      "La pureza es una cualidad de la mente, no del cuerpo.",
+      "El ángel que hay en mí aún te ama, aunque el mundo diga que no debería."
+    ],
+    "libros_similares": [
+      "madame-bovary",
+      "anna-karenina",
+      "jane-eyre"
+    ],
+    "datos_curiosos_autor": "Thomas Hardy abandonó la escritura de novelas después de la polémica recepción de Tess y su siguiente obra; pasó el resto de su vida escribiendo poesía.",
+    "contexto_historico": "Ambientada en el condado ficticio de Wessex (basado en Dorset) en la época victoriana tardía (1880s), cuando la mecanización agrícola destruía el modo de vida rural tradicional."
   },
   {
     "id": 18,
@@ -261,13 +533,29 @@
     "anio": 1848,
     "slug": "la-dama-de-las-camelias",
     "sinopsis": "Marguerite Gautier, una cortesana de París conocida como la dama de las camelias, se enamora del joven y apasionado Armand Duval. Una historia de amor puro entre mundos sociales incompatibles que se convirtió en el símbolo del romanticismo trágico.",
-    "tropos": ["forbidden-love", "tragedy", "class-difference"],
+    "tropos": [
+      "forbidden-love",
+      "tragedy",
+      "class-difference"
+    ],
     "intensidad": 5,
     "categoria": "historica",
     "isbn": "9780140449341",
     "paginas": 246,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780140449341-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780140449341-L.jpg",
+    "citas_celebres": [
+      "Puede que no haya más que un amor verdadero en la vida de cada persona.",
+      "El amor nunca es verdadero si no lleva consigo algo de sacrificio.",
+      "Una mujer que ha amado con todo su corazón nunca puede olvidar completamente."
+    ],
+    "libros_similares": [
+      "madame-bovary",
+      "anna-karenina",
+      "la-regenta"
+    ],
+    "datos_curiosos_autor": "La dama de las camelias está inspirada en Marie Duplessis, una cortesana parisina real con quien Dumas hijo tuvo una relación; la novela fue escrita en solo tres semanas.",
+    "contexto_historico": "Ambientada en el París de mediados del siglo XIX (1840s), cuando las grandes cortesanas o 'demi-mondaines' ocupaban un lugar peculiar: admiradas socialmente pero marginadas moralmente."
   },
   {
     "id": 19,
@@ -276,13 +564,29 @@
     "anio": 1857,
     "slug": "madame-bovary",
     "sinopsis": "Emma Bovary, casada con un médico rural, sueña con el amor apasionado que leyó en las novelas románticas de su juventud. Sus aventuras extramatrimoniales y el choque entre fantasía y realidad la llevan a una devastadora tragedia.",
-    "tropos": ["forbidden-love", "tragedy", "disillusionment"],
+    "tropos": [
+      "forbidden-love",
+      "tragedy",
+      "disillusionment"
+    ],
     "intensidad": 4,
     "categoria": "historica",
     "isbn": "9780140449129",
     "paginas": 329,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780140449129-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780140449129-L.jpg",
+    "citas_celebres": [
+      "Las palabras humanas son como calderos abollados en los que tocamos melodías para hacer bailar a los osos.",
+      "Ella quería morir y también quería vivir en París.",
+      "¿Qué cosa más triste es el matrimonio cuando se le pide todo y él no puede darlo?"
+    ],
+    "libros_similares": [
+      "anna-karenina",
+      "la-regenta",
+      "la-dama-de-las-camelias"
+    ],
+    "datos_curiosos_autor": "Flaubert fue juzgado por obscenidad tras la publicación de Madame Bovary en 1857; fue absuelto y el escándalo convirtió a la novela en un éxito de ventas inmediato.",
+    "contexto_historico": "Ambientada en Normandía, Francia, circa 1840-1856, durante el Segundo Imperio de Napoleón III, cuando la clase media francesa ansiaba ascender socialmente."
   },
   {
     "id": 20,
@@ -291,12 +595,1131 @@
     "anio": 1908,
     "slug": "a-room-with-a-view",
     "sinopsis": "Lucy Honeychurch viaja a Italia con su chaperon y conoce al libre pensador George Emerson. Al volver a Inglaterra debe elegir entre la seguridad del compromiso convencional y la pasión auténtica que George despierta en ella.",
-    "tropos": ["forbidden-love", "slow-burn", "class-difference"],
+    "tropos": [
+      "forbidden-love",
+      "slow-burn",
+      "class-difference"
+    ],
     "intensidad": 3,
     "categoria": "historica",
     "isbn": "9780141441825",
     "paginas": 252,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141441825-L.jpg"
+    "portada": "https://covers.openlibrary.org/b/isbn/9780141441825-L.jpg",
+    "citas_celebres": [
+      "Solo los que tienen el coraje de ser ellos mismos encuentran la felicidad verdadera.",
+      "¿Tenemos alma o no la tenemos? ¿Amamos o no amamos?",
+      "El mundo es tan hermoso cuando actúas con verdad y sin miedo al juicio ajeno."
+    ],
+    "libros_similares": [
+      "la-edad-de-la-inocencia",
+      "persuasion",
+      "norte-y-sur"
+    ],
+    "datos_curiosos_autor": "E.M. Forster se inspiró en su propio viaje a Italia en 1901 para escribir A Room with a View; la novela tardó seis años en completarse y publicarse.",
+    "contexto_historico": "Ambientada en Florencia (Italia) y Surrey (Inglaterra) a principios del siglo XX (circa 1907), durante la era eduardiana, cuando la sociedad inglesa comenzaba a cuestionar las rígidas convenciones victorianas."
+  },
+  {
+    "id": 21,
+    "titulo": "Alas de Sangre",
+    "autor": "Rebecca Yarros",
+    "anio": 2023,
+    "slug": "alas-de-sangre",
+    "sinopsis": "Violet Sorrengail ingresa en el Cuadrante de Jinetes de Dragones de Basgiath, la escuela más peligrosa del mundo mágico. Allí deberá sobrevivir entre dragones y rivales, incluyendo al brutal Xaden Riorson, el hombre con más razones para odiarla.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forbidden-love",
+      "fantasy-romance",
+      "slow-burn"
+    ],
+    "intensidad": 5,
+    "categoria": "fantasia",
+    "isbn": "9781649374042",
+    "paginas": 512,
+    "editorial": "Entangled Publishing",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781649374042-L.jpg",
+    "citas_celebres": [
+      "No hay nadie más terrorífico que alguien que no tiene nada que perder... excepto tú.",
+      "En este cuadrante no sobrevives siendo amable.",
+      "Los dragones no mienten. Los humanos, en cambio, sí que saben."
+    ],
+    "libros_similares": [
+      "alas-de-hierro",
+      "una-corte-de-rosas-y-espinas",
+      "trono-de-cristal"
+    ],
+    "datos_curiosos_autor": "Rebecca Yarros es exesposa militar y madre de seis hijos; Fourth Wing se convirtió en el libro más vendido en Estados Unidos en 2023, superando récords de ventas en el género de fantasía.",
+    "contexto_historico": "Ambientada en un mundo de fantasía épica donde existen jinetes de dragones, magia de reliquias y una guerra inminente. La Academia Basgiath funciona como un sistema militar y político propio."
+  },
+  {
+    "id": 22,
+    "titulo": "Alas de Hierro",
+    "autor": "Rebecca Yarros",
+    "anio": 2023,
+    "slug": "alas-de-hierro",
+    "sinopsis": "Violet Sorrengail ha sobrevivido el primer año en Basgiath, pero ahora sabe que la guerra es más terrible de lo que nadie le dijo. Mientras sus alianzas se ponen a prueba y los secretos salen a la luz, su vínculo con Xaden Riorson se complica peligrosamente.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forbidden-love",
+      "fantasy-romance",
+      "slow-burn"
+    ],
+    "intensidad": 5,
+    "categoria": "fantasia",
+    "isbn": "9781649374172",
+    "paginas": 640,
+    "editorial": "Entangled Publishing",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781649374172-L.jpg",
+    "citas_celebres": [
+      "El amor no salva vidas en la guerra. La fuerza y la astucia, sí.",
+      "Las mentiras del pasado nos moldean, pero no tienen por qué definirnos.",
+      "Confiar es el acto más peligroso en tiempos de guerra, y el más necesario."
+    ],
+    "libros_similares": [
+      "alas-de-sangre",
+      "una-corte-de-rosas-y-espinas",
+      "casa-de-tierra-y-sangre"
+    ],
+    "datos_curiosos_autor": "Iron Flame batió récords de ventas en su primera semana, vendiendo más de 700.000 ejemplares en formato físico en Estados Unidos, siendo uno de los lanzamientos más exitosos del año en fantasía.",
+    "contexto_historico": "Continuación directa de Fourth Wing, profundiza en la política y la guerra del mundo de Aretia, expandiendo la mitología de los dragones y las consecuencias del primer libro."
+  },
+  {
+    "id": 23,
+    "titulo": "El día que dejó de nevar en Alaska",
+    "autor": "Alice Kellen",
+    "anio": 2019,
+    "slug": "el-dia-que-dejo-de-nevar-en-alaska",
+    "sinopsis": "Leah y Rhys se conocen en Alaska durante un trabajo de voluntariado ambiental. Entre la nieve y el aislamiento, construyen una conexión única. Pero cuando vuelven a la realidad, sus vidas en lados opuestos del mundo los separan... hasta que vuelven a encontrarse años después.",
+    "tropos": [
+      "second-chance",
+      "slow-burn",
+      "forced-proximity"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788408211365",
+    "paginas": 336,
+    "editorial": "Planeta",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=El+Dia+que+Dejo+de+Nevar",
+    "citas_celebres": [
+      "Hay personas que entran en tu vida y la dejan diferente para siempre, aunque no se queden.",
+      "A veces el amor más real es el que aprendes a dejar ir cuando no es el momento.",
+      "Alaska me enseñó que el frío exterior no siempre es el más difícil de soportar."
+    ],
+    "libros_similares": [
+      "nosotros-en-la-luna",
+      "todo-lo-que-nunca-fuimos",
+      "people-we-meet-on-vacation"
+    ],
+    "datos_curiosos_autor": "Alice Kellen es el seudónimo de una autora española de Valencia que comenzó publicando en plataformas de escritura online y acumula millones de lectores en habla hispana.",
+    "contexto_historico": "Ambientada en la época contemporánea entre Alaska y España, explora el impacto del cambio climático y la vida de activistas medioambientales en los paisajes árticos del siglo XXI."
+  },
+  {
+    "id": 24,
+    "titulo": "Nosotros en la luna",
+    "autor": "Alice Kellen",
+    "anio": 2019,
+    "slug": "nosotros-en-la-luna",
+    "sinopsis": "Dos jóvenes se enamoran por internet, conectados por la música y el arte. Pero cuando deciden encontrarse en la vida real, descubren que la realidad puede ser más complicada —y más hermosa— que cualquier pantalla.",
+    "tropos": [
+      "friends-to-lovers",
+      "slow-burn",
+      "new-adult"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788408211372",
+    "paginas": 352,
+    "editorial": "Planeta",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Nosotros+en+la+Luna",
+    "citas_celebres": [
+      "Eres la persona con quien quiero compartir cada luna nueva y cada luna llena.",
+      "No importa la distancia si los corazones laten al mismo ritmo.",
+      "El amor online no es menos real; simplemente es más valiente de admitir."
+    ],
+    "libros_similares": [
+      "el-dia-que-dejo-de-nevar-en-alaska",
+      "todo-lo-que-nunca-fuimos",
+      "antes-de-diciembre"
+    ],
+    "datos_curiosos_autor": "Nosotros en la luna fue uno de los primeros éxitos virales de Alice Kellen en redes sociales, contribuyendo a establecerla como una de las autoras de romance en español más leídas en plataformas digitales.",
+    "contexto_historico": "Ambientada en la era digital contemporánea, refleja la cultura de las relaciones online, los fandoms musicales y la generación millennial que creció conectando con otros a través de internet."
+  },
+  {
+    "id": 25,
+    "titulo": "Todo lo que nunca fuimos",
+    "autor": "Alice Kellen",
+    "anio": 2020,
+    "slug": "todo-lo-que-nunca-fuimos",
+    "sinopsis": "Axel y Leah se conocen cuando ella tiene 17 años y él es mucho mayor. Años después, cuando ambos están en el lugar equivocado emocionalmente, comienzan a construir algo que ninguno de los dos se atrevía a imaginar.",
+    "tropos": [
+      "friends-to-lovers",
+      "forbidden-love",
+      "slow-burn",
+      "age-gap"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788408226659",
+    "paginas": 416,
+    "editorial": "Planeta",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Todo+lo+que+Nunca+Fuimos",
+    "citas_celebres": [
+      "El amor más difícil es el que duele porque es completamente real.",
+      "A veces las personas que más te importan son las que menos puedes tener.",
+      "Fuimos todo lo que debimos ser y nada de lo que ambos quisimos."
+    ],
+    "libros_similares": [
+      "nosotros-en-la-luna",
+      "el-dia-que-dejo-de-nevar-en-alaska",
+      "fuimos-canciones"
+    ],
+    "datos_curiosos_autor": "Alice Kellen ha considerado Todo lo que nunca fuimos y su secuela como su obra más personal en cuanto a emociones, con elementos autobiográficos en la experiencia de los protagonistas.",
+    "contexto_historico": "Ambientada en la España contemporánea con partes en Australia, captura el período vital de transición de la adolescencia a la adultez en la segunda década del siglo XXI."
+  },
+  {
+    "id": 26,
+    "titulo": "The Spanish Love Deception",
+    "autor": "Elena Armas",
+    "anio": 2021,
+    "slug": "the-spanish-love-deception",
+    "sinopsis": "Catalina Martín necesita un acompañante para la boda de su hermana en España y convencer a todos de que ha superado a su ex. Aaron Blackford, su colega más irritante del trabajo, se ofrece como voluntario. Lo que ninguno esperaba es que fingir podría convertirse en algo real.",
+    "tropos": [
+      "fake-dating",
+      "enemies-to-lovers",
+      "slow-burn"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781982160432",
+    "paginas": 400,
+    "editorial": "Atria Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781982160432-L.jpg",
+    "citas_celebres": [
+      "El problema de fingir que alguien te gusta es que a veces olvidas que estás fingiendo.",
+      "No te odio. Te odio mucho más que eso, que es completamente distinto.",
+      "España nunca es mala idea, especialmente cuando la persona correcta está a tu lado."
+    ],
+    "libros_similares": [
+      "the-american-roommate-experiment",
+      "the-love-hypothesis",
+      "happy-place"
+    ],
+    "datos_curiosos_autor": "Elena Armas es una autora española afincada en Estados Unidos que comenzó publicando en Wattpad; The Spanish Love Deception fue originalmente una historia de fan fiction antes de publicarse por Simon & Schuster.",
+    "contexto_historico": "Ambientada en Nueva York y en el norte de España contemporáneo, mezcla la cultura corporativa americana con la calidez de las tradiciones familiares españolas del siglo XXI."
+  },
+  {
+    "id": 27,
+    "titulo": "The American Roommate Experiment",
+    "autor": "Elena Armas",
+    "anio": 2022,
+    "slug": "the-american-roommate-experiment",
+    "sinopsis": "Rosie Graham llega a Nueva York con su manuscrito a medio escribir y se encuentra compartiendo piso con Lucas Martín, el hermano mayor de su amiga y un hombre absolutamente encantador. Lo que empieza como un arreglo temporal se convierte en el mejor y más complicado experimento sentimental de su vida.",
+    "tropos": [
+      "roommates",
+      "friends-to-lovers",
+      "forced-proximity",
+      "slow-burn"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781982177973",
+    "paginas": 400,
+    "editorial": "Atria Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781982177973-L.jpg",
+    "citas_celebres": [
+      "Vivir con alguien te enseña todo lo que quieres saber sobre él y todo lo que no querías saber.",
+      "Escribir es difícil. Enamorarse es imposible. Hacer las dos cosas a la vez es un desastre absoluto.",
+      "Nueva York es la mejor ciudad del mundo para estar perdida y encontrarse a una misma."
+    ],
+    "libros_similares": [
+      "the-spanish-love-deception",
+      "the-love-hypothesis",
+      "perfectos-mentirosos"
+    ],
+    "datos_curiosos_autor": "The American Roommate Experiment es una historia paralela a The Spanish Love Deception, protagonizada por el hermano de Aaron Blackford; Elena Armas siempre planeó escribir las historias de los Martín.",
+    "contexto_historico": "Ambientada en el Nueva York contemporáneo, captura la experiencia de los jóvenes hispanos que viven el sueño americano mientras mantienen sus raíces culturales."
+  },
+  {
+    "id": 28,
+    "titulo": "Perfectos Mentirosos",
+    "autor": "Ima Rubiales",
+    "anio": 2020,
+    "slug": "perfectos-mentirosos",
+    "sinopsis": "Maia llega a un nuevo instituto donde conoce al popular y arrogante Alex. Aparentemente se odian, pero comparten un secreto que los une más de lo que cualquiera de los dos está dispuesto a admitir. Un romance de instituto con giros inesperados y mucha tensión.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forbidden-love",
+      "new-adult",
+      "slow-burn"
+    ],
+    "intensidad": 3,
+    "categoria": "romance-juvenil",
+    "isbn": "9788408232087",
+    "paginas": 320,
+    "editorial": "Planeta",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Perfectos+Mentirosos",
+    "citas_celebres": [
+      "Mentimos a los demás porque no soportamos decirles la verdad sobre nosotros mismos.",
+      "El primer paso para enamorarse es fingir que la otra persona no te importa.",
+      "Ser perfecto es la máscara más difícil de llevar y la más fácil de perder."
+    ],
+    "libros_similares": [
+      "the-american-roommate-experiment",
+      "antes-de-diciembre",
+      "bully"
+    ],
+    "datos_curiosos_autor": "Ima Rubiales es una joven autora española que comenzó escribiendo en Wattpad; Perfectos Mentirosos fue originalmente una historia online que acumuló millones de lecturas antes de publicarse en papel.",
+    "contexto_historico": "Ambientada en el entorno universitario y de instituto contemporáneo español, refleja la cultura juvenil de las redes sociales y las dinámicas de poder en los grupos sociales adolescentes."
+  },
+  {
+    "id": 29,
+    "titulo": "Twisted Love",
+    "autor": "Ana Huang",
+    "anio": 2021,
+    "slug": "twisted-love",
+    "sinopsis": "Alex Volkov es un hombre frío, calculador y con un oscuro pasado. Ava Chen es la hermana del mejor amigo de Alex y alguien a quien juró proteger. Cuando se convierten en compañeros de piso por circunstancias, la línea entre proteger y desear se vuelve peligrosamente borrosa.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forbidden-love",
+      "dark-romance",
+      "forced-proximity"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781728261928",
+    "paginas": 358,
+    "editorial": "Bloom Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781728261928-L.jpg",
+    "citas_celebres": [
+      "Hay personas en el mundo que no merecen ser amadas. Yo soy una de ellas.",
+      "Lo que siento por ti no tiene nombre porque no debería existir.",
+      "Cuidar de alguien y amarlo son la misma cosa cuando dejas de mentirte a ti mismo."
+    ],
+    "libros_similares": [
+      "twisted-games",
+      "twisted-hate",
+      "the-love-hypothesis"
+    ],
+    "datos_curiosos_autor": "Ana Huang es una autora canadiense de origen chino que publicó Twisted Love originalmente en Wattpad, donde acumuló más de 100 millones de lecturas antes de publicarse en Amazon.",
+    "contexto_historico": "Ambientada en el Washington D.C. universitario contemporáneo, explora las dinámicas de poder y los traumas del pasado en el entorno de la élite académica americana."
+  },
+  {
+    "id": 30,
+    "titulo": "Twisted Games",
+    "autor": "Ana Huang",
+    "anio": 2021,
+    "slug": "twisted-games",
+    "sinopsis": "Rhys Larsen es el mejor guardaespaldas del mundo y tiene una regla de oro: nunca involucrarse con el cliente. La princesa Bridget von Ascheberg es el cliente. En un palacio real, rodeados de obligaciones y protocolos, las reglas son lo primero que se rompe.",
+    "tropos": [
+      "forbidden-love",
+      "forced-proximity",
+      "age-gap"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781728261935",
+    "paginas": 400,
+    "editorial": "Bloom Books",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Twisted+Games",
+    "citas_celebres": [
+      "Mi trabajo es protegerla con mi vida. Pero ¿quién me protege a mí de ella?",
+      "Las reglas existen para ser rotas por las personas correctas en el momento adecuado.",
+      "Una corona no te hace libre; a veces te convierte en la prisionera más elegante del mundo."
+    ],
+    "libros_similares": [
+      "twisted-love",
+      "twisted-hate",
+      "king-of-wrath"
+    ],
+    "datos_curiosos_autor": "Twisted Games se inspira parcialmente en las dinámicas de las familias reales europeas; Ana Huang investigó protocolos reales y la cultura de la nobleza europea para dar verosimilitud a la historia.",
+    "contexto_historico": "Ambientada en un pequeño reino europeo ficticio y en los Estados Unidos contemporáneos, explora el conflicto entre el deber aristocrático y el deseo personal en el siglo XXI."
+  },
+  {
+    "id": 31,
+    "titulo": "Twisted Hate",
+    "autor": "Ana Huang",
+    "anio": 2022,
+    "slug": "twisted-hate",
+    "sinopsis": "Jules Ambrose y Josh Chen se odian cordialmente desde que tienen memoria. Pero cuando se ven obligados a convivir y el odio se mezcla con la atracción, la delgada línea entre el amor y el odio se vuelve imposible de mantener.",
+    "tropos": [
+      "enemies-to-lovers",
+      "friends-to-lovers",
+      "dark-romance"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781728261942",
+    "paginas": 396,
+    "editorial": "Bloom Books",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Twisted+Hate",
+    "citas_celebres": [
+      "Odiar a alguien con tanta intensidad es casi idéntico a amarlo con toda el alma.",
+      "El problema de conocer a alguien demasiado bien es que ya no puedes seguir ignorándolo.",
+      "Nos odiábamos porque era más fácil que admitir lo que sentíamos en realidad."
+    ],
+    "libros_similares": [
+      "twisted-love",
+      "twisted-games",
+      "pretty-reckless"
+    ],
+    "datos_curiosos_autor": "Twisted Hate fue el libro más controvertido de la serie Twisted por la dinámica extrema de odio entre los protagonistas; paradójicamente fue el más leído de la saga según estadísticas de Goodreads.",
+    "contexto_historico": "Ambientada en el entorno universitario de Washington D.C. contemporáneo, con incursiones en el mundo médico y los estudios de posgrado en Estados Unidos."
+  },
+  {
+    "id": 32,
+    "titulo": "King of Wrath",
+    "autor": "Ana Huang",
+    "anio": 2022,
+    "slug": "king-of-wrath",
+    "sinopsis": "Dante Russo, magnate de los negocios y hombre de pocas emociones, es obligado a casarse con Vivian Lau por las ambiciones de sus respectivas familias. Un matrimonio de conveniencia que ninguno quiere, pero que podría cambiarles la vida para siempre.",
+    "tropos": [
+      "forced-proximity",
+      "enemies-to-lovers",
+      "age-gap"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781728268538",
+    "paginas": 368,
+    "editorial": "Bloom Books",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=King+of+Wrath",
+    "citas_celebres": [
+      "El matrimonio es un contrato. El amor es una complicación que no estaba en los términos.",
+      "Nunca imaginé que el infierno podría llevar un nombre tan hermoso como el tuyo.",
+      "La furia puede ser pasión disfrazada de escudo."
+    ],
+    "libros_similares": [
+      "twisted-games",
+      "twisted-love",
+      "the-spanish-love-deception"
+    ],
+    "datos_curiosos_autor": "King of Wrath inaugura la serie Kings of Sin de Ana Huang, inspirada en los siete pecados capitales; es uno de sus proyectos más ambiciosos en cuanto a extensión planificada.",
+    "contexto_historico": "Ambientada en el mundo de la élite empresarial de Nueva York contemporáneo, con personajes inmersos en fusiones corporativas internacionales y las dinámicas de poder de las familias ricas de la Costa Este."
+  },
+  {
+    "id": 33,
+    "titulo": "Antes de Diciembre",
+    "autor": "Joana Marcús",
+    "anio": 2022,
+    "slug": "antes-de-diciembre",
+    "sinopsis": "Blake y Maison deben convivir durante un mes de diciembre en una cabaña en las montañas. Ella lo detesta; él la ignora. Pero el frío del invierno y el calor de las noches tienen una forma muy peculiar de cambiar las cosas.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forced-proximity",
+      "new-adult"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788408261636",
+    "paginas": 352,
+    "editorial": "Planeta",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Antes+de+Diciembre",
+    "citas_celebres": [
+      "El odio y el amor se parecen más de lo que nadie quiere admitir, sobre todo en diciembre.",
+      "Diciembre siempre llega a tiempo para recordarte lo que realmente importa en tu vida.",
+      "El frío de afuera no tiene nada que ver con el frío que yo sentía por dentro."
+    ],
+    "libros_similares": [
+      "despues-de-diciembre",
+      "perfectos-mentirosos",
+      "el-dia-que-dejo-de-nevar-en-alaska"
+    ],
+    "datos_curiosos_autor": "Joana Marcús es una autora española que se dio a conocer en Wattpad, donde Antes de Diciembre superó los 15 millones de lecturas antes de ser publicada por el Grupo Planeta.",
+    "contexto_historico": "Ambientada en la España contemporánea, con escenas en entornos rurales de montaña durante el invierno, capturando la estética navideña y el ambiente íntimo de las escapadas de fin de año."
+  },
+  {
+    "id": 34,
+    "titulo": "Después de Diciembre",
+    "autor": "Joana Marcús",
+    "anio": 2022,
+    "slug": "despues-de-diciembre",
+    "sinopsis": "La secuela de Antes de Diciembre continúa la historia de Blake y Maison después de aquel mes que lo cambió todo. Ahora deben decidir si lo que nació entre ellos puede sobrevivir al mundo real, las obligaciones y las cicatrices del pasado.",
+    "tropos": [
+      "second-chance",
+      "forced-proximity",
+      "slow-burn"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788408261643",
+    "paginas": 352,
+    "editorial": "Planeta",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Despues+de+Diciembre",
+    "citas_celebres": [
+      "Lo que empieza en diciembre no siempre termina en enero; a veces dura toda la vida.",
+      "Quedarse cuando todo te dice que te vayas es a veces el acto más valiente que existe.",
+      "El amor no es perfecto, pero la persona sí puede ser la perfecta para ti."
+    ],
+    "libros_similares": [
+      "antes-de-diciembre",
+      "nosotros-en-la-luna",
+      "fuimos-canciones"
+    ],
+    "datos_curiosos_autor": "Después de Diciembre fue publicado apenas seis meses después del primero, respondiendo a la demanda masiva de los lectores que querían saber el desenlace de Blake y Maison.",
+    "contexto_historico": "Ambientada en el Madrid contemporáneo y en los mismos entornos de montaña del primer libro, explora el desafío de mantener una relación nacida en condiciones excepcionales en el día a día."
+  },
+  {
+    "id": 35,
+    "titulo": "Valeria en blanco y negro",
+    "autor": "Elísabet Benavent",
+    "anio": 2015,
+    "slug": "valeria-en-blanco-y-negro",
+    "sinopsis": "Valeria es escritora y está casada con un hombre que ya no la hace feliz. Cuando conoce a Víctor, un fotógrafo que aparece en su vida como una tormenta, su mundo en blanco y negro empieza a llenarse de color. Tercera entrega de la serie Valeria.",
+    "tropos": [
+      "friends-to-lovers",
+      "forbidden-love",
+      "new-adult"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788466328968",
+    "paginas": 352,
+    "editorial": "B de Books",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Valeria+en+Blanco+y+Negro",
+    "citas_celebres": [
+      "Escribir es cicatrizar las heridas del alma con palabras.",
+      "Hay personas que llegan para quedarse aunque tú no las hayas invitado a tu vida.",
+      "El amor nunca es sencillo cuando es real; la sencillez es señal de que no lo es."
+    ],
+    "libros_similares": [
+      "fuimos-canciones",
+      "seremos-recuerdos",
+      "nosotros-en-la-luna"
+    ],
+    "datos_curiosos_autor": "Elísabet Benavent es una de las autoras de romance contemporáneo más vendidas en España; la serie Valeria fue adaptada como serie de Netflix en 2020 con gran éxito de audiencia.",
+    "contexto_historico": "Ambientada en el Madrid contemporáneo de mediados de los 2010s, refleja la vida de las mujeres treintañeras que buscan reconciliar sus aspiraciones profesionales, creativas y amorosas."
+  },
+  {
+    "id": 36,
+    "titulo": "Fuimos canciones",
+    "autor": "Elísabet Benavent",
+    "anio": 2018,
+    "slug": "fuimos-canciones",
+    "sinopsis": "Maca y Julián se conocieron, se amaron y se separaron. Ahora, años después, la vida los vuelve a unir de manera inesperada. ¿Pueden dos personas que fueron todo el uno para el otro volver a serlo? Una historia marcada por la música y el tiempo perdido.",
+    "tropos": [
+      "second-chance",
+      "slow-burn",
+      "friends-to-lovers"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788466345149",
+    "paginas": 400,
+    "editorial": "B de Books",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Fuimos+Canciones",
+    "citas_celebres": [
+      "Hay canciones que llevan el nombre de una persona grabado en cada una de sus notas.",
+      "El tiempo no cura las heridas; solo aprende a convivir con ellas sin que duelan tanto.",
+      "No es que no te quisiera; es que te quería demasiado para verte sufrir por mi culpa."
+    ],
+    "libros_similares": [
+      "seremos-recuerdos",
+      "valeria-en-blanco-y-negro",
+      "todo-lo-que-nunca-fuimos"
+    ],
+    "datos_curiosos_autor": "Fuimos canciones vendió más de 100.000 ejemplares en España en el primer año, convirtiéndose en uno de los mayores éxitos editoriales de Elísabet Benavent fuera de la serie Valeria.",
+    "contexto_historico": "Ambientada en el Madrid contemporáneo de finales de los 2010s, con la música como hilo conductor, refleja la nostalgia de los millennials por sus primeros amores y la dificultad de las segundas oportunidades."
+  },
+  {
+    "id": 37,
+    "titulo": "Seremos recuerdos",
+    "autor": "Elísabet Benavent",
+    "anio": 2019,
+    "slug": "seremos-recuerdos",
+    "sinopsis": "La secuela de Fuimos canciones continúa la historia de Maca y Julián en su intento de reconstruir su amor. Ahora deben enfrentarse a los fantasmas del pasado y decidir si son capaces de construir juntos un futuro diferente.",
+    "tropos": [
+      "second-chance",
+      "friends-to-lovers",
+      "slow-burn"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788466347877",
+    "paginas": 368,
+    "editorial": "B de Books",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Seremos+Recuerdos",
+    "citas_celebres": [
+      "Los recuerdos son la forma que tiene el amor de no desaparecer del todo de tu vida.",
+      "Somos todo lo que hemos vivido y también todo lo que hemos sido capaces de perdonar.",
+      "El amor es la única cosa que de verdad merece la pena recordar cuando todo lo demás se olvida."
+    ],
+    "libros_similares": [
+      "fuimos-canciones",
+      "valeria-en-blanco-y-negro",
+      "despues-de-diciembre"
+    ],
+    "datos_curiosos_autor": "Seremos recuerdos cerró la historia de Maca y Julián; la autora ha confirmado que los personajes secundarios de ambos libros tendrán sus propias historias en futuras publicaciones.",
+    "contexto_historico": "Ambientada en el Madrid contemporáneo de 2019, con el trasfondo de la transformación urbana de la capital española y los cambios en la vida cultural y social de la ciudad."
+  },
+  {
+    "id": 38,
+    "titulo": "Boulevard",
+    "autor": "Flor M. Salvador",
+    "anio": 2016,
+    "slug": "boulevard",
+    "sinopsis": "Valeria es una joven universitaria que se enamora de Ares Hidalgo, un hombre mayor y misterioso que oculta oscuros secretos. En las bulliciosas calles de Buenos Aires, una historia de amor prohibido y apasionado que desafía todos los límites.",
+    "tropos": [
+      "age-gap",
+      "forbidden-love",
+      "dark-romance",
+      "slow-burn"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9789873977466",
+    "paginas": 384,
+    "editorial": "Ediciones Kiwi",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Boulevard",
+    "citas_celebres": [
+      "El amor verdadero no pide permiso; simplemente sucede y te cambia para siempre.",
+      "Algunas personas están hechas para destruirte y al mismo tiempo salvarte de ti misma.",
+      "El boulevard es el camino hacia lo que deseas, no siempre hacia lo que necesitas."
+    ],
+    "libros_similares": [
+      "pretty-reckless",
+      "twisted-love",
+      "corrupt"
+    ],
+    "datos_curiosos_autor": "Flor M. Salvador es una autora argentina que publicó Boulevard originalmente en Wattpad, donde se convirtió en fenómeno viral en América Latina antes de ser editada en papel.",
+    "contexto_historico": "Ambientada en Buenos Aires contemporánea, captura el ambiente vibrante de la capital argentina, sus barrios icónicos y la cultura urbana latinoamericana de mediados de los 2010s."
+  },
+  {
+    "id": 39,
+    "titulo": "Una corte de rosas y espinas",
+    "autor": "Sarah J. Maas",
+    "anio": 2015,
+    "slug": "una-corte-de-rosas-y-espinas",
+    "sinopsis": "Feyre, una cazadora humana, mata a un lobo en el bosque y es capturada por Tamlin, un lord feérico. En la tierra de las hadas, deberá sobrevivir a un mundo de magia y peligro mientras algo más profundo que el miedo florece entre ella y su captor.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forbidden-love",
+      "fantasy-romance",
+      "slow-burn"
+    ],
+    "intensidad": 5,
+    "categoria": "fantasia",
+    "isbn": "9781619634442",
+    "paginas": 432,
+    "editorial": "Bloomsbury",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781619634442-L.jpg",
+    "citas_celebres": [
+      "Puedo sobrevivir sin ti. Pero no quiero tener que hacerlo.",
+      "Naciste para destruir mi mundo, ángel de medianoche, y lo has hecho con una sonrisa.",
+      "¿Qué era yo entonces? Una chica que aprendió a sobrevivir para poder aprender a vivir."
+    ],
+    "libros_similares": [
+      "alas-de-sangre",
+      "trono-de-cristal",
+      "casa-de-tierra-y-sangre"
+    ],
+    "datos_curiosos_autor": "Sarah J. Maas publicó su primera novela a los 26 años, pero había comenzado a escribir Trono de Cristal a los 16 en FanFiction.net; ACOTAR fue su primera historia original de fantasía adulta.",
+    "contexto_historico": "Ambientada en un mundo de fantasía inspirado en el folklore feérico de Europa occidental, mezcla elementos de los cuentos de hadas con reminiscencias de La Bella y la Bestia en un universo de magia y política feérica."
+  },
+  {
+    "id": 40,
+    "titulo": "Trono de cristal",
+    "autor": "Sarah J. Maas",
+    "anio": 2012,
+    "slug": "trono-de-cristal",
+    "sinopsis": "Celaena Sardothien, la asesina más temida del reino, recibe una oferta: competir en un torneo para convertirse en la asesina real del rey. En el palacio, entre intrigas políticas y magia prohibida, descubrirá que su destino es mucho más grande de lo que imaginaba.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forbidden-love",
+      "fantasy-romance",
+      "forced-proximity"
+    ],
+    "intensidad": 4,
+    "categoria": "fantasia",
+    "isbn": "9781619630345",
+    "paginas": 432,
+    "editorial": "Bloomsbury",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Trono+de+Cristal",
+    "citas_celebres": [
+      "Soy Celaena Sardothien y no me doblo ante nadie, ni ante reyes ni ante dioses.",
+      "La libertad es aquello por lo que lucho, incluso cuando estoy encadenada.",
+      "El poder real no está en las espadas sino en saber exactamente cuándo no usarlas."
+    ],
+    "libros_similares": [
+      "una-corte-de-rosas-y-espinas",
+      "alas-de-sangre",
+      "casa-de-tierra-y-sangre"
+    ],
+    "datos_curiosos_autor": "Sarah J. Maas escribió la historia original de Trono de Cristal como fanfiction de Cenicienta en FictionPress.com a los 16 años; pasaron 10 años hasta que se publicó como novela.",
+    "contexto_historico": "Ambientada en el reino ficticio de Adarlan, un mundo de fantasía épica con reminiscencias de la Europa medieval y victoriana, donde la magia ha sido prohibida y la esclavitud es legal."
+  },
+  {
+    "id": 41,
+    "titulo": "Casa de tierra y sangre",
+    "autor": "Sarah J. Maas",
+    "anio": 2020,
+    "slug": "casa-de-tierra-y-sangre",
+    "sinopsis": "Bryce Quinlan es una medio-hada que vive en una Crescent City llena de hadas, ángeles, demonios y humanos. Cuando su mejor amigo es asesinado brutalmente, debe unirse al oscuro y poderoso Hunt Athalar para encontrar al asesino y descubrir su propio destino.",
+    "tropos": [
+      "enemies-to-lovers",
+      "friends-to-lovers",
+      "fantasy-romance",
+      "slow-burn"
+    ],
+    "intensidad": 5,
+    "categoria": "fantasia",
+    "isbn": "9781635574043",
+    "paginas": 544,
+    "editorial": "Bloomsbury",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Casa+de+Tierra+y+Sangre",
+    "citas_celebres": [
+      "El amor es la magia más poderosa de todas, incluso en un mundo lleno de poderes sobrenaturales.",
+      "La fuerza no viene de lo que podemos hacer; viene de superar lo que pensábamos imposible.",
+      "La ciudad nunca duerme, y tampoco el corazón cuando ha encontrado al fin su hogar."
+    ],
+    "libros_similares": [
+      "una-corte-de-rosas-y-espinas",
+      "alas-de-sangre",
+      "trono-de-cristal"
+    ],
+    "datos_curiosos_autor": "Casa de tierra y sangre inauguró la serie Crescent City, el universo más moderno y urbano de Sarah J. Maas, mezclando fantasía épica con thriller urbano contemporáneo.",
+    "contexto_historico": "Ambientada en Lunathion (Crescent City), una metrópolis de fantasía que recuerda a ciudades modernas como Los Ángeles, donde razas mágicas e inmortales conviven con humanos en el siglo XXI mágico."
+  },
+  {
+    "id": 42,
+    "titulo": "It Ends with Us",
+    "autor": "Colleen Hoover",
+    "anio": 2016,
+    "slug": "it-ends-with-us",
+    "sinopsis": "Lily Bloom se muda a Boston para empezar de nuevo y conoce al neurocirujano Ryle Kincaid, aparentemente el hombre perfecto. Pero mientras navega esta nueva relación, el primer amor de su vida, Atlas Corrigan, reaparece y pone todo patas arriba. Una novela que aborda la violencia doméstica con valentía y sensibilidad.",
+    "tropos": [
+      "second-chance",
+      "forbidden-love",
+      "new-adult"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781501110375",
+    "paginas": 376,
+    "editorial": "Atria Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781501110375-L.jpg",
+    "citas_celebres": [
+      "A veces la cosa más difícil y la más correcta son exactamente la misma cosa.",
+      "Merezco un amor que no duela; todos merecemos ese amor.",
+      "No todas las historias de amor terminan con un beso; algunas terminan con una puerta que se cierra."
+    ],
+    "libros_similares": [
+      "ugly-love",
+      "november-9",
+      "verity"
+    ],
+    "datos_curiosos_autor": "Colleen Hoover escribió It Ends with Us como homenaje a su madre; la novela tardó años en encontrar editor pero se convirtió en fenómeno viral en TikTok en 2022 con millones de lecturas nuevas.",
+    "contexto_historico": "Ambientada en el Boston contemporáneo, aborda de manera pionera en el género romántico el tema de la violencia doméstica y el ciclo del abuso, contribuyendo a importantes conversaciones sociales."
+  },
+  {
+    "id": 43,
+    "titulo": "Ugly Love",
+    "autor": "Colleen Hoover",
+    "anio": 2014,
+    "slug": "ugly-love",
+    "sinopsis": "Tate Collins llega a San Francisco para hacer su residencia de enfermería y se muda con su hermano, quien tiene un compañero de piso: Miles Archer. Miles le propone un acuerdo: sin preguntas sobre el pasado, sin expectativas de futuro, solo el presente. Pero los sentimientos no siguen las reglas.",
+    "tropos": [
+      "friends-to-lovers",
+      "forbidden-love",
+      "second-chance"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781476753201",
+    "paginas": 332,
+    "editorial": "Atria Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781476753201-L.jpg",
+    "citas_celebres": [
+      "A veces el amor feo deja las cicatrices más profundas y las más difíciles de borrar.",
+      "No preguntes sobre el ayer ni sobre el mañana. Solo quédate conmigo esta noche.",
+      "El amor bonito no existe; el amor real siempre duele un poco porque importa."
+    ],
+    "libros_similares": [
+      "it-ends-with-us",
+      "november-9",
+      "verity"
+    ],
+    "datos_curiosos_autor": "Colleen Hoover publicó Ugly Love como uno de sus primeros grandes éxitos; la historia explora el trauma y la sanación de una manera que la autora ha descrito como muy personal.",
+    "contexto_historico": "Ambientada en el San Francisco contemporáneo, con el trasfondo de la vida de los pilotos comerciales y el personal de enfermería, sectores de trabajo exigente que moldean la historia."
+  },
+  {
+    "id": 44,
+    "titulo": "Verity",
+    "autor": "Colleen Hoover",
+    "anio": 2018,
+    "slug": "verity",
+    "sinopsis": "Lowen Ashby, escritora en apuros, acepta el encargo de terminar la exitosa serie de Verity Crawford, quien quedó en estado vegetativo. En la casa de los Crawford, encuentra un manuscrito autobiográfico con confesiones que la harán cuestionar todo lo que creía saber.",
+    "tropos": [
+      "forbidden-love",
+      "dark-romance",
+      "forced-proximity"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781538751442",
+    "paginas": 332,
+    "editorial": "Montlake Romance",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Verity",
+    "citas_celebres": [
+      "Las palabras que escribimos sobre nosotros mismos son las más honestas y a la vez las más mentirosas.",
+      "Hay casas que guardan secretos más oscuros que los de sus propios habitantes.",
+      "Nunca sepas demasiado sobre las personas que amas; la ignorancia puede ser una forma de protección."
+    ],
+    "libros_similares": [
+      "it-ends-with-us",
+      "ugly-love",
+      "rebecca"
+    ],
+    "datos_curiosos_autor": "Verity fue originalmente autopublicado por Colleen Hoover en 2018; su relanzamiento en 2022 coincidió con el fenómeno BookTok y generó debates virales sobre si el final es real o no.",
+    "contexto_historico": "Ambientada en la Vermont rural contemporánea con el mundo editorial neoyorquino de telón de fondo; combina las convenciones del thriller psicológico y el romance de manera poco habitual en el género."
+  },
+  {
+    "id": 45,
+    "titulo": "November 9",
+    "autor": "Colleen Hoover",
+    "anio": 2015,
+    "slug": "november-9",
+    "sinopsis": "Fallon y Ben se conocen el 9 de noviembre y hacen un pacto: se volverán a ver el mismo día cada año durante cinco años, sin contacto en el intermedio. Con cada noviembre, descubren más el uno del otro, y más sobre sí mismos.",
+    "tropos": [
+      "friends-to-lovers",
+      "slow-burn",
+      "new-adult"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781501132773",
+    "paginas": 320,
+    "editorial": "Atria Books",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=November+9",
+    "citas_celebres": [
+      "El amor que se construye lento, con paciencia, es el que tiene más posibilidades de durar.",
+      "Nos prometimos encontrarnos cada noviembre aunque el mundo entero se cayera a pedazos.",
+      "Cinco años de noviembres valen más que toda una vida de días completamente ordinarios."
+    ],
+    "libros_similares": [
+      "it-ends-with-us",
+      "ugly-love",
+      "people-we-meet-on-vacation"
+    ],
+    "datos_curiosos_autor": "November 9 es considerado por muchos lectores el libro favorito de Colleen Hoover; la autora ha mencionado que noviembre tiene una particular importancia personal en su vida.",
+    "contexto_historico": "Ambientada en Los Ángeles y Nueva York contemporáneos, con el mundo de la actuación y la escritura como telón de fondo, capturando la cultura millennial de perseguir sueños artísticos en las grandes ciudades."
+  },
+  {
+    "id": 46,
+    "titulo": "The Love Hypothesis",
+    "autor": "Ali Hazelwood",
+    "anio": 2021,
+    "slug": "the-love-hypothesis",
+    "sinopsis": "Olive Smith, estudiante de doctorado en biología, besa al azar al profesor Adam Carlsen para convencer a su amiga de que tiene una relación. El problema es que Adam Carlsen es el profesor más temido del departamento y ahora deben fingir que se están enamorando... o dejar de fingir.",
+    "tropos": [
+      "fake-dating",
+      "enemies-to-lovers",
+      "slow-burn",
+      "bookish-romance"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9780593336823",
+    "paginas": 384,
+    "editorial": "Berkley",
+    "portada": "https://covers.openlibrary.org/b/isbn/9780593336823-L.jpg",
+    "citas_celebres": [
+      "La ciencia puede explicar casi todo, pero no puede explicar por qué me gustas precisamente tú.",
+      "Los datos no mienten nunca, pero los corazones tienen una habilidad especial para engañarse.",
+      "Hipótesis: podría amarte. Experimento: probablemente ya lo hago y llevo tiempo negándolo."
+    ],
+    "libros_similares": [
+      "love-on-the-brain",
+      "the-spanish-love-deception",
+      "book-lovers"
+    ],
+    "datos_curiosos_autor": "Ali Hazelwood es el seudónimo de una neurobióloga italiana que trabaja como investigadora en EE.UU.; The Love Hypothesis comenzó como fanfiction de Star Wars antes de convertirse en novela.",
+    "contexto_historico": "Ambientada en el entorno académico universitario americano contemporáneo, captura la cultura de los departamentos de ciencias, los congresos académicos y las relaciones de poder entre profesores y doctorandos."
+  },
+  {
+    "id": 47,
+    "titulo": "Love on the Brain",
+    "autor": "Ali Hazelwood",
+    "anio": 2022,
+    "slug": "love-on-the-brain",
+    "sinopsis": "Bee Königswasser es neurocientífica y cuando recibe el proyecto de sus sueños en la NASA, descubre que deberá liderarlo junto a Levi Ward, el hombre que arruinó su carrera años atrás. Ciencia, espacio y mucho odio que se convierte en algo completamente diferente.",
+    "tropos": [
+      "enemies-to-lovers",
+      "slow-burn",
+      "bookish-romance",
+      "forced-proximity"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9780593336847",
+    "paginas": 368,
+    "editorial": "Berkley",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Love+on+the+Brain",
+    "citas_celebres": [
+      "El cerebro no distingue entre odio y amor; ambos activan exactamente las mismas zonas.",
+      "La NASA fue mi sueño hasta que se convirtió en mi pesadilla, y luego en mi hogar.",
+      "Odiar a alguien con tanto detalle es casi lo mismo que conocerlo de corazón."
+    ],
+    "libros_similares": [
+      "the-love-hypothesis",
+      "the-spanish-love-deception",
+      "book-lovers"
+    ],
+    "datos_curiosos_autor": "Ali Hazelwood incorpora en Love on the Brain su conocimiento real sobre neurociencia y la NASA, basándose en conversaciones con científicos que trabajan para la agencia espacial americana.",
+    "contexto_historico": "Ambientada en la NASA y en el mundo de la investigación científica contemporánea, refleja los desafíos que enfrentan las mujeres en las carreras STEM en el siglo XXI."
+  },
+  {
+    "id": 48,
+    "titulo": "People We Meet on Vacation",
+    "autor": "Emily Henry",
+    "anio": 2021,
+    "slug": "people-we-meet-on-vacation",
+    "sinopsis": "Alex y Poppy son mejores amigos desde la universidad, aunque son completamente opuestos. Cada verano hacen un viaje juntos, pero hace dos años algo pasó que rompió su amistad. Ahora Poppy convence a Alex de un último viaje para intentar recuperar lo que perdieron.",
+    "tropos": [
+      "friends-to-lovers",
+      "slow-burn",
+      "second-chance"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781984806758",
+    "paginas": 384,
+    "editorial": "Berkley",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781984806758-L.jpg",
+    "citas_celebres": [
+      "Las mejores personas que conoces en la vida son las que encuentras completamente por accidente.",
+      "No hay mejor viaje que el que haces con la persona equivocada en el momento perfectamente correcto.",
+      "El amor se parece a la nostalgia: siempre llega después de que ya lo has vivido y no lo sabías."
+    ],
+    "libros_similares": [
+      "book-lovers",
+      "happy-place",
+      "november-9"
+    ],
+    "datos_curiosos_autor": "Emily Henry es conocida por sus novelas de romance contemporáneo con profundidad emocional; People We Meet on Vacation fue su primer gran éxito de ventas en el mercado masivo americano.",
+    "contexto_historico": "Ambientada en el contexto contemporáneo americano con flashbacks de múltiples ciudades y destinos turísticos, captura la cultura del viaje millennial y la vida de los 20s y 30s en el siglo XXI."
+  },
+  {
+    "id": 49,
+    "titulo": "Book Lovers",
+    "autor": "Emily Henry",
+    "anio": 2022,
+    "slug": "book-lovers",
+    "sinopsis": "Nora Stephenson es agente literaria en Nueva York que siempre acaba siendo la mujer que los hombres dejan para irse a su ciudad natal. Cuando su hermana la lleva a Sunshine Falls, se reencuentra repetidamente con Charlie Lastra, un editor tan cínico y sarcástico como ella.",
+    "tropos": [
+      "enemies-to-lovers",
+      "slow-burn",
+      "bookish-romance"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781984806772",
+    "paginas": 384,
+    "editorial": "Berkley",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781984806772-L.jpg",
+    "citas_celebres": [
+      "Soy el personaje secundario que nadie ama hasta que llega la segunda lectura.",
+      "Los libros nos enseñan a amar mejor de lo que la vida real nos da oportunidad de practicar.",
+      "Una agente literaria enamorada de un editor es la peor historia de amor que podría haber escrito yo misma."
+    ],
+    "libros_similares": [
+      "people-we-meet-on-vacation",
+      "happy-place",
+      "the-love-hypothesis"
+    ],
+    "datos_curiosos_autor": "Emily Henry escribió Book Lovers como un guiño a los clichés del romance contemporáneo, invirtiendo deliberadamente las expectativas del género; la autora ha reconocido que Nora tiene mucho de autobiográfico.",
+    "contexto_historico": "Ambientada entre el Nueva York contemporáneo y el ficticio pueblo de Sunshine Falls en Carolina del Norte, contrasta la vida urbana de los profesionales de la edición con la romanticización de la vida rural americana."
+  },
+  {
+    "id": 50,
+    "titulo": "Happy Place",
+    "autor": "Emily Henry",
+    "anio": 2023,
+    "slug": "happy-place",
+    "sinopsis": "Harriet y Wyn fueron el couple perfecto durante cinco años, hasta que rompieron en secreto. Ahora deben pasar una semana con sus amigos en su cabaña favorita de Maine fingiendo que siguen juntos. Convivir en el espacio donde todo comenzó podría cambiarlo todo otra vez.",
+    "tropos": [
+      "second-chance",
+      "fake-dating",
+      "forced-proximity",
+      "slow-burn"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9780593441275",
+    "paginas": 400,
+    "editorial": "Berkley",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Happy+Place",
+    "citas_celebres": [
+      "El lugar feliz no es un sitio en el mapa; es una persona específica.",
+      "A veces el final es simplemente el principio con mejor información sobre uno mismo.",
+      "Fingir que todo está bien cuando todo está roto es el acto de amor más complicado que existe."
+    ],
+    "libros_similares": [
+      "people-we-meet-on-vacation",
+      "book-lovers",
+      "the-spanish-love-deception"
+    ],
+    "datos_curiosos_autor": "Happy Place fue el debut de Emily Henry en el número 1 de la lista del New York Times, consolidando su posición como una de las autoras de romance más importantes de su generación.",
+    "contexto_historico": "Ambientada en la costa de Maine contemporánea, con el trasfondo de las presiones profesionales y personales de los treintañeros americanos que intentan equilibrar la ambición y la felicidad."
+  },
+  {
+    "id": 51,
+    "titulo": "Bully",
+    "autor": "Penelope Douglas",
+    "anio": 2013,
+    "slug": "bully",
+    "sinopsis": "Tate Collins y Jared Trent fueron mejores amigos de infancia hasta que él regresó un verano convertido en su acosador. Durante años, Tate ha soportado su hostilidad sin entender el porqué. Pero este último año de instituto, ella decide enfrentarle y descubrir la verdad detrás de su crueldad.",
+    "tropos": [
+      "enemies-to-lovers",
+      "new-adult",
+      "slow-burn",
+      "forbidden-love"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-juvenil",
+    "isbn": "9781682302484",
+    "paginas": 336,
+    "editorial": "Everafter Romance",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Bully",
+    "citas_celebres": [
+      "Las personas que más daño te hacen son casi siempre las que más te importan.",
+      "El odio y el amor nacen del mismo lugar exacto en el corazón humano.",
+      "Nunca te rindes aunque el mundo entero esté en tu contra. Eso es lo que me gusta de ti."
+    ],
+    "libros_similares": [
+      "corrupt",
+      "pretty-reckless",
+      "twisted-hate"
+    ],
+    "datos_curiosos_autor": "Penelope Douglas publicó Bully como autoedición en Amazon, donde se convirtió en bestseller; el éxito le permitió firmar con una editorial tradicional para el resto de la serie Fall Away.",
+    "contexto_historico": "Ambientada en el ambiente de instituto y universidad americano contemporáneo, explora las dinámicas de acoso escolar, el trauma adolescente y las segundas oportunidades en la juventud del siglo XXI."
+  },
+  {
+    "id": 52,
+    "titulo": "Corrupt",
+    "autor": "Penelope Douglas",
+    "anio": 2014,
+    "slug": "corrupt",
+    "sinopsis": "Erika Fane amaba a Michael Crist, el chico prohibido de la familia. Cuando él y sus amigos fueron a la cárcel por algo que ella provocó sin querer, juró que jamás volvería a verlos. Tres años después, Michael ha regresado con una sed de venganza que la incluye a ella.",
+    "tropos": [
+      "dark-romance",
+      "enemies-to-lovers",
+      "forbidden-love",
+      "age-gap"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781682302491",
+    "paginas": 388,
+    "editorial": "Everafter Romance",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Corrupt",
+    "citas_celebres": [
+      "No vine a hacerte daño. Vine a hacerte entender exactamente lo que se siente.",
+      "El amor y el odio son la misma pasión con distinto dueño y distinto nombre.",
+      "La venganza nunca sabe tan dulce como imaginamos cuando la planeamos con cuidado."
+    ],
+    "libros_similares": [
+      "bully",
+      "pretty-reckless",
+      "boulevard"
+    ],
+    "datos_curiosos_autor": "Corrupt fue considerado el libro más oscuro de Penelope Douglas y el primero en incorporar elementos de dark romance en su obra; la autora ha mencionado que fue el más difícil de escribir.",
+    "contexto_historico": "Ambientada en una ciudad universitaria americana contemporánea, con elementos de la cultura de fraternidades y grupos de élite, explora las dinámicas de poder y la obsesión en las relaciones."
+  },
+  {
+    "id": 53,
+    "titulo": "Icebreaker",
+    "autor": "Hannah Grace",
+    "anio": 2022,
+    "slug": "icebreaker",
+    "sinopsis": "Anastasia Allen es una patinadora artística seria y dedicada. Nate Hawkins es el capitán del equipo de hockey que invade su pista de entrenamiento. Cuando deben compartir el hielo, la fricción entre el patinaje artístico y el hockey se convierte en algo mucho más interesante.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forced-proximity",
+      "sports-romance",
+      "slow-burn"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9780349436487",
+    "paginas": 400,
+    "editorial": "Piatkus",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Icebreaker",
+    "citas_celebres": [
+      "El hielo no perdona los errores, pero el amor tiene la capacidad de perdonarlo todo.",
+      "Me odias. Yo te odio. Y aun así aquí estamos, compartiendo el mismo hielo cada mañana.",
+      "Compartir la pista contigo es lo más difícil que he hecho en toda mi carrera deportiva."
+    ],
+    "libros_similares": [
+      "wildfire",
+      "bully",
+      "twisted-games"
+    ],
+    "datos_curiosos_autor": "Hannah Grace publicó Icebreaker originalmente en Wattpad, donde acumuló más de 20 millones de lecturas; fue uno de los primeros éxitos virales del romance deportivo en TikTok.",
+    "contexto_historico": "Ambientada en una universidad americana contemporánea con un programa deportivo de élite, refleja la cultura atlética universitaria de EE.UU. y la presión que enfrentan los deportistas de alto rendimiento."
+  },
+  {
+    "id": 54,
+    "titulo": "Wildfire",
+    "autor": "Hannah Grace",
+    "anio": 2023,
+    "slug": "wildfire",
+    "sinopsis": "Aurora Roberts se convierte en la entrenadora personal de los jugadores del equipo de hockey de Maple Hills. El jugador estrella Henry Turner, conocido por ser imposible de manejar, se convierte en su mayor desafío profesional y personal.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forced-proximity",
+      "sports-romance",
+      "slow-burn"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9780349436494",
+    "paginas": 400,
+    "editorial": "Piatkus",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Wildfire",
+    "citas_celebres": [
+      "El fuego más peligroso es siempre el que no ves venir hasta que ya te ha quemado.",
+      "Entrenarle es el peor trabajo que he tenido en mi vida. Y también el mejor.",
+      "Resistir lo que sientes por alguien que te da miedo es el deporte más agotador que existe."
+    ],
+    "libros_similares": [
+      "icebreaker",
+      "twisted-games",
+      "bully"
+    ],
+    "datos_curiosos_autor": "Wildfire es la segunda novela de la serie Maple Hills de Hannah Grace; la autora publicó ambos libros en menos de un año, respondiendo a la demanda masiva de los lectores del universo universitario de hockey.",
+    "contexto_historico": "Ambientada en el mismo campus universitario americano de Icebreaker, con el hockey sobre hielo como deporte central; refleja la cultura atlética universitaria y la vida en los campus deportivos americanos."
+  },
+  {
+    "id": 55,
+    "titulo": "Pretty Reckless",
+    "autor": "L.J. Shen",
+    "anio": 2018,
+    "slug": "pretty-reckless",
+    "sinopsis": "Daria Followhill y Penn Scully se odian con una pasión que bordea lo obsesivo. Cuando la vida los fuerza a convivir en el mismo entorno universitario, el odio y la atracción se mezclan de manera explosiva y peligrosa. Un romance oscuro y ardiente que no pide disculpas.",
+    "tropos": [
+      "enemies-to-lovers",
+      "dark-romance",
+      "new-adult",
+      "slow-burn"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781542093019",
+    "paginas": 318,
+    "editorial": "Montlake Romance",
+    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Pretty+Reckless",
+    "citas_celebres": [
+      "Te odio con exactamente la misma intensidad con la que podría amarte si me dejara.",
+      "El peligro más seductor del mundo es el que lleva tu nombre y tu sonrisa.",
+      "Ser imprudente es la única forma auténtica de ser completamente libre."
+    ],
+    "libros_similares": [
+      "corrupt",
+      "bully",
+      "twisted-hate"
+    ],
+    "datos_curiosos_autor": "L.J. Shen es el seudónimo de una autora israelí que vive en Estados Unidos; Pretty Reckless fue su primera novela de new adult romance y la que la lanzó a la fama en el género de dark romance.",
+    "contexto_historico": "Ambientada en el entorno universitario americano contemporáneo, con el trasfondo de la vida suburbana de élite de California, explora las dinámicas de poder entre familias adineradas y jóvenes que se niegan a seguir las reglas."
   }
 ]
