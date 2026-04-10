@@ -4,7 +4,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://epocayrosa.com',
+  site: 'https://queridoslectores.com',
   integrations: [
     preact(),
     tailwind(),
