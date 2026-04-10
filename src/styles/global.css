@@ -20,78 +20,58 @@ body {
   font-family: 'Lora', Georgia, serif;
   background-color: var(--color-crema);
   color: var(--color-marron);
-}
-
-/* Victorian decorative border wrapper */
-.victorian-border {
-  position: relative;
-  padding: 0;
-}
-
-.victorian-border::before,
-.victorian-border::after {
-  content: '';
-  position: fixed;
-  z-index: 40;
-  pointer-events: none;
-}
-
-/* Top and bottom border lines */
-.victorian-border::before {
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 14px;
-  background: linear-gradient(90deg, transparent 0%, #D4B5D6 5%, #B8A0C8 20%, #B8A0C8 80%, #D4B5D6 95%, transparent 100%);
-  border-bottom: 3px solid #9B7FB8;
-}
-
-.victorian-border::after {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 14px;
-  background: linear-gradient(90deg, transparent 0%, #D4B5D6 5%, #B8A0C8 20%, #B8A0C8 80%, #D4B5D6 95%, transparent 100%);
-  border-top: 3px solid #9B7FB8;
-}
-
-/* Left and right side borders using fixed pseudo on body children */
-body {
-  border-left: 14px solid #D4B5D6;
-  border-right: 14px solid #D4B5D6;
-  box-shadow:
-    inset 3px 0 0 #9B7FB8,
-    inset -3px 0 0 #9B7FB8,
-    inset 0 3px 0 #9B7FB8,
-    inset 0 -3px 0 #9B7FB8;
   min-height: 100vh;
 }
 
-/* Corner ornaments */
-body::before {
-  content: '❧';
+/* ===== VICTORIAN FRAME OVERLAY ===== */
+/* Fixed overlay that renders the ornate pastel violet frame on top of all content */
+.victorian-frame {
   position: fixed;
-  top: 2px;
-  left: 6px;
-  color: #9B7FB8;
-  font-size: 18px;
-  z-index: 9999;
+  inset: 0;
   pointer-events: none;
-  line-height: 1;
-  text-shadow: 0 0 4px rgba(184, 160, 200, 0.5);
+  z-index: 9000;
+  /* Mobile: compact border */
+  border: 10px solid #C8A2C8;
+  box-shadow:
+    inset 0 0 0 2px #9B7FB8,
+    inset 0 0 0 4px rgba(200, 162, 200, 0.25);
 }
 
-body::after {
-  content: '❧';
-  position: fixed;
-  top: 2px;
-  right: 6px;
+/* Desktop (lg): thick, ornate Victorian frame */
+@media (min-width: 1024px) {
+  .victorian-frame {
+    border: 28px solid #C8A2C8;
+    box-shadow:
+      inset 0 0 0 4px #9B7FB8,
+      inset 0 0 0 8px rgba(200, 162, 200, 0.3),
+      inset 0 0 0 12px #C8A2C8,
+      inset 0 0 0 15px #9B7FB8;
+  }
+}
+
+/* Corner ornament glyphs */
+.vf-corner {
+  position: absolute;
   color: #9B7FB8;
-  font-size: 18px;
-  z-index: 9999;
-  pointer-events: none;
+  font-style: normal;
   line-height: 1;
-  text-shadow: 0 0 4px rgba(184, 160, 200, 0.5);
+  pointer-events: none;
+  text-shadow: 0 0 6px rgba(155, 127, 184, 0.6);
+  /* Mobile sizes */
+  font-size: 14px;
+}
+
+.vf-tl { top: 1px; left: 3px; }
+.vf-tr { top: 1px; right: 3px; transform: scaleX(-1); }
+.vf-bl { bottom: 1px; left: 3px; transform: scaleY(-1); }
+.vf-br { bottom: 1px; right: 3px; transform: scale(-1, -1); }
+
+@media (min-width: 1024px) {
+  .vf-corner { font-size: 22px; }
+  .vf-tl { top: 4px; left: 6px; }
+  .vf-tr { top: 4px; right: 6px; }
+  .vf-bl { bottom: 4px; left: 6px; }
+  .vf-br { bottom: 4px; right: 6px; }
 }
 
 h1, h2, h3, h4 {

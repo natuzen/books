@@ -17,7 +17,18 @@ const entradaHoy = (calendario as Array<{fecha: string; titulo: string; descripc
 >
   <!-- Hero -->
   <section class="bg-gradient-to-b from-white to-epoca-crema py-16 px-4 text-center border-b border-epoca-violeta-claro">
-    <img src="/logo.svg" alt="Queridos Lectores" class="mx-auto mb-6 h-28 md:h-36 w-auto" />
+    <!-- Large feather hero image (pluma only, no text) -->
+    <img
+      src="/logo-pluma.svg"
+      alt="Pluma Queridos Lectores"
+      class="mx-auto mb-6 w-auto"
+      style="height: clamp(140px, 22vw, 240px);"
+      width="500"
+      height="260"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+    />
     <h1 class="font-playfair text-4xl md:text-5xl font-bold text-epoca-marron mb-4">
       Queridos <span class="text-epoca-rosa italic">Lectores</span>
     </h1>
