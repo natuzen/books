@@ -41,57 +41,57 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 6px;
-  background: linear-gradient(90deg, transparent 0%, #A8D5BA 10%, #A8D5BA 90%, transparent 100%);
-  border-bottom: 2px solid #78B59A;
+  height: 14px;
+  background: linear-gradient(90deg, transparent 0%, #D4B5D6 5%, #B8A0C8 20%, #B8A0C8 80%, #D4B5D6 95%, transparent 100%);
+  border-bottom: 3px solid #9B7FB8;
 }
 
 .victorian-border::after {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 6px;
-  background: linear-gradient(90deg, transparent 0%, #A8D5BA 10%, #A8D5BA 90%, transparent 100%);
-  border-top: 2px solid #78B59A;
+  height: 14px;
+  background: linear-gradient(90deg, transparent 0%, #D4B5D6 5%, #B8A0C8 20%, #B8A0C8 80%, #D4B5D6 95%, transparent 100%);
+  border-top: 3px solid #9B7FB8;
 }
 
 /* Left and right side borders using fixed pseudo on body children */
 body {
-  border-left: 6px solid #A8D5BA;
-  border-right: 6px solid #A8D5BA;
+  border-left: 14px solid #D4B5D6;
+  border-right: 14px solid #D4B5D6;
   box-shadow:
-    inset 2px 0 0 #78B59A,
-    inset -2px 0 0 #78B59A,
-    inset 0 2px 0 #78B59A,
-    inset 0 -2px 0 #78B59A;
+    inset 3px 0 0 #9B7FB8,
+    inset -3px 0 0 #9B7FB8,
+    inset 0 3px 0 #9B7FB8,
+    inset 0 -3px 0 #9B7FB8;
   min-height: 100vh;
 }
 
 /* Corner ornaments */
 body::before {
-  content: '✦';
+  content: '❧';
   position: fixed;
-  top: 4px;
-  left: 4px;
-  color: #78B59A;
-  font-size: 14px;
+  top: 2px;
+  left: 6px;
+  color: #9B7FB8;
+  font-size: 18px;
   z-index: 9999;
   pointer-events: none;
   line-height: 1;
-  text-shadow: 0 0 3px rgba(168, 213, 186, 0.5);
+  text-shadow: 0 0 4px rgba(184, 160, 200, 0.5);
 }
 
 body::after {
-  content: '✦';
+  content: '❧';
   position: fixed;
-  top: 4px;
-  right: 4px;
-  color: #78B59A;
-  font-size: 14px;
+  top: 2px;
+  right: 6px;
+  color: #9B7FB8;
+  font-size: 18px;
   z-index: 9999;
   pointer-events: none;
   line-height: 1;
-  text-shadow: 0 0 3px rgba(168, 213, 186, 0.5);
+  text-shadow: 0 0 4px rgba(184, 160, 200, 0.5);
 }
 
 h1, h2, h3, h4 {
