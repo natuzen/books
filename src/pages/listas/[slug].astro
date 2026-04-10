@@ -1,6 +1,7 @@
 ---
 import ListLayout from '../../layouts/ListLayout.astro';
 import { getCollection } from 'astro:content';
+import libros from '../../../data/libros-curados.json';
 
 export async function getStaticPaths() {
   const listas = await getCollection('listas');
@@ -12,6 +13,22 @@ export async function getStaticPaths() {
 
 const { lista } = Astro.props;
 const { Content } = await lista.render();
+
+// Build slug lookup from book titles
+const slugMap = Object.fromEntries(
+  libros.map(l => [l.titulo.toLowerCase(), l])
+);
+
+// Find books mentioned in the frontmatter libros array
+const librosRelacionados = (lista.data.libros || [])
+  .map((titulo: string) => {
+    // Try exact match first, then partial match
+    const libro = slugMap[titulo.toLowerCase()] ||
+      libros.find(l => l.titulo.toLowerCase().includes(titulo.toLowerCase()) ||
+        titulo.toLowerCase().includes(l.titulo.toLowerCase()));
+    return libro || null;
+  })
+  .filter(Boolean);
 ---
 
 <ListLayout
@@ -26,4 +43,39 @@ const { Content } = await lista.render();
       <Content />
     </div>
   </article>
+
+  {librosRelacionados.length > 0 && (
+    <section class="mt-10 pt-8 border-t border-epoca-violeta-claro">
+      <h2 class="font-playfair text-2xl font-bold text-epoca-marron mb-6">📚 Libros de esta lista</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        {librosRelacionados.map(libro => (
+          <a
+            href={`/libro/${libro.slug}`}
+            class="card-epoca hover:border-epoca-rosa transition-all group block"
+          >
+            <div class="aspect-[2/3] bg-epoca-crema rounded-lg overflow-hidden mb-3">
+              {libro.portada ? (
+                <img
+                  src={libro.portada}
+                  alt={`Portada de ${libro.titulo}`}
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  width="150"
+                  height="225"
+                />
+              ) : (
+                <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>
+              )}
+            </div>
+            <h3 class="font-semibold text-sm text-epoca-marron group-hover:text-epoca-rosa transition-colors line-clamp-2">
+              {libro.titulo}
+            </h3>
+            <p class="text-xs text-epoca-marron-medio">{libro.autor}</p>
+            <span class="inline-block mt-1 text-xs text-epoca-rosa">Ver ficha →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 </ListLayout>

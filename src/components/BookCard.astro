@@ -18,7 +18,15 @@ const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
   <a href={`/libro/${slug}`} class="block">
     <div class="aspect-[2/3] bg-epoca-violeta-claro rounded-lg mb-3 overflow-hidden">
       {portada ? (
-        <img src={portada} alt={`Portada de ${titulo}`} class="w-full h-full object-cover" loading="lazy" />
+        <img
+          src={portada}
+          alt={`Portada de ${titulo}`}
+          class="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
+          width="200"
+          height="300"
+        />
       ) : (
         <div class="w-full h-full flex items-center justify-center">
           <span class="text-4xl">📚</span>

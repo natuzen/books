@@ -7,21 +7,22 @@ import calendario from '../../data/calendario-literario.json';
 const librosDestacados = libros.slice(0, 8);
 const today = new Date();
 const todayStr = String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0');
-const entradaHoy = calendario.find((e: { fecha: string }) => e.fecha === todayStr) || calendario[0];
+const entradaHoy = (calendario as Array<{fecha: string; titulo: string; descripcion: string; autor?: string; libro?: string}>)
+  .find(e => e.fecha === todayStr);
 ---
 
 <BaseLayout
   title="Inicio"
-  description="Época & Rosa: Tu guía de romance literario histórico y clásico. Descubre novelas románticas, citas literarias y recomendaciones personalizadas."
+  description="Queridos Lectores: Tu guía de novelas románticas, desde los clásicos eternos hasta los bestsellers actuales. Descubre libros, citas literarias y recomendaciones personalizadas."
 >
   <!-- Hero -->
   <section class="bg-gradient-to-b from-white to-epoca-crema py-16 px-4 text-center border-b border-epoca-violeta-claro">
     <p class="ornament text-3xl mb-2">❦</p>
     <h1 class="font-playfair text-4xl md:text-5xl font-bold text-epoca-marron mb-4">
-      Época <span class="text-epoca-rosa">&amp;</span> Rosa
+      Queridos <span class="text-epoca-rosa italic">Lectores</span>
     </h1>
     <p class="text-lg text-epoca-marron-medio max-w-xl mx-auto mb-8 leading-relaxed">
-      Tu sanctuario literario de romances históricos y clásicos. Donde cada página es una invitación al amor eterno.
+      Tu guía de novelas románticas, desde los clásicos eternos hasta los bestsellers actuales.
     </p>
     <div class="flex flex-wrap justify-center gap-3">
       <a href="/buscar" class="btn-primary">Explorar libros</a>
@@ -31,19 +32,25 @@ const entradaHoy = calendario.find((e: { fecha: string }) => e.fecha === todaySt
     </div>
   </section>
 
-  <!-- Hoy en la historia literaria -->
-  {entradaHoy && (
-    <section class="max-w-4xl mx-auto px-4 py-8">
-      <div class="bg-gradient-to-r from-epoca-violeta-claro to-epoca-rosa-claro rounded-2xl p-6">
-        <p class="text-xs font-medium text-epoca-marron-medio mb-1 uppercase tracking-widest">Hoy en la historia literaria</p>
-        <h2 class="font-playfair text-xl font-bold text-epoca-marron mb-2">{entradaHoy.titulo}</h2>
-        <p class="text-sm text-epoca-marron-medio">{entradaHoy.descripcion}</p>
-        <a href="/calendario/hoy" class="inline-block mt-3 text-sm text-epoca-marron font-medium hover:underline">
-          Ver más →
-        </a>
-      </div>
-    </section>
-  )}
+  <!-- Efeméride literaria del día -->
+  <section class="max-w-4xl mx-auto px-4 py-8">
+    <div class={`rounded-2xl p-6 ${entradaHoy ? 'bg-gradient-to-r from-epoca-violeta-claro to-epoca-rosa-claro' : 'bg-epoca-crema border border-epoca-violeta-claro'}`}>
+      <p class="text-xs font-medium text-epoca-marron-medio mb-1 uppercase tracking-widest">📅 Efeméride literaria del día</p>
+      {entradaHoy ? (
+        <>
+          <h2 class="font-playfair text-xl font-bold text-epoca-marron mb-2">{entradaHoy.titulo}</h2>
+          <p class="text-sm text-epoca-marron-medio leading-relaxed">{entradaHoy.descripcion}</p>
+          {entradaHoy.autor && (
+            <p class="text-xs text-epoca-marron-medio mt-2 font-medium">— {entradaHoy.autor}{entradaHoy.libro ? `, ${entradaHoy.libro}` : ''}</p>
+          )}
+        </>
+      ) : (
+        <p class="text-base text-epoca-marron italic font-playfair">
+          "Hoy es un buen día para descubrir un nuevo libro." ✨
+        </p>
+      )}
+    </div>
+  </section>
 
   <!-- Libros destacados -->
   <section class="max-w-7xl mx-auto px-4 py-8">
@@ -73,9 +80,9 @@ const entradaHoy = calendario.find((e: { fecha: string }) => e.fecha === todaySt
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       {[
         { href: '/quiz', icon: '🎯', label: 'Quiz Literario', desc: '¿Qué tipo de lectora eres?' },
-        { href: '/generador-citas', icon: '💌', label: 'Generador de Citas', desc: 'Citas de autoras clásicas' },
+        { href: '/generador-citas', icon: '💌', label: 'Generador de Citas', desc: 'Citas de autores románticos' },
         { href: '/mapa', icon: '🗺️', label: 'Mapa Literario', desc: 'Escenarios de novelas' },
-        { href: '/rankings', icon: '🏆', label: 'Rankings', desc: 'Los más votados' },
+        { href: '/rankings', icon: '🏆', label: 'Rankings', desc: 'Los más votados por categoría' },
       ].map(item => (
         <a href={item.href} class="card-epoca text-center hover:border-epoca-rosa transition-colors group">
           <span class="text-3xl block mb-2">{item.icon}</span>

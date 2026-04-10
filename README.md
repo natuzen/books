@@ -1,8 +1,8 @@
-# Época & Rosa
+# Queridos Lectores
 
 **Tu guía de romance literario histórico y clásico.**
 
-Época & Rosa es un sitio web completo dedicado a las amantes de las novelas románticas históricas y clásicas, construido con Astro 5, Preact, Tailwind CSS y TypeScript.
+Queridos Lectores es un sitio web completo dedicado a las amantes de las novelas románticas históricas y clásicas, construido con Astro 5, Preact, Tailwind CSS y TypeScript.
 
 ## Características
 
@@ -56,4 +56,4 @@ npm run preview
 
 ## Licencia
 
-© 2025 Época & Rosa. Hecho con amor por lectoras romanticistas.
+© 2025 Queridos Lectores. Hecho con amor por lectoras romanticistas.

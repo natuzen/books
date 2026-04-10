@@ -15,38 +15,47 @@ interface Props {
 
 export default function QuoteGenerator({ citas }: Props) {
   const [filtroAutor, setFiltroAutor] = useState('');
-  const [filtroEra, setFiltroEra] = useState('');
-  const [citaActual, setCitaActual] = useState<Cita>(citas[0]);
+  const [citaActual, setCitaActual] = useState<Cita>(citas[Math.floor(Math.random() * citas.length)]);
 
   const autores = useMemo(() => [...new Set(citas.map(c => c.autor))].sort(), [citas]);
-  const eras = useMemo(() => [...new Set(citas.map(c => c.era))].sort(), [citas]);
 
   const filtradas = useMemo(() => {
-    return citas.filter(c => {
-      if (filtroAutor && c.autor !== filtroAutor) return false;
-      if (filtroEra && c.era !== filtroEra) return false;
-      return true;
-    });
-  }, [citas, filtroAutor, filtroEra]);
+    if (!filtroAutor) return citas;
+    return citas.filter(c => c.autor === filtroAutor);
+  }, [citas, filtroAutor]);
 
   function generarCita() {
     const pool = filtradas.length > 0 ? filtradas : citas;
-    const random = pool[Math.floor(Math.random() * pool.length)];
+    let random = pool[Math.floor(Math.random() * pool.length)];
+    // Avoid showing the same quote consecutively
+    if (pool.length > 1) {
+      while (random.id === citaActual.id) {
+        random = pool[Math.floor(Math.random() * pool.length)];
+      }
+    }
     setCitaActual(random);
+  }
+
+  function handleAutorChange(e: Event) {
+    const autor = (e.target as HTMLSelectElement).value;
+    setFiltroAutor(autor);
+    // Immediately show a quote from the selected author
+    const pool = autor ? citas.filter(c => c.autor === autor) : citas;
+    if (pool.length > 0) {
+      setCitaActual(pool[Math.floor(Math.random() * pool.length)]);
+    }
   }
 
   return (
     <div>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-        <select value={filtroAutor} onChange={(e) => setFiltroAutor((e.target as HTMLSelectElement).value)}
-          class="px-4 py-2 border border-epoca-violeta-claro rounded-lg bg-white focus:outline-none focus:border-epoca-rosa">
+      <div class="mb-6">
+        <select
+          value={filtroAutor}
+          onChange={handleAutorChange}
+          class="w-full md:w-auto px-4 py-2 border border-epoca-violeta-claro rounded-lg bg-white focus:outline-none focus:border-epoca-rosa"
+        >
           <option value="">Todos los autores</option>
           {autores.map(a => <option value={a}>{a}</option>)}
-        </select>
-        <select value={filtroEra} onChange={(e) => setFiltroEra((e.target as HTMLSelectElement).value)}
-          class="px-4 py-2 border border-epoca-violeta-claro rounded-lg bg-white focus:outline-none focus:border-epoca-rosa">
-          <option value="">Todas las épocas</option>
-          {eras.map(e => <option value={e}>{e.charAt(0).toUpperCase() + e.slice(1)}</option>)}
         </select>
       </div>
 
@@ -57,7 +66,7 @@ export default function QuoteGenerator({ citas }: Props) {
         </blockquote>
         <footer class="text-sm text-epoca-marron-medio">
           — <cite class="not-italic font-medium">{citaActual.autor}</cite>
-          {citaActual.obra && <span>, <em>{citaActual.obra}</em> ({citaActual.anio})</span>}
+          {citaActual.obra && <span>, <em>{citaActual.obra}</em>{citaActual.anio ? ` (${citaActual.anio})` : ''}</span>}
         </footer>
       </div>
 

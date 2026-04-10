@@ -1,14 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="300" height="120">
-  <rect x="40" y="60" width="60" height="45" rx="3" fill="#A8C5A8" opacity="0.8"/>
-  <rect x="100" y="60" width="60" height="45" rx="3" fill="#E8A0BF" opacity="0.8"/>
-  <line x1="100" y1="60" x2="100" y2="105" stroke="#B8A0C8" stroke-width="2"/>
-  <line x1="100" y1="60" x2="100" y2="20" stroke="#A8C5A8" stroke-width="2"/>
-  <circle cx="100" cy="15" r="10" fill="#E8A0BF" opacity="0.9"/>
-  <circle cx="92" cy="20" r="7" fill="#F2C6C2" opacity="0.8"/>
-  <circle cx="108" cy="20" r="7" fill="#F2C6C2" opacity="0.8"/>
-  <circle cx="100" cy="8" r="6" fill="#E8A0BF"/>
-  <path d="M30,82 Q20,75 25,65 Q30,55 40,60" fill="none" stroke="#D4B5D6" stroke-width="1.5" opacity="0.7"/>
-  <path d="M170,82 Q180,75 175,65 Q170,55 160,60" fill="none" stroke="#D4B5D6" stroke-width="1.5" opacity="0.7"/>
-  <text x="190" y="75" font-family="Georgia, serif" font-size="22" fill="#3D2C2E" font-weight="bold">Época</text>
-  <text x="190" y="98" font-family="Georgia, serif" font-size="22" fill="#E8A0BF">&amp; Rosa</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <!-- Quill feather body -->
+  <path d="M12,70 C20,55 35,30 70,10 C65,25 55,40 45,50 Z" fill="#7C3AED" opacity="0.85"/>
+  <path d="M12,70 C22,60 40,42 70,10 C60,20 50,35 42,52 Z" fill="#6D28D9"/>
+  <!-- Feather barbs -->
+  <path d="M70,10 C60,18 52,28 46,40" fill="none" stroke="#A78BFA" stroke-width="1" opacity="0.6"/>
+  <path d="M70,10 C58,22 48,34 42,48" fill="none" stroke="#A78BFA" stroke-width="0.8" opacity="0.5"/>
+  <!-- Quill tip/nib -->
+  <path d="M42,52 L38,62 L45,58 Z" fill="#B8860B"/>
+  <path d="M38,62 L36,72 L42,68 L45,58 Z" fill="#B8860B"/>
+  <!-- Ink line -->
+  <path d="M36,72 L55,75" stroke="#3D2C2E" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Gold decorative dots on quill -->
+  <circle cx="58" cy="22" r="1.5" fill="#B8860B" opacity="0.8"/>
+  <circle cx="52" cy="32" r="1.5" fill="#B8860B" opacity="0.8"/>
+  <circle cx="47" cy="42" r="1.5" fill="#B8860B" opacity="0.8"/>
+  <!-- Title text -->
+  <text x="72" y="35" font-family="Georgia, serif" font-size="20" fill="#3D2C2E" font-weight="bold" font-style="italic">Queridos</text>
+  <text x="72" y="62" font-family="Georgia, serif" font-size="20" fill="#6B21A8" font-weight="bold">Lectores</text>
+  <!-- Decorative underline -->
+  <path d="M72,67 Q120,72 165,67" fill="none" stroke="#B8860B" stroke-width="1.5" stroke-linecap="round"/>
 </svg>
