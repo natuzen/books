@@ -3,12 +3,14 @@ import preact from '@astrojs/preact';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
-export default defineConfig({
+export default defineConfig({  
   site: 'https://queridoslectores.com',
+  
   integrations: [
     preact(),
     tailwind(),
     sitemap(),
   ],
+
   output: 'static',
 });
