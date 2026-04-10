@@ -1,309 +1,15 @@
 [
   {
-    "fecha": "01-16",
-    "titulo": "Nacimiento de Edith Wharton",
-    "descripcion": "Nace en Nueva York Edith Wharton, autora de La Edad de la Inocencia y otras obras maestras de la narrativa estadounidense.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "01-28",
-    "titulo": "Publicación de Orgullo y Prejuicio",
-    "descripcion": "En 1813 se publica Orgullo y Prejuicio de Jane Austen, una de las novelas románticas más amadas de todos los tiempos.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "02-14",
-    "titulo": "Día de San Valentín Literario",
-    "descripcion": "Celebración literaria del amor. Jane Austen escribió múltiples cartas en esta fecha describiendo su amor por la escritura.",
+    "fecha": "01-01",
+    "titulo": "Año Nuevo Literario",
+    "descripcion": "Comienzo de un nuevo año lleno de historias por descubrir. La mejor resolución de año nuevo: leer más libros de amor y aventura.",
     "tipo": "evento"
-  },
-  {
-    "fecha": "02-19",
-    "titulo": "Nacimiento de Nicolás Gogol",
-    "descripcion": "Nace el escritor ruso cuyas obras influenciaron a toda la literatura romántica rusa del siglo XIX.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "03-17",
-    "titulo": "Publicación de Jane Eyre",
-    "descripcion": "En 1847, Charlotte Brontë publica Jane Eyre bajo el seudónimo Currer Bell, revolucionando la novela romántica victoriana.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "03-21",
-    "titulo": "Nacimiento de Charlotte Brontë",
-    "descripcion": "Nace Charlotte Brontë en Thornton, Yorkshire. Autora de Jane Eyre y una de las grandes escritoras de la época victoriana.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "04-12",
-    "titulo": "Publicación de Norte y Sur",
-    "descripcion": "Elizabeth Gaskell publica Norte y Sur en 1855, una novela que mezcla el romance con la crítica social de la revolución industrial.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "04-23",
-    "titulo": "Día del Libro",
-    "descripcion": "El Día Internacional del Libro celebrado cada 23 de abril rinde homenaje a la literatura universal y sus grandes autores.",
-    "tipo": "evento"
-  },
-  {
-    "fecha": "04-26",
-    "titulo": "Nacimiento de Mary Wollstonecraft",
-    "descripcion": "Nace la autora de Vindicación de los derechos de la mujer, pionera del feminismo que influyó en todas las escritoras románticas posteriores.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "05-01",
-    "titulo": "Primer número de Household Words",
-    "descripcion": "En 1850, Charles Dickens funda la revista donde Elizabeth Gaskell publicaría por entregas sus novelas más importantes.",
-    "tipo": "evento"
-  },
-  {
-    "fecha": "05-14",
-    "titulo": "Nacimiento de Thomas Hardy",
-    "descripcion": "Nace en Dorset Thomas Hardy, autor de Tess of the d'Urbervilles y Far from the Madding Crowd.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "05-29",
-    "titulo": "Nacimiento de G.K. Chesterton",
-    "descripcion": "Nace el escritor y filósofo inglés cuya obra influyó en el pensamiento literario europeo del siglo XX.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "06-02",
-    "titulo": "Muerte de Thomas Hardy",
-    "descripcion": "En 1928 fallece Thomas Hardy, dejando una obra que exploró magistralmente los conflictos entre amor y sociedad en la Inglaterra rural.",
-    "tipo": "evento"
-  },
-  {
-    "fecha": "06-09",
-    "titulo": "Nacimiento de Charles Dickens",
-    "descripcion": "Nace en Portsmouth Charles Dickens, cuyas novelas retratan el amor y las injusticias sociales de la era victoriana.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "07-04",
-    "titulo": "Nacimiento de Nathaniel Hawthorne",
-    "descripcion": "Nace el autor americano, famoso por sus novelas románticas ambientadas en la Nueva Inglaterra colonial.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "07-18",
-    "titulo": "Muerte de Jane Austen",
-    "descripcion": "En 1817 fallece Jane Austen en Winchester, dejando un legado literario que sigue inspirando a lectoras en todo el mundo.",
-    "tipo": "evento"
-  },
-  {
-    "fecha": "07-30",
-    "titulo": "Nacimiento de Emily Brontë",
-    "descripcion": "Nace Emily Brontë en Thornton, Yorkshire. Autora de Cumbres Borrascosas, considerada la novela romántica más apasionada de la literatura inglesa.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "08-01",
-    "titulo": "Publicación de Cumbres Borrascosas",
-    "descripcion": "En 1847 Emily Brontë publica Cumbres Borrascosas bajo el seudónimo Ellis Bell, creando uno de los romances más oscuros e intensos de la literatura.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "08-15",
-    "titulo": "Nacimiento de Walter Scott",
-    "descripcion": "Nace el escritor escocés Walter Scott, padre de la novela histórica romántica y autor de Ivanhoe y Rob Roy.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "09-16",
-    "titulo": "Nacimiento de Elizabeth Gaskell",
-    "descripcion": "Nace en Cheyne Walk, Chelsea, Elizabeth Gaskell, autora de Norte y Sur y otras obras que combinan el romance con la crítica social.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "09-22",
-    "titulo": "Publicación de Middlemarch",
-    "descripcion": "En 1871 George Eliot comienza la publicación por entregas de Middlemarch, una novela monumental sobre el amor y la sociedad victoriana.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "09-26",
-    "titulo": "Nacimiento de T.S. Eliot",
-    "descripcion": "Nace Thomas Stearns Eliot, poeta y crítico literario cuya obra influyó profundamente en la literatura del siglo XX.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "10-05",
-    "titulo": "Publicación de Lo que el viento se llevó",
-    "descripcion": "En 1936 Margaret Mitchell publica Lo que el viento se llevó, que ganaría el Premio Pulitzer y se convertiría en una de las novelas más vendidas de todos los tiempos.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "10-11",
-    "titulo": "Nacimiento de Eleanor Roosevelt",
-    "descripcion": "Nace la gran defensora de los derechos humanos que también fue una apasionada lectora y admiradora de la literatura romántica clásica.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "10-15",
-    "titulo": "Publicación de Madame Bovary",
-    "descripcion": "En 1856 Flaubert comienza a publicar por entregas Madame Bovary, una novela que cambiaría para siempre la forma de entender el romance en la literatura.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "10-22",
-    "titulo": "Nacimiento de Sarah Bernhardt",
-    "descripcion": "Nace la gran actriz francesa que interpretó a Marguerite Gautier en la primera adaptación teatral de La dama de las camelias.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "11-07",
-    "titulo": "Nacimiento de Albert Camus",
-    "descripcion": "Nace el escritor y filósofo francés, Premio Nobel de Literatura, cuyas obras exploran el amor y el absurdo de la existencia.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "11-15",
-    "titulo": "Publicación de Anna Karenina",
-    "descripcion": "En 1877 Tolstói completa la publicación de Anna Karenina, la novela sobre amor y sacrificio más influyente de la literatura rusa.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "11-21",
-    "titulo": "Nacimiento de Voltaire",
-    "descripcion": "Nace François-Marie Arouet (Voltaire), cuya filosofía sobre el amor y la libertad influyó en toda la literatura romántica europea.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "12-01",
-    "titulo": "Nacimiento de Gustave Flaubert",
-    "descripcion": "Nace en Ruán el autor de Madame Bovary, una de las novelas más importantes del realismo literario francés.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "12-16",
-    "titulo": "Nacimiento de Jane Austen",
-    "descripcion": "En 1775 nace Jane Austen en Steventon, Hampshire. Considerada la gran maestra de la novela romántica en lengua inglesa, sus obras siguen siendo leídas y amadas en todo el mundo.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "12-18",
-    "titulo": "Publicación de Persuasión",
-    "descripcion": "En 1817 se publica póstumamente Persuasión de Jane Austen, junto con La Abadía de Northanger, en una edición que honra el legado de la autora.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "12-19",
-    "titulo": "Nacimiento de Emily Dickinson",
-    "descripcion": "Nace la poeta americana cuyas cartas de amor y poemas sobre la pasión oculta la convirtieron en un ícono de la literatura romántica norteamericana.",
-    "tipo": "nacimiento"
   },
   {
     "fecha": "01-03",
     "titulo": "Nacimiento de J.R.R. Tolkien",
     "descripcion": "Nace el creador de El Señor de los Anillos cuya historia de amor entre Aragorn y Arwen se considera uno de los romances épicos de la literatura fantástica.",
     "tipo": "nacimiento"
-  },
-  {
-    "fecha": "01-09",
-    "titulo": "Publicación de El conde de Montecristo",
-    "descripcion": "En 1844 Dumas comienza a publicar por entregas El conde de Montecristo, una obra maestra de aventuras y amor que sigue fascinando lectoras.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "02-03",
-    "titulo": "Nacimiento de Elizabeth Bishop",
-    "descripcion": "Nace la poetisa americana cuyas obras sobre el amor y la pérdida son consideradas fundamentales en la poesía romántica contemporánea.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "02-22",
-    "titulo": "Publicación de Rebecca",
-    "descripcion": "En 1938 Daphne du Maurier publica Rebecca, una novela gótica de amor y misterio que se convirtió en uno de los grandes éxitos del siglo XX.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "03-03",
-    "titulo": "Nacimiento de Alexandre Dumas hijo",
-    "descripcion": "Nace en París el autor de La dama de las camelias, una de las historias de amor más célebres y trágicas de la literatura francesa.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "03-25",
-    "titulo": "Publicación de La dama de las camelias",
-    "descripcion": "En 1848 Alexandre Dumas hijo publica La dama de las camelias, inspirada en su historia de amor real con la cortesana Marie Duplessis.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "04-01",
-    "titulo": "Nacimiento de Edmond Rostand",
-    "descripcion": "Nace el dramaturgo francés autor de Cyrano de Bergerac, una de las historias de amor más conmovedoras del teatro universal.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "05-24",
-    "titulo": "Ascenso al trono de la Reina Victoria",
-    "descripcion": "En 1819 nace la Reina Victoria, cuyo reinado de 63 años daría nombre a toda una era literaria y cultural marcada por el romanticismo.",
-    "tipo": "evento"
-  },
-  {
-    "fecha": "06-15",
-    "titulo": "Publicación de Tess of the d'Urbervilles",
-    "descripcion": "En 1891 Thomas Hardy publica Tess of the d'Urbervilles, una novela que escandalizó a la sociedad victoriana y reivindicó a las mujeres protagonistas.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "07-08",
-    "titulo": "Muerte de Percy Bysshe Shelley",
-    "descripcion": "En 1822 muere ahogado el poeta romántico Percy Shelley, esposo de Mary Shelley y una de las figuras cumbres del Romanticismo inglés.",
-    "tipo": "evento"
-  },
-  {
-    "fecha": "08-27",
-    "titulo": "Nacimiento de Gustave Flaubert",
-    "descripcion": "Nace el maestro del realismo literario francés, cuyas novelas exploran con precisión quirúrgica las ilusiones del amor romántico.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "09-01",
-    "titulo": "Publicación de El gran Gatsby",
-    "descripcion": "En 1925 F. Scott Fitzgerald publica El gran Gatsby, retrato del amor obsesivo y el sueño americano en los años veinte.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "09-09",
-    "titulo": "Nacimiento de Leo Tolstói",
-    "descripcion": "Nace en Yasnaya Polyana el autor de Anna Karenina y Guerra y Paz, las novelas rusas más influyentes del siglo XIX.",
-    "tipo": "nacimiento"
-  },
-  {
-    "fecha": "10-02",
-    "titulo": "Publicación de A Room with a View",
-    "descripcion": "En 1908 E.M. Forster publica A Room with a View, una novela sobre el amor auténtico que desafía las convenciones sociales eduardianas.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "11-22",
-    "titulo": "Muerte de George Eliot",
-    "descripcion": "En 1880 fallece Mary Ann Evans, conocida como George Eliot, autora de Middlemarch, considerada la gran novela de la literatura inglesa victoriana.",
-    "tipo": "evento"
-  },
-  {
-    "fecha": "12-05",
-    "titulo": "Publicación de Los Miserables",
-    "descripcion": "En 1862 Victor Hugo publica Los Miserables, una épica novela social con el romance entre Cosette y Marius como eje emocional.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "12-25",
-    "titulo": "Publicación de Sentido y Sensibilidad",
-    "descripcion": "En 1811 Jane Austen publica de forma anónima su primera novela, Sentido y Sensibilidad, que narra las peripecias amorosas de las hermanas Dashwood.",
-    "tipo": "publicacion"
-  },
-  {
-    "fecha": "01-01",
-    "titulo": "Año Nuevo Literario",
-    "descripcion": "Comienzo de un nuevo año lleno de historias por descubrir. La mejor resolución de año nuevo: leer más libros de amor y aventura.",
-    "tipo": "evento"
   },
   {
     "fecha": "01-05",
@@ -316,6 +22,12 @@
     "titulo": "Nacimiento de Colleen Hoover",
     "descripcion": "Nace en Sulphur Springs, Texas, la autora de It Ends with Us y Ugly Love, la escritora de romance contemporáneo más influyente de su generación.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "01-09",
+    "titulo": "Publicación de El conde de Montecristo",
+    "descripcion": "En 1844 Dumas comienza a publicar por entregas El conde de Montecristo, una obra maestra de aventuras y amor que sigue fascinando lectoras.",
+    "tipo": "publicacion"
   },
   {
     "fecha": "01-10",
@@ -339,6 +51,12 @@
     "fecha": "01-15",
     "titulo": "Nacimiento de Molière",
     "descripcion": "Nace Jean-Baptiste Poquelin (Molière), el mayor dramaturgo del teatro francés, cuyos personajes cómicos exploran las contradicciones del amor y el matrimonio.",
+    "tipo": "nacimiento"
+  },
+  {
+    "fecha": "01-16",
+    "titulo": "Nacimiento de Edith Wharton",
+    "descripcion": "Nace en Nueva York Edith Wharton, autora de La Edad de la Inocencia y otras obras maestras de la narrativa estadounidense.",
     "tipo": "nacimiento"
   },
   {
@@ -384,6 +102,12 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "01-28",
+    "titulo": "Publicación de Orgullo y Prejuicio",
+    "descripcion": "En 1813 se publica Orgullo y Prejuicio de Jane Austen, una de las novelas románticas más amadas de todos los tiempos.",
+    "tipo": "publicacion"
+  },
+  {
     "fecha": "01-29",
     "titulo": "Nacimiento de Romain Rolland",
     "descripcion": "Nace el Premio Nobel de Literatura francés, cuya saga Juan Cristóbal explora la búsqueda del amor verdadero y la autenticidad.",
@@ -400,6 +124,12 @@
     "titulo": "Mes del Romance Literario",
     "descripcion": "Febrero es el mes del amor. Las librerías de todo el mundo se llenan de novelas románticas y reediciones de clásicos del corazón.",
     "tipo": "evento"
+  },
+  {
+    "fecha": "02-03",
+    "titulo": "Nacimiento de Elizabeth Bishop",
+    "descripcion": "Nace la poetisa americana cuyas obras sobre el amor y la pérdida son consideradas fundamentales en la poesía romántica contemporánea.",
+    "tipo": "nacimiento"
   },
   {
     "fecha": "02-04",
@@ -462,6 +192,12 @@
     "tipo": "evento"
   },
   {
+    "fecha": "02-14",
+    "titulo": "Día de San Valentín Literario",
+    "descripcion": "Celebración literaria del amor. Jane Austen escribió múltiples cartas en esta fecha describiendo su amor por la escritura.",
+    "tipo": "evento"
+  },
+  {
     "fecha": "02-15",
     "titulo": "Nacimiento de Elísabet Benavent",
     "descripcion": "Nace en Valencia la autora de la saga Valeria y Fuimos canciones, referente imprescindible de la literatura romántica contemporánea en español.",
@@ -486,10 +222,22 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "02-19",
+    "titulo": "Nacimiento de Nicolás Gogol",
+    "descripcion": "Nace el escritor ruso cuyas obras influenciaron a toda la literatura romántica rusa del siglo XIX.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "02-20",
     "titulo": "Nacimiento de Honoré de Balzac",
     "descripcion": "Nace en Tours el autor de La comedia humana, el proyecto novelístico más ambicioso del siglo XIX, lleno de personajes apasionados por el amor.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "02-22",
+    "titulo": "Publicación de Rebecca",
+    "descripcion": "En 1938 Daphne du Maurier publica Rebecca, una novela gótica de amor y misterio que se convirtió en uno de los grandes éxitos del siglo XX.",
+    "tipo": "publicacion"
   },
   {
     "fecha": "02-23",
@@ -537,6 +285,12 @@
     "fecha": "03-02",
     "titulo": "Nacimiento de Daphne du Maurier",
     "descripcion": "Nace en Londres la autora de Rebecca y Jamaica Inn, maestra del romance gótico cuya obra sigue fascinando y emocionando a lectoras de todo el mundo.",
+    "tipo": "nacimiento"
+  },
+  {
+    "fecha": "03-03",
+    "titulo": "Nacimiento de Alexandre Dumas hijo",
+    "descripcion": "Nace en París el autor de La dama de las camelias, una de las historias de amor más célebres y trágicas de la literatura francesa.",
     "tipo": "nacimiento"
   },
   {
@@ -612,6 +366,12 @@
     "tipo": "publicacion"
   },
   {
+    "fecha": "03-17",
+    "titulo": "Publicación de Jane Eyre",
+    "descripcion": "En 1847, Charlotte Brontë publica Jane Eyre bajo el seudónimo Currer Bell, revolucionando la novela romántica victoriana.",
+    "tipo": "publicacion"
+  },
+  {
     "fecha": "03-18",
     "titulo": "Publicación de Villette",
     "descripcion": "En 1853 Charlotte Brontë publica Villette, novela semiautobiográfica sobre el amor no correspondido y la independencia femenina.",
@@ -630,6 +390,12 @@
     "tipo": "evento"
   },
   {
+    "fecha": "03-21",
+    "titulo": "Nacimiento de Charlotte Brontë",
+    "descripcion": "Nace Charlotte Brontë en Thornton, Yorkshire. Autora de Jane Eyre y una de las grandes escritoras de la época victoriana.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "03-22",
     "titulo": "Middlemarch - conmemoración",
     "descripcion": "Se celebra la obra maestra de George Eliot, que describió el matrimonio de Dorothea Brooke con una profundidad sin igual.",
@@ -645,6 +411,12 @@
     "fecha": "03-24",
     "titulo": "El árbol de la ciencia - homenaje",
     "descripcion": "En 1911 Pío Baroja publica El árbol de la ciencia, novela que explora el amor y el desengaño vital con una lucidez que sigue resonando.",
+    "tipo": "publicacion"
+  },
+  {
+    "fecha": "03-25",
+    "titulo": "Publicación de La dama de las camelias",
+    "descripcion": "En 1848 Alexandre Dumas hijo publica La dama de las camelias, inspirada en su historia de amor real con la cortesana Marie Duplessis.",
     "tipo": "publicacion"
   },
   {
@@ -684,6 +456,12 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "04-01",
+    "titulo": "Nacimiento de Edmond Rostand",
+    "descripcion": "Nace el dramaturgo francés autor de Cyrano de Bergerac, una de las historias de amor más conmovedoras del teatro universal.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "04-03",
     "titulo": "Publicación de El gran Gatsby - conmemoración",
     "descripcion": "En 1925 F. Scott Fitzgerald publica El gran Gatsby, el retrato más brillante del amor obsesivo y el sueño roto americano.",
@@ -700,6 +478,20 @@
     "titulo": "Nacimiento de Ali Hazelwood",
     "descripcion": "Nace la autora de The Love Hypothesis, quien con su mezcla de romance académico y humor conquistó a lectores de todo el mundo.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "04-10",
+    "titulo": "Lord Byron parte de Inglaterra para siempre",
+    "descripcion": "Un día como hoy en 1816, Lord Byron abandonó Inglaterra para nunca regresar, iniciando su exilio romántico por Europa que inspiraría algunas de sus obras más apasionadas, como el tercer canto de Childe Harold.",
+    "tipo": "evento",
+    "autor": "Lord Byron",
+    "libro": "Childe Harold's Pilgrimage"
+  },
+  {
+    "fecha": "04-12",
+    "titulo": "Publicación de Norte y Sur",
+    "descripcion": "Elizabeth Gaskell publica Norte y Sur en 1855, una novela que mezcla el romance con la crítica social de la revolución industrial.",
+    "tipo": "publicacion"
   },
   {
     "fecha": "04-15",
@@ -726,9 +518,21 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "04-23",
+    "titulo": "Día del Libro",
+    "descripcion": "El Día Internacional del Libro celebrado cada 23 de abril rinde homenaje a la literatura universal y sus grandes autores.",
+    "tipo": "evento"
+  },
+  {
     "fecha": "04-24",
     "titulo": "Nacimiento de Daniel Defoe",
     "descripcion": "Nace el autor de Robinson Crusoe, considerado uno de los primeros novelistas modernos en lengua inglesa.",
+    "tipo": "nacimiento"
+  },
+  {
+    "fecha": "04-26",
+    "titulo": "Nacimiento de Mary Wollstonecraft",
+    "descripcion": "Nace la autora de Vindicación de los derechos de la mujer, pionera del feminismo que influyó en todas las escritoras románticas posteriores.",
     "tipo": "nacimiento"
   },
   {
@@ -742,6 +546,12 @@
     "titulo": "Nacimiento de Ana Huang",
     "descripcion": "Nace la autora de la serie Twisted, cuyos romances de new-adult con personajes complejos han conquistado millones de lectores.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "05-01",
+    "titulo": "Primer número de Household Words",
+    "descripcion": "En 1850, Charles Dickens funda la revista donde Elizabeth Gaskell publicaría por entregas sus novelas más importantes.",
+    "tipo": "evento"
   },
   {
     "fecha": "05-04",
@@ -768,6 +578,12 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "05-14",
+    "titulo": "Nacimiento de Thomas Hardy",
+    "descripcion": "Nace en Dorset Thomas Hardy, autor de Tess of the d'Urbervilles y Far from the Madding Crowd.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "05-15",
     "titulo": "Publicación de Vanity Fair",
     "descripcion": "En 1848 William Makepeace Thackeray publica Vanity Fair, una sátira brillante sobre el amor, la ambición y la sociedad victoriana.",
@@ -786,10 +602,28 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "05-24",
+    "titulo": "Ascenso al trono de la Reina Victoria",
+    "descripcion": "En 1819 nace la Reina Victoria, cuyo reinado de 63 años daría nombre a toda una era literaria y cultural marcada por el romanticismo.",
+    "tipo": "evento"
+  },
+  {
     "fecha": "05-26",
     "titulo": "Nacimiento de Elena Armas",
     "descripcion": "Nace la autora española de El pacto sentimental, una de las voces más divertidas y emocionantes del romance contemporáneo.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "05-29",
+    "titulo": "Nacimiento de G.K. Chesterton",
+    "descripcion": "Nace el escritor y filósofo inglés cuya obra influyó en el pensamiento literario europeo del siglo XX.",
+    "tipo": "nacimiento"
+  },
+  {
+    "fecha": "06-02",
+    "titulo": "Muerte de Thomas Hardy",
+    "descripcion": "En 1928 fallece Thomas Hardy, dejando una obra que exploró magistralmente los conflictos entre amor y sociedad en la Inglaterra rural.",
+    "tipo": "evento"
   },
   {
     "fecha": "06-05",
@@ -804,9 +638,21 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "06-09",
+    "titulo": "Nacimiento de Charles Dickens",
+    "descripcion": "Nace en Portsmouth Charles Dickens, cuyas novelas retratan el amor y las injusticias sociales de la era victoriana.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "06-11",
     "titulo": "Publicación de Emma",
     "descripcion": "En 1815 Jane Austen publica Emma, historia de una joven matchmaker que aprende lo que es el verdadero amor de la manera más inesperada.",
+    "tipo": "publicacion"
+  },
+  {
+    "fecha": "06-15",
+    "titulo": "Publicación de Tess of the d'Urbervilles",
+    "descripcion": "En 1891 Thomas Hardy publica Tess of the d'Urbervilles, una novela que escandalizó a la sociedad victoriana y reivindicó a las mujeres protagonistas.",
     "tipo": "publicacion"
   },
   {
@@ -846,10 +692,22 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "07-04",
+    "titulo": "Nacimiento de Nathaniel Hawthorne",
+    "descripcion": "Nace el autor americano, famoso por sus novelas románticas ambientadas en la Nueva Inglaterra colonial.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "07-06",
     "titulo": "Nacimiento de Penelope Douglas",
     "descripcion": "Nace la autora de Corrupt y la serie Devil's Night, cuyas novelas de new-adult oscuro y apasionado han creado una comunidad fiel de lectoras.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "07-08",
+    "titulo": "Muerte de Percy Bysshe Shelley",
+    "descripcion": "En 1822 muere ahogado el poeta romántico Percy Shelley, esposo de Mary Shelley y una de las figuras cumbres del Romanticismo inglés.",
+    "tipo": "evento"
   },
   {
     "fecha": "07-09",
@@ -870,6 +728,12 @@
     "tipo": "publicacion"
   },
   {
+    "fecha": "07-18",
+    "titulo": "Muerte de Jane Austen",
+    "descripcion": "En 1817 fallece Jane Austen en Winchester, dejando un legado literario que sigue inspirando a lectoras en todo el mundo.",
+    "tipo": "evento"
+  },
+  {
     "fecha": "07-21",
     "titulo": "Vanity Fair - aniversario",
     "descripcion": "Se conmemora Vanity Fair de Thackeray, retrato brillante de la sociedad de la Regencia y sus convenciones sobre el amor y el matrimonio.",
@@ -886,6 +750,18 @@
     "titulo": "Nacimiento de Beatrix Potter",
     "descripcion": "Nace la autora e ilustradora de Peter Rabbit, quien dedicó su vida a las historias que despiertan el amor por la naturaleza y la imaginación.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "07-30",
+    "titulo": "Nacimiento de Emily Brontë",
+    "descripcion": "Nace Emily Brontë en Thornton, Yorkshire. Autora de Cumbres Borrascosas, considerada la novela romántica más apasionada de la literatura inglesa.",
+    "tipo": "nacimiento"
+  },
+  {
+    "fecha": "08-01",
+    "titulo": "Publicación de Cumbres Borrascosas",
+    "descripcion": "En 1847 Emily Brontë publica Cumbres Borrascosas bajo el seudónimo Ellis Bell, creando uno de los romances más oscuros e intensos de la literatura.",
+    "tipo": "publicacion"
   },
   {
     "fecha": "08-03",
@@ -918,6 +794,12 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "08-15",
+    "titulo": "Nacimiento de Walter Scott",
+    "descripcion": "Nace el escritor escocés Walter Scott, padre de la novela histórica romántica y autor de Ivanhoe y Rob Roy.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "08-18",
     "titulo": "Nacimiento de Emily Henry",
     "descripcion": "Nace la autora de People We Meet on Vacation y Book Lovers, una de las escritoras de romance contemporáneo más celebradas de su generación.",
@@ -936,10 +818,22 @@
     "tipo": "publicacion"
   },
   {
+    "fecha": "08-27",
+    "titulo": "Nacimiento de Gustave Flaubert",
+    "descripcion": "Nace el maestro del realismo literario francés, cuyas novelas exploran con precisión quirúrgica las ilusiones del amor romántico.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "08-30",
     "titulo": "Nacimiento de Mary Shelley",
     "descripcion": "Nace la autora de Frankenstein, pionera de la ciencia ficción y de los romances góticos. Su vida fue marcada por una apasionada historia de amor con Percy Shelley.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "09-01",
+    "titulo": "Publicación de El gran Gatsby",
+    "descripcion": "En 1925 F. Scott Fitzgerald publica El gran Gatsby, retrato del amor obsesivo y el sueño americano en los años veinte.",
+    "tipo": "publicacion"
   },
   {
     "fecha": "09-02",
@@ -960,6 +854,12 @@
     "tipo": "evento"
   },
   {
+    "fecha": "09-09",
+    "titulo": "Nacimiento de Leo Tolstói",
+    "descripcion": "Nace en Yasnaya Polyana el autor de Anna Karenina y Guerra y Paz, las novelas rusas más influyentes del siglo XIX.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "09-10",
     "titulo": "Nacimiento de Mary Oliver",
     "descripcion": "Nace la poeta americana cuyas obras sobre la naturaleza, el amor y la presencia plena han tocado el corazón de millones de lectores.",
@@ -969,6 +869,12 @@
     "fecha": "09-14",
     "titulo": "Nacimiento de Rebeca Yarros",
     "descripcion": "Nace la autora de Fourth Wing / Alas de Sangre, cuya imaginación desbordante y pasión por el romance épico de fantasía conquistó al mundo lector.",
+    "tipo": "nacimiento"
+  },
+  {
+    "fecha": "09-16",
+    "titulo": "Nacimiento de Elizabeth Gaskell",
+    "descripcion": "Nace en Cheyne Walk, Chelsea, Elizabeth Gaskell, autora de Norte y Sur y otras obras que combinan el romance con la crítica social.",
     "tipo": "nacimiento"
   },
   {
@@ -984,10 +890,22 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "09-22",
+    "titulo": "Publicación de Middlemarch",
+    "descripcion": "En 1871 George Eliot comienza la publicación por entregas de Middlemarch, una novela monumental sobre el amor y la sociedad victoriana.",
+    "tipo": "publicacion"
+  },
+  {
     "fecha": "09-24",
     "titulo": "Norte y Sur - aniversario",
     "descripcion": "Se celebra la publicación de la novela de Elizabeth Gaskell, que mezcla el romance entre clases opuestas con la crítica a la industrialización.",
     "tipo": "publicacion"
+  },
+  {
+    "fecha": "09-26",
+    "titulo": "Nacimiento de T.S. Eliot",
+    "descripcion": "Nace Thomas Stearns Eliot, poeta y crítico literario cuya obra influyó profundamente en la literatura del siglo XX.",
+    "tipo": "nacimiento"
   },
   {
     "fecha": "09-28",
@@ -1002,10 +920,22 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "10-02",
+    "titulo": "Publicación de A Room with a View",
+    "descripcion": "En 1908 E.M. Forster publica A Room with a View, una novela sobre el amor auténtico que desafía las convenciones sociales eduardianas.",
+    "tipo": "publicacion"
+  },
+  {
     "fecha": "10-03",
     "titulo": "Nacimiento de Gore Vidal",
     "descripcion": "Nace el escritor y ensayista americano cuyas novelas históricas y memorias incluyen agudas reflexiones sobre el amor y el poder.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "10-05",
+    "titulo": "Publicación de Lo que el viento se llevó",
+    "descripcion": "En 1936 Margaret Mitchell publica Lo que el viento se llevó, que ganaría el Premio Pulitzer y se convertiría en una de las novelas más vendidas de todos los tiempos.",
+    "tipo": "publicacion"
   },
   {
     "fecha": "10-07",
@@ -1020,10 +950,22 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "10-11",
+    "titulo": "Nacimiento de Eleanor Roosevelt",
+    "descripcion": "Nace la gran defensora de los derechos humanos que también fue una apasionada lectora y admiradora de la literatura romántica clásica.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "10-13",
     "titulo": "Nacimiento de Paul Simon",
     "descripcion": "Nace el músico y poeta americano cuyas letras sobre el amor, la soledad y el tiempo se consideran auténtica poesía contemporánea.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "10-15",
+    "titulo": "Publicación de Madame Bovary",
+    "descripcion": "En 1856 Flaubert comienza a publicar por entregas Madame Bovary, una novela que cambiaría para siempre la forma de entender el romance en la literatura.",
+    "tipo": "publicacion"
   },
   {
     "fecha": "10-16",
@@ -1036,6 +978,12 @@
     "titulo": "Publicación de El retrato de Dorian Gray",
     "descripcion": "En 1890 Oscar Wilde publica El retrato de Dorian Gray, una historia sobre el amor, la belleza y la corrupción del alma que sigue fascinando.",
     "tipo": "publicacion"
+  },
+  {
+    "fecha": "10-22",
+    "titulo": "Nacimiento de Sarah Bernhardt",
+    "descripcion": "Nace la gran actriz francesa que interpretó a Marguerite Gautier en la primera adaptación teatral de La dama de las camelias.",
+    "tipo": "nacimiento"
   },
   {
     "fecha": "10-24",
@@ -1080,6 +1028,12 @@
     "tipo": "publicacion"
   },
   {
+    "fecha": "11-07",
+    "titulo": "Nacimiento de Albert Camus",
+    "descripcion": "Nace el escritor y filósofo francés, Premio Nobel de Literatura, cuyas obras exploran el amor y el absurdo de la existencia.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "11-09",
     "titulo": "Nacimiento de Ivan Turgenev",
     "descripcion": "Nace el escritor ruso autor de Padres e hijos y Primer amor, cuyas obras capturan la esencia del amor juvenil y el conflicto generacional.",
@@ -1096,6 +1050,12 @@
     "titulo": "Nacimiento de Robert Louis Stevenson",
     "descripcion": "Nace el autor de La isla del tesoro, cuyos romances de aventuras siguen apasionando a lectores de todas las edades.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "11-15",
+    "titulo": "Publicación de Anna Karenina",
+    "descripcion": "En 1877 Tolstói completa la publicación de Anna Karenina, la novela sobre amor y sacrificio más influyente de la literatura rusa.",
+    "tipo": "publicacion"
   },
   {
     "fecha": "11-16",
@@ -1116,6 +1076,18 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "11-21",
+    "titulo": "Nacimiento de Voltaire",
+    "descripcion": "Nace François-Marie Arouet (Voltaire), cuya filosofía sobre el amor y la libertad influyó en toda la literatura romántica europea.",
+    "tipo": "nacimiento"
+  },
+  {
+    "fecha": "11-22",
+    "titulo": "Muerte de George Eliot",
+    "descripcion": "En 1880 fallece Mary Ann Evans, conocida como George Eliot, autora de Middlemarch, considerada la gran novela de la literatura inglesa victoriana.",
+    "tipo": "evento"
+  },
+  {
     "fecha": "11-24",
     "titulo": "Nacimiento de Frances Hodgson Burnett",
     "descripcion": "Nace la autora de El jardín secreto y La princesita, cuyas historias sobre el amor y la esperanza siguen emocionando a lectores de todo el mundo.",
@@ -1134,10 +1106,22 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "12-01",
+    "titulo": "Nacimiento de Gustave Flaubert",
+    "descripcion": "Nace en Ruán el autor de Madame Bovary, una de las novelas más importantes del realismo literario francés.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "12-03",
     "titulo": "Nacimiento de Joseph Conrad",
     "descripcion": "Nace el novelista polaco-británico cuyas obras de aventura incluyen poderosas reflexiones sobre el amor y la oscuridad humana.",
     "tipo": "nacimiento"
+  },
+  {
+    "fecha": "12-05",
+    "titulo": "Publicación de Los Miserables",
+    "descripcion": "En 1862 Victor Hugo publica Los Miserables, una épica novela social con el romance entre Cosette y Marius como eje emocional.",
+    "tipo": "publicacion"
   },
   {
     "fecha": "12-07",
@@ -1170,6 +1154,24 @@
     "tipo": "nacimiento"
   },
   {
+    "fecha": "12-16",
+    "titulo": "Nacimiento de Jane Austen",
+    "descripcion": "En 1775 nace Jane Austen en Steventon, Hampshire. Considerada la gran maestra de la novela romántica en lengua inglesa, sus obras siguen siendo leídas y amadas en todo el mundo.",
+    "tipo": "nacimiento"
+  },
+  {
+    "fecha": "12-18",
+    "titulo": "Publicación de Persuasión",
+    "descripcion": "En 1817 se publica póstumamente Persuasión de Jane Austen, junto con La Abadía de Northanger, en una edición que honra el legado de la autora.",
+    "tipo": "publicacion"
+  },
+  {
+    "fecha": "12-19",
+    "titulo": "Nacimiento de Emily Dickinson",
+    "descripcion": "Nace la poeta americana cuyas cartas de amor y poemas sobre la pasión oculta la convirtieron en un ícono de la literatura romántica norteamericana.",
+    "tipo": "nacimiento"
+  },
+  {
     "fecha": "12-20",
     "titulo": "Nacimiento de Sandra Cisneros",
     "descripcion": "Nace la escritora chicana autora de La casa en Mango Street, cuyas historias sobre el amor, la identidad y la comunidad son fundamentales en la literatura latinoamericana.",
@@ -1186,6 +1188,12 @@
     "titulo": "Nochebuena Literaria - Historias de amor y esperanza",
     "descripcion": "La víspera de Navidad es tiempo de releer los finales felices que la literatura nos regala: Elizabeth y Darcy, Jane y Rochester, y todos los amores que merecieron su oportunidad.",
     "tipo": "evento"
+  },
+  {
+    "fecha": "12-25",
+    "titulo": "Publicación de Sentido y Sensibilidad",
+    "descripcion": "En 1811 Jane Austen publica de forma anónima su primera novela, Sentido y Sensibilidad, que narra las peripecias amorosas de las hermanas Dashwood.",
+    "tipo": "publicacion"
   },
   {
     "fecha": "12-26",
