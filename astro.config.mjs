@@ -3,8 +3,6 @@ import preact from '@astrojs/preact';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
-import cloudflare from "@astrojs/cloudflare";
-
 export default defineConfig({
   site: 'https://epocayrosa.com',
 
@@ -15,5 +13,4 @@ export default defineConfig({
   ],
 
   output: 'static',
-  adapter: cloudflare()
 });
