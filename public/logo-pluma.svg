@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 260" width="500" height="260" role="img" aria-label="Pluma victoriana de Queridos Lectores">
+  <defs>
+    <linearGradient id="featherGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9333EA;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5B21B6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="featherGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6D28D9;stop-opacity:0.9" />
+      <stop offset="60%" style="stop-color:#7C3AED;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#A855F7;stop-opacity:0.7" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4A017;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#B8860B;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#C9960C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B6914;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nibGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8C547;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B8860B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7A5C0A;stop-opacity:1" />
+    </linearGradient>
+    <filter id="softGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ===================== FEATHER BODY ===================== -->
+  <!-- Main feather mass - large purple flowing shape -->
+  <path d="M 155,135 
+    C 180,110 210,80 250,50 
+    C 290,20 340,5 390,8 
+    C 430,10 460,22 475,30
+    C 460,35 430,30 390,32
+    C 350,34 310,50 275,75
+    C 240,100 210,130 185,150
+    Z" 
+    fill="url(#featherGrad1)" opacity="0.95"/>
+
+  <!-- Upper feather fronds - flowing curves going upper-right -->
+  <path d="M 160,130
+    C 185,100 225,65 270,38
+    C 310,14 360,5 400,8
+    C 440,10 470,22 480,28
+    C 465,32 440,28 405,30
+    C 365,33 325,48 290,72
+    C 255,97 220,130 195,152
+    Z"
+    fill="url(#featherGrad2)" opacity="0.85"/>
+
+  <!-- Decorative swirl fronds at top of feather -->
+  <path d="M 370,12 C 385,8 405,6 420,10 C 430,13 440,18 445,25 C 435,22 420,18 405,17 C 390,16 375,18 370,12Z" fill="#A855F7" opacity="0.7"/>
+  <path d="M 340,18 C 360,10 385,8 400,14 C 385,18 365,20 350,25 C 342,22 338,20 340,18Z" fill="#9333EA" opacity="0.6"/>
+
+  <!-- Gold accent stripes through feather -->
+  <path d="M 165,132 C 200,100 240,68 280,45 C 310,28 345,16 375,14" 
+    fill="none" stroke="#D4A017" stroke-width="1.8" opacity="0.7"/>
+  <path d="M 175,138 C 210,108 248,78 288,55 C 318,38 352,26 382,22" 
+    fill="none" stroke="#B8860B" stroke-width="1.4" opacity="0.6"/>
+  <path d="M 185,145 C 218,118 255,90 295,68 C 325,50 358,38 388,33" 
+    fill="none" stroke="#D4A017" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Swirling barb tips - right side of feather -->
+  <path d="M 440,18 C 455,14 470,16 478,24 C 468,22 455,22 445,25 C 440,24 438,21 440,18Z" fill="#7C3AED" opacity="0.6"/>
+  <path d="M 420,12 C 438,6 460,8 472,18 C 460,16 445,14 432,17 C 425,15 420,13 420,12Z" fill="#6D28D9" opacity="0.5"/>
+
+  <!-- Bottom feather fronds - curling under -->
+  <path d="M 155,135
+    C 160,150 158,165 150,175
+    C 145,182 140,185 138,183
+    C 142,175 148,162 152,148
+    Z" fill="#5B21B6" opacity="0.8"/>
+  <path d="M 165,140
+    C 168,158 164,175 155,185
+    C 150,190 145,192 143,190
+    C 148,180 155,165 160,150
+    Z" fill="#6D28D9" opacity="0.7"/>
+
+  <!-- Decorative curling tip at top-right -->
+  <path d="M 470,30 C 480,25 490,18 488,12 C 486,6 478,4 472,8 C 478,8 484,12 482,17 C 480,22 473,26 470,30Z" fill="#9333EA" opacity="0.8"/>
+  <path d="M 460,26 C 472,20 484,14 482,8 C 478,4 470,5 465,10 C 470,9 476,12 475,17 C 473,22 466,24 460,26Z" fill="#7C3AED" opacity="0.6"/>
+
+  <!-- ===================== FERRULE / ORNATE CAP ===================== -->
+  <!-- Main ferrule body -->
+  <path d="M 118,162 C 130,150 148,140 158,136 C 165,140 168,148 162,158 C 155,168 140,176 128,175 Z" 
+    fill="url(#goldGrad)" />
+
+  <!-- Ferrule upper cap -->
+  <path d="M 150,138 C 158,133 165,135 168,140 C 165,145 158,148 152,145 Z" 
+    fill="#E8C547" opacity="0.9"/>
+
+  <!-- Ferrule scrollwork decoration -->
+  <path d="M 128,158 C 132,152 138,148 144,150 C 140,155 135,160 130,161 Z" 
+    fill="#E8C547" opacity="0.7"/>
+  <path d="M 136,165 C 140,158 146,154 152,155 C 148,161 143,166 138,167 Z" 
+    fill="#D4A017" opacity="0.8"/>
+  <!-- Ferrule filigree circles -->
+  <circle cx="138" cy="155" r="2.5" fill="#E8C547" opacity="0.9"/>
+  <circle cx="146" cy="151" r="2" fill="#D4A017" opacity="0.8"/>
+  <circle cx="130" cy="162" r="2" fill="#E8C547" opacity="0.8"/>
+  <!-- Ferrule scrollwork curves -->
+  <path d="M 122,170 C 126,162 134,156 140,157" fill="none" stroke="#E8C547" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 126,172 C 130,165 138,159 144,160" fill="none" stroke="#D4A017" stroke-width="1.2" opacity="0.7"/>
+  <path d="M 134,168 C 137,162 143,158 148,160" fill="none" stroke="#E8C547" stroke-width="1" opacity="0.6"/>
+
+  <!-- Ferrule band lines -->
+  <line x1="120" y1="166" x2="162" y2="140" stroke="#8B6914" stroke-width="1" opacity="0.8"/>
+  <line x1="124" y1="170" x2="165" y2="145" stroke="#8B6914" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- ===================== NIB / TIP ===================== -->
+  <!-- Nib barrel/holder -->
+  <path d="M 80,205 C 90,195 100,185 118,172 C 128,175 130,182 122,190 C 112,198 98,207 88,210 Z" 
+    fill="url(#goldGrad)"/>
+  
+  <!-- Nib barrel details -->
+  <path d="M 95,202 C 100,196 108,190 116,188" fill="none" stroke="#E8C547" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 88,206 C 94,200 103,194 112,192" fill="none" stroke="#D4A017" stroke-width="1.2" opacity="0.6"/>
+  <!-- Nib barrel rings -->
+  <path d="M 90,204 C 94,199 102,193 110,190 C 112,193 108,198 104,202 C 100,205 95,207 90,204Z" fill="#D4A017" opacity="0.5"/>
+
+  <!-- Nib tip (sharp pointed) -->
+  <path d="M 88,210 C 75,220 55,232 38,242 C 40,235 50,224 62,216 Z" fill="url(#nibGrad)"/>
+  <path d="M 85,212 C 72,222 52,234 35,244 C 38,240 48,230 58,222 Z" fill="#E8C547" opacity="0.6"/>
+  
+  <!-- Nib split line -->
+  <path d="M 88,210 L 36,243" stroke="#5C4A08" stroke-width="0.8" opacity="0.8"/>
+  
+  <!-- Nib tip point -->
+  <polygon points="38,242 35,244 40,244" fill="#D4A017" opacity="0.9"/>
+
+  <!-- ===================== ADDITIONAL FEATHER DETAIL ===================== -->
+  <!-- Extra flowing fronds for fullness -->
+  <path d="M 175,130 C 205,100 250,72 295,52 C 330,35 365,24 395,20 C 410,18 425,18 435,20"
+    fill="none" stroke="#9333EA" stroke-width="2" opacity="0.4"/>
+  <path d="M 170,135 C 198,108 242,82 288,62 C 322,46 358,36 388,32 C 403,30 418,30 428,32"
+    fill="none" stroke="#7C3AED" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Wispy barb tips extending beyond main mass -->
+  <path d="M 455,24 C 465,18 475,15 482,18" fill="none" stroke="#9333EA" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 450,28 C 462,22 473,18 480,22" fill="none" stroke="#7C3AED" stroke-width="1.2" opacity="0.5"/>
+  <path d="M 445,32 C 458,27 470,23 478,27" fill="none" stroke="#A855F7" stroke-width="1" opacity="0.5"/>
+
+  <!-- Swirling decorative elements at ferrule junction -->
+  <path d="M 162,138 C 165,128 175,120 180,122 C 178,130 170,136 165,138Z" fill="#D4A017" opacity="0.6"/>
+  <path d="M 160,142 C 163,132 172,124 178,127 C 175,135 167,140 162,142Z" fill="#E8C547" opacity="0.5"/>
+  
+  <!-- Bottom decorative curls -->
+  <path d="M 148,145 C 140,160 135,178 140,190" fill="none" stroke="#6D28D9" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 153,147 C 148,163 144,182 150,194" fill="none" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+</svg>
