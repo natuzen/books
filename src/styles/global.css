@@ -23,56 +23,6 @@ body {
   min-height: 100vh;
 }
 
-/* ===== VICTORIAN FRAME OVERLAY ===== */
-/* Fixed overlay that renders the ornate pastel violet frame on top of all content */
-.victorian-frame {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 9000;
-  /* Mobile: compact border */
-  border: 10px solid #C8A2C8;
-  box-shadow:
-    inset 0 0 0 2px #9B7FB8,
-    inset 0 0 0 4px rgba(200, 162, 200, 0.25);
-}
-
-/* Desktop (lg): thick, ornate Victorian frame */
-@media (min-width: 1024px) {
-  .victorian-frame {
-    border: 28px solid #C8A2C8;
-    box-shadow:
-      inset 0 0 0 4px #9B7FB8,
-      inset 0 0 0 8px rgba(200, 162, 200, 0.3),
-      inset 0 0 0 12px #C8A2C8,
-      inset 0 0 0 15px #9B7FB8;
-  }
-}
-
-/* Corner ornament glyphs */
-.vf-corner {
-  position: absolute;
-  color: #9B7FB8;
-  font-style: normal;
-  line-height: 1;
-  pointer-events: none;
-  text-shadow: 0 0 6px rgba(155, 127, 184, 0.6);
-  /* Mobile sizes */
-  font-size: 14px;
-}
-
-.vf-tl { top: 1px; left: 3px; }
-.vf-tr { top: 1px; right: 3px; transform: scaleX(-1); }
-.vf-bl { bottom: 1px; left: 3px; transform: scaleY(-1); }
-.vf-br { bottom: 1px; right: 3px; transform: scale(-1, -1); }
-
-@media (min-width: 1024px) {
-  .vf-corner { font-size: 22px; }
-  .vf-tl { top: 4px; left: 6px; }
-  .vf-tr { top: 4px; right: 6px; }
-  .vf-bl { bottom: 4px; left: 6px; }
-  .vf-br { bottom: 4px; right: 6px; }
-}
 
 h1, h2, h3, h4 {
   font-family: 'Playfair Display', Georgia, serif;

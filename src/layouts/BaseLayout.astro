@@ -40,13 +40,6 @@ const canonical = canonicalUrl || Astro.url.href;
     })} />
   </head>
   <body class="min-h-screen flex flex-col">
-    <!-- Victorian frame overlay: fixed on top, pointer-events-none -->
-    <div class="victorian-frame" aria-hidden="true">
-      <span class="vf-corner vf-tl">❧</span>
-      <span class="vf-corner vf-tr">❧</span>
-      <span class="vf-corner vf-bl">❧</span>
-      <span class="vf-corner vf-br">❧</span>
-    </div>
     <Header />
     <main class="flex-1">
       <slot />
