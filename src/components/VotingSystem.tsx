@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'preact/hooks';
+import { handleCoverError } from '../utils/cover-fallback-client';
 
 interface Libro {
   id: number;
@@ -6,6 +7,7 @@ interface Libro {
   autor: string;
   slug: string;
   categoria?: string;
+  isbn?: string;
   portada?: string;
 }
 
@@ -129,6 +131,7 @@ export default function VotingSystem({ libros }: Props) {
                     decoding="async"
                     width="40"
                     height="56"
+                    onError={(e) => handleCoverError(e as unknown as Event, libro.isbn, libro.titulo, libro.autor)}
                   />
                 ) : (
                   <div class="w-full h-full flex items-center justify-center text-xl">📚</div>

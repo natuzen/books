@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import libros from '../../../data/libros-curados.json';
-import { getGoogleBooksCoverUrl } from '../../utils/google-books';
-import { getCoverUrl } from '../../utils/open-library';
+import { getGoogleBooksCoverUrl, getGoogleBooksCoverUrlByQuery } from '../../utils/google-books';
+import { getCoverUrl, checkOpenLibraryCoverExists } from '../../utils/open-library';
 
 export function getStaticPaths() {
   return libros.map(libro => ({
@@ -39,9 +39,14 @@ const similares = (libro.libros_similares || [])
   .map(slug => librosMap[slug])
   .filter(Boolean);
 
-// Portada: Google Books como fuente principal, Open Library como fallback
-const googleCover = await getGoogleBooksCoverUrl(libro.isbn);
-const portadaUrl = googleCover || libro.portada || getCoverUrl(libro.isbn, 'L');
+// Portada: Open Library primero, Google Books como fallback
+const olExists = await checkOpenLibraryCoverExists(libro.isbn, 'L');
+const portadaUrl = olExists
+  ? getCoverUrl(libro.isbn, 'L')
+  : (await getGoogleBooksCoverUrl(libro.isbn)) ||
+    (await getGoogleBooksCoverUrlByQuery(libro.titulo, libro.autor)) ||
+    libro.portada ||
+    null;
 ---
 
 <BaseLayout
@@ -163,6 +168,10 @@ const portadaUrl = googleCover || libro.portada || getCoverUrl(libro.isbn, 'L');
                     decoding="async"
                     width="150"
                     height="225"
+                    data-isbn={sim.isbn}
+                    data-titulo={sim.titulo}
+                    data-autor={sim.autor}
+                    onerror="this.onerror=null;window.__coverFallback&&window.__coverFallback(this)"
                   />
                 ) : (
                   <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>
@@ -177,3 +186,46 @@ const portadaUrl = googleCover || libro.portada || getCoverUrl(libro.isbn, 'L');
     )}
   </div>
 </BaseLayout>
+
+<script>
+  if (!window.__coverFallback) {
+    (window as unknown as Record<string, unknown>).__coverFallback = async (img: HTMLImageElement) => {
+      const isbn = img.dataset.isbn ?? '';
+      const titulo = img.dataset.titulo ?? '';
+      const autor = img.dataset.autor ?? '';
+
+      if (isbn) {
+        try {
+          const res = await fetch(
+            `https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}&maxResults=1`
+          );
+          const data = (await res.json()) as { items?: Array<{ volumeInfo?: { imageLinks?: { thumbnail?: string } } }> };
+          const thumb = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
+          if (thumb) { img.src = thumb.replace('http://', 'https://'); return; }
+        } catch { /* continuar */ }
+      }
+
+      if (titulo) {
+        try {
+          let q = `intitle:${encodeURIComponent(titulo)}`;
+          if (autor) q += `+inauthor:${encodeURIComponent(autor)}`;
+          const res = await fetch(
+            `https://www.googleapis.com/books/v1/volumes?q=${q}&maxResults=1`
+          );
+          const data = (await res.json()) as { items?: Array<{ volumeInfo?: { imageLinks?: { thumbnail?: string } } }> };
+          const thumb = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
+          if (thumb) { img.src = thumb.replace('http://', 'https://'); return; }
+        } catch { /* continuar */ }
+      }
+
+      img.style.display = 'none';
+      const parent = img.parentElement;
+      if (parent) {
+        const placeholder = document.createElement('div');
+        placeholder.className = 'w-full h-full flex items-center justify-center';
+        placeholder.innerHTML = '<span class="text-3xl">📚</span>';
+        parent.appendChild(placeholder);
+      }
+    };
+  }
+</script>

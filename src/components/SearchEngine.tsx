@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'preact/hooks';
+import { handleCoverError } from '../utils/cover-fallback-client';
 
 interface Libro {
   id: number;
@@ -83,7 +84,16 @@ export default function SearchEngine({ libros }: Props) {
             <a href={`/libro/${libro.slug}`} class="block">
               <div class="aspect-[2/3] bg-epoca-crema rounded-lg mb-2 overflow-hidden">
                 {libro.portada ? (
-                  <img src={libro.portada} alt={libro.titulo} class="w-full h-full object-cover" loading="lazy" decoding="async" width="150" height="225" />
+                  <img
+                    src={libro.portada}
+                    alt={libro.titulo}
+                    class="w-full h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    width="150"
+                    height="225"
+                    onError={(e) => handleCoverError(e as unknown as Event, libro.isbn, libro.titulo, libro.autor)}
+                  />
                 ) : (
                   <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>
                 )}
