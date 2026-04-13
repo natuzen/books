@@ -5,8 +5,21 @@
  *   1. Open Library (URL en el prop `portada` — ya en el src de la imagen)
  *   2. Google Books por ISBN
  *   3. Google Books por título/autor
- *   4. Callback `onFallback()` para mostrar placeholder
+ *   4. Si no hay portada: llama a `onFallback()` si se proporcionó, o muestra 📚 por defecto
  */
+
+/** Normaliza la URL de thumbnail de Google Books: fuerza HTTPS y añade zoom=2. */
+function normalizeThumbnail(thumbnail: string): string {
+  const secureUrl = thumbnail.replace('http://', 'https://');
+  try {
+    const parsed = new URL(secureUrl);
+    parsed.searchParams.set('zoom', '2');
+    return parsed.toString();
+  } catch {
+    return secureUrl;
+  }
+}
+
 export async function handleCoverError(
   e: Event,
   isbn?: string,
@@ -26,10 +39,7 @@ export async function handleCoverError(
         items?: Array<{ volumeInfo?: { imageLinks?: { thumbnail?: string } } }>;
       };
       const thumb = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
-      if (thumb) {
-        img.src = thumb.replace('http://', 'https://');
-        return;
-      }
+      if (thumb) { img.src = normalizeThumbnail(thumb); return; }
     } catch { /* continuar con el siguiente fallback */ }
   }
 
@@ -45,13 +55,21 @@ export async function handleCoverError(
         items?: Array<{ volumeInfo?: { imageLinks?: { thumbnail?: string } } }>;
       };
       const thumb = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
-      if (thumb) {
-        img.src = thumb.replace('http://', 'https://');
-        return;
-      }
+      if (thumb) { img.src = normalizeThumbnail(thumb); return; }
     } catch { /* continuar con el placeholder */ }
   }
 
   // 3. Mostrar placeholder
-  onFallback?.();
+  if (onFallback) {
+    onFallback();
+  } else {
+    img.style.display = 'none';
+    const parent = img.parentElement;
+    if (parent) {
+      const placeholder = document.createElement('div');
+      placeholder.className = 'w-full h-full flex items-center justify-center';
+      placeholder.innerHTML = '<span class="text-4xl">📚</span>';
+      parent.appendChild(placeholder);
+    }
+  }
 }

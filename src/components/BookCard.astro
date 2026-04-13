@@ -55,6 +55,16 @@ const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
   // Fallback de portada: si Open Library falla, intentar Google Books.
   // Se define una sola vez aunque haya múltiples BookCards en la página.
   if (!window.__coverFallback) {
+    /** Normaliza thumbnail de Google Books: fuerza HTTPS y añade zoom=2. */
+    function normalizeCoverUrl(url: string): string {
+      const secure = url.replace('http://', 'https://');
+      try {
+        const parsed = new URL(secure);
+        parsed.searchParams.set('zoom', '2');
+        return parsed.toString();
+      } catch { return secure; }
+    }
+
     (window as unknown as Record<string, unknown>).__coverFallback = async (img: HTMLImageElement) => {
       const isbn = img.dataset.isbn ?? '';
       const titulo = img.dataset.titulo ?? '';
@@ -68,7 +78,7 @@ const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
           );
           const data = (await res.json()) as { items?: Array<{ volumeInfo?: { imageLinks?: { thumbnail?: string } } }> };
           const thumb = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
-          if (thumb) { img.src = thumb.replace('http://', 'https://'); return; }
+          if (thumb) { img.src = normalizeCoverUrl(thumb); return; }
         } catch { /* continuar con el siguiente fallback */ }
       }
 
@@ -82,7 +92,7 @@ const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
           );
           const data = (await res.json()) as { items?: Array<{ volumeInfo?: { imageLinks?: { thumbnail?: string } } }> };
           const thumb = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
-          if (thumb) { img.src = thumb.replace('http://', 'https://'); return; }
+          if (thumb) { img.src = normalizeCoverUrl(thumb); return; }
         } catch { /* continuar con el placeholder */ }
       }
 
