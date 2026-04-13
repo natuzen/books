@@ -142,7 +142,7 @@
     "isbn": "9780141180977",
     "paginas": 360,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141180977-L.jpg",
+    "portada": "https://covers.openlibrary.org/b/id/14212040-M.jpg",
     "citas_celebres": [
       "Han pasado veintisiete años. Tengo cincuenta y siete. No tiene sentido subir.",
       "Ella era todo lo que él había amado en secreto durante toda su vida.",
@@ -204,7 +204,7 @@
     "isbn": "9781416548898",
     "paginas": 1037,
     "editorial": "Scribner",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781416548898-L.jpg",
+    "portada": "https://covers.openlibrary.org/b/id/10527475-M.jpg",
     "citas_celebres": [
       "Después de todo, mañana es otro día.",
       "Dios me es testigo de que jamás volveré a pasar hambre.",
@@ -235,7 +235,7 @@
     "isbn": "9780140449266",
     "paginas": 1276,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780140449266-L.jpg",
+    "portada": "https://covers.openlibrary.org/b/id/14047885-M.jpg",
     "citas_celebres": [
       "Toda la sabiduría humana está contenida en estas dos palabras: esperar y esperar.",
       "El hombre que ha sentido la miseria intensa sabe cuán grande puede ser el placer.",
@@ -328,7 +328,7 @@
     "isbn": "9780141439662",
     "paginas": 374,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439662-L.jpg",
+    "portada": "https://covers.openlibrary.org/b/id/10530555-M.jpg",
     "citas_celebres": [
       "Una mujer de veintisiete años nunca puede esperar sentirse o inspirar afección de nuevo.",
       "El romanticismo sin prudencia es tan peligroso como la prudencia sin sentimiento.",
@@ -359,7 +359,7 @@
     "isbn": "9780743273565",
     "paginas": 180,
     "editorial": "Scribner",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
+    "portada": "https://covers.openlibrary.org/b/id/14057910-M.jpg",
     "citas_celebres": [
       "Así que seguimos adelante, botes contra la corriente, empujados sin cesar hacia el pasado.",
       "En mis años más vulnerables mi padre me dio un consejo que no he dejado de repasar desde entonces.",
@@ -390,7 +390,7 @@
     "isbn": "9780141439549",
     "paginas": 904,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439549-L.jpg",
+    "portada": "https://covers.openlibrary.org/b/id/12622028-M.jpg",
     "citas_celebres": [
       "Sus efectos benéficos sobre el mundo se debían en parte a los que no hicieron historia.",
       "No existe una criatura viva que no tenga algún sentido del mérito.",
@@ -468,34 +468,36 @@
   },
   {
     "id": 16,
-    "titulo": "La Regenta",
-    "autor": "Leopoldo Alas Clarín",
-    "anio": 1884,
-    "slug": "la-regenta",
-    "sinopsis": "Ana Ozores, La Regenta, vive atrapada en el tedio de Vetusta entre la devoción religiosa y la seducción del donjuán Álvaro Mesía. Una novela cumbre del realismo español que explora el deseo, la hipocresía social y el adulterio.",
+    "titulo": "A Million Junes",
+    "autor": "Emily Henry",
+    "anio": 2017,
+    "slug": "a-million-junes",
+    "sinopsis": "Jack y Saul son herederos de dos familias enemistadas desde generaciones atrás en la pequeña localidad de Five Fingers. Cuando comienzan a ver visiones del pasado a través de las cerezas mágicas del huerto familiar, Jack deberá enfrentar los secretos que dividen a sus familias y decidir si el amor puede romper una maldición centenaria.",
     "tropos": [
       "forbidden-love",
-      "triangle-amoroso",
-      "sociedad-victoriana"
+      "familias-enemigas",
+      "realismo-magico",
+      "slow-burn",
+      "small-town"
     ],
-    "intensidad": 5,
-    "categoria": "historica",
-    "isbn": "9788437600321",
-    "paginas": 720,
-    "editorial": "Cátedra",
-    "portada": "https://covers.openlibrary.org/b/isbn/9788437600321-L.jpg",
+    "intensidad": 3,
+    "categoria": "young-adult",
+    "isbn": "9780399546742",
+    "paginas": 352,
+    "editorial": "Razorbill",
+    "portada": "data:image/jpeg;base64,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",
     "citas_celebres": [
-      "Vetusta, la muy noble y leal ciudad, corte en lejano siglo, hacía la digestión del cocido.",
-      "Ana amaba el amor como una idea, como una posibilidad, pero no sabía lo que era amar de verdad.",
-      "La virtud no puede habitar en un corazón vacío de amor propio."
+      "El odio heredado es la carga más pesada que puede llevar una familia.",
+      "Las historias que nos contamos sobre el pasado son las cadenas que nos atan al presente.",
+      "Amar a alguien no significa que el universo estará de tu lado, pero vale la pena intentarlo de todas formas."
     ],
     "libros_similares": [
-      "madame-bovary",
-      "anna-karenina",
-      "la-dama-de-las-camelias"
+      "the-love-that-split-the-world",
+      "when-the-sky-fell-on-splendor",
+      "romeo-y-julieta"
     ],
-    "datos_curiosos_autor": "Leopoldo Alas 'Clarín' era principalmente crítico literario y periodista; La Regenta fue su primera novela y tardó tres años en escribirla.",
-    "contexto_historico": "Ambientada en Vetusta, ciudad ficticia basada en Oviedo (Asturias), en la Restauración borbónica de finales del XIX, cuando la iglesia y la burguesía controlaban la vida social provincial española."
+    "datos_curiosos_autor": "Emily Henry se inspiró en el clásico de Shakespeare 'Romeo y Julieta' para construir la enemistad familiar, pero añadió su propia visión mágica y profundamente emotiva. La novela fue elogiada por críticos como una de las mejores segundas novelas juveniles del año.",
+    "contexto_historico": "Ambientada en un pequeño pueblo ficticio del Medio Oeste estadounidense, la historia explora cómo los rencores familiares pueden perpetuarse durante generaciones y el peso que eso representa para los jóvenes que heredan conflictos que no crearon."
   },
   {
     "id": 17,
