@@ -7,10 +7,11 @@ interface Props {
   tropos?: string[];
   intensidad?: number;
   portada?: string;
+  isbn?: string;
   categoria?: string;
 }
 
-const { titulo, autor, anio, slug, tropos = [], intensidad = 3, portada, categoria } = Astro.props;
+const { titulo, autor, anio, slug, tropos = [], intensidad = 3, portada, isbn, categoria } = Astro.props;
 const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
 ---
 
@@ -26,6 +27,7 @@ const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
           decoding="async"
           width="200"
           height="300"
+          data-isbn={isbn}
         />
       ) : (
         <div class="w-full h-full flex items-center justify-center">

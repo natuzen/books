@@ -45,5 +45,38 @@ const canonical = canonicalUrl || Astro.url.href;
       <slot />
     </main>
     <Footer />
+    <script>
+      // Cover fallback: Open Library → Google Books → placeholder emoji
+      document.addEventListener('error', (e) => {
+        const img = e.target as HTMLImageElement;
+        if (img.tagName !== 'IMG' || !img.dataset.isbn || img.dataset.fallbackDone) return;
+        img.dataset.fallbackDone = 'true';
+        const isbn = img.dataset.isbn;
+        fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${encodeURIComponent(isbn)}&maxResults=1`)
+          .then(r => r.json())
+          .then((data: { items?: Array<{ volumeInfo?: { imageLinks?: { thumbnail?: string } } }> }) => {
+            const thumbnail = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
+            if (thumbnail) {
+              img.src = thumbnail.replace('http://', 'https://');
+            } else {
+              showCoverPlaceholder(img);
+            }
+          })
+          .catch(() => showCoverPlaceholder(img));
+      }, true);
+
+      function showCoverPlaceholder(img: HTMLImageElement) {
+        const container = img.parentElement;
+        if (container) {
+          const div = document.createElement('div');
+          div.className = 'w-full h-full flex items-center justify-center';
+          const span = document.createElement('span');
+          span.className = 'text-4xl';
+          span.textContent = '📚';
+          div.appendChild(span);
+          container.replaceChildren(div);
+        }
+      }
+    </script>
   </body>
 </html>

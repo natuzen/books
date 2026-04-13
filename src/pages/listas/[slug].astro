@@ -63,6 +63,7 @@ const librosRelacionados = (lista.data.libros || [])
                   decoding="async"
                   width="150"
                   height="225"
+                  data-isbn={libro.isbn}
                 />
               ) : (
                 <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>

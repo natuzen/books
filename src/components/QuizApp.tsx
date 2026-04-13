@@ -19,6 +19,7 @@ interface Libro {
   titulo: string;
   autor: string;
   slug: string;
+  isbn?: string;
   portada?: string;
   tropos?: string[];
   categoria?: string;
@@ -156,6 +157,7 @@ export default function QuizApp({ preguntas, libros = [] }: Props) {
                         decoding="async"
                         width="150"
                         height="225"
+                        data-isbn={libro.isbn}
                       />
                     ) : (
                       <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>

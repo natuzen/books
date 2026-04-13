@@ -39,9 +39,8 @@ const similares = (libro.libros_similares || [])
   .map(slug => librosMap[slug])
   .filter(Boolean);
 
-// Portada: Google Books como fuente principal, Open Library como fallback
-const googleCover = await getGoogleBooksCoverUrl(libro.isbn);
-const portadaUrl = googleCover || libro.portada || getCoverUrl(libro.isbn, 'L');
+// Portada: Open Library como fuente principal, Google Books como fallback
+const portadaUrl = libro.portada || await getGoogleBooksCoverUrl(libro.isbn) || getCoverUrl(libro.isbn, 'L');
 ---
 
 <BaseLayout
@@ -72,6 +71,7 @@ const portadaUrl = googleCover || libro.portada || getCoverUrl(libro.isbn, 'L');
               decoding="async"
               width="224"
               height="336"
+              data-isbn={libro.isbn}
             />
           ) : (
             <div class="w-full h-full flex items-center justify-center text-6xl">📚</div>
@@ -163,6 +163,7 @@ const portadaUrl = googleCover || libro.portada || getCoverUrl(libro.isbn, 'L');
                     decoding="async"
                     width="150"
                     height="225"
+                    data-isbn={sim.isbn}
                   />
                 ) : (
                   <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>

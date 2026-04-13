@@ -20,6 +20,47 @@ interface Props {
   libros: Libro[];
 }
 
+interface CoverProps {
+  portada?: string;
+  isbn: string;
+  titulo: string;
+}
+
+function BookCoverImage({ portada, isbn, titulo }: CoverProps) {
+  const [src, setSrc] = useState<string | null>(portada ?? null);
+  const [fallbackTried, setFallbackTried] = useState(false);
+
+  const handleError = () => {
+    if (!fallbackTried) {
+      setFallbackTried(true);
+      fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${encodeURIComponent(isbn)}&maxResults=1`)
+        .then(r => r.json())
+        .then((data: { items?: Array<{ volumeInfo?: { imageLinks?: { thumbnail?: string } } }> }) => {
+          const thumbnail = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
+          setSrc(thumbnail ? thumbnail.replace('http://', 'https://') : null);
+        })
+        .catch(() => setSrc(null));
+    } else {
+      setSrc(null);
+    }
+  };
+
+  return src ? (
+    <img
+      src={src}
+      alt={titulo}
+      class="w-full h-full object-cover"
+      loading="lazy"
+      decoding="async"
+      width="150"
+      height="225"
+      onError={handleError}
+    />
+  ) : (
+    <div class="w-full h-full flex items-center justify-center text-4xl">📚</div>
+  );
+}
+
 export default function SearchEngine({ libros }: Props) {
   const [query, setQuery] = useState('');
   const [categoria, setCategoria] = useState('');
@@ -82,11 +123,7 @@ export default function SearchEngine({ libros }: Props) {
           <article key={libro.id} class="bg-white border border-epoca-violeta-claro rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow">
             <a href={`/libro/${libro.slug}`} class="block">
               <div class="aspect-[2/3] bg-epoca-crema rounded-lg mb-2 overflow-hidden">
-                {libro.portada ? (
-                  <img src={libro.portada} alt={libro.titulo} class="w-full h-full object-cover" loading="lazy" decoding="async" width="150" height="225" />
-                ) : (
-                  <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>
-                )}
+                <BookCoverImage portada={libro.portada} isbn={libro.isbn} titulo={libro.titulo} />
               </div>
               <h3 class="font-semibold text-sm text-epoca-marron line-clamp-2">{libro.titulo}</h3>
               <p class="text-xs text-epoca-marron-medio mt-1">{libro.autor}</p>
