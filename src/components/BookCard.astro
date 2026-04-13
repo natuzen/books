@@ -56,8 +56,14 @@ const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
   // Se define una sola vez aunque haya múltiples BookCards en la página.
   import { handleCoverError } from '../utils/cover-fallback-client';
 
+  declare global {
+    interface Window {
+      __coverFallback?: (img: HTMLImageElement) => void;
+    }
+  }
+
   if (!window.__coverFallback) {
-    (window as unknown as Record<string, unknown>).__coverFallback = (img: HTMLImageElement) => {
+    window.__coverFallback = (img: HTMLImageElement) => {
       handleCoverError(
         { currentTarget: img } as Event,
         img.dataset.isbn,

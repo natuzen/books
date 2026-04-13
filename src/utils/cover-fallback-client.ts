@@ -18,6 +18,10 @@ export async function handleCoverError(
 ): Promise<void> {
   const img = e.currentTarget as HTMLImageElement;
 
+  // Guard: evitar re-entradas si el fallback ya fue intentado
+  if (img.dataset.coverFallbackAttempted) return;
+  img.dataset.coverFallbackAttempted = 'true';
+
   // 1. Intentar Google Books por ISBN
   if (isbn) {
     try {
