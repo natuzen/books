@@ -25,7 +25,7 @@ export async function searchGoogleBooks(query: string): Promise<GoogleBook[]> {
 }
 
 /** Extrae y normaliza la URL de thumbnail de Google Books (fuerza HTTPS y zoom=2). */
-function normalizeThumbnail(thumbnail: string): string {
+export function normalizeThumbnail(thumbnail: string): string {
   const secureUrl = thumbnail.replace('http://', 'https://');
   try {
     const parsed = new URL(secureUrl);

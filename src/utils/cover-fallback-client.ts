@@ -1,3 +1,5 @@
+import { normalizeThumbnail } from './google-books';
+
 /**
  * Fallback de portada para componentes cliente (Preact).
  *
@@ -7,19 +9,6 @@
  *   3. Google Books por título/autor
  *   4. Si no hay portada: llama a `onFallback()` si se proporcionó, o muestra 📚 por defecto
  */
-
-/** Normaliza la URL de thumbnail de Google Books: fuerza HTTPS y añade zoom=2. */
-function normalizeThumbnail(thumbnail: string): string {
-  const secureUrl = thumbnail.replace('http://', 'https://');
-  try {
-    const parsed = new URL(secureUrl);
-    parsed.searchParams.set('zoom', '2');
-    return parsed.toString();
-  } catch {
-    return secureUrl;
-  }
-}
-
 export async function handleCoverError(
   e: Event,
   isbn?: string,
