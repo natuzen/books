@@ -2,13 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BookCard from '../components/BookCard.astro';
 import libros from '../../data/libros-curados.json';
-import calendario from '../../data/calendario-literario.json';
 
-const librosDestacados = libros.slice(0, 8);
-const today = new Date();
-const todayStr = String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0');
-const entradaHoy = (calendario as Array<{fecha: string; titulo: string; descripcion: string; autor?: string; libro?: string}>)
-  .find(e => e.fecha === todayStr);
+const librosDestacados = [...libros].sort((a, b) => b.anio - a.anio).slice(0, 8);
 ---
 
 <BaseLayout
@@ -40,26 +35,6 @@ const entradaHoy = (calendario as Array<{fecha: string; titulo: string; descripc
       <a href="/recomiendame" class="px-6 py-2 rounded-full border border-epoca-rosa text-epoca-rosa hover:bg-epoca-rosa hover:text-white transition-colors font-inter font-medium">
         Recomiéndame
       </a>
-    </div>
-  </section>
-
-  <!-- Efeméride literaria del día -->
-  <section class="max-w-4xl mx-auto px-4 py-8">
-    <div class={`rounded-2xl p-6 ${entradaHoy ? 'bg-gradient-to-r from-epoca-violeta-claro to-epoca-rosa-claro' : 'bg-epoca-crema border border-epoca-violeta-claro'}`}>
-      <p class="text-xs font-medium text-epoca-marron-medio mb-1 uppercase tracking-widest">📅 Efeméride literaria del día</p>
-      {entradaHoy ? (
-        <>
-          <h2 class="font-playfair text-xl font-bold text-epoca-marron mb-2">{entradaHoy.titulo}</h2>
-          <p class="text-sm text-epoca-marron-medio leading-relaxed">{entradaHoy.descripcion}</p>
-          {entradaHoy.autor && (
-            <p class="text-xs text-epoca-marron-medio mt-2 font-medium">— {entradaHoy.autor}{entradaHoy.libro ? `, ${entradaHoy.libro}` : ''}</p>
-          )}
-        </>
-      ) : (
-        <p class="text-base text-epoca-marron italic font-playfair">
-          "Hoy es un buen día para descubrir un nuevo libro." ✨
-        </p>
-      )}
     </div>
   </section>
 

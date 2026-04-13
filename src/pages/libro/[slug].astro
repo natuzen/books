@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import libros from '../../../data/libros-curados.json';
+import { getGoogleBooksCoverUrl } from '../../utils/google-books';
+import { getCoverUrl } from '../../utils/open-library';
 
 export function getStaticPaths() {
   return libros.map(libro => ({
@@ -36,12 +38,16 @@ const librosMap = Object.fromEntries(libros.map(l => [l.slug, l]));
 const similares = (libro.libros_similares || [])
   .map(slug => librosMap[slug])
   .filter(Boolean);
+
+// Portada: Google Books como fuente principal, Open Library como fallback
+const googleCover = await getGoogleBooksCoverUrl(libro.isbn);
+const portadaUrl = googleCover || libro.portada || getCoverUrl(libro.isbn, 'L');
 ---
 
 <BaseLayout
   title={libro.titulo}
   description={libro.sinopsis}
-  ogImage={libro.portada}
+  ogImage={portadaUrl}
 >
   <div class="max-w-4xl mx-auto px-4 py-8">
     <!-- Breadcrumbs -->
@@ -57,9 +63,9 @@ const similares = (libro.libros_similares || [])
       <!-- Cover -->
       <div class="md:w-56 shrink-0">
         <div class="aspect-[2/3] bg-epoca-violeta-claro rounded-xl overflow-hidden shadow-lg">
-          {libro.portada ? (
+          {portadaUrl ? (
             <img
-              src={libro.portada}
+              src={portadaUrl}
               alt={`Portada de ${libro.titulo}`}
               class="w-full h-full object-cover"
               loading="eager"
