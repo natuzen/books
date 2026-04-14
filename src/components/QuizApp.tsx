@@ -1,4 +1,5 @@
 import { useState } from 'preact/hooks';
+import { handleCoverError } from '../utils/cover-fallback-client';
 
 interface Opcion {
   texto: string;
@@ -20,6 +21,7 @@ interface Libro {
   autor: string;
   slug: string;
   portada?: string;
+  isbn?: string;
   tropos?: string[];
   categoria?: string;
 }
@@ -156,6 +158,7 @@ export default function QuizApp({ preguntas, libros = [] }: Props) {
                         decoding="async"
                         width="150"
                         height="225"
+                        onError={(e) => handleCoverError(e as unknown as Event, libro.isbn, libro.titulo, libro.autor)}
                       />
                     ) : (
                       <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>

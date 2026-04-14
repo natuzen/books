@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import libros from '../../../data/libros-curados.json';
-import { getGoogleBooksCoverUrl } from '../../utils/google-books';
-import { getCoverUrl } from '../../utils/open-library';
+import { getGoogleBooksCoverUrl, getGoogleBooksCoverUrlByQuery } from '../../utils/google-books';
+import { getCoverUrl, checkOpenLibraryCoverExists } from '../../utils/open-library';
 
 export function getStaticPaths() {
   return libros.map(libro => ({
@@ -39,9 +39,14 @@ const similares = (libro.libros_similares || [])
   .map(slug => librosMap[slug])
   .filter(Boolean);
 
-// Portada: Google Books como fuente principal, Open Library como fallback
-const googleCover = await getGoogleBooksCoverUrl(libro.isbn);
-const portadaUrl = googleCover || libro.portada || getCoverUrl(libro.isbn, 'L');
+// Portada: Open Library primero, Google Books como fallback
+const olExists = await checkOpenLibraryCoverExists(libro.isbn, 'L');
+const portadaUrl = olExists
+  ? getCoverUrl(libro.isbn, 'L')
+  : (await getGoogleBooksCoverUrl(libro.isbn)) ||
+    (await getGoogleBooksCoverUrlByQuery(libro.titulo, libro.autor)) ||
+    libro.portada ||
+    null;
 ---
 
 <BaseLayout
@@ -163,6 +168,10 @@ const portadaUrl = googleCover || libro.portada || getCoverUrl(libro.isbn, 'L');
                     decoding="async"
                     width="150"
                     height="225"
+                    data-isbn={sim.isbn}
+                    data-titulo={sim.titulo}
+                    data-autor={sim.autor}
+                    onerror="this.onerror=null;window.__coverFallback&&window.__coverFallback(this)"
                   />
                 ) : (
                   <div class="w-full h-full flex items-center justify-center text-3xl">📚</div>
@@ -177,3 +186,25 @@ const portadaUrl = googleCover || libro.portada || getCoverUrl(libro.isbn, 'L');
     )}
   </div>
 </BaseLayout>
+
+<script>
+  import { handleCoverError } from '../../utils/cover-fallback-client';
+
+  declare global {
+    interface Window {
+      __coverFallback?: (img: HTMLImageElement) => void;
+    }
+  }
+
+  if (!window.__coverFallback) {
+    window.__coverFallback = (img: HTMLImageElement) => {
+      handleCoverError(
+        { currentTarget: img } as Event,
+        img.dataset.isbn,
+        img.dataset.titulo,
+        img.dataset.autor
+      );
+    };
+  }
+</script>
+

@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'preact/hooks';
+import { handleCoverError } from '../utils/cover-fallback-client';
 
 interface Libro {
   id: number;
@@ -10,6 +11,7 @@ interface Libro {
   tropos: string[];
   intensidad: number;
   categoria: string;
+  isbn?: string;
   portada?: string;
 }
 
@@ -124,6 +126,7 @@ export default function MoodRecommender({ libros }: Props) {
                   decoding="async"
                   width="180"
                   height="270"
+                  onError={(e) => handleCoverError(e as unknown as Event, recomendacion.isbn, recomendacion.titulo, recomendacion.autor)}
                 />
               ) : (
                 <div class="w-full h-full flex items-center justify-center text-5xl">📚</div>

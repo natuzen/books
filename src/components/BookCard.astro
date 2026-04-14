@@ -8,15 +8,16 @@ interface Props {
   intensidad?: number;
   portada?: string;
   categoria?: string;
+  isbn?: string;
 }
 
-const { titulo, autor, anio, slug, tropos = [], intensidad = 3, portada, categoria } = Astro.props;
+const { titulo, autor, anio, slug, tropos = [], intensidad = 3, portada, categoria, isbn } = Astro.props;
 const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
 ---
 
 <article class="card-epoca group">
   <a href={`/libro/${slug}`} class="block">
-    <div class="aspect-[2/3] bg-epoca-violeta-claro rounded-lg mb-3 overflow-hidden">
+    <div class="aspect-[2/3] bg-epoca-violeta-claro rounded-lg mb-3 overflow-hidden relative">
       {portada ? (
         <img
           src={portada}
@@ -26,6 +27,10 @@ const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
           decoding="async"
           width="200"
           height="300"
+          data-isbn={isbn}
+          data-titulo={titulo}
+          data-autor={autor}
+          onerror="this.onerror=null;window.__coverFallback&&window.__coverFallback(this)"
         />
       ) : (
         <div class="w-full h-full flex items-center justify-center">
@@ -45,3 +50,26 @@ const hearts = '♥'.repeat(intensidad) + '♡'.repeat(5 - intensidad);
     )}
   </a>
 </article>
+
+<script>
+  // Fallback de portada: si Open Library falla, intentar Google Books.
+  // Se define una sola vez aunque haya múltiples BookCards en la página.
+  import { handleCoverError } from '../utils/cover-fallback-client';
+
+  declare global {
+    interface Window {
+      __coverFallback?: (img: HTMLImageElement) => void;
+    }
+  }
+
+  if (!window.__coverFallback) {
+    window.__coverFallback = (img: HTMLImageElement) => {
+      handleCoverError(
+        { currentTarget: img } as Event,
+        img.dataset.isbn,
+        img.dataset.titulo,
+        img.dataset.autor
+      );
+    };
+  }
+</script>
