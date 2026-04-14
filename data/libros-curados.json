@@ -549,7 +549,7 @@
     "isbn": "9780140449341",
     "paginas": 246,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780140449341-L.jpg",
+    "portada": "https://covers.openlibrary.org/b/id/14301279-L.jpg",
     "citas_celebres": [
       "Puede que no haya más que un amor verdadero en la vida de cada persona.",
       "El amor nunca es verdadero si no lleva consigo algo de sacrificio.",
@@ -611,7 +611,7 @@
     "isbn": "9780141441825",
     "paginas": 252,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141441825-L.jpg",
+    "portada": "https://covers.openlibrary.org/b/id/12622123-M.jpg",
     "citas_celebres": [
       "Solo los que tienen el coraje de ser ellos mismos encuentran la felicidad verdadera.",
       "¿Tenemos alma o no la tenemos? ¿Amamos o no amamos?",
@@ -706,7 +706,7 @@
     "isbn": "9788408211365",
     "paginas": 336,
     "editorial": "Planeta",
-    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=El+Dia+que+Dejo+de+Nevar",
+    "portada": "https://covers.openlibrary.org/b/id/12681340-M.jpg",
     "citas_celebres": [
       "Hay personas que entran en tu vida y la dejan diferente para siempre, aunque no se queden.",
       "A veces el amor más real es el que aprendes a dejar ir cuando no es el momento.",
@@ -737,7 +737,7 @@
     "isbn": "9788408211372",
     "paginas": 352,
     "editorial": "Planeta",
-    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Nosotros+en+la+Luna",
+    "portada": "https://covers.openlibrary.org/b/id/10650862-M.jpg",
     "citas_celebres": [
       "Eres la persona con quien quiero compartir cada luna nueva y cada luna llena.",
       "No importa la distancia si los corazones laten al mismo ritmo.",
@@ -769,7 +769,7 @@
     "isbn": "9788408226659",
     "paginas": 416,
     "editorial": "Planeta",
-    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Todo+lo+que+Nunca+Fuimos",
+    "portada": "https://covers.openlibrary.org/b/id/13306703-M.jpg",
     "citas_celebres": [
       "El amor más difícil es el que duele porque es completamente real.",
       "A veces las personas que más te importan son las que menos puedes tener.",
@@ -800,7 +800,7 @@
     "isbn": "9781982160432",
     "paginas": 400,
     "editorial": "Atria Books",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781982160432-L.jpg",
+    "portada": "https://covers.openlibrary.org/b/id/12649413-M.jpg",
     "citas_celebres": [
       "El problema de fingir que alguien te gusta es que a veces olvidas que estás fingiendo.",
       "No te odio. Te odio mucho más que eso, que es completamente distinto.",
@@ -846,37 +846,38 @@
     "datos_curiosos_autor": "The American Roommate Experiment es una historia paralela a The Spanish Love Deception, protagonizada por el hermano de Aaron Blackford; Elena Armas siempre planeó escribir las historias de los Martín.",
     "contexto_historico": "Ambientada en el Nueva York contemporáneo, captura la experiencia de los jóvenes hispanos que viven el sueño americano mientras mantienen sus raíces culturales."
   },
-  {
+{
     "id": 28,
-    "titulo": "Perfectos Mentirosos",
-    "autor": "Ima Rubiales",
+    "titulo": "Beach Read",
+    "autor": "Emily Henry",
     "anio": 2020,
-    "slug": "perfectos-mentirosos",
-    "sinopsis": "Maia llega a un nuevo instituto donde conoce al popular y arrogante Alex. Aparentemente se odian, pero comparten un secreto que los une más de lo que cualquiera de los dos está dispuesto a admitir. Un romance de instituto con giros inesperados y mucha tensión.",
+    "slug": "beach-read",
+    "sinopsis": "January Andrews, escritora de romances con el corazón roto, hereda la casa de verano de su padre fallecido y descubre una doble vida que él ocultaba. Su vecino resulta ser Augustus Everett, un novelista literario serio y cínico con quien tiene una historia universitaria incómoda. Para superar sus bloqueos creativos, ambos hacen un trato: intercambiar géneros por el verano. Lo que no esperaban es que intercambiaran también sus corazones.",
     "tropos": [
       "enemies-to-lovers",
-      "forbidden-love",
-      "new-adult",
-      "slow-burn"
+      "forced-proximity",
+      "escritores",
+      "opposites-attract",
+      "duelo-y-sanacion"
     ],
-    "intensidad": 3,
-    "categoria": "romance-juvenil",
-    "isbn": "9788408232087",
-    "paginas": 320,
-    "editorial": "Planeta",
-    "portada": "https://via.placeholder.com/300x450/B8A0C8/3D2C2E?text=Perfectos+Mentirosos",
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781984806734",
+    "paginas": 384,
+    "editorial": "Berkley",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781984806734-L.jpg",
     "citas_celebres": [
-      "Mentimos a los demás porque no soportamos decirles la verdad sobre nosotros mismos.",
-      "El primer paso para enamorarse es fingir que la otra persona no te importa.",
-      "Ser perfecto es la máscara más difícil de llevar y la más fácil de perder."
+      "Eres el tipo de persona que hace que quiera escribir historias tristes.",
+      "Los finales felices no son para los cobardes.",
+      "Tal vez el problema no es el género que escribes, sino de qué tienes miedo de sentir."
     ],
     "libros_similares": [
-      "the-american-roommate-experiment",
-      "antes-de-diciembre",
-      "bully"
+      "people-we-meet-on-vacation",
+      "book-lovers",
+      "the-kiss-quotient"
     ],
-    "datos_curiosos_autor": "Ima Rubiales es una joven autora española que comenzó escribiendo en Wattpad; Perfectos Mentirosos fue originalmente una historia online que acumuló millones de lecturas antes de publicarse en papel.",
-    "contexto_historico": "Ambientada en el entorno universitario y de instituto contemporáneo español, refleja la cultura juvenil de las redes sociales y las dinámicas de poder en los grupos sociales adolescentes."
+    "datos_curiosos_autor": "Beach Read fue la primera novela adulta de Emily Henry y la catapultó al estrellato del romance contemporáneo. Fue un éxito instantáneo en el New York Times Bestseller List y convirtió a Henry en una de las voces más influyentes del género en la década de 2020.",
+    "contexto_historico": "Publicada durante la pandemia de COVID-19 en 2020, Beach Read llegó en un momento en que los lectores buscaban historias que combinaran humor, emoción y esperanza, convirtiéndose en uno de los libros más leídos de ese año en plataformas digitales."
   },
   {
     "id": 29,
