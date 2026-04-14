@@ -1665,5 +1665,38 @@
     ],
     "datos_curiosos_autor": "Emily Henry ha comentado que Funny Story nació de su fascinación por las situaciones cotidianas que son simultáneamente devastadoras y ridículas, y quiso escribir una heroína cuya fortaleza viniera precisamente de su capacidad de reírse de sí misma en los peores momentos.",
     "contexto_historico": "Publicada en 2024, la novela captura el espíritu de una generación que enfrenta rupturas, redefinición de la amistad y la búsqueda de identidad propia en la treintena, temas que resuenan profundamente entre los lectores millennials y Gen Z."
-  }
+  },
+  {
+    "id": 54,
+    "titulo": "Great Big Beautiful Life",
+    "autor": "Emily Henry",
+    "anio": 2025,
+    "slug": "great-big-beautiful-life",
+    "sinopsis": "Dos periodistas rivales son enviados a una isla privada para entrevistar a una legendaria matriarca que ha decidido contar su historia completa por primera vez. Atrapados juntos en ese paraíso aislado, deberán competir por la exclusiva mientras luchan contra una atracción que ninguno de los dos puede ignorar, descubriendo que la historia más grande no es la que vinieron a escribir.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forced-proximity",
+      "isla-desierta",
+      "rivals-to-lovers",
+      "slow-burn"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9780593639701",
+    "paginas": 416,
+    "editorial": "Berkley",
+    "portada": "https://covers.openlibrary.org/b/id/15149787-M.jpg",
+    "citas_celebres": [
+      "La mejor historia siempre es la que no planeabas contar.",
+      "Competir contigo es lo más cerca que he estado de sentirme vivo.",
+      "Una vida grande y hermosa no se mide en titulares, sino en los momentos que nadie más ve."
+    ],
+    "libros_similares": [
+      "funny-story",
+      "happy-place",
+      "icebreaker"
+    ],
+    "datos_curiosos_autor": "Great Big Beautiful Life es la novela más ambiciosa de Emily Henry en cuanto a estructura narrativa, incorporando fragmentos del manuscrito que los protagonistas están escribiendo dentro de la propia historia. Fue su lanzamiento más esperado hasta la fecha, con cifras de preventas récord.",
+    "contexto_historico": "La novela reflexiona sobre el periodismo en la era digital, la obsesión por las historias virales y el precio de la privacidad en un mundo hiperconectado, temas de plena vigencia en la sociedad de mediados de la década de 2020."
+  }  
 ]
