@@ -499,7 +499,7 @@
     "datos_curiosos_autor": "Emily Henry se inspiró en el clásico de Shakespeare 'Romeo y Julieta' para construir la enemistad familiar, pero añadió su propia visión mágica y profundamente emotiva. La novela fue elogiada por críticos como una de las mejores segundas novelas juveniles del año.",
     "contexto_historico": "Ambientada en un pequeño pueblo ficticio del Medio Oeste estadounidense, la historia explora cómo los rencores familiares pueden perpetuarse durante generaciones y el peso que eso representa para los jóvenes que heredan conflictos que no crearon."
   },
-{
+  {
     "id": 17,
     "titulo": "When the Sky Fell on Splendor",
     "autor": "Emily Henry",
@@ -846,7 +846,7 @@
     "datos_curiosos_autor": "The American Roommate Experiment es una historia paralela a The Spanish Love Deception, protagonizada por el hermano de Aaron Blackford; Elena Armas siempre planeó escribir las historias de los Martín.",
     "contexto_historico": "Ambientada en el Nueva York contemporáneo, captura la experiencia de los jóvenes hispanos que viven el sueño americano mientras mantienen sus raíces culturales."
   },
-{
+  {
     "id": 28,
     "titulo": "Beach Read",
     "autor": "Emily Henry",
@@ -1698,5 +1698,38 @@
     ],
     "datos_curiosos_autor": "Great Big Beautiful Life es la novela más ambiciosa de Emily Henry en cuanto a estructura narrativa, incorporando fragmentos del manuscrito que los protagonistas están escribiendo dentro de la propia historia. Fue su lanzamiento más esperado hasta la fecha, con cifras de preventas récord.",
     "contexto_historico": "La novela reflexiona sobre el periodismo en la era digital, la obsesión por las historias virales y el precio de la privacidad en un mundo hiperconectado, temas de plena vigencia en la sociedad de mediados de la década de 2020."
-  }  
+  },
+  {
+    "id": 55,
+    "titulo": "Donde habitan las sirenas",
+    "autor": "María Martínez",
+    "anio": 2025,
+    "slug": "donde-habitan-las-sirenas",
+    "sinopsis": "Lucía abandonó la isla mediterránea donde creció prometiéndose no regresar jamás. Pero cuando su abuela la llama de vuelta a Vila Mareva, no puede negarse. De regreso a ese paraíso costero, tendrá que enfrentarse a su hermana Laura, a los secretos familiares enterrados durante años y a un amor que creía haber dejado atrás para siempre. En ese verano entre el mar y la memoria, Lucía descubrirá que algunas heridas solo sanan cuando te atreves a volver.",
+    "tropos": [
+      "second-chance",
+      "slow-burn",
+      "isla-mediterranea",
+      "healing",
+      "family-drama"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788408308607",
+    "paginas": 448,
+    "editorial": "Crossbooks",
+    "portada": "https://covers.openlibrary.org/b/isbn/9788408308607-M.jpg",
+    "citas_celebres": [
+      "Hay lugares en el mundo que llevan tu nombre grabado; volver a ellos es reconocer quién eras antes de olvidarlo.",
+      "El mar no juzga: recibe a quienes regresan con la misma marea con que dejó ir a los que se fueron.",
+      "Las sirenas no llaman a quienes nunca han amado; llaman a los que alguna vez tuvieron que elegir entre quedarse o huir."
+    ],
+    "libros_similares": [
+      "fuimos-canciones",
+      "el-dia-que-dejo-de-nevar-en-alaska",
+      "people-we-meet-on-vacation"
+    ],
+    "datos_curiosos_autor": "María Martínez nació en 1989 en Elche, España, y es considerada una de las voces más representativas del romance en castellano. Comenzó su carrera con el género juvenil y el romance fantástico, pero con los años ha apostado por historias contemporáneas de gran carga emocional. Donde habitan las sirenas es su novela más íntima hasta la fecha, ambientada en un escenario mediterráneo que evoca sus raíces y explora el poder sanador del regreso a los orígenes.",
+    "contexto_historico": "La novela refleja la tendencia actual en el romance español hacia historias que exploran la sanación emocional, las relaciones familiares complejas y el peso de las raíces geográficas como catalizador del autoconocimiento. Un tema de especial resonancia en la literatura de los años 2020, cuando la búsqueda de identidad y el regreso a lo esencial se han vuelto temas centrales de la narrativa contemporánea en España."
+  }
 ]
