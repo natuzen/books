@@ -25,6 +25,7 @@ export default function SearchEngine({ libros }: Props) {
   const [query, setQuery] = useState('');
   const [categoria, setCategoria] = useState('');
   const [tropo, setTropo] = useState('');
+  const [visibleCount, setVisibleCount] = useState(20);
 
   const allTropos = useMemo(() => {
     const set = new Set<string>();
@@ -46,13 +47,18 @@ export default function SearchEngine({ libros }: Props) {
   };
 
   const filtered = useMemo(() => {
-    return libros.filter(l => {
-      if (query && !l.titulo.toLowerCase().includes(query.toLowerCase()) && !l.autor.toLowerCase().includes(query.toLowerCase())) return false;
-      if (categoria && l.categoria !== categoria) return false;
-      if (tropo && !l.tropos.includes(tropo)) return false;
-      return true;
-    });
+    setVisibleCount(20);
+    return libros
+      .filter(l => {
+        if (query && !l.titulo.toLowerCase().includes(query.toLowerCase()) && !l.autor.toLowerCase().includes(query.toLowerCase())) return false;
+        if (categoria && l.categoria !== categoria) return false;
+        if (tropo && !l.tropos.includes(tropo)) return false;
+        return true;
+      })
+      .sort((a, b) => b.anio - a.anio);
   }, [libros, query, categoria, tropo]);
+
+  const visibleLibros = filtered.slice(0, visibleCount);
 
   return (
     <div>
@@ -79,7 +85,7 @@ export default function SearchEngine({ libros }: Props) {
       <p class="text-sm text-epoca-marron-medio mb-4">{filtered.length} libro{filtered.length !== 1 ? 's' : ''} encontrado{filtered.length !== 1 ? 's' : ''}</p>
 
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-        {filtered.map(libro => (
+        {visibleLibros.map(libro => (
           <article key={libro.id} class="bg-white border border-epoca-violeta-claro rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow">
             <a href={`/libro/${libro.slug}`} class="block">
               <div class="aspect-[2/3] bg-epoca-crema rounded-lg mb-2 overflow-hidden">
@@ -105,6 +111,17 @@ export default function SearchEngine({ libros }: Props) {
           </article>
         ))}
       </div>
+
+      {visibleCount < filtered.length && (
+        <div class="text-center mt-8">
+          <button
+            onClick={() => setVisibleCount(c => c + 10)}
+            class="btn-primary"
+          >
+            Ver más
+          </button>
+        </div>
+      )}
 
       {filtered.length === 0 && (
         <div class="text-center py-12">
