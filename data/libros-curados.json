@@ -2028,5 +2028,203 @@
     ],
     "datos_curiosos_autor": "Cherry Baby es la novela más personal de Rainbow Rowell según sus propias declaraciones, escrita durante la pandemia como exploración de la identidad corporal y el amor propio. Fue selección Indie Next, Library Reads y Mejor Libro del Mes de Amazon en abril de 2026, con cifras de preventas que superaron todas sus obras anteriores.",
     "contexto_historico": "La novela reflexiona sobre la cultura de los GLP-1 (medicamentos para la pérdida de peso como Ozempic) y la obsesión colectiva con los cuerpos en la sociedad de mediados de los 2020, así como sobre el precio real de la viralidad en internet y la dificultad de recuperar la narrativa de la propia vida una vez que el mundo se apropia de ella."
+  },
+  {
+    "id": 65,
+    "titulo": "Binding 13",
+    "autor": "Chloe Walsh",
+    "anio": 2023,
+    "slug": "binding-13",
+    "sinopsis": "En el Tommen College de Cork, Shannon Lynch busca un nuevo comienzo después de sufrir bullying en su escuela anterior. Cuando su vida se cruza con la de Johnny Kavanagh, la estrella indiscutible del equipo de rugby del colegio, lo que comienza como una amistad inesperada entre dos almas rotas se convierte en algo mucho más profundo. Un slow-burn romance ambientado en Irlanda que explora con honestidad el primer amor, el trauma, la amistad incondicional y el peso de cargar secretos que no deberían pertenecer a nadie tan joven.",
+    "tropos": [
+      "friends-to-lovers",
+      "school-romance",
+      "slow-burn",
+      "sports-romance",
+      "trauma"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781464215964",
+    "paginas": 650,
+    "editorial": "Bloom Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781464215964-M.jpg",
+    "citas_celebres": [
+      "No eres invisible para mí. Nunca lo has sido.",
+      "Llevas tanto tiempo cargando el peso de todos que olvidaste que también tienes derecho a que alguien te cargue a ti.",
+      "El rugby es lo único que controlo. Y tú eres lo único que no puedo."
+    ],
+    "libros_similares": [
+      "ugly-love",
+      "it-ends-with-us",
+      "november-9"
+    ],
+    "datos_curiosos_autor": "Chloe Walsh es una autora irlandesa que publicó Binding 13 originalmente de forma independiente en 2018, antes de que el fenómeno de BookTok convirtiera la serie en un best seller internacional. La edición de Bloom Books de 2023 llegó tras el éxito viral de la saga, que catapultó a Walsh a las listas del New York Times.",
+    "contexto_historico": "La novela está ambientada en un colegio privado católico de Cork, Irlanda, y refleja la cultura del rugby como eje vertebrador de la identidad masculina en la sociedad irlandesa contemporánea, así como las presiones y expectativas que pesan sobre los jóvenes en entornos de élite deportiva."
+  },
+  {
+    "id": 66,
+    "titulo": "Keeping 13",
+    "autor": "Chloe Walsh",
+    "anio": 2023,
+    "slug": "keeping-13",
+    "sinopsis": "Johnny Kavanagh y Shannon Lynch continúan su historia en la segunda entrega de la serie Boys of Tommen. Tras una lesión que amenaza con destruir su carrera en el rugby, Johnny debe enfrentarse a su identidad más allá del deporte, mientras Shannon lidia con secretos del pasado que amenazan con destruir todo lo que han construido juntos. Un romance emocionalmente devastador sobre la lealtad, la confianza y el amor que se niega a rendirse cuando todo conspira en su contra.",
+    "tropos": [
+      "emotional",
+      "slow-burn",
+      "sports-romance",
+      "trauma",
+      "will-they-wont-they"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781728299976",
+    "paginas": 672,
+    "editorial": "Bloom Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781728299976-M.jpg",
+    "citas_celebres": [
+      "Puedo perder el rugby. No puedo perderte a ti.",
+      "Guardé tu secreto porque te quiero. Ahora necesito que guardes el mío.",
+      "No soy el chico del jersey trece. Soy el chico que te eligió a ti."
+    ],
+    "libros_similares": [
+      "binding-13",
+      "ugly-love",
+      "it-ends-with-us"
+    ],
+    "datos_curiosos_autor": "Keeping 13 fue publicado originalmente en 2018 junto a Binding 13 como una duología, pero la edición revisada de Bloom Books amplió y profundizó la narrativa. La reedición de 2023 debutó directamente en las listas de best sellers del New York Times, confirmando el fenómeno global de la serie.",
+    "contexto_historico": "La novela aborda la fragilidad de la identidad en la adolescencia tardía y la presión que ejerce el deporte de élite sobre los jóvenes irlandeses, al tiempo que explora cómo el trauma no resuelto puede heredarse de generación en generación dentro de las familias."
+  },
+  {
+    "id": 67,
+    "titulo": "Saving 6",
+    "autor": "Chloe Walsh",
+    "anio": 2023,
+    "slug": "saving-6",
+    "sinopsis": "Joey Lynch lleva el peso del mundo sobre sus hombros: como segundo hijo de una familia marcada por la violencia doméstica y el alcoholismo de su padre, se ha convertido en el protector silencioso de sus hermanos menores. Joey no cree merecer nada bueno, y hace todo lo posible por asegurarse de que así sea. Cuando Aoife Molloy, la hija de su jefe, entra en su vida con su luz y su obstinada negativa a rendirse con él, Joey descubre algo que nunca pensó merecer: alguien que lo ve de verdad. Un romance oscuro y emocionalmente devastador sobre el amor que salva cuando uno ya no cree poder ser salvado.",
+    "tropos": [
+      "dark-romance",
+      "emotional",
+      "forbidden-love",
+      "slow-burn",
+      "sports-romance"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781464215995",
+    "paginas": 512,
+    "editorial": "Bloom Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781464215995-M.jpg",
+    "citas_celebres": [
+      "Soy exactamente el tipo de persona de la que deberías alejarte.",
+      "No me importa lo que creas merecer. Me importa lo que eres.",
+      "Me pasé la vida protegiéndolos a ellos. Nadie me preguntó nunca quién me protegía a mí."
+    ],
+    "libros_similares": [
+      "it-ends-with-us",
+      "ugly-love",
+      "redeeming-6"
+    ],
+    "datos_curiosos_autor": "Saving 6 es considerado por muchas lectoras el libro más emocionalmente devastador de la serie Boys of Tommen. Chloe Walsh ha declarado que Joey Lynch es el personaje que más le costó escribir, ya que representa las consecuencias reales de crecer en un hogar con violencia doméstica desde la perspectiva del hijo mayor que asume el rol de protector.",
+    "contexto_historico": "La novela aborda con crudeza el ciclo de la violencia doméstica en Irlanda y sus efectos sobre los hijos, en un contexto social donde históricamente la Iglesia y el Estado tendieron a silenciar estos problemas. El libro refleja el debate contemporáneo sobre salud mental masculina y la dificultad de los hombres jóvenes para pedir ayuda."
+  },
+  {
+    "id": 68,
+    "titulo": "Redeeming 6",
+    "autor": "Chloe Walsh",
+    "anio": 2024,
+    "slug": "redeeming-6",
+    "sinopsis": "Joey Lynch y Aoife Molloy regresan en la conclusión de su historia. Con el mundo de Joey al borde del colapso y tentado por el camino autodestructivo que siempre supo que tomaría, Aoife se niega a abandonarlo aunque Joey haga todo lo posible para alejarla. Una historia desgarradora sobre la redención, el amor incondicional y la lucha por sobrevivir a la propia historia cuando parece que el destino ya está escrito.",
+    "tropos": [
+      "dark-romance",
+      "emotional",
+      "second-chance",
+      "slow-burn",
+      "sports-romance"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781464216022",
+    "paginas": 784,
+    "editorial": "Bloom Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781464216022-M.jpg",
+    "citas_celebres": [
+      "No me importa cuántas veces me empujes. Siempre voy a seguir aquí.",
+      "La redención no es un destino. Es la decisión que tomas cada mañana de no rendirte.",
+      "Me dijiste que eras irrecuperable. Mentías."
+    ],
+    "libros_similares": [
+      "saving-6",
+      "it-ends-with-us",
+      "ugly-love"
+    ],
+    "datos_curiosos_autor": "Redeeming 6 se convirtió en el libro más vendido de Chloe Walsh en su semana de lanzamiento, debutando en el #1 de las listas del New York Times. Con 784 páginas, es el libro más extenso de la serie y el que más contenido de advertencia incluye, abordando temas como el abuso de sustancias, la violencia y el trauma intergeneracional.",
+    "contexto_historico": "La novela cierra el arco narrativo de Joey Lynch y refleja el discurso social actual sobre la posibilidad real de romper ciclos de abuso y trauma familiar, poniendo en cuestión la idea fatalista de que ciertos destinos son inevitables para quienes nacen en determinados entornos."
+  },
+  {
+    "id": 69,
+    "titulo": "Taming 7",
+    "autor": "Chloe Walsh",
+    "anio": 2024,
+    "slug": "taming-7",
+    "sinopsis": "Gerard 'Gibsie' Gibson es el payaso del grupo, siempre con un chiste a mano y una sonrisa que no llega a los ojos. Detrás de la fachada alegre se esconde un pasado marcado por el trauma y pérdidas que nunca procesó. Claire Biggs, su mejor amiga de toda la vida, lo conoce mejor que nadie y lleva años esperando pacientemente a que él pueda ver lo que siempre estuvo frente a sus ojos. Un romance de amigos a amantes que explora con ternura y profundidad la sanación emocional y el amor que persiste a través del dolor cuando dos personas deciden enfrentarlo juntas.",
+    "tropos": [
+      "emotional",
+      "friends-to-lovers",
+      "slow-burn",
+      "sports-romance",
+      "trauma"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781464216053",
+    "paginas": 464,
+    "editorial": "Bloom Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781464216053-M.jpg",
+    "citas_celebres": [
+      "Llevo toda la vida haciéndote reír para que no veas que soy yo quien necesita que me salven.",
+      "Te conozco de tanto que sé exactamente cuándo tu sonrisa es real y cuándo es el escudo.",
+      "No necesito que te cures para quererte. Solo necesito que me dejes estar aquí mientras lo intentas."
+    ],
+    "libros_similares": [
+      "binding-13",
+      "saving-6",
+      "taming-7"
+    ],
+    "datos_curiosos_autor": "Taming 7 era el libro más anticipado de la serie Boys of Tommen, ya que Gibsie era el personaje favorito de gran parte de la comunidad lectora desde el primer libro. Chloe Walsh tardó más en escribirlo que ningún otro título de la saga porque, según sus propias palabras, le resultaba muy difícil hacer justicia a un personaje tan querido.",
+    "contexto_historico": "La novela explora la masculinidad vulnerable y el uso del humor como mecanismo de defensa frente al dolor, un tema de creciente visibilidad en los debates sobre salud mental masculina en Irlanda y el Reino Unido, países donde la tasa de suicidio en hombres jóvenes ha sido históricamente preocupante."
+  },
+  {
+    "id": 70,
+    "titulo": "Releasing 10",
+    "autor": "Chloe Walsh",
+    "anio": 2025,
+    "slug": "releasing-10",
+    "sinopsis": "Lizzie Young ha convivido con el trastorno bipolar desde pequeña y siempre se ha sentido fuera de lugar en un mundo que no comprende su mente. Hugh Biggs es un joven con una brújula moral inquebrantable que la ve como nadie la ha visto antes: entera, compleja y válida. Juntos enfrentan los fantasmas del pasado en una historia que aborda con valentía el abuso infantil, el trauma sexual, la automutilación y el largo camino hacia la sanación. La novela más oscura y valiente de la serie, sobre el amor que libera cuando uno creía que nunca podría ser libre.",
+    "tropos": [
+      "dark-romance",
+      "emotional",
+      "mental-health",
+      "slow-burn",
+      "trauma"
+    ],
+    "intensidad": 5,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9781464237232",
+    "paginas": 768,
+    "editorial": "Bloom Books",
+    "portada": "https://covers.openlibrary.org/b/isbn/9781464237232-M.jpg",
+    "citas_celebres": [
+      "Mi mente no es un problema que resolver. Es simplemente parte de mí.",
+      "Nadie me había mirado antes sin intentar arreglarme. Tú eres el primero.",
+      "Liberarse no significa olvidar. Significa que el pasado ya no tiene el mismo poder sobre ti."
+    ],
+    "libros_similares": [
+      "taming-7",
+      "saving-6",
+      "redeeming-6"
+    ],
+    "datos_curiosos_autor": "Releasing 10 es el libro más reciente y el más contundente en sus advertencias de contenido de toda la serie Boys of Tommen. Chloe Walsh incluyó una nota de la autora especialmente extensa para preparar a las lectoras y reconocer la valentía que requiere enfrentarse a ciertas páginas, así como para dedicarlo a quienes han vivido experiencias similares a las de Lizzie.",
+    "contexto_historico": "La novela forma parte de la tendencia del dark romance que normaliza abordar temas de salud mental, trauma y abuso desde una perspectiva empática y no sensacionalista, en un contexto literario donde lectoras y lectores reclaman cada vez más representación auténtica de experiencias difíciles sin que el dolor sea glorificado ni trivializado."
   }
 ]
