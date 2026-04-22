@@ -2226,5 +2226,36 @@
     ],
     "datos_curiosos_autor": "Releasing 10 es el libro más reciente y el más contundente en sus advertencias de contenido de toda la serie Boys of Tommen. Chloe Walsh incluyó una nota de la autora especialmente extensa para preparar a las lectoras y reconocer la valentía que requiere enfrentarse a ciertas páginas, así como para dedicarlo a quienes han vivido experiencias similares a las de Lizzie.",
     "contexto_historico": "La novela forma parte de la tendencia del dark romance que normaliza abordar temas de salud mental, trauma y abuso desde una perspectiva empática y no sensacionalista, en un contexto literario donde lectoras y lectores reclaman cada vez más representación auténtica de experiencias difíciles sin que el dolor sea glorificado ni trivializado."
-  }
+  },
+  {
+  "id": 71,
+  "titulo": "El club del olvido",
+  "autor": "Alice Kellen",
+  "anio": 2025,
+  "slug": "el-club-del-olvido",
+  "sinopsis": "La historia sigue a cuatro amigos —Samuel, Abel, Max y Tristán— que crecieron juntos en un barrio humilde. Ya adultos, deciden abrir un local de copas llamado precisamente "El Club del Olvido", un refugio donde la regla es que lo que ocurre dentro se queda allí.",
+  "tropos": [
+    "found-family",
+    "emotional",
+    "healing",
+    "Childhood Friends to Adults",
+    "grief"
+  ],
+  "intensidad": 4,
+  "categoria": "ficcion-contemporaneo",
+  "isbn": "9788408295632",
+  "paginas": 448,
+  "editorial": "Planeta",
+  "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1771613552i/247337198.jpg",
+  "citas_celebres": [
+    "...",
+  ],
+  "libros_similares": [
+    "el-chico-que-dibujaba-constelaciones",
+    "nosotros-en-la-luna",
+    "donde-todo-brilla"
+  ],
+  "datos_curiosos_autor": "Alice Kellen escribió esta novela como un tributo a sus lectores más fieles, cerrando un ciclo narrativo que comenzó con sus historias más íntimas sobre la memoria. La autora ha mencionado que el título hace referencia a ese espacio mental donde guardamos aquello que nos duele demasiado soltar, pero que ya no podemos retener.",
+  "contexto_historico": "Publicada en una etapa de madurez literaria de la autora, la obra se sitúa en la corriente de la narrativa contemporánea introspectiva, donde el romance sirve como vehículo para tratar temas filosóficos sobre el tiempo, el duelo y la identidad personal en la sociedad moderna."
+}
 ]
