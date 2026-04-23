@@ -3,15 +3,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import estrenos from '../../data/estrenos-peliculas.json';
 import novedades from '../../data/novedades-libros.json';
 
-const novedadesRecientes = [...novedades]
-  .sort((a, b) => new Date(b.fecha_publicacion).getTime() - new Date(a.fecha_publicacion).getTime())
+const novedadesRecientes = novedades
+  .slice()
+  .sort((a, b) => new Date(b.fecha_publicacion + 'T12:00:00Z').getTime() - new Date(a.fecha_publicacion + 'T12:00:00Z').getTime())
   .slice(0, 2);
 
 function formatFecha(fecha: string): string {
-  return new Date(fecha + 'T00:00:00').toLocaleDateString('es-ES', {
+  const [year, month, day] = fecha.split('-').map(Number);
+  return new Date(Date.UTC(year, month - 1, day)).toLocaleDateString('es-ES', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
+    timeZone: 'UTC',
   });
 }
 ---
