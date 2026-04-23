@@ -1960,5 +1960,401 @@
   ],
   "datos_curiosos_autor": "Alice Kellen escribió esta novela como un tributo a sus lectores más fieles, cerrando un ciclo narrativo que comenzó con sus historias más íntimas sobre la memoria. La autora ha mencionado que el título hace referencia a ese espacio mental donde guardamos aquello que nos duele demasiado soltar, pero que ya no podemos retener.",
   "contexto_historico": "Publicada en una etapa de madurez literaria de la autora, la obra se sitúa en la corriente de la narrativa contemporánea introspectiva, donde el romance sirve como vehículo para tratar temas filosóficos sobre el tiempo, el duelo y la identidad personal en la sociedad moderna."
-}
+},
+  {
+    "id": 63,
+    "titulo": "Tres meses",
+    "autor": "Joana Marcús",
+    "anio": 2023,
+    "slug": "tres-meses",
+    "sinopsis": "Jack Ross no creía en el compromiso, hasta que conoció a Jenna. Tres meses es el tiempo que tienen para descubrir si lo que sienten es real o solo una ilusión temporal antes de que sus caminos deban separarse.",
+    "tropos": [
+      "college-romance",
+      "friends-to-lovers",
+      "emotional"
+    ],
+    "intensidad": 3,
+    "categoria": "romance-juvenil",
+    "isbn": "9781644736487",
+    "paginas": 480,
+    "editorial": "Crossbooks",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1681559413i/54659294.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "antes-de-diciembre",
+      "despues-de-diciembre"
+    ],
+    "datos_curiosos_autor": "Joana Marcús comenzó publicando sus historias en Wattpad, donde rápidamente se convirtió en un fenómeno juvenil con millones de lecturas.",
+    "contexto_historico": "Tercera parte de la exitosa saga 'Meses a tu lado', que consolidó a Joana como una de las autoras de literatura juvenil más leídas en España y Latinoamérica."
+  },
+  {
+    "id": 64,
+    "titulo": "Las luces de febrero",
+    "autor": "Joana Marcús",
+    "anio": 2023,
+    "slug": "las-luces-de-febrero",
+    "sinopsis": "El esperado desenlace de la historia de Jack y Jenna. A medida que enfrentan nuevos retos y responsabilidades, deberán demostrar si el amor que construyeron es lo suficientemente fuerte para perdurar.",
+    "tropos": [
+      "college-romance",
+      "angst",
+      "first-love"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-juvenil",
+    "isbn": "9788419421135",
+    "paginas": 512,
+    "editorial": "Crossbooks",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1691146316i/195694577.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "tres-meses",
+      "antes-de-diciembre"
+    ],
+    "datos_curiosos_autor": "Con este libro, Joana cierra una de las sagas de romance juvenil más populares surgidas de plataformas digitales.",
+    "contexto_historico": "Cuarta entrega de la saga 'Meses a tu lado', muy esperada por el fandom de la autora."
+  },
+  {
+    "id": 65,
+    "titulo": "Después de él",
+    "autor": "Flor M. Salvador",
+    "anio": 2018,
+    "slug": "despues-de-el",
+    "sinopsis": "La continuación de la desgarradora historia de Luke y Hasley. Tras la tragedia, los personajes deben encontrar la manera de seguir adelante y sanar sus heridas en un camino lleno de dolor y aprendizaje.",
+    "tropos": [
+      "grief",
+      "healing",
+      "emotional"
+    ],
+    "intensidad": 5,
+    "categoria": "drama-juvenil",
+    "isbn": "9781644736463",
+    "paginas": 352,
+    "editorial": "Montena",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1654617521i/48908406.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "boulevard",
+      "antes-de-ella"
+    ],
+    "datos_curiosos_autor": "Flor M. Salvador logró que sus personajes traspasaran el papel, creando un vínculo emocional muy fuerte con sus lectores tras el impactante final del primer libro.",
+    "contexto_historico": "Secuela del fenómeno de Wattpad 'Boulevard', que rompió el corazón de millones de lectores en todo el mundo."
+  },
+  {
+    "id": 66,
+    "titulo": "Antes de ella",
+    "autor": "Flor M. Salvador",
+    "anio": 2026,
+    "slug": "antes-de-ella",
+    "sinopsis": "La historia de Boulevard contada desde una nueva perspectiva. Conoceremos los pensamientos más profundos y los demonios con los que lidiaba el protagonista antes de que el amor cambiara su vida.",
+    "tropos": [
+      "pov-change",
+      "angst",
+      "dark-past"
+    ],
+    "intensidad": 4,
+    "categoria": "drama-juvenil",
+    "isbn": "9781644738290",
+    "paginas": 320,
+    "editorial": "Montena",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1766117130i/205670060.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "boulevard",
+      "despues-de-el"
+    ],
+    "datos_curiosos_autor": "Esta versión fue muy pedida por los fans, quienes querían entender mejor la mente compleja de Luke.",
+    "contexto_historico": "Parte del universo de Boulevard, expandiendo la narrativa original para dar más profundidad al personaje masculino."
+  },
+  {
+    "id": 67,
+    "titulo": "La chica que lanzaba versos al aire",
+    "autor": "Andrea Longarela",
+    "anio": 2026,
+    "slug": "la-chica-que-lanzaba-versos-al-aire",
+    "sinopsis": "A Blue no le gusta ser Blue. Se conformaría con ser normal, aunque el mundo se esfuerce en recordarle que no encaja en esa definición.Jake no está seguro de ser feliz siendo Jake. Así que, cuando comienza a cruzarse con versos por el instituto, los va recogiendo y, sin darse cuenta, acaba embarcándose en la misión más loca de su encontrar a la chica que los ha escrito.",
+    "tropos": [
+      "slow-burn",
+      "poetry",
+      "healing"
+    ],
+    "intensidad": 3,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788419514844",
+    "paginas": 384,
+    "editorial": "Crossbooks",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1769246413i/246914857.jpg",
+    "citas_celebres": [
+      "La vida es una carrera de obstáculos. Tú eres la que escribe el final",
+	  "A veces los versos dicen lo que nosotros no nos atrevemos a gritar.",
+	  "No encajar no es un error, es simplemente ser otro tipo de pieza."
+    ],
+    "libros_similares": [
+      "el-color-de-las-cosas-invisibles",
+      "cuando-despierten-las-flores"
+    ],
+    "datos_curiosos_autor": "Andrea Longarela, también conocida como Neïra en sus inicios, tiene un estilo muy poético que se refleja en los títulos y el tono de sus novelas.",
+    "contexto_historico": "Una novela que destaca por su sensibilidad y foco en la salud mental y la expresión artística."
+  },
+  {
+    "id": 68,
+    "titulo": "Cuando despierten las flores",
+    "autor": "Andrea Longarela",
+    "anio": 2025,
+    "slug": "cuando-despierten-las-flores",
+    "sinopsis": "Drake tiene una vida perfecta, el éxito lo acompaña y el futuro le pertenece. Annie tiene una vida bonita y vislumbra un futuro a la altura de sus expectativas. Son dos desconocidos y sus caminos no tendrían por qué cruzarse. Sin embargo, el frío llega y el hielo lo cubre todo. Los cimientos de sus vidas caen y los dos, la chica que desea aprender a patinar y el chico que se ha prometido no volver a hacerlo, huyen a un pequeño pueblo, donde se encontrarán junto a un lago congelado y con el mañana reducido a una hoja en blanco. ¿Puede haber belleza en el dolor? ¿Puede el amor ser la salvación de dos almas a la deriva? ¿Podrán despertar las flores antes de que el invierno arrase con todo?",
+    "tropos": [
+      "small-town",
+      "starting-over",
+      "grumpy-sunshine"
+    ],
+    "intensidad": 3,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9786073928519",
+    "paginas": 400,
+    "editorial": "Crossbooks",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1751224848i/228468772.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "los-veranos-olvidados",
+      "la-chica-que-lanzaba-versos-al-aire"
+    ],
+    "datos_curiosos_autor": "Longarela suele incorporar elementos de la naturaleza como metáforas del crecimiento emocional de sus personajes.",
+    "contexto_historico": "Publicada en una época de gran auge para el romance 'feel-good' con toques de drama emocional."
+  },
+  {
+    "id": 69,
+    "titulo": "Los veranos olvidados",
+    "autor": "Andrea Longarela",
+    "anio": 2025,
+    "slug": "los-veranos-olvidados",
+    "sinopsis": "Vera, Sara y Alexander eran inseparables. Siendo adolescentes, habían establecido un vínculo especial, una amistad inquebrantable; habían trenzado sus vidas con nudos en apariencia irrompibles. ¿Por qué entonces, en la actualidad, Sara se siente sola? ¿Por qué los veranos en el lago ya no son tan mágicos como en algún momento fueron?",
+    "tropos": [
+      "second-chance",
+      "past-and-present",
+      "summer-romance"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788408297727",
+    "paginas": 416,
+    "editorial": "Crossbooks",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1731498527i/221017832.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "cuando-despierten-las-flores",
+      "el-color-de-las-cosas-invisibles"
+    ],
+    "datos_curiosos_autor": "La autora disfruta explorando cómo el tiempo y la distancia afectan las relaciones y cambian a las personas.",
+    "contexto_historico": "Una historia nostálgica sobre crecer y perdonar los errores del pasado."
+  },
+  {
+    "id": 70,
+    "titulo": "El color de las cosas invisibles",
+    "autor": "Andrea Longarela",
+    "anio": 2023,
+    "slug": "el-color-de-las-cosas-invisibles",
+    "sinopsis": "Rain y Jack no se soportan, o eso creen. Cuando un proyecto los obliga a trabajar juntos, descubrirán que las chispas que saltan entre ellos podrían iluminar esas cosas invisibles que ambos intentaban ocultar.",
+    "tropos": [
+      "enemies-to-lovers",
+      "forced-proximity",
+      "banter"
+    ],
+    "intensidad": 3,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9786073905312",
+    "paginas": 512,
+    "editorial": "Crossbooks",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1681901936i/136078054.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "la-chica-que-lanzaba-versos-al-aire",
+      "hasta-que-nos-quedemos-sin-estrellas"
+    ],
+    "datos_curiosos_autor": "Andrea Longarela es conocida por construir dinámicas 'enemies to lovers' muy ágiles y llenas de tensión.",
+    "contexto_historico": "Una de sus novelas más populares, aclamada por su sentido del humor y química entre los protagonistas."
+  },
+  {
+    "id": 71,
+    "titulo": "Nuestro lugar en el mundo",
+    "autor": "Inma Rubiales",
+    "anio": 2023,
+    "slug": "nuestro-lugar-en-el-mundo",
+    "sinopsis": "A veces, el lugar al que pertenecemos no es un sitio físico, sino una persona. Esta novela narra el viaje de dos almas perdidas que encuentran refugio y comprensión el uno en el otro.",
+    "tropos": [
+      "found-family",
+      "healing",
+      "soulmates"
+    ],
+    "intensidad": 3,
+    "categoria": "romance-juvenil",
+    "isbn": "9786073926478",
+    "paginas": 400,
+    "editorial": "Planeta",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1737548507i/223218920.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "todos-los-lugares-que-mantuvimos-en-secreto",
+      "hasta-que-nos-quedemos-sin-estrellas"
+    ],
+    "datos_curiosos_autor": "Inma Rubiales empezó a escribir muy joven en plataformas digitales antes de dar el salto al mundo editorial tradicional.",
+    "contexto_historico": "Representa el auge de la literatura 'New Adult' española con gran carga emocional."
+  },
+  {
+    "id": 72,
+    "titulo": "Todos los lugares que mantuvimos en secreto",
+    "autor": "Inma Rubiales",
+    "anio": 2026,
+    "slug": "todos-los-lugares-que-mantuvimos-en-secreto",
+    "sinopsis": "Maeve necesita escapar, y el destino la lleva al pequeño pueblo de Finlandia donde nació su madre. Allí conocerá a un chico con sus propios secretos y juntos descubrirán lugares mágicos tanto en la nieve como en sus corazones.",
+    "tropos": [
+      "small-town",
+      "secrets",
+      "winter-setting"
+    ],
+    "intensidad": 3,
+    "categoria": "romance-juvenil",
+    "isbn": "9786073911092",
+    "paginas": 480,
+    "editorial": "Planeta",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1701086060i/202748310.jpg",
+    "citas_celebres": [
+      "Me aprendí el nombre completo de Maeve, su canción favorita y todas las cosas que la hacían reír mucho antes de aprender a contar hasta diez."
+    ],
+    "libros_similares": [
+      "nuestro-lugar-en-el-mundo",
+      "el-arte-de-ser-nosotros"
+    ],
+    "datos_curiosos_autor": "La autora viajó a Finlandia para documentarse y plasmar la atmósfera invernal con precisión en la novela.",
+    "contexto_historico": "Publicada recientemente, consolidando a Inma Rubiales como una voz principal del romance juvenil en español."
+  },
+  {
+    "id": 73,
+    "titulo": "Hasta que nos quedemos sin estrellas",
+    "autor": "Inma Rubiales",
+    "anio": 2022,
+    "slug": "hasta-que-nos-quedemos-sin-estrellas",
+    "sinopsis": "Liam y Maia son dos polos opuestos. Maia está obsesionada con las estrellas y el control; Liam es un caos andante. Cuando sus mundos colisionan, descubrirán que a veces hay que perder el control para brillar de verdad.",
+    "tropos": [
+      "opposites-attract",
+      "college-romance",
+      "mental-health-rep"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-juvenil",
+    "isbn": "9788408252962",
+    "paginas": 448,
+    "editorial": "Planeta",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1667929780i/57944234.jpg",
+    "citas_celebres": [
+      "No tengo ni idea de lo que es el amor. Creo que nunca antes lo había sentido. Lo único que tengo claro es que, cada vez que pienso en eso, eres tú quien se me viene a la cabeza"
+    ],
+    "libros_similares": [
+      "el-arte-de-ser-nosotros",
+      "nuestro-lugar-en-el-mundo"
+    ],
+    "datos_curiosos_autor": "La novela toca temas importantes sobre la presión, la ansiedad y el miedo al fracaso en la juventud.",
+    "contexto_historico": "Uno de los grandes éxitos de la autora que la catapultó a la fama internacional."
+  },
+  {
+    "id": 74,
+    "titulo": "El arte de ser nosotros",
+    "autor": "Inma Rubiales",
+    "anio": 2023,
+    "slug": "el-arte-de-ser-nosotros",
+    "sinopsis": "Logan y Leah no tienen nada en común, salvo que ambos están rotos. Cuando un acuerdo los obliga a pasar tiempo juntos, el arte se convertirá en la vía para expresar todo lo que no saben decir con palabras.",
+    "tropos": [
+      "fake-dating",
+      "grumpy-sunshine",
+      "art"
+    ],
+    "intensidad": 3,
+    "categoria": "romance-juvenil",
+    "isbn": "9788408267928",
+    "paginas": 512,
+    "editorial": "Planeta",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1671293653i/69333269.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "hasta-que-nos-quedemos-sin-estrellas",
+      "el-color-de-las-cosas-invisibles"
+    ],
+    "datos_curiosos_autor": "La novela hace mucho énfasis en la creatividad y el arte como formas de sanación emocional.",
+    "contexto_historico": "Una vuelta de tuerca al clásico cliché de 'fake dating', con mucha carga emocional y desarrollo de personajes."
+  },
+  {
+    "id": 75,
+    "titulo": "El mapa de los anhelos",
+    "autor": "Alice Kellen",
+    "anio": 2022,
+    "slug": "el-mapa-de-los-anhelos",
+    "sinopsis": "Grace Peterson está perdida tras la muerte de su hermana. Cuando recibe un mapa misterioso, emprende un viaje junto a Will Tucker, un chico enigmático, para encontrar las respuestas y anhelos que creía haber perdido.",
+    "tropos": [
+      "road-trip",
+      "grief",
+      "healing",
+      "slow-burn"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9788408255956",
+    "paginas": 496,
+    "editorial": "Planeta",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1642689654i/60167327.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "nosotros-en-la-luna",
+      "el-chico-que-dibujaba-constelaciones"
+    ],
+    "datos_curiosos_autor": "Alice Kellen es conocida por sus historias emotivas; en este libro aborda el duelo y la superación personal a través de un viaje físico y emocional.",
+    "contexto_historico": "Un bestseller rotundo que consolidó a Alice Kellen como una de las escritoras españolas más leídas."
+  },
+  {
+    "id": 76,
+    "titulo": "Collide",
+    "autor": "Bal Khabara",
+    "anio": 2023,
+    "slug": "collide",
+    "sinopsis": "Summer es una estudiante de psicología dedicada, y Aiden es la estrella del equipo de hockey. Cuando sus caminos colisionan debido a un proyecto universitario, la tensión entre ellos amenaza con descongelar el corazón del jugador más frío del hielo.",
+    "tropos": [
+      "sports-romance",
+      "hockey",
+      "grumpy-sunshine",
+      "college-romance"
+    ],
+    "intensidad": 4,
+    "categoria": "romance-contemporaneo",
+    "isbn": "9780593818275",
+    "paginas": 416,
+    "editorial": "Bramble",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1692608727i/197306586.jpg",
+    "citas_celebres": [
+      "N/A"
+    ],
+    "libros_similares": [
+      "the-deal",
+      "icebreaker"
+    ],
+    "datos_curiosos_autor": "Bal Khabara autopublicó inicialmente esta novela, convirtiéndose rápidamente en una sensación viral en TikTok gracias al auge del 'hockey romance'.",
+    "contexto_historico": "Parte del fenómeno de los romances deportivos en redes sociales, especialmente los centrados en jugadores de hockey."
+  }
 ]
