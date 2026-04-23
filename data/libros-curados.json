@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -111,7 +112,7 @@
     "isbn": "9781594749773",
     "paginas": 400,
     "editorial": "Razorbill",
-    "portada": "data:image/jpeg;base64,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",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1433990957i/25467698.jpg",
     "citas_celebres": [
       "Algunas historias no tienen un final feliz. Solo tienen un final verdadero.",
       "El tiempo no es una línea recta. Es más como un árbol, con ramas que crecen en todas las direcciones.",
@@ -468,7 +469,7 @@
   },
   {
     "id": 16,
-    "titulo": "A Million Junes",
+    "titulo": "un millon de Junios",
     "autor": "Emily Henry",
     "anio": 2017,
     "slug": "a-million-junes",
@@ -485,7 +486,7 @@
     "isbn": "9780448493978",
     "paginas": 352,
     "editorial": "Razorbill",
-    "portada": "data:image/jpeg;base64,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",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1487956862i/30763950.jpg",
     "citas_celebres": [
       "El odio heredado es la carga más pesada que puede llevar una familia.",
       "Las historias que nos contamos sobre el pasado son las cadenas que nos atan al presente.",
@@ -785,7 +786,7 @@
   },
   {
     "id": 26,
-    "titulo": "The Spanish Love Deception",
+    "titulo": "Farsa de amor a la española",
     "autor": "Elena Armas",
     "anio": 2021,
     "slug": "the-spanish-love-deception",
@@ -800,7 +801,7 @@
     "isbn": "9781982160432",
     "paginas": 400,
     "editorial": "Atria Books",
-    "portada": "https://covers.openlibrary.org/b/id/12649413-M.jpg",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1655296402i/61196998.jpg",
     "citas_celebres": [
       "El problema de fingir que alguien te gusta es que a veces olvidas que estás fingiendo.",
       "No te odio. Te odio mucho más que eso, que es completamente distinto.",
@@ -816,7 +817,7 @@
   },
   {
     "id": 27,
-    "titulo": "The American Roommate Experiment",
+    "titulo": "Experimento de amor en Nueva York",
     "autor": "Elena Armas",
     "anio": 2022,
     "slug": "the-american-roommate-experiment",
@@ -832,7 +833,7 @@
     "isbn": "9781668002773",
     "paginas": 400,
     "editorial": "Atria Books",
-    "portada": "https://covers.openlibrary.org/b/id/15129800-M.jpg",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1672747806i/63254428.jpg",
     "citas_celebres": [
       "Vivir con alguien te enseña todo lo que quieres saber sobre él y todo lo que no querías saber.",
       "Escribir es difícil. Enamorarse es imposible. Hacer las dos cosas a la vez es un desastre absoluto.",
@@ -848,7 +849,7 @@
   },
   {
     "id": 28,
-    "titulo": "Beach Read",
+    "titulo": "La novela del verano",
     "autor": "Emily Henry",
     "anio": 2020,
     "slug": "beach-read",
@@ -865,7 +866,7 @@
     "isbn": "9781984806734",
     "paginas": 384,
     "editorial": "Berkley",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781984806734-L.jpg",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1649024345i/60744753.jpg",
     "citas_celebres": [
       "Eres el tipo de persona que hace que quiera escribir historias tristes.",
       "Los finales felices no son para los cobardes.",
@@ -975,7 +976,7 @@
   },
   {
     "id": 32,
-    "titulo": "King of Wrath",
+    "titulo": "Rey de la ira",
     "autor": "Ana Huang",
     "anio": 2022,
     "slug": "king-of-wrath",
@@ -990,7 +991,7 @@
     "isbn": "9781728268538",
     "paginas": 368,
     "editorial": "Bloom Books",
-    "portada": "https://covers.openlibrary.org/b/id/13588136-L.jpg",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1718919810i/210260897.jpg",
     "citas_celebres": [
       "El matrimonio es un contrato. El amor es una complicación que no estaba en los términos.",
       "Nunca imaginé que el infierno podría llevar un nombre tan hermoso como el tuyo.",
@@ -1289,7 +1290,7 @@
   },
   {
     "id": 42,
-    "titulo": "It Ends with Us",
+    "titulo": "Romper el circulo",
     "autor": "Colleen Hoover",
     "anio": 2016,
     "slug": "it-ends-with-us",
@@ -1320,7 +1321,7 @@
   },
   {
     "id": 43,
-    "titulo": "Ugly Love",
+    "titulo": "Amor feo",
     "autor": "Colleen Hoover",
     "anio": 2014,
     "slug": "ugly-love",
@@ -1413,7 +1414,7 @@
   },
   {
     "id": 46,
-    "titulo": "The Love Hypothesis",
+    "titulo": "La hipotesis del amor",
     "autor": "Ali Hazelwood",
     "anio": 2021,
     "slug": "the-love-hypothesis",
@@ -1429,7 +1430,7 @@
     "isbn": "9780593336823",
     "paginas": 384,
     "editorial": "Berkley",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780593336823-L.jpg",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1643456525i/60170616.jpg",
     "citas_celebres": [
       "La ciencia puede explicar casi todo, pero no puede explicar por qué me gustas precisamente tú.",
       "Los datos no mienten nunca, pero los corazones tienen una habilidad especial para engañarse.",
@@ -1445,7 +1446,7 @@
   },
   {
     "id": 47,
-    "titulo": "Love on the Brain",
+    "titulo": "La quimica del amor",
     "autor": "Ali Hazelwood",
     "anio": 2022,
     "slug": "love-on-the-brain",
@@ -1461,7 +1462,7 @@
     "isbn": "9780593336847",
     "paginas": 368,
     "editorial": "Berkley",
-    "portada": "https://covers.openlibrary.org/b/id/12856642-M.jpg",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1663141316i/62587439.jpg",
     "citas_celebres": [
       "El cerebro no distingue entre odio y amor; ambos activan exactamente las mismas zonas.",
       "La NASA fue mi sueño hasta que se convirtió en mi pesadilla, y luego en mi hogar.",
@@ -1477,7 +1478,7 @@
   },
   {
     "id": 48,
-    "titulo": "People We Meet on Vacation",
+    "titulo": "Gente que conocemos en vacaciones",
     "autor": "Emily Henry",
     "anio": 2021,
     "slug": "people-we-meet-on-vacation",
@@ -1492,7 +1493,7 @@
     "isbn": "9781984806758",
     "paginas": 384,
     "editorial": "Berkley",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781984806758-L.jpg",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1683630286i/151460133.jpg",
     "citas_celebres": [
       "Las mejores personas que conoces en la vida son las que encuentras completamente por accidente.",
       "No hay mejor viaje que el que haces con la persona equivocada en el momento perfectamente correcto.",
@@ -1539,7 +1540,7 @@
   },
   {
     "id": 50,
-    "titulo": "Happy Place",
+    "titulo": "Un lugar feliz",
     "autor": "Emily Henry",
     "anio": 2023,
     "slug": "happy-place",
@@ -1555,7 +1556,7 @@
     "isbn": "9780593441275",
     "paginas": 400,
     "editorial": "Berkley",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1660145160i/61718053.jpg",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1708159881i/206197434.jpg",
     "citas_celebres": [
       "El lugar feliz no es un sitio en el mapa; es una persona específica.",
       "A veces el final es simplemente el principio con mejor información sobre uno mismo.",
@@ -1635,7 +1636,7 @@
   },
   {
     "id": 53,
-    "titulo": "Funny Story",
+    "titulo": "Una historia divertida",
     "autor": "Emily Henry",
     "anio": 2024,
     "slug": "funny-story",
@@ -1652,7 +1653,7 @@
     "isbn": "9780241624135",
     "paginas": 368,
     "editorial": "Berkley",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1691795103i/194985375.jpg",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1722952256i/216797105.jpg",
     "citas_celebres": [
       "La vida no para de ser graciosa incluso cuando duele.",
       "Nunca planeé que mi lugar favorito fuera el sofá de un desconocido.",
@@ -1668,7 +1669,7 @@
   },
   {
     "id": 54,
-    "titulo": "Great Big Beautiful Life",
+    "titulo": "Una vida maravillosa",
     "autor": "Emily Henry",
     "anio": 2025,
     "slug": "great-big-beautiful-life",
@@ -1685,7 +1686,7 @@
     "isbn": "9781405974530",
     "paginas": 416,
     "editorial": "Berkley",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1729160849i/218641319.jpg",
+    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1749460659i/234881853.jpg",
     "citas_celebres": [
       "La mejor historia siempre es la que no planeabas contar.",
       "Competir contigo es lo más cerca que he estado de sentirme vivo.",
@@ -1734,303 +1735,6 @@
   },
   {
     "id": 56,
-    "titulo": "The Odds of You",
-    "autor": "Kate Dramis",
-    "anio": 2026,
-    "slug": "the-odds-of-you",
-    "sinopsis": "Sage Collins, ex analista de datos convertida en escritora de best sellers, sufre un bloqueo creativo devastador para su segunda novela. Un encuentro accidental con Theo Sharpe —actor británico a punto de conquistar Hollywood— durante un vuelo a una convención termina en escándalo cuando los paparazzi los fotografían juntos. Huyendo de la presión mediática, Sage se refugia en la Isla de Skye, Escocia, solo para descubrir que Theo aparece en el mismo rincón remoto del mundo. Entre paisajes brumosos, banter afilado y una proximidad inevitable, lo que parecía una probabilidad imposible empieza a sentirse peligrosamente como destino.",
-    "tropos": [
-      "celebrity-romance",
-      "fish-out-of-water",
-      "forced-proximity",
-      "opposites-attract",
-      "slow-burn"
-    ],
-    "intensidad": 3,
-    "categoria": "romance-contemporaneo",
-    "isbn": "9781250393678",
-    "paginas": 352,
-    "editorial": "St. Martin's Griffin",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1761714432i/231127266.jpg",
-    "citas_celebres": [
-      "Las probabilidades de que esto funcione son casi nulas. Casi.",
-      "Vine a Escocia a escapar de una historia, no a protagonizar otra.",
-      "Quizás el destino no sea una línea recta, sino el momento en que dejas de correr en dirección contraria."
-    ],
-    "libros_similares": [
-      "funny-story",
-      "book-lovers",
-      "people-we-meet-on-vacation"
-    ],
-    "datos_curiosos_autor": "The Odds of You es el debut adulto de Kate Dramis, cuya primera novela juvenil The War of Lost Hearts la catapultó al centro de atención de BookTok. Esta obra marca su transición al romance contemporáneo para adultos con una protagonista escritora que refleja el propio camino creativo de la autora.",
-    "contexto_historico": "La novela explora la cultura de la fama instantánea en la era de las redes sociales y el impacto del escrutinio mediático en la vida privada, ambientada en un mundo donde los rumores de internet pueden cambiar la vida de una persona de la noche a la mañana."
-  },
-  {
-    "id": 57,
-    "titulo": "Drive Me Crazy",
-    "autor": "Lizzy Dent",
-    "anio": 2026,
-    "slug": "drive-me-crazy",
-    "sinopsis": "Chloe Coleman es una de las primeras mujeres directoras de equipo en la Fórmula 1, decidida a transformar a su escudería en campeona. Sus planes se desmoronan cuando el nuevo piloto fichado resulta ser Matt Warner —estrella caída en desgracia tras un accidente traumático— y, para colmo, el chico que le rompió el corazón en la adolescencia. Bajo los focos de los grandes premios y la presión de un mundo que los observa, entre boxes, estrategias y reproches no resueltos, la frontera entre la rivalidad profesional y una atracción imposible de ignorar se vuelve más difusa con cada vuelta.",
-    "tropos": [
-      "second-chance",
-      "sports-romance",
-      "forbidden-love",
-      "slow-burn",
-      "workplace-romance"
-    ],
-    "intensidad": 3,
-    "categoria": "romance-contemporaneo",
-    "isbn": "9798217045204",
-    "paginas": 368,
-    "editorial": "G.P. Putnam's Sons",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1745174716i/231108837.jpg",
-    "citas_celebres": [
-      "Sobreviví un accidente a 300 km/h. No voy a dejarte destruirme de otra manera.",
-      "Contratar a tu ex para salvar la temporada no está en ningún manual de gestión que yo haya leído.",
-      "Hay carreras que no se ganan en la pista, sino mucho antes de cruzar la línea de salida."
-    ],
-    "libros_similares": [
-      "catch-her-if-you-can",
-      "icebreaker",
-      "the-odds-of-you"
-    ],
-    "datos_curiosos_autor": "Lizzy Dent es el seudónimo de la autora y guionista escocesa Liz Dohertyq, conocida por su habilidad para mezclar humor y emoción. Drive Me Crazy nació de su fascinación por el documental Drive to Survive de Netflix y la escasez de mujeres en puestos directivos del deporte motor.",
-    "contexto_historico": "La novela refleja el auge global de la Fórmula 1 como fenómeno cultural, especialmente entre audiencias jóvenes y femeninas, y la creciente conversación sobre la inclusión de las mujeres en posiciones de liderazgo en los deportes de motor de élite."
-  },
-  {
-    "id": 58,
-    "titulo": "Graceless Heart",
-    "autor": "Isabel Ibañez",
-    "anio": 2026,
-    "slug": "graceless-heart",
-    "sinopsis": "En el Volterra del siglo XV, Ravenna Maffei esconde un talento prohibido: puede infundir magia en la piedra que esculpe. Para salvar a su hermano, se inscribe en un concurso organizado por los Luni, la familia más temida e inmortal de Florencia. Cuando su magia queda al descubierto, es capturada y forzada a servir a Saturnino dei Luni —heredero enigmático y despiadado— bajo amenaza de muerte. Entre traición política, el avance del Papa sobre Florencia y una atracción que ninguno de los dos puede permitirse, Ravenna deberá decidir si el arte puede ser arma y si el corazón puede sobrevivir a la belleza más peligrosa.",
-    "tropos": [
-      "enemies-to-lovers",
-      "forbidden-magic",
-      "morally-grey-love-interest",
-      "slow-burn",
-      "historical-setting"
-    ],
-    "intensidad": 4,
-    "categoria": "romantasy",
-    "isbn": "9781250376695",
-    "paginas": 488,
-    "editorial": "St. Martin's Publishing Group",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1745653949i/231126993.jpg",
-    "citas_celebres": [
-      "El arte verdadero siempre es un poco mágico. La magia verdadera siempre es un poco peligrosa.",
-      "Eres la única persona capaz de hacerme sentir que no tengo el control, y eso es exactamente lo que te hace tan aterrador.",
-      "Vine a Florencia a salvar a mi hermano. No planeaba perder mi corazón en el intento."
-    ],
-    "libros_similares": [
-      "west-of-wicked",
-      "alas-de-sangre",
-      "una-corte-de-rosas-y-espinas"
-    ],
-    "datos_curiosos_autor": "Graceless Heart es el debut adulto de Isabel Ibañez, autora colombo-estadounidense conocida por su duología juvenil Woven in Moonlight. La novela nació de su amor por el arte renacentista y su investigación de dos años sobre los Médici, los Borgia y la magia como concepto sociopolítico en el Quattrocento.",
-    "contexto_historico": "Ambientada en la Florencia y Volterra del siglo XV, la novela dialoga con el contexto real de las guerras entre ciudades-estado italianas, la persecución de la magia por parte de la Iglesia y el patronazgo artístico de los Médici, recreando con libertad creativa uno de los períodos más fascinantes del Renacimiento."
-  },
-  {
-    "id": 59,
-    "titulo": "Catch Her If You Can",
-    "autor": "Tessa Bailey",
-    "anio": 2026,
-    "slug": "catch-her-if-you-can",
-    "sinopsis": "Madden Donahue, el nuevo receptor de los Yankees, lleva años enamorado de Eve Mitchell desde la secundaria, pero ella siempre lo ha rechazado por lealtad a su mejor amiga. Cuando Eve, propietaria de un club de burlesque, queda temporalmente a cargo de los hijos de su hermana y necesita cobertura médica urgente, Madden aparece con la propuesta más descabellada: un matrimonio falso de seis meses. Eve acepta bajo la condición de que todo permanezca en secreto, pero mantener las apariencias —y las manos quietas— resulta más difícil de lo planeado cuando la convivencia demuestra que algunos sentimientos no pueden fingirse.",
-    "tropos": [
-      "fake-marriage",
-      "friends-to-lovers",
-      "marriage-of-convenience",
-      "secret-feelings",
-      "sports-romance"
-    ],
-    "intensidad": 4,
-    "categoria": "romance-contemporaneo",
-    "isbn": "9780063493728",
-    "paginas": 336,
-    "editorial": "Avon",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1761282635i/237390793.jpg",
-    "citas_celebres": [
-      "Te propongo un matrimonio falso, no un corazón roto de verdad. Aunque temo que las reglas ya no aplican.",
-      "He atrapado pelotas difíciles toda mi vida. Tú eres la única que nunca me dejé atrapar.",
-      "Seis meses para demostrar que lo nuestro es real. Seis meses que ya se sienten como una eternidad."
-    ],
-    "libros_similares": [
-      "drive-me-crazy",
-      "icebreaker",
-      "it-ends-with-us"
-    ],
-    "datos_curiosos_autor": "Catch Her If You Can es el quinto libro de la serie Big Shots de Tessa Bailey, una de las autoras de romance contemporáneo más vendidas del mundo con más de 10 millones de libros vendidos. Bailey escribe habitualmente dos o tres novelas al año y es famosa por sus escenas de diálogo picante y sus heroínas de fuerte carácter.",
-    "contexto_historico": "La novela se inscribe en la tendencia del sports romance, uno de los subgéneros de mayor crecimiento en el mercado editorial angloparlante de la década de 2020, impulsado por el fenómeno Taylor Swift–Travis Kelce y el renovado interés masivo por el béisbol y el fútbol americano."
-  },
-  {
-    "id": 60,
-    "titulo": "One & Only",
-    "autor": "Maurene Goo",
-    "anio": 2026,
-    "slug": "one-and-only",
-    "sinopsis": "Cassia Park lleva una vida entera buscando al hombre que el destino le asignó: Daniel Nam, cuyo nombre apareció en las visiones de vidas pasadas de su familia de emparejadoras mágicas. A los 39 años, hastiada de esperar, Cassia tiene una noche de pasión impulsiva con Ellis, doce años menor que ella y completamente ajeno al mundo de su agencia. El problema surge cuando Ellis la presenta a su jefe: Daniel Nam. Con el destino y el libre albedrío en colisión, y un secreto familiar que sacude sus creencias más profundas, Cassia deberá decidir si el amor verdadero es lo que siempre supo o lo que nunca imaginó.",
-    "tropos": [
-      "age-gap",
-      "love-triangle",
-      "magical-realism",
-      "second-chance",
-      "soulmates"
-    ],
-    "intensidad": 3,
-    "categoria": "romance-contemporaneo",
-    "isbn": "9798217181162",
-    "paginas": 368,
-    "editorial": "G.P. Putnam's Sons",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1754537080i/238872971.jpg",
-    "citas_celebres": [
-      "El destino es un lujo que los románticos se conceden. El amor es el trabajo que todos evitamos.",
-      "Pasé diez años esperando al hombre correcto. No planeaba enamorarme del incorrecto en el camino.",
-      "¿Y si la magia de mi familia no consiste en encontrar el alma gemela, sino en aprender a elegir?"
-    ],
-    "libros_similares": [
-      "just-friends",
-      "the-night-we-met",
-      "funny-story"
-    ],
-    "datos_curiosos_autor": "One & Only es el debut adulto de Maurene Goo, autora conocida por sus novelas juveniles de romance coreano-estadounidense como I Believe in a Thing Called Love. La novela fue selección del club de lectura Read with Jenna del programa Today de NBC y recomendada por Oprah Daily antes de su publicación.",
-    "contexto_historico": "La novela explora la tensión entre las tradiciones familiares de herencia coreana y la identidad individual de las mujeres en la diáspora asiático-americana, enmarcada en el debate contemporáneo sobre el matrimonio tardío, la soledad en la mediana edad y el replanteamiento del amor romántico después de los 35."
-  },
-  {
-    "id": 61,
-    "titulo": "Just Friends",
-    "autor": "Haley Pham",
-    "anio": 2026,
-    "slug": "just-friends",
-    "sinopsis": "Blair y Declan fueron inseparables desde niños, hasta que un beso impulsivo en la adolescencia lo cambió todo y un silencio de cuatro años enterró lo que nunca llegaron a ser. Cuando Blair regresa al pueblo costero de Seabrook para cuidar a su tía abuela enferma y apoyar a su madre, consigue trabajo en la cafetería local, que resulta estar gestionada por Declan. Narrada en dos líneas temporales que se alternan —el pasado del primer amor y el presente de los adultos que quedaron—, la novela desvela con delicadeza las heridas sin cicatrizar, los secretos guardados demasiado tiempo y la pregunta que ninguno se atrevía a hacer: ¿puede el primer amor ser también el definitivo?",
-    "tropos": [
-      "dual-timeline",
-      "first-love",
-      "friends-to-lovers",
-      "second-chance",
-      "small-town"
-    ],
-    "intensidad": 3,
-    "categoria": "romance-contemporaneo",
-    "isbn": "9781668095188",
-    "paginas": 352,
-    "editorial": "Atria Books",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1754324295i/235991978.jpg",
-    "citas_celebres": [
-      "La amistad fue nuestra forma de querernos sin el riesgo de perdernos. Funcionó, hasta que dejó de hacerlo.",
-      "Cuatro años de silencio y sigues siendo lo primero que busco en una habitación llena de gente.",
-      "Dicen que los pueblos pequeños guardan memorias largas. Lo que no dicen es que también guardan las personas."
-    ],
-    "libros_similares": [
-      "one-and-only",
-      "the-night-we-met",
-      "people-we-meet-on-vacation"
-    ],
-    "datos_curiosos_autor": "Just Friends es el debut novelístico de Haley Pham, conocida youtuber e influencer con más de 3 millones de seguidores, quien llevó años hablando abiertamente de su amor por la literatura de romance. La novela fue recibida con sorpresa y elogios por la comunidad lectora, que no esperaba tanta madurez narrativa en un primer libro.",
-    "contexto_historico": "La novela explora el regreso a los orígenes como fenómeno de la generación millennial y Z, en un contexto donde la pandemia y la incertidumbre económica impulsaron a muchos jóvenes a replantearse sus raíces, su identidad y las relaciones que dejaron atrás."
-  },
-  {
-    "id": 62,
-    "titulo": "The Night We Met",
-    "autor": "Abby Jimenez",
-    "anio": 2026,
-    "slug": "the-night-we-met",
-    "sinopsis": "Una noche de concierto, Larissa toma una decisión en una fracción de segundo que cambia el curso de su vida: sube al coche de Mike en lugar del de Chris. Meses después, Larissa y Chris se han convertido en mejores amigos —comparten libros favoritos, cuidan juntos a un Yorkshire terrier adoptado con más personalidad que sentido común y se ríen de todo— sin que ninguno de los dos se permita nombrar lo que realmente siente. Porque Chris es el mejor amigo de su novio. Y porque algunas cosas que se sienten demasiado bien no pueden ser correctas. Una historia sobre la amistad que duele, el amor que llega en el momento equivocado y la pregunta que no tiene respuesta fácil: ¿cómo haces lo correcto cuando lo correcto destroza a alguien que quieres?",
-    "tropos": [
-      "best-friends-forbidden-love",
-      "emotional",
-      "love-triangle",
-      "slow-burn",
-      "will-they-wont-they"
-    ],
-    "intensidad": 4,
-    "categoria": "romance-contemporaneo",
-    "isbn": "9781538759233",
-    "paginas": 400,
-    "editorial": "Forever",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1755786976i/231801371.jpg",
-    "citas_celebres": [
-      "La noche que nos conocimos no fue la noche que nos encontramos. Eso tardó mucho más.",
-      "Ser tu amigo es lo más fácil que he hecho en mi vida. Dejar de serlo es lo más difícil.",
-      "Pump­kin­ic­kel siempre gana. Es la única verdad absoluta de este universo."
-    ],
-    "libros_similares": [
-      "it-ends-with-us",
-      "ugly-love",
-      "just-friends"
-    ],
-    "datos_curiosos_autor": "The Night We Met es la séptima novela adulta de Abby Jimenez, autora de best sellers del New York Times conocida por combinar la comedia romántica con escenas emocionalmente devastadoras. Jimenez es además pastelera y dueña de una panadería, experiencia que suele colar con maestría en sus historias.",
-    "contexto_historico": "La novela explora la complejidad moral de las relaciones en triángulo desde una perspectiva empática y sin villanos, en línea con el debate contemporáneo sobre los límites de la lealtad, la honestidad emocional y lo que la amistad verdadera puede y no puede sostener."
-  },
-  {
-    "id": 63,
-    "titulo": "West of Wicked",
-    "autor": "Nikki St. Crowe",
-    "anio": 2026,
-    "slug": "west-of-wicked",
-    "sinopsis": "Dorothy Gale apareció en el umbral de Em y Henry durante una tormenta siendo niña, sin recuerdos de su pasado. Adulta, un ciclón la arrastra a la oscura y maldita tierra de Oz junto con su perro y su granja. La Bruja del Norte le ordena seguir el camino de adoquines amarillos para encontrar al mago, advirtiéndola de monstruos del bosque, mercenarios y brujas. En el camino, Dorothy encuentra a un hombre atado a un poste en un campo de maíz: atractivo, misterioso y con secretos que podrían costarle la vida a ella. Una reimaginación oscura, sensual y subversiva de El Mago de Oz donde nada es lo que parece, los héroes esconden traiciones y el amor florece en el lugar más peligroso.",
-    "tropos": [
-      "dark-fantasy",
-      "fairy-tale-retelling",
-      "forbidden-love",
-      "hidden-identity",
-      "journey"
-    ],
-    "intensidad": 3,
-    "categoria": "romantasy",
-    "isbn": "9781250382191",
-    "paginas": 320,
-    "editorial": "Tor Bramble",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1754325469i/231127414.jpg",
-    "citas_celebres": [
-      "No hay lugar como el hogar, dicen. Pero nunca tuve uno hasta que llegué al lugar más oscuro del mundo.",
-      "Confiar en él podría costarme la vida. No confiar en él ya me está costando el corazón.",
-      "El camino de adoquines amarillos no lleva a ningún mago. Lleva a la versión de ti que siempre quisiste ser."
-    ],
-    "libros_similares": [
-      "graceless-heart",
-      "una-corte-de-rosas-y-espinas",
-      "alas-de-sangre"
-    ],
-    "datos_curiosos_autor": "West of Wicked es la primera novela de Nikki St. Crowe publicada por una editorial tradicional de gran sello, tras años de éxito en la autoedición con su serie Vicious Lost Boys. El libro fue adquirido en subasta competitiva por Tor Bramble y se convirtió en uno de los lanzamientos de romantasy más anticipados del año.",
-    "contexto_historico": "La novela forma parte de la tendencia de los retellings oscuros de cuentos clásicos que dominan el mercado del romantasy desde principios de los años 2020, respondiendo a la demanda de lectoras que buscan versiones adultas, complejas y emocionalmente crudas de historias que conocieron en la infancia."
-  },
-  {
-    "id": 64,
-    "titulo": "Cherry Baby",
-    "autor": "Rainbow Rowell",
-    "anio": 2026,
-    "slug": "cherry-baby",
-    "sinopsis": "Cherry tiene 36 años y su matrimonio con Tom se ha deshecho de una manera peculiar: el webcomic semiautobiográfico que él dibujó se convirtió en un fenómeno mundial, y el personaje de 'Baby' —basado en ella, en su cuerpo, en su vida— es ahora propiedad pública. Mientras Tom está en Hollywood adaptando su obra para el cine y no vuelve a casa, Cherry cuida al perro y lidia con una identidad que ya no le pertenece del todo. Cuando Russ Sutton, su viejo amor de la universidad que ignora por completo la existencia del cómic, reaparece en su vida, Cherry se enfrenta a una pregunta incómoda: ¿puede alguien quererte de verdad si no sabe quién eras antes de convertirte en un personaje?",
-    "tropos": [
-      "body-positivity",
-      "divorce",
-      "rekindled-love",
-      "second-chance",
-      "small-town"
-    ],
-    "intensidad": 3,
-    "categoria": "romance-contemporaneo",
-    "isbn": "9780063380264",
-    "paginas": 416,
-    "editorial": "William Morrow",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1749678092i/236142491.jpg",
-    "citas_celebres": [
-      "Tom me convirtió en un personaje. Russ me ve a mí. Son dos cosas completamente distintas.",
-      "Ser viral no es fama. Es que un millón de desconocidos tengan opinión sobre tu cuerpo.",
-      "No quiero ser la versión de mí que le gustaba a la gente. Quiero ser la versión que me gusta a mí."
-    ],
-    "libros_similares": [
-      "funny-story",
-      "book-lovers",
-      "people-we-meet-on-vacation"
-    ],
-    "datos_curiosos_autor": "Cherry Baby es la novela más personal de Rainbow Rowell según sus propias declaraciones, escrita durante la pandemia como exploración de la identidad corporal y el amor propio. Fue selección Indie Next, Library Reads y Mejor Libro del Mes de Amazon en abril de 2026, con cifras de preventas que superaron todas sus obras anteriores.",
-    "contexto_historico": "La novela reflexiona sobre la cultura de los GLP-1 (medicamentos para la pérdida de peso como Ozempic) y la obsesión colectiva con los cuerpos en la sociedad de mediados de los 2020, así como sobre el precio real de la viralidad en internet y la dificultad de recuperar la narrativa de la propia vida una vez que el mundo se apropia de ella."
-  },
-  {
-    "id": 65,
     "titulo": "Binding 13",
     "autor": "Chloe Walsh",
     "anio": 2023,
@@ -2063,7 +1767,7 @@
     "contexto_historico": "La novela está ambientada en un colegio privado católico de Cork, Irlanda, y refleja la cultura del rugby como eje vertebrador de la identidad masculina en la sociedad irlandesa contemporánea, así como las presiones y expectativas que pesan sobre los jóvenes en entornos de élite deportiva."
   },
   {
-    "id": 66,
+    "id": 57,
     "titulo": "Keeping 13",
     "autor": "Chloe Walsh",
     "anio": 2023,
@@ -2096,7 +1800,7 @@
     "contexto_historico": "La novela aborda la fragilidad de la identidad en la adolescencia tardía y la presión que ejerce el deporte de élite sobre los jóvenes irlandeses, al tiempo que explora cómo el trauma no resuelto puede heredarse de generación en generación dentro de las familias."
   },
   {
-    "id": 67,
+    "id": 58,
     "titulo": "Saving 6",
     "autor": "Chloe Walsh",
     "anio": 2023,
@@ -2129,7 +1833,7 @@
     "contexto_historico": "La novela aborda con crudeza el ciclo de la violencia doméstica en Irlanda y sus efectos sobre los hijos, en un contexto social donde históricamente la Iglesia y el Estado tendieron a silenciar estos problemas. El libro refleja el debate contemporáneo sobre salud mental masculina y la dificultad de los hombres jóvenes para pedir ayuda."
   },
   {
-    "id": 68,
+    "id": 59,
     "titulo": "Redeeming 6",
     "autor": "Chloe Walsh",
     "anio": 2024,
@@ -2162,7 +1866,7 @@
     "contexto_historico": "La novela cierra el arco narrativo de Joey Lynch y refleja el discurso social actual sobre la posibilidad real de romper ciclos de abuso y trauma familiar, poniendo en cuestión la idea fatalista de que ciertos destinos son inevitables para quienes nacen en determinados entornos."
   },
   {
-    "id": 69,
+    "id": 60,
     "titulo": "Taming 7",
     "autor": "Chloe Walsh",
     "anio": 2024,
@@ -2195,7 +1899,7 @@
     "contexto_historico": "La novela explora la masculinidad vulnerable y el uso del humor como mecanismo de defensa frente al dolor, un tema de creciente visibilidad en los debates sobre salud mental masculina en Irlanda y el Reino Unido, países donde la tasa de suicidio en hombres jóvenes ha sido históricamente preocupante."
   },
   {
-    "id": 70,
+    "id": 61,
     "titulo": "Releasing 10",
     "autor": "Chloe Walsh",
     "anio": 2025,
@@ -2228,7 +1932,7 @@
     "contexto_historico": "La novela forma parte de la tendencia del dark romance que normaliza abordar temas de salud mental, trauma y abuso desde una perspectiva empática y no sensacionalista, en un contexto literario donde lectoras y lectores reclaman cada vez más representación auténtica de experiencias difíciles sin que el dolor sea glorificado ni trivializado."
   },
 {
-  "id": 71,
+  "id": 62,
   "titulo": "El club del olvido",
   "autor": "Alice Kellen",
   "anio": 2026,
