@@ -2,6 +2,18 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import estrenos from '../../data/estrenos-peliculas.json';
 import novedades from '../../data/novedades-libros.json';
+
+const novedadesRecientes = [...novedades]
+  .sort((a, b) => new Date(b.fecha_publicacion).getTime() - new Date(a.fecha_publicacion).getTime())
+  .slice(0, 2);
+
+function formatFecha(fecha: string): string {
+  return new Date(fecha + 'T00:00:00').toLocaleDateString('es-ES', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+}
 ---
 
 <BaseLayout
@@ -27,39 +39,36 @@ import novedades from '../../data/novedades-libros.json';
           🏆 Ver Rankings y Votar
         </a>
       </div>
-
-      <!-- Novedades editoriales -->
-      <div class="mt-8">
-        <h3 class="font-playfair text-xl text-epoca-marron mb-4">📚 Novedades Editoriales</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {novedades.map(n => (
-            <div class="card-epoca">
-              <h4 class="font-playfair font-semibold text-epoca-marron">{n.titulo}</h4>
-              <p class="text-xs text-epoca-marron-medio mt-0.5">{n.autor} · {n.editorial} · {n.fecha_publicacion}</p>
-              <p class="text-sm text-epoca-marron-medio mt-2 leading-relaxed">{n.sinopsis}</p>
-              <span class="text-xs bg-epoca-verde-claro text-epoca-marron px-2 py-0.5 rounded-full mt-2 inline-block">{n.genero}</span>
-            </div>
-          ))}
-        </div>
-      </div>
     </section>
 
-    <!-- ============ SECCIÓN 2: Calendario Audiovisual ============ -->
-    <section>
+    <!-- ============ SECCIÓN 2: Calendario de pelis y series ============ -->
+    <section class="mb-14">
       <div class="flex items-center gap-3 mb-6 border-b-2 border-epoca-rosa-claro pb-3">
         <span class="text-2xl">🎬</span>
         <div>
-          <h2 class="font-playfair text-2xl text-epoca-marron font-bold">Calendario Audiovisual</h2>
+          <h2 class="font-playfair text-2xl text-epoca-marron font-bold">Calendario de pelis y series</h2>
           <p class="text-sm text-epoca-marron-medio">Próximas adaptaciones de libros románticos al cine y series</p>
         </div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         {estrenos.map(e => (
-          <div class="card-epoca">
+          <div class="card-epoca overflow-hidden">
+            {e.imagen && (
+              <div class="aspect-[2/3] w-full overflow-hidden rounded-lg mb-3 bg-epoca-violeta-claro">
+                <img
+                  src={e.imagen}
+                  alt={`Portada de ${e.titulo}`}
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            )}
             <div class="flex items-start justify-between gap-2">
               <div class="flex-1 min-w-0">
-                <h3 class="font-playfair font-semibold text-epoca-marron">{e.titulo}</h3>
-                <p class="text-xs text-epoca-marron-medio mt-0.5">{e.tipo} · {e.plataforma} · {e.fecha_estreno}</p>
+                <h3 class="font-playfair font-semibold text-epoca-marron text-lg">{e.titulo}</h3>
+                <p class="font-playfair font-bold text-epoca-rosa text-base mt-1">📅 {formatFecha(e.fecha_estreno)}</p>
+                <p class="text-xs text-epoca-marron-medio mt-0.5">{e.tipo} · {e.plataforma}</p>
                 <p class="text-sm text-epoca-marron-medio mt-2 leading-relaxed">{e.sinopsis}</p>
               </div>
               <span class="shrink-0 text-xs bg-epoca-rosa text-white px-2 py-1 rounded-full">{e.genero}</span>
@@ -69,6 +78,38 @@ import novedades from '../../data/novedades-libros.json';
                 📖 Basada en: <em class="font-medium">{e.adaptacion_de}</em>
               </p>
             )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- ============ SECCIÓN 3: Novedades Editoriales ============ -->
+    <section>
+      <div class="flex items-center gap-3 mb-6 border-b-2 border-epoca-verde-claro pb-3">
+        <span class="text-2xl">📚</span>
+        <div>
+          <h2 class="font-playfair text-2xl text-epoca-marron font-bold">Novedades Editoriales</h2>
+          <p class="text-sm text-epoca-marron-medio">Las últimas publicaciones del mundo del romance</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {novedadesRecientes.map(n => (
+          <div class="card-epoca flex gap-4">
+            <div class="shrink-0 w-20 h-28 bg-epoca-violeta-claro rounded-lg overflow-hidden">
+              <img
+                src={`https://covers.openlibrary.org/b/isbn/${n.isbn}-M.jpg`}
+                alt={`Portada de ${n.titulo}`}
+                class="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="flex-1 min-w-0">
+              <h4 class="font-playfair font-semibold text-epoca-marron">{n.titulo}</h4>
+              <p class="text-xs text-epoca-marron-medio mt-0.5">{n.autor} · {n.editorial} · {formatFecha(n.fecha_publicacion)}</p>
+              <p class="text-sm text-epoca-marron-medio mt-2 leading-relaxed line-clamp-3">{n.sinopsis}</p>
+              <span class="text-xs bg-epoca-verde-claro text-epoca-marron px-2 py-0.5 rounded-full mt-2 inline-block">{n.genero}</span>
+            </div>
           </div>
         ))}
       </div>
