@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "titulo": "Orgullo y Prejuicio",
-    "tipo": "pelicula",
-    "fecha_estreno": "2025-11-07",
-    "sinopsis": "Una nueva adaptación moderna de la obra maestra de Jane Austen, ambientada en la actualidad pero conservando el espíritu de la Regencia inglesa.",
-    "adaptacion_de": "Orgullo y Prejuicio - Jane Austen",
+    "titulo": "El mapa de los anhelos",
+    "tipo": "Miniserie",
+    "fecha_estreno": "2026-07-17",
+    "sinopsis": "La trama sigue a Greta, una joven que nació con el único propósito de salvar la vida de su hermana Lucy a través de sus células madre. Sin embargo, tras el fallecimiento de Lucy, Greta cae en un profundo vacío existencial. Antes de partir, su hermana dejó preparado un juego llamado "El mapa de los anhelos", un desafío que obligará a Greta a enfrentar sus miedos, superar el duelo y descubrir su propio camino junto a un chico llamado Will",
+    "adaptacion_de": "El mapa de los anhelos - Alice Kellen",
     "plataforma": "Netflix",
     "genero": "Romance",
-    "imagen": "https://covers.openlibrary.org/b/isbn/0141439513-L.jpg"
+    "imagen": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1642689654i/60167327.jpg"
   },
   {
     "id": 2,
