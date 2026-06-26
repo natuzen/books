@@ -12,12 +12,12 @@
   },
   {
     "id": 2,
-    "titulo": "Cumbres Borrascosas: La Serie",
-    "tipo": "serie",
-    "fecha_estreno": "2025-09-15",
-    "sinopsis": "Adaptación en seis episodios de la novela de Emily Brontë. Una producción británica que explora en profundidad la relación obsesiva entre Heathcliff y Catherine.",
+    "titulo": "Cumbres Borrascosas",
+    "tipo": "Pelicula",
+    "fecha_estreno": "2026",
+    "sinopsis": "Un clásico gótico sobre un amor tan apasionado como destructivo. Sigue a Heathcliff, un huérfano adoptado, y a Catherine Earnshaw, la rebelde hija de la familia. Tras una dolorosa traición provocada por las diferencias sociales, su inquebrantable conexión se transforma en una oscura obsesión y una implacable venganza que consumirá a dos generaciones",
     "adaptacion_de": "Cumbres Borrascosas - Emily Brontë",
-    "plataforma": "BBC / BritBox",
+    "plataforma": "HBO Max",
     "genero": "Drama romántico",
     "imagen": "https://covers.openlibrary.org/b/isbn/0141439556-L.jpg"
   },
