@@ -23,14 +23,14 @@
   },
   {
     "id": 3,
-    "titulo": "Norte y Sur",
+    "titulo": "Verity",
     "tipo": "pelicula",
-    "fecha_estreno": "2025-10-20",
-    "sinopsis": "Adaptación cinematográfica de la novela de Elizabeth Gaskell. La historia de amor entre Margaret Hale y John Thornton en el norte industrial inglés del siglo XIX.",
-    "adaptacion_de": "Norte y Sur - Elizabeth Gaskell",
-    "plataforma": "Amazon Prime",
-    "genero": "Drama de época",
-    "imagen": "https://covers.openlibrary.org/b/isbn/0199555060-L.jpg"
+    "fecha_estreno": "2026-10-01",
+    "sinopsis": "Lowen Ashleigh, una escritora con problemas económicos, es contratada por Jeremy Crawford para terminar la exitosa serie de libros de su esposa, Verity, una famosa autora que quedó en coma tras un trágico accidente. Al mudarse a la mansión familiar para revisar las notas de trabajo, Lowen descubre oculta una perturbadora autobiografía inédita donde Verity confiesa escalofriantes secretos sobre la muerte de sus hijas. Atrapada entre el horror del manuscrito y una peligrosa atracción por Jeremy, Lowen deberá decidir si revelar la verdad en una casa donde nada es lo que parece.",
+    "adaptacion_de": "Verity de Collen Hoover",
+    "plataforma": "Cine",
+    "genero": "Thriller psicológico",
+    "imagen": "https://imagenes.queridoslectores.com/verity.jpg"
   },
   {
     "id": 4,
