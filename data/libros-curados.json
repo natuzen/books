@@ -1,4 +1,3 @@
-
 [
   {
     "id": 1,
@@ -17,7 +16,7 @@
     "isbn": "9780141439518",
     "paginas": 432,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/id/8144249-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Orgullo_y_prejuicio.jpg",
     "citas_celebres": [
       "Es una verdad universalmente reconocida que un hombre soltero con buena fortuna necesita una esposa.",
       "Solo la peor perversidad de mi parte podría haberle insultado a usted tan vergonzosamente.",
@@ -48,7 +47,7 @@
     "isbn": "9780141441146",
     "paginas": 507,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Jane_Eyre.jpg",
     "citas_celebres": [
       "No soy ninguna ave; y ninguna red me atrapa: soy un ser humano libre con una voluntad independiente.",
       "Pensé que mi corazón había visto el suyo en aquella mirada.",
@@ -79,7 +78,7 @@
     "isbn": "9780141439556",
     "paginas": 348,
     "editorial": "Penguin Classics",
-    "portada": "data:image/jpeg;base64,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",
+    "portada": "https://imagenes.queridoslectores.com/cumbres_borrascosas_libro.jpg",
     "citas_celebres": [
       "Él está más yo que yo misma. Cualquier cosa de la que estén hechas nuestras almas, la suya y la mía son iguales.",
       "Si el resto del mundo desapareciera y solo quedara Heathcliff, el mundo seguiría siendo una entidad completa para mí.",
@@ -112,7 +111,7 @@
     "isbn": "9781594749773",
     "paginas": 400,
     "editorial": "Razorbill",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1433990957i/25467698.jpg",
+    "portada": "https://imagenes.queridoslectores.com/TheLoveThatSplittheWorld.jpg",
     "citas_celebres": [
       "Algunas historias no tienen un final feliz. Solo tienen un final verdadero.",
       "El tiempo no es una línea recta. Es más como un árbol, con ramas que crecen en todas las direcciones.",
@@ -128,130 +127,6 @@
   },
   {
     "id": 5,
-    "titulo": "La Edad de la Inocencia",
-    "autor": "Edith Wharton",
-    "anio": 1920,
-    "slug": "la-edad-de-la-inocencia",
-    "sinopsis": "Newland Archer, comprometido con la convencional May Welland, se enamora de la condesa Olenska, prima de su prometida. Un retrato magistral del amor reprimido en la alta sociedad neoyorquina de finales del siglo XIX.",
-    "tropos": [
-      "forbidden-love",
-      "unrequited-love",
-      "sociedad-gilded-age"
-    ],
-    "intensidad": 4,
-    "categoria": "historica",
-    "isbn": "9780141180977",
-    "paginas": 360,
-    "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/id/14212040-M.jpg",
-    "citas_celebres": [
-      "Han pasado veintisiete años. Tengo cincuenta y siete. No tiene sentido subir.",
-      "Ella era todo lo que él había amado en secreto durante toda su vida.",
-      "La inocencia más pura es la que no sabe que existe."
-    ],
-    "libros_similares": [
-      "anna-karenina",
-      "madame-bovary",
-      "el-gran-gatsby"
-    ],
-    "datos_curiosos_autor": "Edith Wharton fue la primera mujer en ganar el Premio Pulitzer de Ficción en 1921, precisamente por La edad de la inocencia.",
-    "contexto_historico": "Ambientada en la alta sociedad neoyorquina de la Gilded Age (1870s), una época de gran prosperidad económica para las élites pero también de estricto conformismo social."
-  },
-  {
-    "id": 6,
-    "titulo": "Rebecca",
-    "autor": "Daphne du Maurier",
-    "anio": 1938,
-    "slug": "rebecca",
-    "sinopsis": "Una joven sin nombre se casa con el apuesto y enigmático Maxim de Winter y llega a Manderley, su imponente mansión. La sombra de Rebecca, la primera esposa, parece dominar cada rincón de su nueva vida.",
-    "tropos": [
-      "gothic-romance",
-      "second-chance",
-      "mystery"
-    ],
-    "intensidad": 4,
-    "categoria": "historica",
-    "isbn": "9780380730407",
-    "paginas": 380,
-    "editorial": "Avon Books",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780380730407-L.jpg",
-    "citas_celebres": [
-      "Anoche soñé que volvía a Manderley.",
-      "La sombra de Rebecca siempre estuvo entre nosotros, nunca la dejamos ir.",
-      "No soy la clase de mujer que hombres como Maxim de Winter suelen tomar como esposa."
-    ],
-    "libros_similares": [
-      "jane-eyre",
-      "cumbres-borrascosas",
-      "la-dama-de-las-camelias"
-    ],
-    "datos_curiosos_autor": "Daphne du Maurier escribió Rebecca en Egipto mientras acompañaba a su marido en un destino militar; la novela fue adaptada por Alfred Hitchcock en una famosa película de 1940.",
-    "contexto_historico": "Ambientada en la campiña inglesa de los años 1930s, en el período de entreguerras, cuando la aristocracia inglesa comenzaba a declinar y las grandes mansiones eran símbolos de un pasado que se desmoronaba."
-  },
-  {
-    "id": 7,
-    "titulo": "Lo que el viento se llevó",
-    "autor": "Margaret Mitchell",
-    "anio": 1936,
-    "slug": "lo-que-el-viento-se-llevo",
-    "sinopsis": "Scarlett O'Hara, una joven sureña de fuerte carácter, lucha por sobrevivir a la Guerra Civil americana mientras persiste en su amor no correspondido por Ashley Wilkes y niega sus sentimientos por Rhett Butler.",
-    "tropos": [
-      "unrequited-love",
-      "enemies-to-lovers",
-      "war-romance"
-    ],
-    "intensidad": 5,
-    "categoria": "historica",
-    "isbn": "9781416548898",
-    "paginas": 1037,
-    "editorial": "Scribner",
-    "portada": "https://covers.openlibrary.org/b/id/10527475-M.jpg",
-    "citas_celebres": [
-      "Después de todo, mañana es otro día.",
-      "Dios me es testigo de que jamás volveré a pasar hambre.",
-      "No pienso en eso ahora. Pensaré en eso mañana."
-    ],
-    "libros_similares": [
-      "anna-karenina",
-      "los-miserables",
-      "jane-eyre"
-    ],
-    "datos_curiosos_autor": "Margaret Mitchell tardó 10 años en escribir Lo que el viento se llevó, fue su única novela publicada y ganó el Premio Pulitzer en 1937.",
-    "contexto_historico": "Ambientada en Georgia, sur de los Estados Unidos, durante la Guerra Civil Americana (1861-1865) y la Reconstrucción posterior, una época traumática que redefinió la sociedad sureña."
-  },
-  {
-    "id": 8,
-    "titulo": "El conde de Montecristo",
-    "autor": "Alexandre Dumas",
-    "anio": 1844,
-    "slug": "el-conde-de-montecristo",
-    "sinopsis": "Edmond Dantès, injustamente encarcelado, escapa y se convierte en el misterioso conde de Montecristo para ejecutar su elaborada venganza contra quienes lo traicionaron. Una épica aventura de amor, traición y redención.",
-    "tropos": [
-      "second-chance",
-      "forbidden-love",
-      "revenge"
-    ],
-    "intensidad": 3,
-    "categoria": "historica",
-    "isbn": "9780140449266",
-    "paginas": 1276,
-    "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/id/14047885-M.jpg",
-    "citas_celebres": [
-      "Toda la sabiduría humana está contenida en estas dos palabras: esperar y esperar.",
-      "El hombre que ha sentido la miseria intensa sabe cuán grande puede ser el placer.",
-      "Espera y confía: estos son los dos principios que hacen posible todos los triunfos humanos."
-    ],
-    "libros_similares": [
-      "los-miserables",
-      "anna-karenina",
-      "lo-que-el-viento-se-llevo"
-    ],
-    "datos_curiosos_autor": "Alexandre Dumas escribió El Conde de Montecristo con la colaboración del escritor Auguste Maquet, quien desarrolló el esquema básico del argumento original.",
-    "contexto_historico": "Ambientada en Francia, Italia y el Mediterráneo durante el período napoleónico y la Restauración Borbónica (1815-1838), una época de profunda agitación política y social."
-  },
-  {
-    "id": 9,
     "titulo": "Anna Karenina",
     "autor": "León Tolstói",
     "anio": 1877,
@@ -267,7 +142,7 @@
     "isbn": "9780140449174",
     "paginas": 964,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780140449174-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/AnnaKarenina.jpg",
     "citas_celebres": [
       "Todas las familias felices se parecen entre sí; cada familia infeliz lo es a su manera.",
       "No ames para ser feliz; ama para no poder ser de otra manera.",
@@ -282,7 +157,7 @@
     "contexto_historico": "Ambientada en la Rusia imperial de los años 1870s, una época de grandes cambios sociales tras la emancipación de los siervos en 1861 y el crecimiento de la burguesía urbana."
   },
   {
-    "id": 10,
+    "id": 6,
     "titulo": "Persuasión",
     "autor": "Jane Austen",
     "anio": 1817,
@@ -298,7 +173,7 @@
     "isbn": "9780141439686",
     "paginas": 256,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439686-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Persuasion.jpg",
     "citas_celebres": [
       "Soy un hombre que no puede actuar contrariamente a sus sentimientos una vez fijados.",
       "Has aplastado mi alma con tu rechazo y aun así regreso a ti.",
@@ -313,7 +188,7 @@
     "contexto_historico": "Ambientada en la Inglaterra de la Regencia (1814), justo al final de las Guerras Napoleónicas, cuando los oficiales navales regresaban a casa y la sociedad se reorganizaba."
   },
   {
-    "id": 11,
+    "id": 7,
     "titulo": "Sentido y Sensibilidad",
     "autor": "Jane Austen",
     "anio": 1811,
@@ -344,100 +219,7 @@
     "contexto_historico": "Ambientada en la Inglaterra de la Regencia a principios del siglo XIX, cuando las mujeres dependían económicamente del matrimonio, pues las leyes de herencia favorecían a los hombres."
   },
   {
-    "id": 12,
-    "titulo": "El gran Gatsby",
-    "autor": "F. Scott Fitzgerald",
-    "anio": 1925,
-    "slug": "el-gran-gatsby",
-    "sinopsis": "Jay Gatsby, un misterioso millonario, organiza fastuosas fiestas en su mansión con la esperanza de reconquistar a Daisy Buchanan, el amor de su vida. Una elegía al sueño americano y al amor imposible.",
-    "tropos": [
-      "unrequited-love",
-      "second-chance",
-      "tragedy"
-    ],
-    "intensidad": 4,
-    "categoria": "historica",
-    "isbn": "9780743273565",
-    "paginas": 180,
-    "editorial": "Scribner",
-    "portada": "https://covers.openlibrary.org/b/id/14057910-M.jpg",
-    "citas_celebres": [
-      "Así que seguimos adelante, botes contra la corriente, empujados sin cesar hacia el pasado.",
-      "En mis años más vulnerables mi padre me dio un consejo que no he dejado de repasar desde entonces.",
-      "La única ventaja que tiene el tiempo es que ya no puede volver a hacerte daño."
-    ],
-    "libros_similares": [
-      "la-edad-de-la-inocencia",
-      "madame-bovary",
-      "anna-karenina"
-    ],
-    "datos_curiosos_autor": "F. Scott Fitzgerald se inspiró en su propia vida para El gran Gatsby; al igual que su protagonista, provenía de medios modestos y ansiaba alcanzar el estatus social de la élite.",
-    "contexto_historico": "Ambientada en Long Island y Nueva York en el verano de 1922, durante la Era del Jazz, una época de prosperidad, exceso y la prohibición del alcohol en Estados Unidos."
-  },
-  {
-    "id": 13,
-    "titulo": "Middlemarch",
-    "autor": "George Eliot",
-    "anio": 1871,
-    "slug": "middlemarch",
-    "sinopsis": "Una novela panorámica sobre la vida provincial inglesa centrada en Dorothea Brooke, una joven idealista que busca dar sentido a su vida a través de matrimonios que no satisfacen sus aspiraciones intelectuales y emocionales.",
-    "tropos": [
-      "slow-burn",
-      "class-difference",
-      "sociedad-victoriana"
-    ],
-    "intensidad": 3,
-    "categoria": "historica",
-    "isbn": "9780141439549",
-    "paginas": 904,
-    "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/id/12622028-M.jpg",
-    "citas_celebres": [
-      "Sus efectos benéficos sobre el mundo se debían en parte a los que no hicieron historia.",
-      "No existe una criatura viva que no tenga algún sentido del mérito.",
-      "La vida que elegimos define quiénes somos más que cualquier circunstancia de nacimiento."
-    ],
-    "libros_similares": [
-      "norte-y-sur",
-      "orgullo-y-prejuicio",
-      "emma"
-    ],
-    "datos_curiosos_autor": "George Eliot es el seudónimo de Mary Ann Evans, quien adoptó un nombre masculino para ser tomada en serio como escritora en la época victoriana.",
-    "contexto_historico": "Ambientada en la ficticia ciudad de Middlemarch en las Midlands inglesas, circa 1829-1832, durante el período previo a la Reform Act de 1832 que transformó el sistema político británico."
-  },
-  {
-    "id": 14,
-    "titulo": "Los Miserables",
-    "autor": "Victor Hugo",
-    "anio": 1862,
-    "slug": "los-miserables",
-    "sinopsis": "Jean Valjean, ex presidiario en busca de redención, cuida de Cosette mientras el implacable inspector Javert lo persigue. La historia de amor entre Cosette y Marius es el corazón romántico de esta épica novela social.",
-    "tropos": [
-      "forbidden-love",
-      "class-difference",
-      "war-romance"
-    ],
-    "intensidad": 4,
-    "categoria": "historica",
-    "isbn": "9780140444308",
-    "paginas": 1463,
-    "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780140444308-L.jpg",
-    "citas_celebres": [
-      "Amar a otro ser humano es ver el rostro de Dios.",
-      "La mayor felicidad de la vida es la convicción de que somos amados.",
-      "Incluso el más oscuro de los inviernos terminará; bajo las nieves de hoy hay flores de primavera."
-    ],
-    "libros_similares": [
-      "el-conde-de-montecristo",
-      "anna-karenina",
-      "lo-que-el-viento-se-llevo"
-    ],
-    "datos_curiosos_autor": "Victor Hugo tardó 17 años en escribir Los Miserables; cuando pidió información sobre ventas con solo un '?' su editor respondió '!', indicando su enorme éxito.",
-    "contexto_historico": "Ambientada en Francia entre 1815 y 1832, abarcando el fin de las Guerras Napoleónicas y culminando con la fallida insurrección republicana de junio de 1832."
-  },
-  {
-    "id": 15,
+    "id": 8,
     "titulo": "Emma",
     "autor": "Jane Austen",
     "anio": 1815,
@@ -453,7 +235,7 @@
     "isbn": "9780141439587",
     "paginas": 512,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780141439587-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Emma.jpg",
     "citas_celebres": [
       "Era perfectamente consciente de que nada le haría tanto bien en el mundo como un poco de humildad.",
       "Si te amara menos podría hablar de ello con más facilidad.",
@@ -468,7 +250,7 @@
     "contexto_historico": "Ambientada en el pueblo ficticio de Highbury, Surrey, circa 1814-1815, durante los últimos años de la era de la Regencia, cuando la sociedad rural inglesa vivía relativamente aislada de los cambios industriales."
   },
   {
-    "id": 16,
+    "id": 9,
     "titulo": "un millon de Junios",
     "autor": "Emily Henry",
     "anio": 2017,
@@ -486,7 +268,7 @@
     "isbn": "9780448493978",
     "paginas": 352,
     "editorial": "Razorbill",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1487956862i/30763950.jpg",
+    "portada": "https://imagenes.queridoslectores.com/un_millon_de_junios.jpg",
     "citas_celebres": [
       "El odio heredado es la carga más pesada que puede llevar una familia.",
       "Las historias que nos contamos sobre el pasado son las cadenas que nos atan al presente.",
@@ -501,7 +283,7 @@
     "contexto_historico": "Ambientada en un pequeño pueblo ficticio del Medio Oeste estadounidense, la historia explora cómo los rencores familiares pueden perpetuarse durante generaciones y el peso que eso representa para los jóvenes que heredan conflictos que no crearon."
   },
   {
-    "id": 17,
+    "id": 10,
     "titulo": "When the Sky Fell on Splendor",
     "autor": "Emily Henry",
     "anio": 2019,
@@ -519,7 +301,7 @@
     "isbn": "9780451480712",
     "paginas": 372,
     "editorial": "Razorbill",
-    "portada": "data:image/jpeg;base64,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",
+    "portada": "https://imagenes.queridoslectores.com/WhentheSkyFellonSplendor.jpg",
     "citas_celebres": [
       "Los monstruos no siempre vienen del cielo. A veces ya viven entre nosotros.",
       "La amistad es el único poder que ninguna fuerza extraña puede quitarte.",
@@ -534,7 +316,7 @@
     "contexto_historico": "Ambientada en un pueblo industrial en declive del Medio Oeste estadounidense, la novela refleja la realidad de comunidades olvidadas por el progreso económico, donde los jóvenes sienten que su único futuro es escapar."
   },
   {
-    "id": 18,
+    "id": 11,
     "titulo": "La dama de las camelias",
     "autor": "Alexandre Dumas hijo",
     "anio": 1848,
@@ -550,7 +332,7 @@
     "isbn": "9780140449341",
     "paginas": 246,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/id/14301279-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/La_dama_de_las_camelias.jpg",
     "citas_celebres": [
       "Puede que no haya más que un amor verdadero en la vida de cada persona.",
       "El amor nunca es verdadero si no lleva consigo algo de sacrificio.",
@@ -565,7 +347,7 @@
     "contexto_historico": "Ambientada en el París de mediados del siglo XIX (1840s), cuando las grandes cortesanas o 'demi-mondaines' ocupaban un lugar peculiar: admiradas socialmente pero marginadas moralmente."
   },
   {
-    "id": 19,
+    "id": 12,
     "titulo": "Madame Bovary",
     "autor": "Gustave Flaubert",
     "anio": 1857,
@@ -581,7 +363,7 @@
     "isbn": "9780140449129",
     "paginas": 329,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/isbn/9780140449129-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/MadameBovary.jpg",
     "citas_celebres": [
       "Las palabras humanas son como calderos abollados en los que tocamos melodías para hacer bailar a los osos.",
       "Ella quería morir y también quería vivir en París.",
@@ -596,7 +378,7 @@
     "contexto_historico": "Ambientada en Normandía, Francia, circa 1840-1856, durante el Segundo Imperio de Napoleón III, cuando la clase media francesa ansiaba ascender socialmente."
   },
   {
-    "id": 20,
+    "id": 13,
     "titulo": "A Room with a View",
     "autor": "E.M. Forster",
     "anio": 1908,
@@ -612,7 +394,7 @@
     "isbn": "9780141441825",
     "paginas": 252,
     "editorial": "Penguin Classics",
-    "portada": "https://covers.openlibrary.org/b/id/12622123-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/ARoomwithaView.jpg",
     "citas_celebres": [
       "Solo los que tienen el coraje de ser ellos mismos encuentran la felicidad verdadera.",
       "¿Tenemos alma o no la tenemos? ¿Amamos o no amamos?",
@@ -627,7 +409,7 @@
     "contexto_historico": "Ambientada en Florencia (Italia) y Surrey (Inglaterra) a principios del siglo XX (circa 1907), durante la era eduardiana, cuando la sociedad inglesa comenzaba a cuestionar las rígidas convenciones victorianas."
   },
   {
-    "id": 21,
+    "id": 14,
     "titulo": "Alas de Sangre",
     "autor": "Rebecca Yarros",
     "anio": 2023,
@@ -644,7 +426,7 @@
     "isbn": "9781649374042",
     "paginas": 512,
     "editorial": "Entangled Publishing",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781649374042-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/alas_de_sangre.jpg",
     "citas_celebres": [
       "No hay nadie más terrorífico que alguien que no tiene nada que perder... excepto tú.",
       "En este cuadrante no sobrevives siendo amable.",
@@ -659,7 +441,7 @@
     "contexto_historico": "Ambientada en un mundo de fantasía épica donde existen jinetes de dragones, magia de reliquias y una guerra inminente. La Academia Basgiath funciona como un sistema militar y político propio."
   },
   {
-    "id": 22,
+    "id": 15,
     "titulo": "Alas de Hierro",
     "autor": "Rebecca Yarros",
     "anio": 2023,
@@ -676,7 +458,7 @@
     "isbn": "9781649374172",
     "paginas": 640,
     "editorial": "Entangled Publishing",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781649374172-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Alas_de_Hierro.jpg",
     "citas_celebres": [
       "El amor no salva vidas en la guerra. La fuerza y la astucia, sí.",
       "Las mentiras del pasado nos moldean, pero no tienen por qué definirnos.",
@@ -691,7 +473,7 @@
     "contexto_historico": "Continuación directa de Fourth Wing, profundiza en la política y la guerra del mundo de Aretia, expandiendo la mitología de los dragones y las consecuencias del primer libro."
   },
   {
-    "id": 23,
+    "id": 16,
     "titulo": "El día que dejó de nevar en Alaska",
     "autor": "Alice Kellen",
     "anio": 2019,
@@ -707,7 +489,7 @@
     "isbn": "9788408211365",
     "paginas": 336,
     "editorial": "Planeta",
-    "portada": "https://covers.openlibrary.org/b/id/12681340-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/ElDiaQueDejoDeNevarEnAlaska.jpg",
     "citas_celebres": [
       "Hay personas que entran en tu vida y la dejan diferente para siempre, aunque no se queden.",
       "A veces el amor más real es el que aprendes a dejar ir cuando no es el momento.",
@@ -722,7 +504,7 @@
     "contexto_historico": "Ambientada en la época contemporánea entre Alaska y España, explora el impacto del cambio climático y la vida de activistas medioambientales en los paisajes árticos del siglo XXI."
   },
   {
-    "id": 24,
+    "id": 17,
     "titulo": "Nosotros en la luna",
     "autor": "Alice Kellen",
     "anio": 2019,
@@ -738,7 +520,7 @@
     "isbn": "9788408211372",
     "paginas": 352,
     "editorial": "Planeta",
-    "portada": "https://covers.openlibrary.org/b/id/10650862-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/NosotrosEnLaLuna.jpg",
     "citas_celebres": [
       "Eres la persona con quien quiero compartir cada luna nueva y cada luna llena.",
       "No importa la distancia si los corazones laten al mismo ritmo.",
@@ -753,7 +535,7 @@
     "contexto_historico": "Ambientada en la era digital contemporánea, refleja la cultura de las relaciones online, los fandoms musicales y la generación millennial que creció conectando con otros a través de internet."
   },
   {
-    "id": 25,
+    "id": 18,
     "titulo": "Todo lo que nunca fuimos",
     "autor": "Alice Kellen",
     "anio": 2020,
@@ -770,7 +552,7 @@
     "isbn": "9788408204824",
     "paginas": 416,
     "editorial": "Planeta",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1543355152i/42968581.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Todoloquenuncafuimos.jpg",
     "citas_celebres": [
       "El amor más difícil es el que duele porque es completamente real.",
       "A veces las personas que más te importan son las que menos puedes tener.",
@@ -785,7 +567,7 @@
     "contexto_historico": "Ambientada en la España contemporánea con partes en Australia, captura el período vital de transición de la adolescencia a la adultez en la segunda década del siglo XXI."
   },
   {
-    "id": 26,
+    "id": 19,
     "titulo": "Farsa de amor a la española",
     "autor": "Elena Armas",
     "anio": 2021,
@@ -801,7 +583,7 @@
     "isbn": "9781982160432",
     "paginas": 400,
     "editorial": "Atria Books",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1655296402i/61196998.jpg",
+    "portada": "https://imagenes.queridoslectores.com/FarsaDeAmorALaEspaniola.jpg",
     "citas_celebres": [
       "El problema de fingir que alguien te gusta es que a veces olvidas que estás fingiendo.",
       "No te odio. Te odio mucho más que eso, que es completamente distinto.",
@@ -816,7 +598,7 @@
     "contexto_historico": "Ambientada en Nueva York y en el norte de España contemporáneo, mezcla la cultura corporativa americana con la calidez de las tradiciones familiares españolas del siglo XXI."
   },
   {
-    "id": 27,
+    "id": 20,
     "titulo": "Experimento de amor en Nueva York",
     "autor": "Elena Armas",
     "anio": 2022,
@@ -833,7 +615,7 @@
     "isbn": "9781668002773",
     "paginas": 400,
     "editorial": "Atria Books",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1672747806i/63254428.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Experimento_amor_NuevaYork.jpg",
     "citas_celebres": [
       "Vivir con alguien te enseña todo lo que quieres saber sobre él y todo lo que no querías saber.",
       "Escribir es difícil. Enamorarse es imposible. Hacer las dos cosas a la vez es un desastre absoluto.",
@@ -848,7 +630,7 @@
     "contexto_historico": "Ambientada en el Nueva York contemporáneo, captura la experiencia de los jóvenes hispanos que viven el sueño americano mientras mantienen sus raíces culturales."
   },
   {
-    "id": 28,
+    "id": 21,
     "titulo": "La novela del verano",
     "autor": "Emily Henry",
     "anio": 2020,
@@ -866,7 +648,7 @@
     "isbn": "9781984806734",
     "paginas": 384,
     "editorial": "Berkley",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1649024345i/60744753.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Lanoveladelverano.jpg",
     "citas_celebres": [
       "Eres el tipo de persona que hace que quiera escribir historias tristes.",
       "Los finales felices no son para los cobardes.",
@@ -881,7 +663,7 @@
     "contexto_historico": "Publicada durante la pandemia de COVID-19 en 2020, Beach Read llegó en un momento en que los lectores buscaban historias que combinaran humor, emoción y esperanza, convirtiéndose en uno de los libros más leídos de ese año en plataformas digitales."
   },
   {
-    "id": 29,
+    "id": 22,
     "titulo": "Twisted Love",
     "autor": "Ana Huang",
     "anio": 2021,
@@ -898,7 +680,7 @@
     "isbn": "9781728261928",
     "paginas": 358,
     "editorial": "Bloom Books",
-    "portada": "https://covers.openlibrary.org/b/id/15113434-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/TwistedLove.jpg",
     "citas_celebres": [
       "Hay personas en el mundo que no merecen ser amadas. Yo soy una de ellas.",
       "Lo que siento por ti no tiene nombre porque no debería existir.",
@@ -913,7 +695,7 @@
     "contexto_historico": "Ambientada en el Washington D.C. universitario contemporáneo, explora las dinámicas de poder y los traumas del pasado en el entorno de la élite académica americana."
   },
   {
-    "id": 30,
+    "id": 23,
     "titulo": "Twisted Games",
     "autor": "Ana Huang",
     "anio": 2021,
@@ -929,7 +711,7 @@
     "isbn": "9781728261935",
     "paginas": 400,
     "editorial": "Bloom Books",
-    "portada": "https://covers.openlibrary.org/b/id/14845965-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/TwistedGames.jpg",
     "citas_celebres": [
       "Mi trabajo es protegerla con mi vida. Pero ¿quién me protege a mí de ella?",
       "Las reglas existen para ser rotas por las personas correctas en el momento adecuado.",
@@ -944,7 +726,7 @@
     "contexto_historico": "Ambientada en un pequeño reino europeo ficticio y en los Estados Unidos contemporáneos, explora el conflicto entre el deber aristocrático y el deseo personal en el siglo XXI."
   },
   {
-    "id": 31,
+    "id": 24,
     "titulo": "Twisted Hate",
     "autor": "Ana Huang",
     "anio": 2022,
@@ -960,7 +742,7 @@
     "isbn": "9781728274881",
     "paginas": 608,
     "editorial": "Bloom Books",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1661221520i/62056935.jpg",
+    "portada": "https://imagenes.queridoslectores.com/TwistedHate.jpg",
     "citas_celebres": [
       "Odiar a alguien con tanta intensidad es casi idéntico a amarlo con toda el alma.",
       "El problema de conocer a alguien demasiado bien es que ya no puedes seguir ignorándolo.",
@@ -975,7 +757,7 @@
     "contexto_historico": "Ambientada en el entorno universitario de Washington D.C. contemporáneo, con incursiones en el mundo médico y los estudios de posgrado en Estados Unidos."
   },
   {
-    "id": 32,
+    "id": 25,
     "titulo": "Rey de la ira",
     "autor": "Ana Huang",
     "anio": 2022,
@@ -991,7 +773,7 @@
     "isbn": "9781728268538",
     "paginas": 368,
     "editorial": "Bloom Books",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1718919810i/210260897.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Reydelaira.jpg",
     "citas_celebres": [
       "El matrimonio es un contrato. El amor es una complicación que no estaba en los términos.",
       "Nunca imaginé que el infierno podría llevar un nombre tan hermoso como el tuyo.",
@@ -1006,7 +788,7 @@
     "contexto_historico": "Ambientada en el mundo de la élite empresarial de Nueva York contemporáneo, con personajes inmersos en fusiones corporativas internacionales y las dinámicas de poder de las familias ricas de la Costa Este."
   },
   {
-    "id": 33,
+    "id": 26,
     "titulo": "Antes de Diciembre",
     "autor": "Joana Marcús",
     "anio": 2022,
@@ -1022,7 +804,7 @@
     "isbn": "9788418949135",
     "paginas": 496,
     "editorial": "Planeta",
-    "portada": "https://covers.openlibrary.org/b/id/12080400-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Antes_de_Diciembre.jpg",
     "citas_celebres": [
       "El odio y el amor se parecen más de lo que nadie quiere admitir, sobre todo en diciembre.",
       "Diciembre siempre llega a tiempo para recordarte lo que realmente importa en tu vida.",
@@ -1037,7 +819,7 @@
     "contexto_historico": "Ambientada en la España contemporánea, con escenas en entornos rurales de montaña durante el invierno, capturando la estética navideña y el ambiente íntimo de las escapadas de fin de año."
   },
   {
-    "id": 34,
+    "id": 27,
     "titulo": "Después de Diciembre",
     "autor": "Joana Marcús",
     "anio": 2022,
@@ -1053,7 +835,7 @@
     "isbn": "9788408261643",
     "paginas": 352,
     "editorial": "Planeta",
-    "portada": "https://covers.openlibrary.org/b/id/15154665-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Despues_de_Diciembre.jpg",
     "citas_celebres": [
       "Lo que empieza en diciembre no siempre termina en enero; a veces dura toda la vida.",
       "Quedarse cuando todo te dice que te vayas es a veces el acto más valiente que existe.",
@@ -1068,7 +850,7 @@
     "contexto_historico": "Ambientada en el Madrid contemporáneo y en los mismos entornos de montaña del primer libro, explora el desafío de mantener una relación nacida en condiciones excepcionales en el día a día."
   },
   {
-    "id": 35,
+    "id": 28,
     "titulo": "Valeria en blanco y negro",
     "autor": "Elísabet Benavent",
     "anio": 2015,
@@ -1084,7 +866,7 @@
     "isbn": "9788466328968",
     "paginas": 352,
     "editorial": "B de Books",
-    "portada": "https://covers.openlibrary.org/b/id/10136257-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/valeria_en_blanco_y_negro.jpg",
     "citas_celebres": [
       "Escribir es cicatrizar las heridas del alma con palabras.",
       "Hay personas que llegan para quedarse aunque tú no las hayas invitado a tu vida.",
@@ -1099,7 +881,7 @@
     "contexto_historico": "Ambientada en el Madrid contemporáneo de mediados de los 2010s, refleja la vida de las mujeres treintañeras que buscan reconciliar sus aspiraciones profesionales, creativas y amorosas."
   },
   {
-    "id": 36,
+    "id": 29,
     "titulo": "Fuimos canciones",
     "autor": "Elísabet Benavent",
     "anio": 2018,
@@ -1115,7 +897,7 @@
     "isbn": "9788466345149",
     "paginas": 400,
     "editorial": "B de Books",
-    "portada": "https://covers.openlibrary.org/b/id/8200236-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/fuimos_canciones.jpg",
     "citas_celebres": [
       "Hay canciones que llevan el nombre de una persona grabado en cada una de sus notas.",
       "El tiempo no cura las heridas; solo aprende a convivir con ellas sin que duelan tanto.",
@@ -1130,7 +912,7 @@
     "contexto_historico": "Ambientada en el Madrid contemporáneo de finales de los 2010s, con la música como hilo conductor, refleja la nostalgia de los millennials por sus primeros amores y la dificultad de las segundas oportunidades."
   },
   {
-    "id": 37,
+    "id": 30,
     "titulo": "Seremos recuerdos",
     "autor": "Elísabet Benavent",
     "anio": 2019,
@@ -1146,7 +928,7 @@
     "isbn": "9788466347877",
     "paginas": 368,
     "editorial": "B de Books",
-    "portada": "https://covers.openlibrary.org/b/id/8172099-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/seremos_recuerdos.jpg",
     "citas_celebres": [
       "Los recuerdos son la forma que tiene el amor de no desaparecer del todo de tu vida.",
       "Somos todo lo que hemos vivido y también todo lo que hemos sido capaces de perdonar.",
@@ -1161,7 +943,7 @@
     "contexto_historico": "Ambientada en el Madrid contemporáneo de 2019, con el trasfondo de la transformación urbana de la capital española y los cambios en la vida cultural y social de la ciudad."
   },
   {
-    "id": 38,
+    "id": 31,
     "titulo": "Boulevard",
     "autor": "Flor M. Salvador",
     "anio": 2016,
@@ -1178,7 +960,7 @@
     "isbn": "9789873977466",
     "paginas": 384,
     "editorial": "Ediciones Kiwi",
-    "portada": "https://covers.openlibrary.org/b/id/13464194-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/boulevard.jpg",
     "citas_celebres": [
       "El amor verdadero no pide permiso; simplemente sucede y te cambia para siempre.",
       "Algunas personas están hechas para destruirte y al mismo tiempo salvarte de ti misma.",
@@ -1193,7 +975,7 @@
     "contexto_historico": "Ambientada en Buenos Aires contemporánea, captura el ambiente vibrante de la capital argentina, sus barrios icónicos y la cultura urbana latinoamericana de mediados de los 2010s."
   },
   {
-    "id": 39,
+    "id": 32,
     "titulo": "Una corte de rosas y espinas",
     "autor": "Sarah J. Maas",
     "anio": 2015,
@@ -1210,7 +992,7 @@
     "isbn": "9781619634442",
     "paginas": 432,
     "editorial": "Bloomsbury",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781619634442-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/corte_rosas_y_espinas.jpg",
     "citas_celebres": [
       "Puedo sobrevivir sin ti. Pero no quiero tener que hacerlo.",
       "Naciste para destruir mi mundo, ángel de medianoche, y lo has hecho con una sonrisa.",
@@ -1225,7 +1007,7 @@
     "contexto_historico": "Ambientada en un mundo de fantasía inspirado en el folklore feérico de Europa occidental, mezcla elementos de los cuentos de hadas con reminiscencias de La Bella y la Bestia en un universo de magia y política feérica."
   },
   {
-    "id": 40,
+    "id": 33,
     "titulo": "Trono de cristal",
     "autor": "Sarah J. Maas",
     "anio": 2012,
@@ -1242,7 +1024,7 @@
     "isbn": "9781619630345",
     "paginas": 432,
     "editorial": "Bloomsbury",
-    "portada": "https://covers.openlibrary.org/b/id/15102343-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Trono_de_cristal.jpg",
     "citas_celebres": [
       "Soy Celaena Sardothien y no me doblo ante nadie, ni ante reyes ni ante dioses.",
       "La libertad es aquello por lo que lucho, incluso cuando estoy encadenada.",
@@ -1257,7 +1039,7 @@
     "contexto_historico": "Ambientada en el reino ficticio de Adarlan, un mundo de fantasía épica con reminiscencias de la Europa medieval y victoriana, donde la magia ha sido prohibida y la esclavitud es legal."
   },
   {
-    "id": 41,
+    "id": 34,
     "titulo": "Casa de tierra y sangre",
     "autor": "Sarah J. Maas",
     "anio": 2020,
@@ -1274,7 +1056,7 @@
     "isbn": "9781635574043",
     "paginas": 544,
     "editorial": "Bloomsbury",
-    "portada": "https://covers.openlibrary.org/b/id/14350002-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/casa_tierra_y_sangre.jpg",
     "citas_celebres": [
       "El amor es la magia más poderosa de todas, incluso en un mundo lleno de poderes sobrenaturales.",
       "La fuerza no viene de lo que podemos hacer; viene de superar lo que pensábamos imposible.",
@@ -1289,7 +1071,7 @@
     "contexto_historico": "Ambientada en Lunathion (Crescent City), una metrópolis de fantasía que recuerda a ciudades modernas como Los Ángeles, donde razas mágicas e inmortales conviven con humanos en el siglo XXI mágico."
   },
   {
-    "id": 42,
+    "id": 35,
     "titulo": "Romper el circulo",
     "autor": "Colleen Hoover",
     "anio": 2016,
@@ -1305,7 +1087,7 @@
     "isbn": "9781501110375",
     "paginas": 376,
     "editorial": "Atria Books",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781501110375-L.jpg",
+    "portada": "https://imagenes.queridoslectores.com/romper_el_circulo.jpg",
     "citas_celebres": [
       "A veces la cosa más difícil y la más correcta son exactamente la misma cosa.",
       "Merezco un amor que no duela; todos merecemos ese amor.",
@@ -1320,7 +1102,7 @@
     "contexto_historico": "Ambientada en el Boston contemporáneo, aborda de manera pionera en el género romántico el tema de la violencia doméstica y el ciclo del abuso, contribuyendo a importantes conversaciones sociales."
   },
   {
-    "id": 43,
+    "id": 36,
     "titulo": "Amor feo",
     "autor": "Colleen Hoover",
     "anio": 2014,
@@ -1336,7 +1118,7 @@
     "isbn": "9781476753201",
     "paginas": 332,
     "editorial": "Atria Books",
-    "portada": "https://covers.openlibrary.org/b/id/14809993-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/ugly_love.jpg",
     "citas_celebres": [
       "A veces el amor feo deja las cicatrices más profundas y las más difíciles de borrar.",
       "No preguntes sobre el ayer ni sobre el mañana. Solo quédate conmigo esta noche.",
@@ -1351,7 +1133,7 @@
     "contexto_historico": "Ambientada en el San Francisco contemporáneo, con el trasfondo de la vida de los pilotos comerciales y el personal de enfermería, sectores de trabajo exigente que moldean la historia."
   },
   {
-    "id": 44,
+    "id": 37,
     "titulo": "Verity",
     "autor": "Colleen Hoover",
     "anio": 2018,
@@ -1367,7 +1149,7 @@
     "isbn": "9781538751442",
     "paginas": 332,
     "editorial": "Montlake Romance",
-    "portada": "https://covers.openlibrary.org/b/id/13009038-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/verity_libro.jpg",
     "citas_celebres": [
       "Las palabras que escribimos sobre nosotros mismos son las más honestas y a la vez las más mentirosas.",
       "Hay casas que guardan secretos más oscuros que los de sus propios habitantes.",
@@ -1382,7 +1164,7 @@
     "contexto_historico": "Ambientada en la Vermont rural contemporánea con el mundo editorial neoyorquino de telón de fondo; combina las convenciones del thriller psicológico y el romance de manera poco habitual en el género."
   },
   {
-    "id": 45,
+    "id": 38,
     "titulo": "November 9",
     "autor": "Colleen Hoover",
     "anio": 2015,
@@ -1398,7 +1180,7 @@
     "isbn": "9781501132773",
     "paginas": 320,
     "editorial": "Atria Books",
-    "portada": "https://covers.openlibrary.org/b/id/14596126-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/November9.jpg",
     "citas_celebres": [
       "El amor que se construye lento, con paciencia, es el que tiene más posibilidades de durar.",
       "Nos prometimos encontrarnos cada noviembre aunque el mundo entero se cayera a pedazos.",
@@ -1413,7 +1195,7 @@
     "contexto_historico": "Ambientada en Los Ángeles y Nueva York contemporáneos, con el mundo de la actuación y la escritura como telón de fondo, capturando la cultura millennial de perseguir sueños artísticos en las grandes ciudades."
   },
   {
-    "id": 46,
+    "id": 39,
     "titulo": "La hipotesis del amor",
     "autor": "Ali Hazelwood",
     "anio": 2021,
@@ -1430,7 +1212,7 @@
     "isbn": "9780593336823",
     "paginas": 384,
     "editorial": "Berkley",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1643456525i/60170616.jpg",
+    "portada": "https://imagenes.queridoslectores.com/La_hipotesis_del_amor.jpg",
     "citas_celebres": [
       "La ciencia puede explicar casi todo, pero no puede explicar por qué me gustas precisamente tú.",
       "Los datos no mienten nunca, pero los corazones tienen una habilidad especial para engañarse.",
@@ -1445,7 +1227,7 @@
     "contexto_historico": "Ambientada en el entorno académico universitario americano contemporáneo, captura la cultura de los departamentos de ciencias, los congresos académicos y las relaciones de poder entre profesores y doctorandos."
   },
   {
-    "id": 47,
+    "id": 40,
     "titulo": "La quimica del amor",
     "autor": "Ali Hazelwood",
     "anio": 2022,
@@ -1462,7 +1244,7 @@
     "isbn": "9780593336847",
     "paginas": 368,
     "editorial": "Berkley",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1663141316i/62587439.jpg",
+    "portada": "https://imagenes.queridoslectores.com/La_quimica_del_amor.jpg",
     "citas_celebres": [
       "El cerebro no distingue entre odio y amor; ambos activan exactamente las mismas zonas.",
       "La NASA fue mi sueño hasta que se convirtió en mi pesadilla, y luego en mi hogar.",
@@ -1477,7 +1259,7 @@
     "contexto_historico": "Ambientada en la NASA y en el mundo de la investigación científica contemporánea, refleja los desafíos que enfrentan las mujeres en las carreras STEM en el siglo XXI."
   },
   {
-    "id": 48,
+    "id": 41,
     "titulo": "Gente que conocemos en vacaciones",
     "autor": "Emily Henry",
     "anio": 2021,
@@ -1493,7 +1275,7 @@
     "isbn": "9781984806758",
     "paginas": 384,
     "editorial": "Berkley",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1683630286i/151460133.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Gente_que_conocemos_en_vacaciones.jpg",
     "citas_celebres": [
       "Las mejores personas que conoces en la vida son las que encuentras completamente por accidente.",
       "No hay mejor viaje que el que haces con la persona equivocada en el momento perfectamente correcto.",
@@ -1508,7 +1290,7 @@
     "contexto_historico": "Ambientada en el contexto contemporáneo americano con flashbacks de múltiples ciudades y destinos turísticos, captura la cultura del viaje millennial y la vida de los 20s y 30s en el siglo XXI."
   },
   {
-    "id": 49,
+    "id": 42,
     "titulo": "Book Lovers",
     "autor": "Emily Henry",
     "anio": 2022,
@@ -1524,7 +1306,7 @@
     "isbn": "9781984806772",
     "paginas": 384,
     "editorial": "Berkley",
-    "portada": "https://covers.openlibrary.org/b/id/15088975-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/BookLovers.jpg",
     "citas_celebres": [
       "Soy el personaje secundario que nadie ama hasta que llega la segunda lectura.",
       "Los libros nos enseñan a amar mejor de lo que la vida real nos da oportunidad de practicar.",
@@ -1539,7 +1321,7 @@
     "contexto_historico": "Ambientada entre el Nueva York contemporáneo y el ficticio pueblo de Sunshine Falls en Carolina del Norte, contrasta la vida urbana de los profesionales de la edición con la romanticización de la vida rural americana."
   },
   {
-    "id": 50,
+    "id": 43,
     "titulo": "Un lugar feliz",
     "autor": "Emily Henry",
     "anio": 2023,
@@ -1556,7 +1338,7 @@
     "isbn": "9780593441275",
     "paginas": 400,
     "editorial": "Berkley",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1708159881i/206197434.jpg",
+    "portada": "https://imagenes.queridoslectores.com/un_lugar_feliz.jpg",
     "citas_celebres": [
       "El lugar feliz no es un sitio en el mapa; es una persona específica.",
       "A veces el final es simplemente el principio con mejor información sobre uno mismo.",
@@ -1571,7 +1353,7 @@
     "contexto_historico": "Ambientada en la costa de Maine contemporánea, con el trasfondo de las presiones profesionales y personales de los treintañeros americanos que intentan equilibrar la ambición y la felicidad."
   },
   {
-    "id": 51,
+    "id": 44,
     "titulo": "Icebreaker",
     "autor": "Hannah Grace",
     "anio": 2022,
@@ -1588,7 +1370,7 @@
     "isbn": "9780349436487",
     "paginas": 400,
     "editorial": "Piatkus",
-    "portada": "https://covers.openlibrary.org/b/id/14632721-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Icebreaker.jpg",
     "citas_celebres": [
       "El hielo no perdona los errores, pero el amor tiene la capacidad de perdonarlo todo.",
       "Me odias. Yo te odio. Y aun así aquí estamos, compartiendo el mismo hielo cada mañana.",
@@ -1603,7 +1385,7 @@
     "contexto_historico": "Ambientada en una universidad americana contemporánea con un programa deportivo de élite, refleja la cultura atlética universitaria de EE.UU. y la presión que enfrentan los deportistas de alto rendimiento."
   },
   {
-    "id": 52,
+    "id": 45,
     "titulo": "Wildfire",
     "autor": "Hannah Grace",
     "anio": 2023,
@@ -1620,7 +1402,7 @@
     "isbn": "9781668026274",
     "paginas": 400,
     "editorial": "Piatkus",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1749069227i/101145836.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Wildfire.jpg",
     "citas_celebres": [
       "El fuego más peligroso es siempre el que no ves venir hasta que ya te ha quemado.",
       "Entrenarle es el peor trabajo que he tenido en mi vida. Y también el mejor.",
@@ -1635,7 +1417,7 @@
     "contexto_historico": "Ambientada en el mismo campus universitario americano de Icebreaker, con el hockey sobre hielo como deporte central; refleja la cultura atlética universitaria y la vida en los campus deportivos americanos."
   },
   {
-    "id": 53,
+    "id": 46,
     "titulo": "Una historia divertida",
     "autor": "Emily Henry",
     "anio": 2024,
@@ -1653,7 +1435,7 @@
     "isbn": "9780241624135",
     "paginas": 368,
     "editorial": "Berkley",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1722952256i/216797105.jpg",
+    "portada": "https://imagenes.queridoslectores.com/una_historia_divertida.jpg",
     "citas_celebres": [
       "La vida no para de ser graciosa incluso cuando duele.",
       "Nunca planeé que mi lugar favorito fuera el sofá de un desconocido.",
@@ -1668,7 +1450,7 @@
     "contexto_historico": "Publicada en 2024, la novela captura el espíritu de una generación que enfrenta rupturas, redefinición de la amistad y la búsqueda de identidad propia en la treintena, temas que resuenan profundamente entre los lectores millennials y Gen Z."
   },
   {
-    "id": 54,
+    "id": 47,
     "titulo": "Una vida maravillosa",
     "autor": "Emily Henry",
     "anio": 2025,
@@ -1686,7 +1468,7 @@
     "isbn": "9781405974530",
     "paginas": 416,
     "editorial": "Berkley",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1749460659i/234881853.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Una_vida_Maravillosa.jpg",
     "citas_celebres": [
       "La mejor historia siempre es la que no planeabas contar.",
       "Competir contigo es lo más cerca que he estado de sentirme vivo.",
@@ -1701,7 +1483,7 @@
     "contexto_historico": "La novela reflexiona sobre el periodismo en la era digital, la obsesión por las historias virales y el precio de la privacidad en un mundo hiperconectado, temas de plena vigencia en la sociedad de mediados de la década de 2020."
   },
   {
-    "id": 55,
+    "id": 48,
     "titulo": "Donde habitan las sirenas",
     "autor": "María Martínez",
     "anio": 2025,
@@ -1719,7 +1501,7 @@
     "isbn": "9788408308607",
     "paginas": 448,
     "editorial": "Crossbooks",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1756840470i/241113511.jpg",
+    "portada": "https://imagenes.queridoslectores.com/DondeHabitanLasSirenas.jpg",
     "citas_celebres": [
       "Hay lugares en el mundo que llevan tu nombre grabado; volver a ellos es reconocer quién eras antes de olvidarlo.",
       "El mar no juzga: recibe a quienes regresan con la misma marea con que dejó ir a los que se fueron.",
@@ -1734,7 +1516,7 @@
     "contexto_historico": "La novela refleja la tendencia actual en el romance español hacia historias que exploran la sanación emocional, las relaciones familiares complejas y el peso de las raíces geográficas como catalizador del autoconocimiento. Un tema de especial resonancia en la literatura de los años 2020, cuando la búsqueda de identidad y el regreso a lo esencial se han vuelto temas centrales de la narrativa contemporánea en España."
   },
   {
-    "id": 56,
+    "id": 49,
     "titulo": "Binding 13",
     "autor": "Chloe Walsh",
     "anio": 2023,
@@ -1752,7 +1534,7 @@
     "isbn": "9781728299952",
     "paginas": 650,
     "editorial": "Bloom Books",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1698653725i/146943294.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Binding13.jpg",
     "citas_celebres": [
       "No eres invisible para mí. Nunca lo has sido.",
       "Llevas tanto tiempo cargando el peso de todos que olvidaste que también tienes derecho a que alguien te cargue a ti.",
@@ -1767,7 +1549,7 @@
     "contexto_historico": "La novela está ambientada en un colegio privado católico de Cork, Irlanda, y refleja la cultura del rugby como eje vertebrador de la identidad masculina en la sociedad irlandesa contemporánea, así como las presiones y expectativas que pesan sobre los jóvenes en entornos de élite deportiva."
   },
   {
-    "id": 57,
+    "id": 50,
     "titulo": "Keeping 13",
     "autor": "Chloe Walsh",
     "anio": 2023,
@@ -1785,7 +1567,7 @@
     "isbn": "9781728299976",
     "paginas": 672,
     "editorial": "Bloom Books",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1710494622i/209982059.jpg",
+    "portada": "https://imagenes.queridoslectores.com/keeping_13.jpg",
     "citas_celebres": [
       "Puedo perder el rugby. No puedo perderte a ti.",
       "Guardé tu secreto porque te quiero. Ahora necesito que guardes el mío.",
@@ -1800,7 +1582,7 @@
     "contexto_historico": "La novela aborda la fragilidad de la identidad en la adolescencia tardía y la presión que ejerce el deporte de élite sobre los jóvenes irlandeses, al tiempo que explora cómo el trauma no resuelto puede heredarse de generación en generación dentro de las familias."
   },
   {
-    "id": 58,
+    "id": 51,
     "titulo": "Saving 6",
     "autor": "Chloe Walsh",
     "anio": 2023,
@@ -1818,7 +1600,7 @@
     "isbn": "9781464215995",
     "paginas": 512,
     "editorial": "Bloom Books",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1743767749i/146943389.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Saving6.jpg",
     "citas_celebres": [
       "Soy exactamente el tipo de persona de la que deberías alejarte.",
       "No me importa lo que creas merecer. Me importa lo que eres.",
@@ -1833,7 +1615,7 @@
     "contexto_historico": "La novela aborda con crudeza el ciclo de la violencia doméstica en Irlanda y sus efectos sobre los hijos, en un contexto social donde históricamente la Iglesia y el Estado tendieron a silenciar estos problemas. El libro refleja el debate contemporáneo sobre salud mental masculina y la dificultad de los hombres jóvenes para pedir ayuda."
   },
   {
-    "id": 59,
+    "id": 52,
     "titulo": "Redeeming 6",
     "autor": "Chloe Walsh",
     "anio": 2024,
@@ -1851,7 +1633,7 @@
     "isbn": "9781464216022",
     "paginas": 784,
     "editorial": "Bloom Books",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781464216022-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Redeeming6.jpg",
     "citas_celebres": [
       "No me importa cuántas veces me empujes. Siempre voy a seguir aquí.",
       "La redención no es un destino. Es la decisión que tomas cada mañana de no rendirte.",
@@ -1866,7 +1648,7 @@
     "contexto_historico": "La novela cierra el arco narrativo de Joey Lynch y refleja el discurso social actual sobre la posibilidad real de romper ciclos de abuso y trauma familiar, poniendo en cuestión la idea fatalista de que ciertos destinos son inevitables para quienes nacen en determinados entornos."
   },
   {
-    "id": 60,
+    "id": 53,
     "titulo": "Taming 7",
     "autor": "Chloe Walsh",
     "anio": 2024,
@@ -1884,7 +1666,7 @@
     "isbn": "9781464216053",
     "paginas": 464,
     "editorial": "Bloom Books",
-    "portada": "https://covers.openlibrary.org/b/isbn/9781464216053-M.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Taming7.jpg",
     "citas_celebres": [
       "Llevo toda la vida haciéndote reír para que no veas que soy yo quien necesita que me salven.",
       "Te conozco de tanto que sé exactamente cuándo tu sonrisa es real y cuándo es el escudo.",
@@ -1899,7 +1681,7 @@
     "contexto_historico": "La novela explora la masculinidad vulnerable y el uso del humor como mecanismo de defensa frente al dolor, un tema de creciente visibilidad en los debates sobre salud mental masculina en Irlanda y el Reino Unido, países donde la tasa de suicidio en hombres jóvenes ha sido históricamente preocupante."
   },
   {
-    "id": 61,
+    "id": 54,
     "titulo": "Releasing 10",
     "autor": "Chloe Walsh",
     "anio": 2025,
@@ -1917,7 +1699,7 @@
     "isbn": "9781464237232",
     "paginas": 768,
     "editorial": "Bloom Books",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1745299737i/229717312.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Releasing10.jpg",
     "citas_celebres": [
       "Mi mente no es un problema que resolver. Es simplemente parte de mí.",
       "Nadie me había mirado antes sin intentar arreglarme. Tú eres el primero.",
@@ -1932,7 +1714,7 @@
     "contexto_historico": "La novela forma parte de la tendencia del dark romance que normaliza abordar temas de salud mental, trauma y abuso desde una perspectiva empática y no sensacionalista, en un contexto literario donde lectoras y lectores reclaman cada vez más representación auténtica de experiencias difíciles sin que el dolor sea glorificado ni trivializado."
 },
 {
-  "id": 62,
+  "id": 55,
   "titulo": "El club del olvido",
   "autor": "Alice Kellen",
   "anio": 2026,
@@ -1949,7 +1731,7 @@
   "isbn": "9788408295632",
   "paginas": 448,
   "editorial": "Planeta",
-  "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1771613552i/247337198.jpg",
+  "portada": "https://imagenes.queridoslectores.com/El_club_del_olvido.jpg",
   "citas_celebres": [
     "N/A"
   ],
@@ -1962,7 +1744,7 @@
   "contexto_historico": "Publicada en una etapa de madurez literaria de la autora, la obra se sitúa en la corriente de la narrativa contemporánea introspectiva, donde el romance sirve como vehículo para tratar temas filosóficos sobre el tiempo, el duelo y la identidad personal en la sociedad moderna."
 },
 {
-    "id": 63,
+    "id": 56,
     "titulo": "Tres meses",
     "autor": "Joana Marcús",
     "anio": 2023,
@@ -1978,7 +1760,7 @@
     "isbn": "9781644736487",
     "paginas": 480,
     "editorial": "Crossbooks",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1681559413i/54659294.jpg",
+    "portada": "https://imagenes.queridoslectores.com/TresMeses.jpg",
     "citas_celebres": [
       "N/A"
     ],
@@ -1990,7 +1772,7 @@
     "contexto_historico": "Tercera parte de la exitosa saga 'Meses a tu lado', que consolidó a Joana como una de las autoras de literatura juvenil más leídas en España y Latinoamérica."
   },
   {
-    "id": 64,
+    "id": 57,
     "titulo": "Las luces de febrero",
     "autor": "Joana Marcús",
     "anio": 2023,
@@ -2006,7 +1788,7 @@
     "isbn": "9788419421135",
     "paginas": 512,
     "editorial": "Crossbooks",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1691146316i/195694577.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Las_luces_de_febrero.jpg",
     "citas_celebres": [
       "N/A"
     ],
@@ -2018,7 +1800,7 @@
     "contexto_historico": "Cuarta entrega de la saga 'Meses a tu lado', muy esperada por el fandom de la autora."
   },
   {
-    "id": 65,
+    "id": 58,
     "titulo": "Después de él",
     "autor": "Flor M. Salvador",
     "anio": 2018,
@@ -2034,7 +1816,7 @@
     "isbn": "9781644736463",
     "paginas": 352,
     "editorial": "Montena",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1654617521i/48908406.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Boulevard_despues_de_el.jpg",
     "citas_celebres": [
       "N/A"
     ],
@@ -2046,7 +1828,7 @@
     "contexto_historico": "Secuela del fenómeno de Wattpad 'Boulevard', que rompió el corazón de millones de lectores en todo el mundo."
   },
   {
-    "id": 66,
+    "id": 59,
     "titulo": "Antes de ella",
     "autor": "Flor M. Salvador",
     "anio": 2026,
@@ -2062,7 +1844,7 @@
     "isbn": "9781644738290",
     "paginas": 320,
     "editorial": "Montena",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1766117130i/205670060.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Boulevard_Antes_de_ella.jpg",
     "citas_celebres": [
       "N/A"
     ],
@@ -2074,7 +1856,7 @@
     "contexto_historico": "Parte del universo de Boulevard, expandiendo la narrativa original para dar más profundidad al personaje masculino."
   },
   {
-    "id": 67,
+    "id": 60,
     "titulo": "La chica que lanzaba versos al aire",
     "autor": "Andrea Longarela",
     "anio": 2026,
@@ -2090,7 +1872,7 @@
     "isbn": "9788419514844",
     "paginas": 384,
     "editorial": "Crossbooks",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1769246413i/246914857.jpg",
+    "portada": "https://imagenes.queridoslectores.com/La_chica_que_lanzaba_versos.jpg",
     "citas_celebres": [
       "La vida es una carrera de obstáculos. Tú eres la que escribe el final",
 	  "A veces los versos dicen lo que nosotros no nos atrevemos a gritar.",
@@ -2104,7 +1886,7 @@
     "contexto_historico": "Una novela que destaca por su sensibilidad y foco en la salud mental y la expresión artística."
   },
   {
-    "id": 68,
+    "id": 61,
     "titulo": "Cuando despierten las flores",
     "autor": "Andrea Longarela",
     "anio": 2025,
@@ -2120,7 +1902,7 @@
     "isbn": "9786073928519",
     "paginas": 400,
     "editorial": "Crossbooks",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1751224848i/228468772.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Cuando_despierten_las_flores.jpg",
     "citas_celebres": [
       "N/A"
     ],
@@ -2132,7 +1914,7 @@
     "contexto_historico": "Publicada en una época de gran auge para el romance 'feel-good' con toques de drama emocional."
   },
   {
-    "id": 69,
+    "id": 62,
     "titulo": "Los veranos olvidados",
     "autor": "Andrea Longarela",
     "anio": 2025,
@@ -2148,7 +1930,7 @@
     "isbn": "9788408297727",
     "paginas": 416,
     "editorial": "Crossbooks",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1731498527i/221017832.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Los_veranos_olvidados.jpg",
     "citas_celebres": [
       "N/A"
     ],
@@ -2160,7 +1942,7 @@
     "contexto_historico": "Una historia nostálgica sobre crecer y perdonar los errores del pasado."
   },
   {
-    "id": 70,
+    "id": 63,
     "titulo": "El color de las cosas invisibles",
     "autor": "Andrea Longarela",
     "anio": 2023,
@@ -2176,7 +1958,7 @@
     "isbn": "9786073905312",
     "paginas": 512,
     "editorial": "Crossbooks",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1681901936i/136078054.jpg",
+    "portada": "https://imagenes.queridoslectores.com/El_color_de_las_cosas_invisibles.jpg",
     "citas_celebres": [
       "N/A"
     ],
@@ -2188,7 +1970,7 @@
     "contexto_historico": "Una de sus novelas más populares, aclamada por su sentido del humor y química entre los protagonistas."
   },
   {
-    "id": 71,
+    "id": 64,
     "titulo": "Nuestro lugar en el mundo",
     "autor": "Inma Rubiales",
     "anio": 2023,
@@ -2204,7 +1986,7 @@
     "isbn": "9786073926478",
     "paginas": 400,
     "editorial": "Planeta",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1737548507i/223218920.jpg",
+    "portada": "https://imagenes.queridoslectores.com/nuestro_lugar_en_el_mundo.jpg",
     "citas_celebres": [
       "N/A"
     ],
@@ -2216,7 +1998,7 @@
     "contexto_historico": "Representa el auge de la literatura 'New Adult' española con gran carga emocional."
   },
   {
-    "id": 72,
+    "id": 65,
     "titulo": "Todos los lugares que mantuvimos en secreto",
     "autor": "Inma Rubiales",
     "anio": 2026,
@@ -2232,7 +2014,7 @@
     "isbn": "9786073911092",
     "paginas": 480,
     "editorial": "Planeta",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1701086060i/202748310.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Todos_lugares_mantuvimos_secreto.jpg",
     "citas_celebres": [
       "Me aprendí el nombre completo de Maeve, su canción favorita y todas las cosas que la hacían reír mucho antes de aprender a contar hasta diez."
     ],
@@ -2244,7 +2026,7 @@
     "contexto_historico": "Publicada recientemente, consolidando a Inma Rubiales como una voz principal del romance juvenil en español."
   },
   {
-    "id": 73,
+    "id": 66,
     "titulo": "Hasta que nos quedemos sin estrellas",
     "autor": "Inma Rubiales",
     "anio": 2022,
@@ -2260,7 +2042,7 @@
     "isbn": "9788408252962",
     "paginas": 448,
     "editorial": "Planeta",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1667929780i/57944234.jpg",
+    "portada": "https://imagenes.queridoslectores.com/HastaQueNosNuedemosSinEstrellas.jpg",
     "citas_celebres": [
       "No tengo ni idea de lo que es el amor. Creo que nunca antes lo había sentido. Lo único que tengo claro es que, cada vez que pienso en eso, eres tú quien se me viene a la cabeza"
     ],
@@ -2272,7 +2054,7 @@
     "contexto_historico": "Uno de los grandes éxitos de la autora que la catapultó a la fama internacional."
   },
   {
-    "id": 74,
+    "id": 67,
     "titulo": "El arte de ser nosotros",
     "autor": "Inma Rubiales",
     "anio": 2023,
@@ -2288,7 +2070,7 @@
     "isbn": "9788408267928",
     "paginas": 512,
     "editorial": "Planeta",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1671293653i/69333269.jpg",
+    "portada": "https://imagenes.queridoslectores.com/El_arte_de_ser_nosotros.jpg",
     "citas_celebres": [
       "N/A"
     ],
@@ -2300,7 +2082,7 @@
     "contexto_historico": "Una vuelta de tuerca al clásico cliché de 'fake dating', con mucha carga emocional y desarrollo de personajes."
   },
   {
-    "id": 75,
+    "id": 68,
     "titulo": "El mapa de los anhelos",
     "autor": "Alice Kellen",
     "anio": 2022,
@@ -2317,7 +2099,7 @@
     "isbn": "9788408255956",
     "paginas": 496,
     "editorial": "Planeta",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1642689654i/60167327.jpg",
+    "portada": "https://imagenes.queridoslectores.com/el_mapa_de_los_anhelos.jpg",
     "citas_celebres": [
       "N/A"
     ],
@@ -2329,7 +2111,7 @@
     "contexto_historico": "Un bestseller rotundo que consolidó a Alice Kellen como una de las escritoras españolas más leídas."
   },
   {
-    "id": 76,
+    "id": 69,
     "titulo": "Collide",
     "autor": "Bal Khabara",
     "anio": 2023,
@@ -2346,7 +2128,7 @@
     "isbn": "9780593818275",
     "paginas": 416,
     "editorial": "Bramble",
-    "portada": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1692608727i/197306586.jpg",
+    "portada": "https://imagenes.queridoslectores.com/Collide.jpg",
     "citas_celebres": [
       "N/A"
     ],
