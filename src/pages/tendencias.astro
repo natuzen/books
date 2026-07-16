@@ -3,6 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import estrenos from '../../data/estrenos-peliculas.json';
 import novedades from '../../data/novedades-libros.json';
 
+const librosNovedades = [...novedades].sort((a, b) => b.anio - a.anio).slice(0, 8);
+
 const novedadesRecientes = novedades
   .slice()
   .sort((a, b) => new Date(b.fecha_publicacion + 'T12:00:00Z').getTime() - new Date(a.fecha_publicacion + 'T12:00:00Z').getTime())
