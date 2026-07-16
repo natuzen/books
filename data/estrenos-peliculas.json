@@ -31,5 +31,16 @@
     "plataforma": "Cine",
     "genero": "Thriller psicológico",
     "imagen": "https://imagenes.queridoslectores.com/verity.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "El mapa de los anhelos",
+    "tipo": "serie",
+    "fecha_estreno": "2026-07-16",
+    "sinopsis": "La vida de Greta siempre estuvo definida por los demás. Nació con un propósito único y doloroso: ser la donante compatible que salvara a su hermana mayor, Lucy. Sin embargo, cuando Lucy pierde la batalla contra la enfermedad, Greta se queda completamente vacía. Sin su hermana, siente que ha dejado de existir, convirtiéndose en una sombra en su propia casa y atrapada en un duelo que parece no tener fin. Pero Lucy no se fue sin dejar una última guía. Antes de morir, diseñó un juego muy especial: El mapa de los anhelos. A través de una serie de cartas numeradas e instrucciones muy particulares, Lucy obliga a Greta a salir al mundo real. El mapa la empujará a experimentar la vida de verdad: a correr riesgos, a reír, a llorar y, sobre todo, a descubrir quién es ella cuando ya no tiene que salvar a nadie.Lo que Greta no sospecha es que la primera parada de este viaje la llevará directo a la puerta de Will, un chico misterioso que arrastra sus propias sombras. ¿Por qué Lucy lo incluyó en el mapa? ¿Y qué pasa cuando dos almas rotas se encuentran en el momento exacto en que necesitan sanar?",
+    "adaptacion_de": "El mapa de los anhelos - Alice Kellen",
+    "plataforma": "Netflix",
+    "genero": "Drama Romantico",
+    "imagen": "https://imagenes.queridoslectores.com/El_mapa_de_los_anhelos_serie.jpg"
   }
 ]
