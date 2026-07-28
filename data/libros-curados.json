@@ -2366,5 +2366,34 @@
     ],
     "datos_curiosos_autor": "¿Sabías que 'Sucedió un verano' nació gracias a una serie de televisión? 🍿 La autora, Tessa Bailey, es fanática de Schitt's Creek y se inspiró directamente en el personaje de Alexis Rose (una it-girl millonaria y divertida desterrada a un pueblo perdido) para crear a nuestra querida Piper Bellinger.",
     "contexto_historico": "Tessa Bailey escribió esta novela en el año 2020, en pleno confinamiento por la pandemia de COVID-19. La autora confesó en varias entrevistas que se encontraba en un momento de bloqueo creativo enorme y muy desmotivada por la situación mundial."
-  }
+  },
+{
+  "id": 78,
+  "titulo": "Todas las historias llevan tu nombre",
+  "autor": "Andrea Longarela",
+  "anio": 2026,
+  "slug": "todas-las-historias-llevan-tu-nombre",
+  "sinopsis": "El tiempo cambia las cosas pero, si el amor es real, permanece. Para Lucy Dallas, los veranos en Mendocino junto a sus hermanos eran perfectos , hasta que la trágica pérdida del pequeño Max quiebra la armonía familiar. En medio del dolor irrumpe Noah, un joven que se convierte en el refugio de la familia y en alguien imprescindible para Lucy. Sin embargo, con los años surgen secretos, heridas y la inesperada desaparición de Noah. Ya en la etapa adulta, su reencuentro los obligará a encarar el pasado, descubrir verdades ocultas y decidir si las cicatrices del ayer les permitirán escribir un futuro juntos. Una emotiva historia sobre el duelo familiar, las segundas oportunidades y un amor que florece a fuego lento.",
+  "tropos": [
+    "friends-to-lovers",
+    "second_chance",
+    "slow-Burn"
+  ],
+  "intensidad": 3,
+  "categoria": "romantica",
+  "isbn": "9788408317937",
+  "paginas": 528,
+  "editorial": "Crossbooks",
+  "portada": "https://imagenes.queridoslectores.com/TodasLasHistoriasLlevanTuNombre.jpg",
+  "citas_celebres": [
+    "El tiempo cambia las cosas pero, si el amor es real, permanece",
+    "Hay lugares a los que perteneces aunque te hayas ido y momentos en los que fuiste tan feliz que se quedan a vivir en ti para siempre."
+  ],
+  "libros_similares": [
+    "la-chica-que-lanzaba-versos-al-aire",
+    "los-veranos-olvidados"
+  ],
+  "datos_curiosos_autor": "Andrea Longarela (también conocida en redes como Neïra) es una de las referentes de la literatura romántica contemporánea en España. Compaginó durante años sus estudios de Psicología y su trabajo administrativo con la escritura de novela romántica, antes de dedicarse plenamente a la literatura.",
+  "contexto_historico": "Ambientada en la España contemporánea, la novela explora los dilemas emocionales, las relaciones afectivas y la búsqueda de identidad personal de los jóvenes adultos en el siglo XXI."
+}
 ]
