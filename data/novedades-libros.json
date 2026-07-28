@@ -1,122 +1,12 @@
 [
   {
     "id": 1,
-    "titulo": "Legacy. Donde todo comienza",
-    "autor": "Rebecca Yarros",
-    "fecha_publicacion": "2026-04-01",
-    "sinopsis": "Knox prefiere vivir su vida tal y como se toma el café: solo. Pero todo cambia cuando llega a su pueblecito un terremoto llamado Naomi, una novia a la fuga en busca de su gemela, de la que lleva años sin saber nada. Al ver cómo la vida de Naomi se va al traste, Knox decide hacer lo que mejor se le da: sacar a la gente de apuros. Después, volverá a su rutina solitaria… o eso cree.",
+    "titulo": "Todas las historias llevan tu nombre",
+    "autor": "Andrea Longarela",
+    "fecha_publicacion": "2026-07-01",
+    "sinopsis": "El tiempo cambia las cosas pero, si el amor es real, permanece. Un emotivo reencuentro obligará a Lucy y Noah a desenterrar los secretos que los separaron en la juventud y a descubrir si las heridas del pasado pueden sanar para dar paso a un futuro juntos.",
     "genero": "Romance contemporáneo",
-    "editorial": "Planeta",
-    "isbn": "9788408318644"
-  },
-  {
-    "id": 2,
-    "titulo": "El Club del Olvido",
-    "autor": "Alice Kellen",
-    "fecha_publicacion": "2026-04-01",
-    "sinopsis": "Samuel, Abel, Max y Tristán pasaron su infancia en el mismo barrio humilde de la ciudad. Y, ahora, juntos deciden abrir un local de copas: El Club del Olvido. La noche de la inauguración no resulta ser como ninguno de ellos esperaba, y las vidas de estos cuatro amigos quedarán unidas para siempre por algo que jamás olvidarán.",
-    "genero": "Romance contemporáneo",
-    "editorial": "Planeta",
-    "isbn": "9788408318200"
-  },
-  {
-    "id": 3,
-    "titulo": "Inmarcesible",
-    "autor": "Raisa Martín Espinosa",
-    "fecha_publicacion": "2026-04-01",
-    "sinopsis": "Evanora aprendió a una edad muy temprana el mal que pueden hacer los vampiros. Desde que le robaron la inocencia y su grito, se ha dedicado a evitarlos y odiarlos con pasión. Pero ahora ha captado el interés de uno que no piensa parar hasta conseguir lo que quiere de ella.",
-    "genero": "Romantasy / Dark Romance",
-    "editorial": "Autoedición",
-    "isbn": "9791387864200"
-  },
-  {
-    "id": 4,
-    "titulo": "Las pequeñas revoluciones",
-    "autor": "Elísabet Benavent",
-    "fecha_publicacion": "2026-04-14",
-    "sinopsis": "Júlia Casanovas trabaja en un bar de tapas de Barcelona. Hace ya una década fue una actriz de éxito, pero su naturaleza complaciente la llevó a aceptar un papel que hizo añicos su amor por la interpretación y su carrera. Sin embargo, todo cambiará cuando un desconocido aparezca en el local en el que trabaja con un mensaje bastante críptico: 'Creo que te necesito'. Una novela que reivindica el amor propio como opción necesaria.",
-    "genero": "Romance contemporáneo",
-    "editorial": "Penguin Random House",
-    "isbn": "9788401035678"
-  },
-  {
-    "id": 5,
-    "titulo": "Los 15 de Fosbury",
-    "autor": "Varios autores",
-    "fecha_publicacion": "2026-04-01",
-    "sinopsis": "En la Academia Deportiva Dick Fosbury solo hay sitio para los mejores. Quince jóvenes deportistas conviven en este centro de alto rendimiento con un objetivo común: alcanzar la excelencia y ganarse un lugar en la élite del deporte. La exigencia es máxima, la presión constante y, en ese entorno cerrado, las emociones se viven al límite: amistades que se vuelven irrompibles, rivalidades que arden en silencio y amores que nacen sin esperarlo. Pero cuando la muerte sacude los cimientos de la academia, nada vuelve a ser igual.",
-    "genero": "Romance juvenil / Sport Romance",
-    "editorial": "Planeta",
-    "isbn": "9788408319001"
-  },
-  {
-    "id": 6,
-    "titulo": "Inmarcesible (Saga Alquimia & Fae 2)",
-    "autor": "R.F. Kuang (traducción)",
-    "fecha_publicacion": "2026-04-08",
-    "sinopsis": "Segunda entrega de la saga Alquimia & Fae. Saeris Fane es nombrada regente de la Corte de Sangre. El peso del reino recae sobre sus hombros, pero su distrito y su hermano necesitan que vuelva a su tierra natal. Mientras, Kingfisher de Puerta Ajun ha sobrevivido a todo tipo de horrores, pero debe viajar de regreso a Zilvaren, junto con Carrion Swift. Una épica historia de magia, sacrificio y amor prohibido que arrasa en el género romantasy.",
-    "genero": "Romantasy / Fantasía épica",
-    "editorial": "Minotauro",
-    "isbn": "9788445015482"
-  },
-  {
-    "id": 7,
-    "titulo": "Lola Vendetta: Katanazo al amor romántico. Parte II",
-    "autor": "Raquel Riba Rossy",
-    "fecha_publicacion": "2026-04-01",
-    "sinopsis": "La segunda parte de esta obra sobre el maltrato. Después de atravesar uno de los capítulos más oscuros de su vida, Lola Vendetta ha encontrado un breve remanso de paz rodeada de gente noble y bonita. Pero la calma dura poco: un mensaje anónimo de una mujer que dice ser víctima del mismo hombre vuelve a sacudir su mundo.",
-    "genero": "Romance / Novela gráfica",
-    "editorial": "Penguin Random House",
-    "isbn": "9788466672894"
-  },
-  {
-    "id": 8,
-    "titulo": "Dead Lands (Savage Lands #3)",
-    "autor": "Stacey Marie Brown",
-    "fecha_publicacion": "2026-04-01",
-    "sinopsis": "Secuestrada por el notorio grupo rebelde Provstat, Brexley descubre que su asociación va más profundo de lo que jamás imaginó. Reunida con viejos conocidos y un tío que nunca supo que tenía, es arrojada al vicioso mundo de la política, donde líderes humanos y fae harán cualquier cosa por salir victoriosos. Una épica historia de magia, poder y amor en un mundo post-apocalíptico habitado por fae.",
-    "genero": "Romantasy / Fantasía urbana",
-    "editorial": "Blackstone Publishing",
-    "isbn": "9798212345678"
-  },
-  {
-    "id": 9,
-    "titulo": "¡Me los llevo! (Fake Dating Bombero)",
-    "autor": "Willow Winters",
-    "fecha_publicacion": "2026-04-01",
-    "sinopsis": "Cuando su alumno de preescolar y su hermanito necesitan un hogar de acogida de emergencia, ella no duda. Haré lo que sea para evitar que se separen. Pero su apartamento está inundado y solo hay una casa a la que puede llevarlos: la de Knox Daniels, el mejor amigo de su hermano mayor. Un romance de fake-dating con un bombero de corazón de oro que guarda más secretos de los que aparenta.",
-    "genero": "Romance contemporáneo / Fake Dating",
-    "editorial": "Kiwi",
-    "isbn": "9788410298310"
-  },
-  {
-    "id": 10,
-    "titulo": "Cualquiera menos tú",
-    "autor": "Sloan Harlow",
-    "fecha_publicacion": "2026-04-01",
-    "sinopsis": "Se suponía que este compromiso era falso… Y, sin embargo, aquí estoy, volviéndome loca por mi prometido de mentira. Beau Eaton es el príncipe del pueblo, un héroe militar tan atractivo como atormentado. Yo, en cambio, soy la camarera invisible, la chica tímida con el apellido equivocado. Él tiene treinta y cinco años y es pura masculinidad. Yo tengo veintidós. Divertida, emotiva y con un toque irresistible de comedia romántica, esta es una historia sobre segundas oportunidades, el poder de las palabras y la valentía de volver a creer en el amor.",
-    "genero": "Romance contemporáneo / Fake Dating",
-    "editorial": "Titania",
-    "isbn": "9788408315902"
-  },
-  {
-    "id": 11,
-    "titulo": "El reino velado",
-    "autor": "Rebecca Ross",
-    "fecha_publicacion": "2026-04-08",
-    "sinopsis": "Huye de la crueldad de su padre, el rey malvado que le robó el futuro. En las calles, la muerte la acecha, atrapada entre una rebelión y el reinado de un tirano. Capturada por aquellos que juraron acabar con ella, los rebeldes ignoran su verdadera identidad. Frente a Dacre, el hijo del implacable comandante rebelde, debe decidir entre unirse a ellos o caer bajo el filo de sus espadas. Un romantasy de enemies to lovers en un mundo de magia y secretos.",
-    "genero": "Romantasy / Enemies to lovers",
-    "editorial": "Umbriel",
-    "isbn": "9788492915873"
-  },
-  {
-    "id": 12,
-    "titulo": "Revolverá cielo y tierra",
-    "autor": "L.J. Andrews",
-    "fecha_publicacion": "2026-04-15",
-    "sinopsis": "Erik no es solo un monarca herido: es una tormenta contenida a punto de estallar. El fenómeno del romantasy que arrasa en TikTok regresa con una épica historia de magia, enemigos y deseo en el universo de L.J. Andrews. Un rey dispuesto a remover cielo y tierra por la mujer que ama, en un mundo de fae lleno de traición, poder y pasión prohibida.",
-    "genero": "Romantasy / Fantasía Fae",
-    "editorial": "Planeta",
-    "isbn": "9788408319450"
+    "editorial": "Crossbooks",
+    "isbn": "9788408317937"
   }
 ]
