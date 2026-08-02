@@ -2395,5 +2395,38 @@
   ],
   "datos_curiosos_autor": "Andrea Longarela (también conocida en redes como Neïra) es una de las referentes de la literatura romántica contemporánea en España. Compaginó durante años sus estudios de Psicología y su trabajo administrativo con la escritura de novela romántica, antes de dedicarse plenamente a la literatura.",
   "contexto_historico": "Ambientada en la España contemporánea, la novela explora los dilemas emocionales, las relaciones afectivas y la búsqueda de identidad personal de los jóvenes adultos en el siglo XXI."
+},
+{
+  "id": 79,
+  "titulo": "Twisted Lies",
+  "autor": "Ana Huang",
+  "anio": 2022,
+  "slug": "twisted-lies",
+  "sinopsis": "Stella Alonso es una influenciadora de moda que necesita desesperadamente un novio falso para proteger su reputación y trabajo. Su nuevo e intocable arrendador, Christian Harper, un letal magnate de la ciberseguridad obsesionado con ella, acepta el acuerdo con sus propios fines. Lo que empieza como una farsa pronto se convierte en una apasionada y peligrosa red de secretos.",
+  "tropos": [
+    "fake-dating",
+    "billionaire-romance",
+    "grumpy-x-sunshine",
+    "forced-proximity",
+    "romantic-suspense"
+  ],
+  "intensidad": 4,
+  "categoria": "Romance Contemporaneo",
+  "isbn": "9789507326257",
+  "paginas": 576,
+  "editorial": "Bloom Books",
+  "portada": "https://imagenes.queridoslectores.com/Twisted_lies.jpg",
+  "citas_celebres": [
+    "Si tocas a otro hombre, se muere. Si dejas que otro hombre te toque, se muere. Si me dices que no puedo tocarte... me muero yo.",
+    "El amor es ordinario. Mundano. Y tú, Stella... tú eres extraordinaria.",
+    "Nunca llegaría al cielo, pero eso no importaba mientras ella gobernara a mi lado en el infierno. Stella estaba hecha para ser mi reina."
+  ],
+  "libros_similares": [
+    "twisted-love",
+    "twisted-games",
+    "twisted-hate"
+  ],
+  "datos_curiosos_autor": "Ana Huang comenzó a escribir a los 16 años para mejorar su inglés. Antes de dedicarse de lleno a la escritura y convertirse en un fenómeno de ventas gracias a BookTok, trabajaba en el ámbito corporativo.",
+  "contexto_historico": "Escrito y publicado en 2022 en pleno auge de la cultura de internet y creadores de contenido, capturando el fenómeno del romance contemporáneo 'dark/spicy' impulsado globalmente por comunidades digitales como BookTok."
 }
 ]
