@@ -2428,5 +2428,39 @@
   ],
   "datos_curiosos_autor": "Ana Huang comenzó a escribir a los 16 años para mejorar su inglés. Antes de dedicarse de lleno a la escritura y convertirse en un fenómeno de ventas gracias a BookTok, trabajaba en el ámbito corporativo.",
   "contexto_historico": "Escrito y publicado en 2022 en pleno auge de la cultura de internet y creadores de contenido, capturando el fenómeno del romance contemporáneo 'dark/spicy' impulsado globalmente por comunidades digitales como BookTok."
+};
+{
+  "id": 80,
+  "titulo": "Rey de la soberbia",
+  "autor": "Ana Huang",
+  "anio": 2023,
+  "slug": "rey-de-la-soberbia",
+  "sinopsis": "Kai Young es un millonario reservado y metódico que está por convertirse en el CEO del imperio mediático familiar. Isabella Valencia es una bibliotecaria extrovertida y libre que sueña con ser escritora. A pesar de ser polos opuestos y del estricto protocolo que debe mantener Kai, la química entre ambos resulta incontrolable, arrastrándolos a una pasión prohibida que amenaza con romper su perfecto autocontrol.",
+  "tropos": [
+    "opposites-attract",
+    "billionaire-romance",
+    "grumpy-x-sunshine",
+    "forbidden-romance",
+    "slow-burn"
+  ],
+  "intensidad": 3,
+  "categoria": "Romance Contemporaneo",
+  "isbn": "9789507326455",
+  "paginas": 560,
+  "editorial": "Crossbooks",
+  "portada": "https://imagenes.queridoslectores.com/Rey_de_la_soberbia.jpg",
+  "citas_celebres": [
+    "Mi autocontrol tiene un límite, Isabella, y estás poniendo a prueba hasta el último maldito milímetro.",
+    "No solo quiero tu cuerpo. Quiero tu mente, tu corazón y cada aliento que tomas.",
+    "Eras una distracción que no podía me permitir. Ahora eres lo único que me importa."
+  ],
+  "libros_similares": [
+    "rey-de-la-ira",
+    "rey-de-la-codicia",
+    "twisted-love",
+    "twisted-games"
+  ],
+  "datos_curiosos_autor": "Ana Huang comenzó a escribir a los 16 años para perfeccionar su inglés y es amante de los viajes. Ideó la saga Kings of Sin estructurando a cada protagonista en torno a uno de los siete pecados capitales.",
+  "contexto_historico": "Lanzada en 2023 dentro del auge de la ficción romántica moderna impulsada por BookTok, reflejando el atractivo popular por los romances de millonarios, dramas corporativos y héroes moralmente grises."
 }
 ]
