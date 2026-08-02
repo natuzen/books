@@ -2564,5 +2564,38 @@
   ],
   "datos_curiosos_autor": "Ana Huang empezó a escribir a los 16 años para perfeccionar su inglés. Con esta entrega da inicio a su saga Gods of the Game, adentrándose por primera vez en el romance ambientado en el fútbol profesional internacional.",
   "contexto_historico": "Publicada en 2024 dentro de la gran ola de popularidad del subgénero sports romance impulsada por BookTok, combinando la presión mediática del deporte de alta competición con dilemas románticos contemporáneos."
+},
+{
+  "id": 84,
+  "titulo": "The Defender",
+  "autor": "Ana Huang",
+  "anio": 2025,
+  "slug": "the-defender",
+  "sinopsis": "Vincent DuBois, capitán del Blackcastle Football Club, es un jugador estrella conocido por su férreo autocontrol y disciplina. Sin embargo, cuando la fama le trae problemas de seguridad, se ve obligado a compartir piso en secreto con la hija de su propio entrenador, quien acaba de mudarse buscando un nuevo comienzo. Lo que empieza como un acuerdo incómodo y una apuesta pronto detona una atracción inevitable que pondrá a prueba su profesionalismo dentro y fuera de la cancha.",
+  "tropos": [
+    "sports-romance",
+    "grumpy-x-sunshine",
+    "forced-proximity",
+    "forbidden-romance",
+    "slow-burn"
+  ],
+  "intensidad": 3,
+  "categoria": "contemporanea",
+  "isbn": "9788408312956",
+  "paginas": 480,
+  "editorial": "Bloom Books",
+  "portada": "https://imagenes.queridoslectores.com/The_defender.jpg",
+  "citas_celebres": [
+    "Por primera vez en mi vida, el amor no se sintió como un riesgo. Se sintió como la apuesta más segura que había hecho en mi vida.",
+    "Brooklyn... Perdería cada una de las malditas apuestas del mundo si eso significara que puedo estar contigo."
+  ],
+  "libros_similares": [
+    "the-striker",
+    "Rey-de-la-codicia",
+    "Rey-de-la-soberbia",
+    "twisted-love"
+  ],
+  "datos_curiosos_autor": "Ana Huang comenzó a escribir a los 16 años para perfeccionar su inglés. Tras el arrollador éxito global de sus sagas Twisted y Kings of Sin en BookTok, creó la serie Gods of the Game ambientada en el fútbol profesional de élite.",
+  "contexto_historico": "Publicado como el segundo volumen de la saga Gods of the Game, en pleno auge global del romance deportivo (sports romance) dentro del mercado editorial contemporáneo."
 }
 ]
