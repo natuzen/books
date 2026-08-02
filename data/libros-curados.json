@@ -2463,4 +2463,38 @@
   "datos_curiosos_autor": "Ana Huang comenzó a escribir a los 16 años para perfeccionar su inglés y es amante de los viajes. Ideó la saga Kings of Sin estructurando a cada protagonista en torno a uno de los siete pecados capitales.",
   "contexto_historico": "Lanzada en 2023 dentro del auge de la ficción romántica moderna impulsada por BookTok, reflejando el atractivo popular por los romances de millonarios, dramas corporativos y héroes moralmente grises."
 }
+{
+  "id": 81,
+  "titulo": "Rey de la codicia",
+  "autor": "Ana Huang",
+  "anio": 2023,
+  "slug": "rey-de-la-codicia",
+  "sinopsis": "Dominic Davenport lo tiene todo: riquezas, estatus y un imperio en Wall Street, pero su insaciable ambición ha sofocado su matrimonio. Cansada de ser relegada a un segundo plano, Alessandra decide pedirle el divorcio para tomar el control de su vida. Ante la inminente pérdida de la única mujer que amó, Dominic tendrá que enfrentarse a su propio egoísmo y luchar desesperadamente por una segunda oportunidad.",
+  "tropos": [
+    "marriage-in-trouble",
+    "billionaire-romance",
+    "second-chance",
+    "groveling",
+    "angst"
+  ],
+  "intensidad": 3,
+  "categoria": "contemporanea",
+  "isbn": "9788408301790",
+  "paginas": 416,
+  "editorial": "Crossbooks",
+  "portada": "https://imagenes.queridoslectores.com/Rey_de_la_codicia.jpg",
+  "citas_celebres": [
+    "Construí un imperio por ti, pero olvidé que de nada servía si no estabas ahí para compartirlo conmigo.",
+    "Eras mi hogar, Alessandra. Y yo estaba tan ocupado buscando más que dejé que se quemara.",
+    "Si tengo que volver a enamorarte todos los días por el resto de mi vida, lo haré."
+  ],
+  "libros_similares": [
+    "rey-de-la-ira",
+    "rey-de-la-soberbia",
+    "twisted-love",
+    "twisted-games"
+  ],
+  "datos_curiosos_autor": "Ana Huang comenzó a escribir a los 16 años para practicar su inglés y se inspiró en los siete pecados capitales para desarrollar la saga Kings of Sin, representando la codicia en esta obra.",
+  "contexto_historico": "Publicada en 2023 dentro del auge global del romance contemporáneo impulsado por BookTok, explorando la dinámica del matrimonio en crisis dentro de la alta sociedad y los círculos financieros."
+}
 ]
