@@ -2530,5 +2530,39 @@
   ],
   "datos_curiosos_autor": "Ana Huang comenzó a escribir a los 16 años para practicar su inglés y concibió la saga Kings of Sin inspirándose en los siete pecados capitales, encarnando en esta obra el pecado de la envidia.",
   "contexto_historico": "Publicado dentro del fenómeno de ventas de BookTok y la narrativa romántica contemporánea, enfocado en multimillonarios, rivalidades de la alta sociedad y dinámicas de amor prohibido."
+},
+{
+  "id": 83,
+  "titulo": "The Striker",
+  "autor": "Ana Huang",
+  "anio": 2024,
+  "slug": "the-striker",
+  "sinopsis": "Asher Donovan es un brillante e impulsivo futbolista de élite que debe limpiar su imagen tras un escándalo deportivo. Para lograrlo, es enviado a entrenar durante el verano con una leyenda del fútbol, conviviendo en la misma propiedad con Scarlett, la reservada e intrépida hermana de su mayor rival en la cancha. A pesar de la estricta prohibición de su compañero y los riesgos para sus carreras, la tensión entre ambos detona una pasión imparable.",
+  "tropos": [
+    "sports-romance",
+    "brother-best-friend",
+    "forced-proximity",
+    "forbidden-romance",
+    "grumpy-x-sunshine"
+  ],
+  "intensidad": 3,
+  "categoria": "Romance Contemporaneo",
+  "isbn": "9788408297840",
+  "paginas": 480,
+  "editorial": "Bloom Books",
+  "portada": "https://imagenes.queridoslectores.com/The_striker.jpg",
+  "citas_celebres": [
+    "Pasé toda mi vida persiguiendo trofeos, pero tú eres la única victoria que realmente he necesitado.",
+    "Amarte es una falta según todas las reglas del juego, pero aceptaría encantado una tarjeta roja con tal de mantenerte a mi lado.",
+    "Se suponía que estabas prohibida, que eras la única línea que no podía cruzar. Pero en el momento en que me miraste así, supe que me arruinaría por ti."
+  ],
+  "libros_similares": [
+    "Rey-de-la-soberbia",
+    "Rey-de-la-codicia",
+    "twisted-love",
+    "twisted-lies"
+  ],
+  "datos_curiosos_autor": "Ana Huang empezó a escribir a los 16 años para perfeccionar su inglés. Con esta entrega da inicio a su saga Gods of the Game, adentrándose por primera vez en el romance ambientado en el fútbol profesional internacional.",
+  "contexto_historico": "Publicada en 2024 dentro de la gran ola de popularidad del subgénero sports romance impulsada por BookTok, combinando la presión mediática del deporte de alta competición con dilemas románticos contemporáneos."
 }
 ]
