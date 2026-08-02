@@ -2496,5 +2496,39 @@
   ],
   "datos_curiosos_autor": "Ana Huang comenzó a escribir a los 16 años para practicar su inglés y se inspiró en los siete pecados capitales para desarrollar la saga Kings of Sin, representando la codicia en esta obra.",
   "contexto_historico": "Publicada en 2023 dentro del auge global del romance contemporáneo impulsado por BookTok, explorando la dinámica del matrimonio en crisis dentro de la alta sociedad y los círculos financieros."
+},
+{
+  "id": 82,
+  "titulo": "Rey de la envidia",
+  "autor": "Ana Huang",
+  "anio": 2024,
+  "slug": "rey-de-la-envidia",
+  "sinopsis": "Vuk Markovic es un poderoso multimillonario tan reservado como peligroso, con una única y secreta debilidad: Ayana Kidane, una codiciada supermodelo. Durante años, Vuk la ha deseado en silencio, pero la situación se vuelve insoportable cuando Ayana se compromete con un hombre de su propio círculo social. Lo que Vuk ignora es que el compromiso de Ayana es solo una farsa por dinero y conveniencia para liberarse de una agencia abusiva. Atrapado entre la lealtad y una envidia devoradora, Vuk ya no está dispuesto a mantenerse al margen.",
+  "tropos": [
+    "forbidden-romance",
+    "billionaire-romance",
+    "revenge-romance",
+    "enemies-to-lovers",
+    "forced-proximity"
+  ],
+  "intensidad": 3,
+  "categoria": "contemporanea",
+  "isbn": "9788408308652",
+  "paginas": 480,
+  "editorial": "Crossbooks",
+  "portada": "https://imagenes.queridoslectores.com/Rey_de_la_envidia.jpg",
+  "citas_celebres": [
+    "Nunca quise poseer el mundo hasta que me di cuenta de que podías ser mía en él.",
+    "La envidia no es querer lo que tiene el otro; es saber que lo que el otro tiene solo te pertenece a ti.",
+    "Si querías un héroe, debiste elegir a otro. Yo estoy dispuesto a quemar el mundo entero solo para mantenerte a salvo."
+  ],
+  "libros_similares": [
+    "rey-de-la-ira",
+    "rey-de-la-soberbia",
+    "rey-de-la-codicia",
+    "rey-de-la-pereza"
+  ],
+  "datos_curiosos_autor": "Ana Huang comenzó a escribir a los 16 años para practicar su inglés y concibió la saga Kings of Sin inspirándose en los siete pecados capitales, encarnando en esta obra el pecado de la envidia.",
+  "contexto_historico": "Publicado dentro del fenómeno de ventas de BookTok y la narrativa romántica contemporánea, enfocado en multimillonarios, rivalidades de la alta sociedad y dinámicas de amor prohibido."
 }
 ]
