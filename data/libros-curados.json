@@ -2597,5 +2597,39 @@
   ],
   "datos_curiosos_autor": "Ana Huang comenzó a escribir a los 16 años para perfeccionar su inglés. Tras el arrollador éxito global de sus sagas Twisted y Kings of Sin en BookTok, creó la serie Gods of the Game ambientada en el fútbol profesional de élite.",
   "contexto_historico": "Publicado como el segundo volumen de la saga Gods of the Game, en pleno auge global del romance deportivo (sports romance) dentro del mercado editorial contemporáneo."
+},
+{
+  "id": 85,
+  "titulo": "The Keeper",
+  "autor": "Ana Huang",
+  "anio": 2025,
+  "slug": "the-keeper",
+  "sinopsis": "Julian Cross es un guardameta de élite tan frío y reservado como letal en la cancha, con una vida estructurada al milímetro. Todo cambia cuando, por una serie de malos entendidos y presión mediática, termina en una relación falsa con una mujer de fuerte carácter a la que al principio no soporta. Lo que comienza como una estrategia para salvar sus respectivas reputaciones pronto escala a una atracción inevitable que pondrá a prueba el control absoluto de Julian.",
+  "tropos": [
+    "sports-romance",
+    "grumpy-x-sunshine",
+    "forced-proximity",
+    "secret-past",
+    "slow-burn"
+  ],
+  "intensidad": 3,
+  "categoria": "Romance contemporaneo",
+  "isbn": "9781464223341",
+  "paginas": 464,
+  "editorial": "Bloom Books",
+  "portada": "https://imagenes.queridoslectores.com/The_keeper.jpg",
+  "citas_celebres": [
+    "He pasado toda mi vida protegiendo la línea detrás de mí, pero contigo saldría de la cancha y quemaría todo el campo solo para mantenerte a salvo.",
+    "Fui construido para ser impenetrable. Nadie traspasa mis defensas, hasta que entraste tú e hiciste que quisiera tirar a la basura todo el maldito libro de reglas.",
+    "Acordamos que todo esto era un show, un juego con fecha de vencimiento clara. Pero tocarte no se siente como una mentira, y dejarte ir es la única cosa que me niego a hacer."
+  ],
+  "libros_similares": [
+    "the-striker",
+    "the-defender",
+    "Rey-de-la-ira",
+    "Rey-de-la-soberbia"
+  ],
+  "datos_curiosos_autor": "Ana Huang empezó a escribir a los 16 años para perfeccionar su dominio del inglés. Tras consolidarse como autora superventas con Twisted y Kings of Sin, desarrolló la serie Gods of the Game explorando los dilemas personales de futbolistas profesionales de élite.",
+  "contexto_historico": "Publicado como parte de la popular serie Gods of the Game, aprovechando la fuerte presencia global y tendencia del subgénero sports romance impulsado por comunidades de lectores en BookTok."
 }
 ]
