@@ -9,7 +9,7 @@ libros: ["Todos nuestros veranos", "Te veo en el lago", "Esta vez será diferent
 
 Carley Fortune es una galardonada periodista canadiense y autora súper ventas N.º 1 de The New York Times y USA Today. Trabajó durante años como editora en jefe y redactora en importantes medios como Refinery29, The Globe and Mail y Chatelaine. Su transición a la ficción romántica la posicionó como una de las voces más destacadas y queridas del romance contemporáneo de verano (summer romance). Sus novelas evocan nostalgia, escapismo, paisajes costeros deslumbrantes y emociones a flor de piel.
 
-## 🏷️ Género y Subgéneros  
+## 🏷️ **Género y Subgéneros** <br>
 
 **Género Principal:** Romántica Contemporánea (Contemporary Romance).
 
