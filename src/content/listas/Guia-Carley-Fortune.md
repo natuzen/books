@@ -11,9 +11,9 @@ Carley Fortune es una galardonada periodista canadiense y autora súper ventas N
 
 ## 🏷️ Género y Subgéneros
 
-Género Principal: Romántica Contemporánea (Contemporary Romance).
+**Género Principal:** Romántica Contemporánea (Contemporary Romance).
 
-Subgéneros: Romance de verano (Summer Romance), New Adult, Romance Emocional / Ficción de personajes (Character-Driven Romance).
+**Subgéneros:** Romance de verano (Summer Romance), New Adult, Romance Emocional / Ficción de personajes (Character-Driven Romance).
 
 ## Los tropos más populares
 
