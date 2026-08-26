@@ -2631,5 +2631,37 @@
   ],
   "datos_curiosos_autor": "Ana Huang empezó a escribir a los 16 años para perfeccionar su dominio del inglés. Tras consolidarse como autora superventas con Twisted y Kings of Sin, desarrolló la serie Gods of the Game explorando los dilemas personales de futbolistas profesionales de élite.",
   "contexto_historico": "Publicado como parte de la popular serie Gods of the Game, aprovechando la fuerte presencia global y tendencia del subgénero sports romance impulsado por comunidades de lectores en BookTok."
+},
+{
+  "id": 86,
+  "titulo": "Todos nuestros veranos",
+  "autor": "Carley Fortune",
+  "anio": 2023,
+  "slug": "Todos nuestros veranos",
+  "sinopsis": "Seis veranos para enamorarse, un error para separarlos y un fin de semana para arreglarlo todo. Persephone Fraser pasa sus veranos en el lago Bella, donde su vida se entrelaza con la de Sam Florek, su mejor amigo y primer amor. Sin embargo, una dolorosa traición quiebra su vínculo por años. Cuando Percy debe regresar al lago para el funeral de la madre de Sam, ambos se ven obligados a enfrentar los sentimientos no resueltos y las sombras del pasado. Una novela nostálgica e intensa sobre las segundas oportunidades y las decisiones que marcan nuestra juventud.",
+  "tropos": [
+    "friends-to-lovers",
+    "second-chance",
+    "dual-timelines",
+    "small-town"
+  ],
+  "intensidad": 2,
+  "categoria": "Romance contemporaneo",
+  "isbn": "9789877804270",
+  "paginas": 336,
+  "editorial": "Ediciones B",
+  "portada": "https://imagenes.queridoslectores.com/Todos_nuestros_veranos.jpg",
+  "citas_celebres": [
+    "Pensé que tendría que pasarme la vida intentando olvidarte. Resulta que solo he estado esperando el momento de volver a verte.",
+    "Te he querido durante toda mi vida, Percy. No sé cómo dejar de hacerlo.",
+    "Nunca dejaste de gustarme, Percy. Ni un solo día. Solo intenté convencerme de que era mejor para los dos que te olvidara."
+  ],
+  "libros_similares": [
+    "Un-lugar-feliz",
+    "Te-veo-en-el-lago",
+    "Todo-lo-que-nunca-fuimos"
+  ],
+  "datos_curiosos_autor": "Basado en su propio refugio de infancia: La ambientación de la historia en Barry's Bay (Ontario, Canadá) no es ficticia. Carley Fortune creció pasando sus veranos en esa región de lagos canadiense, por lo que las descripciones de las plataformas de salto, los muelles de madera y el bosque local están inspiradas directamente en sus recuerdos reales.",
+  "contexto_historico": "La novela no surge de un hecho histórico tradicional, sino del contexto social de mayo de 2020, en pleno confinamiento global por la pandemia de COVID-19."
 }
 ]
