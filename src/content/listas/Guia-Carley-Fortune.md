@@ -17,17 +17,17 @@ Carley Fortune es una galardonada periodista canadiense y autora súper ventas N
 
 ## 🧩 **Tropos Principales en sus Obras** <br><br>
 
-##**Friends to Lovers / Childhood Friends to Lovers:** Dinámicas basadas en complicidad profunda, conexión emocional y años de historia compartida.<br>
+**Friends to Lovers / Childhood Friends to Lovers:** Dinámicas basadas en complicidad profunda, conexión emocional y años de historia compartida.<br>
 
-##**Second-Chance Romance:** Parejas con pasados inconclusos o desaciertos clave que se reencuentran años después para saldar cuentas y sanar heridas.<br>
+**Second-Chance Romance:** Parejas con pasados inconclusos o desaciertos clave que se reencuentran años después para saldar cuentas y sanar heridas.<br>
 
-##**Dual Timelines:** Narrativa intercalada entre el pasado (la juventud/adolescencia) y el presente (la adultez), construyendo el misterio de qué provocó su separación.<br>
+**Dual Timelines:** Narrativa intercalada entre el pasado (la juventud/adolescencia) y el presente (la adultez), construyendo el misterio de qué provocó su separación.<br>
 
-##**Best Friend’s Brother / Forbidden Attraction:** Atracción intensa por alguien que está fuera de los límites aceptados.<br>
+**Best Friend’s Brother / Forbidden Attraction:** Atracción intensa por alguien que está fuera de los límites aceptados.<br>
 
-##**Forced Proximity:** Situaciones en las que los protagonistas deben compartir espacio (casas de campo, viajes, novias plantadas en su luna de miel).<br><br><br>
+**Forced Proximity:** Situaciones en las que los protagonistas deben compartir espacio (casas de campo, viajes, novias plantadas en su luna de miel).<br><br><br>
 
-##**🌶️ Spice Level**<br><br>
+## **🌶️ Spice Level**<br><br>
 
 **Intensidad:** 🌶️🌶️🌶️ (Moderate Heat / 2.5 a 3 de 5).<br>
 
