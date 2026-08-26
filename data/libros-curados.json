@@ -2663,5 +2663,37 @@
   ],
   "datos_curiosos_autor": "Basado en su propio refugio de infancia: La ambientación de la historia en Barry's Bay (Ontario, Canadá) no es ficticia. Carley Fortune creció pasando sus veranos en esa región de lagos canadiense, por lo que las descripciones de las plataformas de salto, los muelles de madera y el bosque local están inspiradas directamente en sus recuerdos reales.",
   "contexto_historico": "La novela no surge de un hecho histórico tradicional, sino del contexto social de mayo de 2020, en pleno confinamiento global por la pandemia de COVID-19."
+},
+{
+  "id": 87,
+  "titulo": "Te veo en el lago",
+  "autor": "Carley Fortune",
+  "anio": 2024,
+  "slug": "Te veo en el lago",
+  "sinopsis": "Una promesa incumplida, un reencuentro inesperado y una segunda oportunidad para el amor. A sus veinte años, Fern Taylor pasa un día perfecto e inolvidable con Will Baxter en Toronto, sellando el encuentro con la promesa de verse un año después en el complejo turístico junto al lago de la familia de Fern. Pero Will nunca aparece. Nueve años más tarde, con Fern al frente del exhausto negocio familiar y atravesando un momento crítico, Will reaparece de forma inesperada cuando ella menos lo espera. Una historia emotiva y nostálgica sobre el destino, el crecimiento personal y las conexiones que se resisten al paso del tiempo.",
+  "tropos": [
+    "forced-proximity",
+    "second-chance",
+    "one-day-romance",
+    "small-town"
+  ],
+  "intensidad": 2,
+  "categoria": "Romance contemporaneo",
+  "isbn": "9789877804805",
+  "paginas": 320,
+  "editorial": "Ediciones B",
+  "portada": "https://imagenes.queridoslectores.com/Te_veo_en_el_lago.jpg",
+  "citas_celebres": [
+    "Pasamos solo veinticuatro horas juntos, pero esas horas cambiaron el rumbo de mi vida para siempre.",
+    "No puedes aferrarte al pasado solo porque le tienes miedo al futuro.",
+    "A veces, la persona adecuada llega en el momento equivocado; la verdadera prueba es qué haces cuando el destino te da una segunda oportunidad."
+  ],
+  "libros_similares": [
+    "Un-lugar-feliz",
+    "antes-de-diciembre",
+    "Todo-lo-que-nunca-fuimos"
+  ],
+  "datos_curiosos_autor": "Comprado por el Príncipe Harry y Meghan Markle: En 2023, la productora de los Duques de Sussex (Archewell Productions) adquirió los derechos cinematográficos del libro para adaptarlo como película en Netflix. Se rumoreó que pagaron alrededor de 3 millones de dólares por los derechos, atrayendo una atención mediática enorme a la novela.",
+  "contexto_historico": "Las 24 horas iniciales que pasa la pareja en la ciudad están inspiradas en rutas y lugares reales de Toronto. En especial, la cafetería donde conversan por primera vez está basada en Dineen Coffee Co., un edificio histórico de la ciudad que Fortune solía frecuentar cuando trabajaba como periodista."
 }
 ]
