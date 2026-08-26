@@ -1,19 +1,19 @@
 ---
 titulo: "Guía Completa de Carley Fortune"
-descripcion: "Enemies-to-lovers, slow burn, second chance... Una guía definitiva para entender y disfrutar los tropos más populares de la novela romántica histórica y contemporánea."
-fecha: 2024-05-12
-libros: ["Orgullo y Prejuicio", "Persuasión", "Cumbres Borrascosas", "Norte y Sur"]
+descripcion: "Todas sus obras son historias independientes (standalones), aunque comparten la atmósfera nostálgica y ambientaciones veraniegas en Canadá o la costa norteamericana."
+fecha: 2026-08-26
+libros: ["Todos nuestros veranos", "Te veo en el lago", "Esta vez será diferente", "Un verano dorado", "Una tormenta perfecta"]
 ---
 
-# Guía Completa de Tropos Románticos
+# 🌺 Perfil de la Autora: Carley Fortune
 
-Si llevas un tiempo leyendo novelas románticas, probablemente hayas oído hablar de "tropos". Pero ¿qué son exactamente? ¿Por qué los amamos tanto? ¿Y cuáles son los más populares en la literatura romántica histórica? Esta guía te lo explica todo.
+Carley Fortune es una galardonada periodista canadiense y autora súper ventas N.º 1 de The New York Times y USA Today. Trabajó durante años como editora en jefe y redactora en importantes medios como Refinery29, The Globe and Mail y Chatelaine. Su transición a la ficción romántica la posicionó como una de las voces más destacadas y queridas del romance contemporáneo de verano (summer romance). Sus novelas evocan nostalgia, escapismo, paisajes costeros deslumbrantes y emociones a flor de piel.
 
-## ¿Qué es un tropo romántico?
+## 🏷️ Género y Subgéneros
 
-Un tropo es un patrón narrativo reconocible que se repite en múltiples obras. En la literatura romántica, los tropos son situaciones, dinámicas o arquetipos de personajes que aparecen una y otra vez porque funcionan: crean tensión, emoción y satisfacción en el lector.
+Género Principal: Romántica Contemporánea (Contemporary Romance).
 
-Lo importante es entender que conocer el tropo de antemano no arruina el placer de la lectura. Al contrario: parte del placer es ver cómo cada autor desarrolla y personaliza un patrón que ya conocemos.
+Subgéneros: Romance de verano (Summer Romance), New Adult, Romance Emocional / Ficción de personajes (Character-Driven Romance).
 
 ## Los tropos más populares
 
