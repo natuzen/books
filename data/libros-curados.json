@@ -2726,5 +2726,37 @@
   ],
   "datos_curiosos_autor": "Tras convertirse en una autora bestseller consagrada, Carley Fortune escribió esta novela en un momento en que los lectores buscaban activamente historias románticas reconfortantes pero con una carga de tensión emocional más alta. La autora aprovechó esta tendencia para explorar dinámicas más atrevidas (el romance prohibido con el hermano de la mejor amiga) dentro de un entorno turístico real.",
   "contexto_historico": "La ambientación del libro en la Isla del Príncipe Eduardo (Canadá) no fue casualidad. Carley Fortune está obsesionada con la gastronomía de esa isla, en especial con las ostras y los mariscos frescos. Para documentar la novela con total fidelidad, la autora realizó viajes de 'investigación' dedicados casi exclusivamente a recorrer los pequeños restaurantes locales, aprender sobre la cosecha de ostras y capturar los olores y sabores del lugar, los cuales integró como un elemento sensorial clave en la química de los protagonistas."
+},
+{
+  "id": 89,
+  "titulo": "Un verano dorado",
+  "autor": "Carley Fortune",
+  "anio": 2025,
+  "slug": "Un verano dorado",
+  "sinopsis": "Una historia vibrante sobre segundas oportunidades, verdades ocultas y la fuerza imborrable del primer amor. Lucy nunca planeó regresar al pintoresco pueblo junto al lago donde pasó los mejores veranos de su juventud, y mucho menos reencontrarse con Félix, el hombre que le rompió el corazón y transformó su vida para siempre. Sin embargo, cuando las circunstancias la obligan a volver, la intensa conexión entre ambos se reaviva de inmediato. Entre tardes de sol sobre el agua, nostalgia y secretos del pasado que finalmente salen a la luz, Lucy deberá decidir si proteger su corazón o arriesgarlo todo por la única persona que jamás pudo olvidar. Carley Fortune ofrece una novela romántica adictiva, cálida y llena de tensión emocional.",
+  "tropos": [
+    "friends-to-lovers",
+    "second-chance",
+    "small-town",
+    "forced-proximity"
+  ],
+  "intensidad": 2,
+  "categoria": "Romance contemporaneo",
+  "isbn": "9788466682312",
+  "paginas": 368,
+  "editorial": "Ediciones B",
+  "portada": "https://imagenes.queridoslectores.com/Un_verano_dorado.jpg",
+  "citas_celebres": [
+    "Hay personas que se quedan marcadas en tu piel, sin importar cuántos veranos pasen entre los dos.",
+    "El verano siempre encuentra la forma de traernos de vuelta a donde pertenecemos.",
+    "No era solo el lugar lo que extrañaba, sino la versión de mí misma que solo existía cuando estaba a tu lado."
+  ],
+  "libros_similares": [
+    "Gente-que-conocemos-en-vacaciones",
+    "Todos-nuestros-veranos",
+	"Te-veo-en-el-lago"
+  ],
+  "datos_curiosos_autor": "Gran parte de la magia y nostalgia de sus escenarios —como los pueblos de lago, muelles y bosques de Ontario en sus libros (Barry's Bay)— están inspirados directamente en la zona donde ella creció y pasó sus veranos en Canadá.",
+  "contexto_historico": "La autora escribió este libro consolidada como una de las referentes más importantes del romance contemporáneo en plataformas como Instagram y TikTok (#BookTok), donde la nostalgia veraniega y las segundas oportunidades (second chance romance) tienen un arrastre masivo."
 }
 ]
