@@ -2,7 +2,9 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const listas = await getCollection('listas');
+const listas = (await getCollection('listas')).sort((a, b) => 
+  new Date(b.data.fecha) - new Date(a.data.fecha)
+);
 ---
 
 <BaseLayout
