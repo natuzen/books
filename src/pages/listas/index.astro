@@ -12,10 +12,22 @@ const listas = await getCollection('listas');
   <div class="max-w-5xl mx-auto px-4 py-8">
     <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-2">Catálogo literario</h1>
     <p class="text-epoca-marron-medio mb-8">Colecciones temáticas creadas con amor para guiar tu próxima lectura.</p>
-    
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    <!-- Search box -->
+    <div class="mb-6">
+      <label for="listas-search" class="sr-only">Buscar listas</label>
+      <input id="listas-search" type="search" placeholder="Buscar por título o descripción..."
+        class="w-full rounded-md border border-epoca-marron-medio px-4 py-2 focus:outline-none focus:ring-2 focus:ring-epoca-rosa" />
+    </div>
+
+    <div id="listas-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
       {listas.map(lista => (
-        <a href={`/listas/${lista.slug}`} class="card-epoca group block hover:border-epoca-rosa transition-colors">
+        <a
+          href={`/listas/${lista.slug}`}
+          class="card-epoca group block hover:border-epoca-rosa transition-colors"
+          data-title={(lista.data.titulo || '').toLowerCase()}
+          data-desc={(lista.data.descripcion || '').toLowerCase()}
+        >
           <h2 class="font-playfair text-xl font-semibold text-epoca-marron group-hover:text-epoca-rosa transition-colors mb-2">
             {lista.data.titulo}
           </h2>
@@ -25,4 +37,46 @@ const listas = await getCollection('listas');
       ))}
     </div>
   </div>
+
+  <script type="text/javascript">
+    // Client-side filtering for the listas grid
+    (function(){
+      const input = document.getElementById('listas-search');
+      if (!input) return;
+      const grid = document.getElementById('listas-grid');
+      const cards = () => Array.from(grid.querySelectorAll('.card-epoca'));
+
+      function filterCards() {
+        const q = input.value.trim().toLowerCase();
+        if (!q) {
+          cards().forEach(c => c.style.display = 'block');
+          return;
+        }
+        cards().forEach(card => {
+          const title = card.dataset.title || '';
+          const desc = card.dataset.desc || '';
+          const matches = title.includes(q) || desc.includes(q);
+          card.style.display = matches ? 'block' : 'none';
+        });
+      }
+
+      let timeout;
+      input.addEventListener('input', () => {
+        clearTimeout(timeout);
+        timeout = setTimeout(filterCards, 150);
+      });
+
+      // allow Enter to focus first visible result
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          const first = cards().find(c => c.style.display !== 'none');
+          if (first) {
+            first.focus();
+            // prevent form submission if any
+            e.preventDefault();
+          }
+        }
+      });
+    })();
+  </script>
 </BaseLayout>
