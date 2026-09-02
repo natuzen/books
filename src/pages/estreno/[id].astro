@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import estrenos from '../../../data/estrenos-peliculas.json';
+
+export async function getStaticPaths() {
+  return estrenos.map(estreno => ({
+    params: { id: String(estreno.id) },
+    props: { estreno },
+  }));
+}
+
+const { estreno } = Astro.props;
+
+function formatFecha(fecha: string): string {
+  const [year, month, day] = fecha.split('-').map(Number);
+  return new Date(Date.UTC(year, month - 1, day)).toLocaleDateString('es-ES', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+}
+
+const badgeColor = (genero: string) => {
+  if (genero.toLowerCase().includes('romance')) return 'bg-epoca-rosa';
+  if (genero.toLowerCase().includes('drama')) return 'bg-epoca-rosa';
+  if (genero.toLowerCase().includes('thriller')) return 'bg-epoca-violeta';
+  return 'bg-epoca-marron';
+};
+---
+
+<BaseLayout
+  title={estreno.titulo}
+  description={estreno.sinopsis}
+>
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <!-- Breadcrumbs -->
+    <nav class="mb-8">
+      <ol class="flex items-center gap-2 text-sm text-epoca-marron-medio">
+        <li><a href="/tendencias" class="hover:text-epoca-rosa transition-colors">Tendencias</a></li>
+        <li class="text-epoca-marron">/</li>
+        <li class="text-epoca-marron font-medium">{estreno.titulo}</li>
+      </ol>
+    </nav>
+
+    <!-- Main content -->
+    <article class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Left: Image -->
+      <div class="md:col-span-1">
+        {estreno.imagen && (
+          <div class="aspect-[2/3] w-full bg-epoca-violeta-claro rounded-lg overflow-hidden mb-4 sticky top-24">
+            <img
+              src={estreno.imagen}
+              alt={`Portada de ${estreno.titulo}`}
+              class="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        )}
+        <div class="card-epoca p-4">
+          <h3 class="font-playfair font-bold text-epoca-marron mb-4">Información</h3>
+          <dl class="space-y-3 text-sm">
+            <div>
+              <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Tipo</dt>
+              <dd class="text-epoca-marron font-medium">{estreno.tipo}</dd>
+            </div>
+            <div>
+              <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Plataforma</dt>
+              <dd class="text-epoca-marron font-medium">{estreno.plataforma}</dd>
+            </div>
+            <div>
+              <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Género</dt>
+              <dd class="text-epoca-marron font-medium">{estreno.genero}</dd>
+            </div>
+            <div>
+              <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Estreno</dt>
+              <dd class="text-epoca-rosa font-bold">{formatFecha(estreno.fecha_estreno)}</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <!-- Right: Content -->
+      <div class="md:col-span-2">
+        <!-- Title and metadata -->
+        <header class="mb-8">
+          <h1 class="font-playfair text-4xl font-bold text-epoca-marron mb-4">{estreno.titulo}</h1>
+          <div class="flex flex-wrap items-center gap-3 mb-6">
+            <span class={`text-xs font-semibold text-white px-3 py-1 rounded-full ${badgeColor(estreno.genero)}`}>
+              {estreno.genero}
+            </span>
+            <span class="text-sm text-epoca-marron-medio">
+              <span class="font-medium">{estreno.tipo}</span> · {estreno.plataforma}
+            </span>
+          </div>
+          <p class="text-lg font-playfair font-bold text-epoca-rosa">
+            📅 Estreno: {formatFecha(estreno.fecha_estreno)}
+          </p>
+        </header>
+
+        <!-- Sinopsis -->
+        <section class="mb-8">
+          <h2 class="font-playfair text-2xl font-bold text-epoca-marron mb-4">Sinopsis</h2>
+          <div class="prose prose-lg max-w-none text-epoca-marron-medio leading-relaxed">
+            <p>{estreno.sinopsis}</p>
+          </div>
+        </section>
+
+        <!-- Adaptación -->
+        {estreno.adaptacion_de && (
+          <section class="card-epoca p-6 bg-epoca-violeta-claro/10 border border-epoca-violeta-claro mb-8">
+            <h2 class="font-playfair text-lg font-bold text-epoca-marron mb-2">📖 Adaptación literaria</h2>
+            <p class="text-epoca-marron font-medium">{estreno.adaptacion_de}</p>
+          </section>
+        )}
+
+        <!-- Call to action -->
+        <div class="card-epoca p-6 bg-epoca-rosa/5 border border-epoca-rosa">
+          <p class="text-epoca-marron font-medium mb-4">
+            ¿Ya leíste el libro? ¡Comparte tu opinión sobre esta adaptación en nuestras redes!
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a href="/contacto" class="btn-primary text-sm">
+              Contactar
+            </a>
+            <a href="/tendencias" class="text-sm px-4 py-2 rounded-md border border-epoca-rosa text-epoca-rosa hover:bg-epoca-rosa hover:text-white transition-colors">
+              ← Volver
+            </a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</BaseLayout>
