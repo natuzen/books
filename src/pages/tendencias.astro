@@ -73,7 +73,7 @@ function formatFecha(fecha: string): string {
               <h3 class="font-playfair font-semibold text-epoca-marron text-sm group-hover:text-epoca-rosa transition-colors line-clamp-2">{e.titulo}</h3>
               <p class="text-xs text-epoca-marron-medio mt-1">{e.tipo}</p>
               <p class="font-playfair font-bold text-epoca-rosa text-xs mt-1">📅 {formatFecha(e.fecha_estreno)}</p>
-              <a href="#" class="text-xs text-epoca-rosa hover:text-epoca-marron transition-colors mt-auto pt-2 flex items-center gap-1 font-medium">
+              <a href={`/estreno/${e.id}`} class="text-xs text-epoca-rosa hover:text-epoca-marron transition-colors mt-auto pt-2 flex items-center gap-1 font-medium">
                 Ver ficha →
               </a>
             </div>
