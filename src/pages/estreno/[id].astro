@@ -44,45 +44,47 @@ const badgeColor = (genero: string) => {
     </nav>
 
     <!-- Main content -->
-    <article class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <!-- Left: Image -->
+    <article class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <!-- Left: Image (sticky) -->
       <div class="md:col-span-1">
-        {estreno.imagen && (
-          <div class="aspect-[2/3] w-full bg-epoca-violeta-claro rounded-lg overflow-hidden mb-4 sticky top-24">
-            <img
-              src={estreno.imagen}
-              alt={`Portada de ${estreno.titulo}`}
-              class="w-full h-full object-cover"
-              loading="lazy"
-              decoding="async"
-            />
+        <div class="sticky top-8">
+          {estreno.imagen && (
+            <div class="aspect-[2/3] w-full bg-epoca-violeta-claro rounded-lg overflow-hidden mb-4">
+              <img
+                src={estreno.imagen}
+                alt={`Portada de ${estreno.titulo}`}
+                class="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          )}
+          <div class="card-epoca p-4">
+            <h3 class="font-playfair font-bold text-epoca-marron mb-4">Información</h3>
+            <dl class="space-y-3 text-sm">
+              <div>
+                <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Tipo</dt>
+                <dd class="text-epoca-marron font-medium">{estreno.tipo}</dd>
+              </div>
+              <div>
+                <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Plataforma</dt>
+                <dd class="text-epoca-marron font-medium">{estreno.plataforma}</dd>
+              </div>
+              <div>
+                <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Género</dt>
+                <dd class="text-epoca-marron font-medium">{estreno.genero}</dd>
+              </div>
+              <div>
+                <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Estreno</dt>
+                <dd class="text-epoca-rosa font-bold">{formatFecha(estreno.fecha_estreno)}</dd>
+              </div>
+            </dl>
           </div>
-        )}
-        <div class="card-epoca p-4">
-          <h3 class="font-playfair font-bold text-epoca-marron mb-4">Información</h3>
-          <dl class="space-y-3 text-sm">
-            <div>
-              <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Tipo</dt>
-              <dd class="text-epoca-marron font-medium">{estreno.tipo}</dd>
-            </div>
-            <div>
-              <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Plataforma</dt>
-              <dd class="text-epoca-marron font-medium">{estreno.plataforma}</dd>
-            </div>
-            <div>
-              <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Género</dt>
-              <dd class="text-epoca-marron font-medium">{estreno.genero}</dd>
-            </div>
-            <div>
-              <dt class="text-xs uppercase text-epoca-marron-medio font-semibold">Estreno</dt>
-              <dd class="text-epoca-rosa font-bold">{formatFecha(estreno.fecha_estreno)}</dd>
-            </div>
-          </dl>
         </div>
       </div>
 
       <!-- Right: Content -->
-      <div class="md:col-span-2">
+      <div class="md:col-span-3">
         <!-- Title and metadata -->
         <header class="mb-8">
           <h1 class="font-playfair text-4xl font-bold text-epoca-marron mb-4">{estreno.titulo}</h1>
