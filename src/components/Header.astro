@@ -1,13 +1,8 @@
 ---
-const navItems = [
-  { href: '/', label: 'Inicio' },
-  { href: '/buscar', label: 'Buscar' },
-  { href: '/quiz', label: 'Quiz' },
+const exploreItems = [
   { href: '/recomiendame', label: 'Recomiéndame' },
-  { href: '/generador-citas', label: 'Citas' },
-  { href: '/rankings', label: 'Rankings' },
+  { href: '/quiz', label: 'Quiz' },
   { href: '/tendencias', label: 'Adaptaciones' },
-  { href: '/listas', label: 'Catálogos' },
   { href: '/mapa', label: 'Mapa' },
 ];
 ---
@@ -21,15 +16,34 @@ const navItems = [
       
       <!-- Desktop nav -->
       <nav class="hidden lg:flex items-center gap-1">
-        {navItems.map(item => (
-          <a href={item.href} class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
-            {item.label}
-          </a>
-        ))}
+        <a href="/" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
+          Inicio
+        </a>
+        <a href="/listas" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
+          Catálogos
+        </a>
+        <a href="/generador-citas" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
+          Citas
+        </a>
+        <details class="relative">
+          <summary class="flex items-center gap-1 cursor-pointer list-none px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
+            Explorar
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6" />
+            </svg>
+          </summary>
+          <div class="absolute right-0 top-full mt-2 w-48 rounded-lg border border-epoca-violeta-claro bg-white p-1.5 shadow-lg">
+            {exploreItems.map(item => (
+              <a href={item.href} class="block px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </details>
       </nav>
 
       <!-- Mobile hamburger -->
-      <button id="menu-toggle" class="lg:hidden p-2 rounded-lg hover:bg-epoca-crema" aria-label="Abrir menú">
+      <button id="menu-toggle" class="lg:hidden p-2 rounded-lg hover:bg-epoca-crema" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
@@ -39,11 +53,24 @@ const navItems = [
     <!-- Mobile menu -->
     <div id="mobile-menu" class="hidden lg:hidden mt-3 pb-3 border-t border-epoca-violeta-claro pt-3">
       <nav class="flex flex-col gap-1">
-        {navItems.map(item => (
-          <a href={item.href} class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">
-            {item.label}
-          </a>
-        ))}
+        <a href="/" class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">Inicio</a>
+        <a href="/listas" class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">Catálogos</a>
+        <a href="/generador-citas" class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">Citas</a>
+        <details>
+          <summary class="flex items-center justify-between cursor-pointer list-none px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">
+            Explorar
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6" />
+            </svg>
+          </summary>
+          <div class="ml-3 mt-1 flex flex-col gap-1 border-l-2 border-epoca-violeta-claro pl-2">
+            {exploreItems.map(item => (
+              <a href={item.href} class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </details>
       </nav>
     </div>
   </div>
@@ -54,5 +81,6 @@ const navItems = [
   const menu = document.getElementById('mobile-menu');
   toggle?.addEventListener('click', () => {
     menu?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(!menu?.classList.contains('hidden')));
   });
 </script>
