@@ -25,14 +25,14 @@ const exploreItems = [
         <a href="/generador-citas" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
           Citas
         </a>
-        <details class="relative">
+        <details class="nav-explore relative">
           <summary class="flex items-center gap-1 cursor-pointer list-none px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
             Explorar
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6" />
             </svg>
           </summary>
-          <div class="absolute right-0 top-full mt-2 w-48 rounded-lg border border-epoca-violeta-claro bg-white p-1.5 shadow-lg">
+          <div class="absolute right-0 top-full mt-2 w-48 rounded-lg border border-epoca-violeta-claro bg-white p-1.5 shadow-lg hidden nav-menu">
             {exploreItems.map(item => (
               <a href={item.href} class="block px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
                 {item.label}
@@ -79,8 +79,37 @@ const exploreItems = [
 <script>
   const toggle = document.getElementById('menu-toggle');
   const menu = document.getElementById('mobile-menu');
+
   toggle?.addEventListener('click', () => {
     menu?.classList.toggle('hidden');
     toggle.setAttribute('aria-expanded', String(!menu?.classList.contains('hidden')));
   });
+
+  const exploreDetails = document.querySelector('.nav-explore');
+  const exploreMenu = exploreDetails?.querySelector('.nav-menu');
+
+  if (exploreDetails && exploreMenu) {
+    exploreDetails.addEventListener('mouseenter', () => {
+      exploreDetails.setAttribute('open', 'open');
+      exploreMenu.classList.remove('hidden');
+    });
+
+    exploreDetails.addEventListener('mouseleave', () => {
+      exploreDetails.removeAttribute('open');
+      exploreMenu.classList.add('hidden');
+    });
+
+    exploreDetails.addEventListener('focusin', () => {
+      exploreDetails.setAttribute('open', 'open');
+      exploreMenu.classList.remove('hidden');
+    });
+
+    exploreDetails.addEventListener('focusout', (event) => {
+      const next = event.relatedTarget;
+      if (!exploreDetails.contains(next)) {
+        exploreDetails.removeAttribute('open');
+        exploreMenu.classList.add('hidden');
+      }
+    });
+  }
 </script>
