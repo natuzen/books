@@ -15,18 +15,10 @@ const exploreItems = [
       
       <!-- Desktop nav -->
       <nav class="hidden lg:flex items-center gap-1">
-        <a href="/" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
-          Inicio
-        </a>
-        <a href="/buscar" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
-          Buscar
-        </a>
-        <a href="/listas" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
-          Catálogos
-        </a>
-        <a href="/generador-citas" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
-          Citas
-        </a>
+        <a href="/" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">Inicio</a>
+        <a href="/buscar" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">Buscar</a>
+        <a href="/listas" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">Catálogos</a>
+        <a href="/generador-citas" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">Citas</a>
         <details class="nav-explore relative">
           <summary class="flex items-center gap-1 cursor-pointer list-none px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
             Explorar
@@ -34,12 +26,15 @@ const exploreItems = [
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6" />
             </svg>
           </summary>
-          <div class="absolute right-0 top-full mt-2 w-48 rounded-lg border border-epoca-violeta-claro bg-white p-1.5 shadow-lg hidden nav-menu">
-            {exploreItems.map(item => (
-              <a href={item.href} class="block px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
-                {item.label}
-              </a>
-            ))}
+          <!-- The padding bridges the gap between the trigger and menu, preventing hover from being lost. -->
+          <div class="absolute right-0 top-full w-48 pt-2 nav-menu">
+            <div class="rounded-lg border border-epoca-violeta-claro bg-white p-1.5 shadow-lg">
+              {exploreItems.map(item => (
+                <a href={item.href} class="block px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
+                  {item.label}
+                </a>
+              ))}
+            </div>
           </div>
         </details>
       </nav>
@@ -68,9 +63,7 @@ const exploreItems = [
           </summary>
           <div class="ml-3 mt-1 flex flex-col gap-1 border-l-2 border-epoca-violeta-claro pl-2">
             {exploreItems.map(item => (
-              <a href={item.href} class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">
-                {item.label}
-              </a>
+              <a href={item.href} class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">{item.label}</a>
             ))}
           </div>
         </details>
