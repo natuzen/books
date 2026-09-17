@@ -3,7 +3,6 @@ const exploreItems = [
   { href: '/recomiendame', label: 'Recomiéndame' },
   { href: '/quiz', label: 'Quiz' },
   { href: '/tendencias', label: 'Adaptaciones' },
-  { href: '/mapa', label: 'Mapa' },
 ];
 ---
 
@@ -18,6 +17,9 @@ const exploreItems = [
       <nav class="hidden lg:flex items-center gap-1">
         <a href="/" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
           Inicio
+        </a>
+        <a href="/buscar" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
+          Buscar
         </a>
         <a href="/listas" class="px-3 py-1.5 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors font-inter">
           Catálogos
@@ -54,6 +56,7 @@ const exploreItems = [
     <div id="mobile-menu" class="hidden lg:hidden mt-3 pb-3 border-t border-epoca-violeta-claro pt-3">
       <nav class="flex flex-col gap-1">
         <a href="/" class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">Inicio</a>
+        <a href="/buscar" class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">Buscar</a>
         <a href="/listas" class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">Catálogos</a>
         <a href="/generador-citas" class="px-3 py-2 text-sm font-medium text-epoca-marron-medio hover:text-epoca-marron hover:bg-epoca-crema rounded-lg transition-colors">Citas</a>
         <details>
