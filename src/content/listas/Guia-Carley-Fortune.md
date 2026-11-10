@@ -2,6 +2,7 @@
 titulo: "Carley Fortune - Guía Completa"
 descripcion: "Todas sus obras son historias independientes (standalones), aunque comparten la atmósfera nostálgica y ambientaciones veraniegas en Canadá o la costa norteamericana."
 fecha: 2026-08-26
+imagen: "https://imagenes.queridoslectores.com/Todos_nuestros_veranos.jpg"
 libros: ["Todos nuestros veranos", "Te veo en el lago", "Esta vez será diferente", "Un verano dorado", "Una tormenta perfecta"]
 ---
 
