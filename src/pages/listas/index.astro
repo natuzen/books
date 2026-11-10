@@ -1,10 +1,28 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import librosData from '../../data/libros-curados.json';
 
-const listas = (await getCollection('listas')).sort((a, b) => 
+const listas = (await getCollection('listas')).sort((a, b) =>
   new Date(b.data.fecha) - new Date(a.data.fecha)
 );
+
+const getPortadas = (lista) => {
+  const nombres = lista.data.libros || [];
+  const slugMap = new Map(
+    librosData.map((libro) => [libro.titulo.toLowerCase(), libro.portada])
+  );
+
+  return nombres
+    .map((titulo) => {
+      const libro = librosData.find(
+        (l) => l.titulo.toLowerCase() === titulo.toLowerCase()
+      );
+      return libro?.portada || slugMap.get(titulo.toLowerCase()) || null;
+    })
+    .filter(Boolean)
+    .slice(0, 5);
+};
 ---
 
 <BaseLayout
@@ -15,44 +33,54 @@ const listas = (await getCollection('listas')).sort((a, b) =>
     <h1 class="font-playfair text-3xl font-bold text-epoca-marron mb-2">Catálogo literario</h1>
     <p class="text-epoca-marron-medio mb-8">Colecciones temáticas creadas con amor para guiar tu próxima lectura.</p>
 
-    <!-- Search box -->
     <div class="mb-6">
       <label for="listas-search" class="sr-only">Buscar listas</label>
       <input id="listas-search" type="search" placeholder="Buscar por título o descripción..."
         class="w-full rounded-md border border-epoca-marron-medio px-4 py-2 focus:outline-none focus:ring-2 focus:ring-epoca-rosa" />
     </div>
 
-<div id="listas-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-  {listas.map(lista => (
-    <a
-      href={`/listas/${lista.slug}`}
-      class="card-epoca group block hover:border-epoca-rosa transition-colors overflow-hidden"
-      data-title={(lista.data.titulo || '').toLowerCase()}
-      data-desc={(lista.data.descripcion || '').toLowerCase()}
-    >
-      {lista.data.imagen && (
-        <img
-          src={lista.data.imagen}
-          alt={lista.data.titulo}
-          class="w-full h-52 object-cover mb-4 rounded-t-lg"
-          loading="lazy"
-        />
-      )}
-      <div class="p-4">
-        <h2 class="font-playfair text-xl font-semibold text-epoca-marron group-hover:text-epoca-rosa transition-colors mb-2">
-          {lista.data.titulo}
-        </h2>
-        <p class="text-sm text-epoca-marron-medio">{lista.data.descripcion}</p>
-        <p class="text-xs text-epoca-violeta mt-3">
-          {new Date(lista.data.fecha).toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}
-        </p>
-      </div>
-    </a>
-  ))}
-</div>
+    <div id="listas-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {listas.map(lista => {
+        const portadas = getPortadas(lista);
+
+        return (
+          <a
+            href={`/listas/${lista.slug}`}
+            class="card-epoca group block hover:border-epoca-rosa transition-colors overflow-hidden"
+            data-title={(lista.data.titulo || '').toLowerCase()}
+            data-desc={(lista.data.descripcion || '').toLowerCase()}
+          >
+            {portadas.length > 0 && (
+              <div class="overflow-x-auto pb-2 scrollbar-thin">
+                <div class="flex gap-3 min-w-max px-2 pt-2">
+                  {portadas.map((portada, index) => (
+                    <img
+                      src={portada}
+                      alt={`${lista.data.titulo} portada ${index + 1}`}
+                      class="h-24 w-16 object-cover rounded-md shadow-sm border border-epoca-violeta-claro"
+                      loading="lazy"
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div class="px-4 pb-4">
+              <h2 class="font-playfair text-xl font-semibold text-epoca-marron group-hover:text-epoca-rosa transition-colors mb-2">
+                {lista.data.titulo}
+              </h2>
+              <p class="text-sm text-epoca-marron-medio">{lista.data.descripcion}</p>
+              <p class="text-xs text-epoca-violeta mt-3">
+                {new Date(lista.data.fecha).toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </p>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </div>
 
   <script type="text/javascript">
-    // Client-side filtering for the listas grid
     (function(){
       const input = document.getElementById('listas-search');
       if (!input) return;
@@ -77,18 +105,6 @@ const listas = (await getCollection('listas')).sort((a, b) =>
       input.addEventListener('input', () => {
         clearTimeout(timeout);
         timeout = setTimeout(filterCards, 150);
-      });
-
-      // allow Enter to focus first visible result
-      input.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
-          const first = cards().find(c => c.style.display !== 'none');
-          if (first) {
-            first.focus();
-            // prevent form submission if any
-            e.preventDefault();
-          }
-        }
       });
     })();
   </script>
