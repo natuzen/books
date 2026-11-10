@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import librosData from '../../data/libros-curados.json';
+import librosData from '../../../data/libros-curados.json';
 
 const listas = (await getCollection('listas')).sort((a, b) =>
   new Date(b.data.fecha) - new Date(a.data.fecha)
